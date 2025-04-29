@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mobilize Events Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  
+  <!-- CSS for Leaflet map -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+   <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Tooltipster -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/css/tooltipster.bundle.min.css" />
+
+  <style>
+    .event:hover {
+        box-shadow: none;
+        border-radius: 0px;
+        background-color: #fafafa;
+        border-bottom: 1px solid #eaeaea;
+    }
+  </style>
+
+
+</head>
+<body>
+
+  
+
+  <!-- Modal Overlay (Hidden Initially) -->
+  <div id="modal-add" class="hidden">
+    <div class="backdrop"></div>
+
+  </div>
+  <div id="modal-overlay" class="hidden">
+    <div class="backdrop"></div>
+    <div id="modal-content">
+      <button id="close-modal" style="position: absolute; top: 16px; right: 16px; display: flex; align-items: center; justify-content: center; border-radius: 999px; height:38px; width: 38px; padding: 0px; ">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+      <div class="modal-header">
+        <h2>Add an Event</h2>
+      </div>
+      <div class="modal-body">
+        <form id="event-form" class="form">
+          <div class="form-row">
+            <label for="title">Title</label>
+            <input class="form-field" type="text" id="title" required>
+          </div>
+          <div class="form-row">
+            <label for="date">Date</label>
+            <input class="form-field" type="date" id="date" required>
+          </div>
+          <div class="form-row">
+            <label for="start-time">Start Time</label>
+            <div class="time-select" style="display: flex; align-items: center; gap: 8px;">
+              <div class="select-wrapper" style="flex: 0 0 80px;">
+                <select id="start-hour" class="form-field" required>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12" selected>12</option>
+                </select>
+              </div>
+              :
+              <div class="select-wrapper" style="flex: 0 0 80px;">
+                <select id="start-minute" class="form-field" required>
+                  <option value="00" selected>00</option>
+                  <option value="30">30</option>
+                </select>
+              </div>
+              <div class="select-wrapper" style="flex: 0 0 80px;">
+                <select id="start-ampm" class="form-field" required>
+                  <option value="AM">AM</option>
+                  <option value="PM" selected>PM</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <label for="time">Location</label>
+            <input class="form-field" type="text" id="address" required>
+          </div>
+          <div class="form-row">
+            <label for="url">Event Link</label>
+            <input class="form-field" type="url" id="url" required>
+          </div>
+          
+
+          <button class="btn" type="submit">Add Event</button>
+        </form>
+      </div>
+
+      <!-- Optional loading message -->
+      <div id="loading" style="display:none; margin-top:1em;">Loading location...</div>
+    </div>
+  </div>
+
+  <div id="top-bar" style="height: 80px; display: flex; padding: 0 20px 0 10px; align-items: center; justify-content: space-between; background-color: #fff; z-index: 10; position: relative;  box-shadow: 0 0 3px rgba(0,0,0,.6); z-index: 1000; display: none;">
+    
+    
+  </div>
+
+  <div id="map-plus-events" style="z-index: 1; position: relative; height: calc(100vh);">
+    
+    <div class="col1 title-plus-list">
+
+      <div id="top-container" style="padding: 20px; border-bottom: 1px solid #eaeaea; position: relative; background-color: #346ea4; color: #fff;">
+
+        <button id="add-event-btn" class="btn icon-btn" style="position: absolute; top: 16px; right: 16px;">
+          <span class="material-symbols-outlined">add</span>
+        </button>
+
+
+        <div id="logo-plus-name" style="display: flex; align-items: center; gap: 8px; flex: 1 1 auto; padding: 0 0 8px 6px;">
+          <img src="images/icon-raised-fist.avif" style="width: 60px; display: none;">
+          <div style="font-size: 22px; font-weight: 500;">Protest Finder</div>
+        </div>
+
+        <div id="filter-row" style="display: flex; align-items: center; gap: 8px; white-space: nowrap; height: 54px;">
+
+          <div class="filter-btn">
+            <div id="date-filter" class="filter-item dropdown" style="color: #fff;">
+              <span class="material-symbols-outlined icon" style="color: #fff;">calendar_today</span>
+              <div id="selected-filter" style="width: 100%; padding-right: 24px;">All Dates</div>
+              <div id="filter-options" class="dropdown-options hidden" style="color: #000;">
+                <div class="dropdown-option" data-filter="today">Today</div>
+                <div class="dropdown-option" data-filter="week">This Week</div>
+                <div class="dropdown-option" data-filter="all">All Dates</div>
+              </div>
+            </div>
+            <div class="filter-separator"  style="display: none;"></div>
+            <div class="filter-item" style="display: none;">
+              <span class="material-symbols-outlined icon">location_on</span>
+              (Some locatiton control?)
+            </div>
+            <div id="go-btn"  style="display: none;">
+              Go
+            </div>
+            
+          </div>
+          <div class="search-wrapper filter-btn" style="display: none;">
+            <span class="material-symbols-outlined icon">search</span>
+            <input type="text" id="search-box" placeholder="Search" />
+          </div>
+          <div style="padding: 16px; font-size: .85rem; flex: 1 1 100%;">
+            <div id="event-counter"></div>
+          </div>
+          
+        </div>
+      
+    </div>
+      
+      <div id="events" style="padding: 0;"></div>
+    </div>
+    <div class="col2">
+      <div id="map" style="height: calc(100vh);"></div>
+    </div>
+    
+  </div>
+
+  <!-- Load jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- Load Map JS -->
+   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  
+  <!-- Load Tooltipster JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/js/tooltipster.bundle.min.js"></script>
+  
+  <script src="js/main.js"></script>
+  
+</body>
+</html>
