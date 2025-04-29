@@ -74,7 +74,7 @@ async function geocodeAddress(address) {
 // --- Mobilize and Manual Events ---
 const organizationIds = [42068, 42138, 41722]; // Tesla Takedown Sacramento, 50501 Houston, May Day Strong
 
-app.get('${API_BASE_URL}/mobilize-events', async (req, res) => {
+app.get('/mobilize-events', async (req, res) => {
   try {
     const now = Date.now();
 
