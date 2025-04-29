@@ -198,6 +198,18 @@ h1 {
     overflow-y: auto;
 }
 
+#col1-footer {
+    flex: 0 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    background-color: #eaeaea;
+    font-size: .75rem;
+    color: #666;
+
+}
+
 button {
     white-space: nowrap;
     background-color: #eaeaea;
