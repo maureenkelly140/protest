@@ -118,7 +118,7 @@ async function fetchEvents() {
     }
     showSkeletonLoader();
     try {
-      const res = await fetch('http://localhost:3001/mobilize-events');
+      const res = await fetch('/mobilize-events');
       const data = await res.json();
   
       // Clear the global events array
@@ -421,7 +421,7 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
     console.log("New event added:", newEvent);
 
     try {
-        const saveRes = await fetch('http://localhost:3001/add-event', {
+        const saveRes = await fetch('/add-event', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(newEvent)
@@ -440,7 +440,6 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
     // updateVisibleEvents();
 
     alert('Thanks for submitting! Your event has been submitted and will appear once it is reviewed.');
-
 
     document.getElementById('modal-overlay').classList.remove('active');
     setTimeout(() => {

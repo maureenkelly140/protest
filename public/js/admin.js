@@ -1,5 +1,5 @@
 // === CONFIGURATION ===
-const API_BASE_URL = 'http://localhost:3001'; // 🔥 Update this when you deploy
+const API_BASE_URL = '';
 
 // === MAIN FUNCTIONS ===
 
