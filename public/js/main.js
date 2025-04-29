@@ -122,7 +122,7 @@ async function fetchEvents() {
       const data = await res.json();
   
       // Clear the global events array
-      allEvents = data;
+      allEvents = data.filter(event => event.approved !== false);
 
       console.log('Fetched events:', allEvents);
   
