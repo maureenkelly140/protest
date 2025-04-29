@@ -1,4 +1,7 @@
-// === MAP SETUP ===
+const API_BASE_URL = window.location.hostname === 'localhost'
+  ? 'http://localhost:3001'
+  : 'https://protest-finder.onrender.com';// === MAP SETUP ===
+
 const map = L.map('map', { zoomControl: false }).setView([39.8283, -98.5795], 4);
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(
@@ -118,7 +121,7 @@ async function fetchEvents() {
     }
     showSkeletonLoader();
     try {
-      const res = await fetch('/mobilize-events');
+      const res = await fetch(`${API_BASE_URL}/mobilize-events`);
       const data = await res.json();
   
       // Clear the global events array
@@ -421,7 +424,7 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
     console.log("New event added:", newEvent);
 
     try {
-        const saveRes = await fetch('/add-event', {
+        const saveRes = await fetch(`${API_BASE_URL}/add-event`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(newEvent)
