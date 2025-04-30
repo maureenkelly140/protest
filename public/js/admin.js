@@ -1,5 +1,7 @@
 // === CONFIGURATION ===
-const API_BASE_URL = '';
+const API_BASE_URL = window.location.hostname === 'localhost'
+  ? 'http://localhost:3001'
+  : 'https://protest-finder.onrender.com';
 
 // === MAIN FUNCTIONS ===
 
@@ -135,7 +137,10 @@ function openMapPopup(lat, lon, label = '') {
 // Helper: format ISO string to local datetime string
 function formatLocalDate(isoDateString) {
   const date = new Date(isoDateString);
-  return date.toLocaleString('en-US');
+  return date.toLocaleString('en-US', {
+    dateStyle: 'short',
+    timeStyle: 'short'
+  });
 }
 
 // Helper: Geocode an address using Nominatim

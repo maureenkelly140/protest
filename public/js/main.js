@@ -1,7 +1,8 @@
 const API_BASE_URL = window.location.hostname === 'localhost'
   ? 'http://localhost:3001'
-  : 'https://protest-finder.onrender.com';// === MAP SETUP ===
-
+  : 'https://protest-finder.onrender.com';
+  
+  // === MAP SETUP ===
 const map = L.map('map', { zoomControl: false }).setView([39.8283, -98.5795], 4);
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(
