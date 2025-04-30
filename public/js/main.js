@@ -122,7 +122,7 @@ async function fetchEvents() {
     }
     showSkeletonLoader();
     try {
-      const res = await fetch(`${API_BASE_URL}/mobilize-events`);
+      const res = await fetch(`${API_BASE_URL}/events`);
       const data = await res.json();
   
       // Clear the global events array
