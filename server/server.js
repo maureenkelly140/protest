@@ -71,10 +71,10 @@ async function geocodeAddress(address) {
 
 // === ROUTES ===
 
-// --- Mobilize and Manual Events ---
+// --- Fetch Mobilize Events ---
 const organizationIds = [42068, 42138, 41722]; // Tesla Takedown Sacramento, 50501 Houston, May Day Strong
 
-app.get('/mobilize-events', async (req, res) => {
+app.get('/events', async (req, res) => {
   try {
     const now = Date.now();
 
@@ -180,6 +180,95 @@ app.get('/mobilize-events', async (req, res) => {
     res.status(500).json({ error: 'Something went wrong fetching or merging events' });
   }
 });
+
+// --- Fetch BLOP Events ---
+// server/blop-sync.js
+const Papa = require('papaparse');
+
+const BLOB_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSpxUvu0PvCQrcCqIMJEEIm0jKh-wW84AlG-k2iz5Jz5HFbCKIm5Vp2JrKZ04kUN6iH9JvepvJLtP-y/pub?gid=141296177&single=true&output=csv';
+const CACHE_PATH = path.join(__dirname, 'blop-events.json');
+const GEOCACHE_PATH = path.join(__dirname, 'blop-geocache.json');
+
+// Helper: Geocode an address using Nominatim
+async function geocodeAddress(address) {
+  const encoded = encodeURIComponent(address);
+  const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encoded}`;
+  try {
+    const res = await fetch(url, { headers: { 'User-Agent': 'ProtestFinderApp/1.0' } });
+    const data = await res.json();
+    if (data.length > 0) {
+      return {
+        latitude: parseFloat(data[0].lat),
+        longitude: parseFloat(data[0].lon)
+      };
+    }
+  } catch (err) {
+    console.warn('Geocoding failed:', address, err);
+  }
+  return null;
+}
+
+async function syncBlopEvents() {
+  try {
+    const res = await fetch(BLOB_CSV_URL);
+    const csvText = await res.text();
+    const parsed = Papa.parse(csvText, { header: true });
+    const rows = parsed.data;
+
+    let geocache = {};
+    try {
+      geocache = JSON.parse(await fs.readFile(GEOCACHE_PATH, 'utf8'));
+    } catch (e) {
+      console.log('No geocache found, starting fresh.');
+    }
+
+    const now = Date.now();
+    const futureEvents = [];
+
+    for (const row of rows) {
+      const uuid = row['UUID'] || row['Canonical UUID'];
+      if (!uuid || !row['Date'] || !row['Time'] || !row['Title']) continue;
+
+      const dateStr = `${row['Date']} ${row['Time']}`;
+      const date = new Date(dateStr);
+      if (isNaN(date.getTime()) || date.getTime() < now) continue;
+
+      const location = [row['Address'], row['City'], row['State']].filter(Boolean).join(', ');
+      if (!location) continue;
+
+      if (!geocache[uuid]) {
+        const geo = await geocodeAddress(location);
+        if (geo) {
+          geocache[uuid] = geo;
+        } else {
+          console.warn(`Skipping event due to failed geocode: ${row['Title']}`);
+          continue;
+        }
+      }
+
+      futureEvents.push({
+        title: row['Title'],
+        date: date.toISOString(),
+        location,
+        latitude: geocache[uuid].latitude,
+        longitude: geocache[uuid].longitude,
+        url: row['Links']?.split(',')[0] || '',
+        approved: true,
+        source: 'blop'
+      });
+    }
+
+    await fs.writeFile(CACHE_PATH, JSON.stringify(futureEvents, null, 2));
+    await fs.writeFile(GEOCACHE_PATH, JSON.stringify(geocache, null, 2));
+
+    console.log(`✅ BLOP events synced: ${futureEvents.length}`);
+  } catch (err) {
+    console.error('❌ Error syncing BLOP events:', err);
+  }
+}
+
+syncBlopEvents();
+
 
 // --- Add New Event ---
 app.post('/add-event', async (req, res) => {
