@@ -253,6 +253,7 @@ function updateVisibleEvents() {
   
       // Add marker
       createEventMarker(event);
+      const marker = eventMarkers.get(event);
   
       // Add list item
       const el = document.createElement('div');
@@ -274,9 +275,10 @@ function updateVisibleEvents() {
 
       // Clicking the WHOLE ROW highlights the marker
       el.addEventListener('click', () => {
-        marker.openPopup();
-        marker.setIcon(highlightIcon);
-        setTimeout(() => marker.setIcon(normalIcon), 3000); // Reset after 3 seconds
+        if (marker) {
+          marker.openPopup();
+          marker.setIcon(highlightIcon);
+        }
       });
 
       // Clicking just the small icon opens the external URL
