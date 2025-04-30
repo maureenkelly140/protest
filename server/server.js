@@ -2,17 +2,17 @@
 const express = require('express');
 const fetch = require('node-fetch');
 const fs = require('fs').promises;
-const basicAuth = require('express-basic-auth');
+// const basicAuth = require('express-basic-auth');
 const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 // === Protect Admin Page ===
-app.use('/admin-review-events.html', basicAuth({
-  users: { 'admin': 'goodtrouble' },
-  challenge: true
-}));
+// app.use('/admin-review-events.html', basicAuth({
+//   users: { 'admin': 'goodtrouble' },
+//  challenge: true
+// }));
 
 // === Serve Static Frontend ===
 app.use(express.static(path.join(__dirname, '..', 'public')));
