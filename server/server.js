@@ -8,6 +8,11 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+const Papa = require('papaparse');
+const CACHE_PATH = path.join(__dirname, 'blop-events.json');
+const GEOCACHE_PATH = path.join(__dirname, 'blop-geocache.json');
+const organizationIds = [42068, 42138, 41722]; // Tesla Takedown Sacramento, 50501 Houston, May Day Strong
+
 // === Protect Admin Page ===
 // app.use('/admin-review-events.html', basicAuth({
 //   users: { 'admin': 'goodtrouble' },
@@ -24,7 +29,7 @@ let patches = [];
 // Load patches at startup
 (async () => {
   try {
-    const patchesData = await fs.readFile('patches.json', 'utf8');
+    const patchesData = await fs.readFile(path.join(__dirname, '..', 'patches.json'), 'utf8');
     patches = JSON.parse(patchesData);
     console.log(`Loaded ${patches.length} patches.`);
   } catch (err) {
@@ -50,6 +55,7 @@ async function geocodeAddress(address) {
   const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodedAddress}`;
 
   try {
+    console.log(`🔍 Geocoding: ${url}`);
     const res = await fetch(url, {
       headers: { 'User-Agent': 'ProtestFinderApp/1.0' } // Nominatim asks for a real User-Agent
     });
@@ -71,9 +77,7 @@ async function geocodeAddress(address) {
 
 // === ROUTES ===
 
-// --- Fetch Mobilize Events ---
-const organizationIds = [42068, 42138, 41722]; // Tesla Takedown Sacramento, 50501 Houston, May Day Strong
-
+// --- Load all events into the UI ---
 app.get('/events', async (req, res) => {
   try {
     const now = Date.now();
@@ -96,9 +100,9 @@ app.get('/events', async (req, res) => {
     const mobilizeResults = await Promise.all(fetchPromises);
     const mobilizeRawEvents = mobilizeResults.flatMap(r => r.data || []);
 
-    const mobilizeFutureEvents = mobilizeRawEvents.filter(event => {
-      return event.timeslots?.some(timeslot => (timeslot.start_date * 1000) > now);
-    });
+    const mobilizeFutureEvents = mobilizeRawEvents.filter(event =>
+      event.timeslots?.some(timeslot => (timeslot.start_date * 1000) > now)
+    );
 
     const mobilizeMapped = await Promise.all(
       mobilizeFutureEvents.map(async event => {
@@ -124,9 +128,8 @@ app.get('/events', async (req, res) => {
           }
         }
 
-        // Validate latitude/longitude bounds
         if (
-          latitude < 24 || latitude > 50 ||   
+          latitude < 24 || latitude > 50 ||
           longitude < -125 || longitude > -66
         ) {
           console.warn(`Skipping event "${event.title}" with suspicious lat/lon: ${latitude}, ${longitude}`);
@@ -139,15 +142,16 @@ app.get('/events', async (req, res) => {
           location: event.location?.venue || (event.location?.address_lines?.join(', ')) || 'Unknown location',
           latitude,
           longitude,
-          url: event.browser_url
+          url: event.browser_url,
+          source: 'mobilize'
         };
       })
     );
 
-    // Apply patches
+    // Apply patches to Mobilize events
     mobilizeMapped.forEach(event => {
       patches.forEach(patch => {
-        if (event.title.includes(patch.match)) {
+        if (event && event.title.includes(patch.match)) {
           event.latitude = patch.latitude;
           event.longitude = patch.longitude;
           console.log(`Patched event: ${event.title}`);
@@ -161,15 +165,32 @@ app.get('/events', async (req, res) => {
     const protestsJsonRaw = await fs.readFile('protests.json', 'utf-8');
     const manualEvents = JSON.parse(protestsJsonRaw);
 
-    const manualFutureEvents = manualEvents.filter(event => {
-      const eventTime = new Date(event.date).getTime();
-      return eventTime > now;
-    });
+    const manualFutureEvents = manualEvents.filter(event =>
+      new Date(event.date).getTime() > now
+    );
 
     console.log(`Manual protests loaded: ${manualFutureEvents.length}`);
 
-    // --- Merge both ---
-    const combinedEvents = [...mobilizeMapped, ...manualFutureEvents];
+    // --- Load BLOP events from cache ---
+    let blopEvents = [];
+    try {
+      const blopRaw = await fs.readFile(path.join(__dirname, 'blop-events.json'), 'utf8');
+      blopEvents = JSON.parse(blopRaw).filter(event =>
+        new Date(event.date).getTime() > now
+      );
+      console.log(`BLOP events loaded from cache: ${blopEvents.length}`);
+      console.log('Sample BLOP event:', blopEvents[0]);
+    } catch (err) {
+      console.warn('⚠️ Could not load blop-events.json:', err.message);
+    }
+
+    // --- Merge all sources ---
+    const combinedEvents = [
+      ...mobilizeMapped.filter(Boolean),
+      ...manualFutureEvents,
+      ...blopEvents
+    ];
+
     combinedEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
 
     console.log(`Combined total events to send: ${combinedEvents.length}`);
@@ -181,93 +202,15 @@ app.get('/events', async (req, res) => {
   }
 });
 
-// --- Fetch BLOP Events ---
-// server/blop-sync.js
-const Papa = require('papaparse');
-
-const BLOB_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSpxUvu0PvCQrcCqIMJEEIm0jKh-wW84AlG-k2iz5Jz5HFbCKIm5Vp2JrKZ04kUN6iH9JvepvJLtP-y/pub?gid=141296177&single=true&output=csv';
-const CACHE_PATH = path.join(__dirname, 'blop-events.json');
-const GEOCACHE_PATH = path.join(__dirname, 'blop-geocache.json');
-
-// Helper: Geocode an address using Nominatim
-async function geocodeAddress(address) {
-  const encoded = encodeURIComponent(address);
-  const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encoded}`;
+app.get('/api/blop-events', async (req, res) => {
   try {
-    const res = await fetch(url, { headers: { 'User-Agent': 'ProtestFinderApp/1.0' } });
-    const data = await res.json();
-    if (data.length > 0) {
-      return {
-        latitude: parseFloat(data[0].lat),
-        longitude: parseFloat(data[0].lon)
-      };
-    }
+    const events = JSON.parse(await fs.readFile(path.join(__dirname, 'blop-events.json'), 'utf8'));
+    res.json(events);
   } catch (err) {
-    console.warn('Geocoding failed:', address, err);
+    console.error('Failed to load blop-events.json:', err);
+    res.status(500).json({ error: 'Could not load events' });
   }
-  return null;
-}
-
-async function syncBlopEvents() {
-  try {
-    const res = await fetch(BLOB_CSV_URL);
-    const csvText = await res.text();
-    const parsed = Papa.parse(csvText, { header: true });
-    const rows = parsed.data;
-
-    let geocache = {};
-    try {
-      geocache = JSON.parse(await fs.readFile(GEOCACHE_PATH, 'utf8'));
-    } catch (e) {
-      console.log('No geocache found, starting fresh.');
-    }
-
-    const now = Date.now();
-    const futureEvents = [];
-
-    for (const row of rows) {
-      const uuid = row['UUID'] || row['Canonical UUID'];
-      if (!uuid || !row['Date'] || !row['Time'] || !row['Title']) continue;
-
-      const dateStr = `${row['Date']} ${row['Time']}`;
-      const date = new Date(dateStr);
-      if (isNaN(date.getTime()) || date.getTime() < now) continue;
-
-      const location = [row['Address'], row['City'], row['State']].filter(Boolean).join(', ');
-      if (!location) continue;
-
-      if (!geocache[uuid]) {
-        const geo = await geocodeAddress(location);
-        if (geo) {
-          geocache[uuid] = geo;
-        } else {
-          console.warn(`Skipping event due to failed geocode: ${row['Title']}`);
-          continue;
-        }
-      }
-
-      futureEvents.push({
-        title: row['Title'],
-        date: date.toISOString(),
-        location,
-        latitude: geocache[uuid].latitude,
-        longitude: geocache[uuid].longitude,
-        url: row['Links']?.split(',')[0] || '',
-        approved: true,
-        source: 'blop'
-      });
-    }
-
-    await fs.writeFile(CACHE_PATH, JSON.stringify(futureEvents, null, 2));
-    await fs.writeFile(GEOCACHE_PATH, JSON.stringify(geocache, null, 2));
-
-    console.log(`✅ BLOP events synced: ${futureEvents.length}`);
-  } catch (err) {
-    console.error('❌ Error syncing BLOP events:', err);
-  }
-}
-
-syncBlopEvents();
+});
 
 
 // --- Add New Event ---

@@ -60,6 +60,12 @@ const highlightIcon = L.icon({
   shadowSize: [55, 55]
 });
 
+// Format event URL
+function formatEventUrl(url) {
+  if (!url) return '#';
+  return url.startsWith('http') ? url : `https://${url}`;
+}
+
 // Helper: Geocode an address using Nominatim
 async function geocodeAddress(address) {
     const encodedAddress = encodeURIComponent(address);
@@ -90,14 +96,14 @@ function createEventMarker(event) {
     const eventDate = new Date(event.date);
     const friendlyDate = eventDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
     const friendlyTime = eventDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
-
+    
     const marker = L.marker([event.latitude, event.longitude], { icon: normalIcon })
         .addTo(map)
         .bindPopup(`
             <b>${event.title}</b><br>
             ${event.location}<br>
             ${friendlyDate} at ${friendlyTime}<br>
-            <a href="${event.url}" target="_blank" rel="noopener noreferrer">View Details</a>
+            <a href="${formatEventUrl(event.url)}" target="_blank" rel="noopener noreferrer">View Details</a>
         `);
 
     eventMarkers.set(event, marker);
@@ -106,50 +112,55 @@ function createEventMarker(event) {
 
 // === EVENT FETCHING ===
 async function fetchEvents() {
-    function showSkeletonLoader(count = 5) {
-        const listContainer = document.getElementById('events');
-        listContainer.innerHTML = ''; // clear anything
-        for (let i = 0; i < count; i++) {
-          const skeleton = document.createElement('div');
-          skeleton.className = 'event skeleton';
-          skeleton.innerHTML = `
-            <div class="date-col"></div>
-            <div class="detail-col"></div>
-            <div class="btn-col"></div>
-          `;
-          listContainer.appendChild(skeleton);
-        }
-    }
-    showSkeletonLoader();
-    try {
-      const res = await fetch(`${API_BASE_URL}/events`);
-      const data = await res.json();
-  
-      // Clear the global events array
-      allEvents = data.filter(event => event.approved !== false);
-
-      console.log('Fetched events:', allEvents);
-  
-      // Draw the map markers
-      allEvents.forEach(event => {
-
-        console.log('Trying to create marker for:', event.title, event.latitude, event.longitude);
-
-        if (event.latitude && event.longitude) {
-          const eventDate = new Date(event.date);
-          const friendlyDate = eventDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
-          const friendlyTime = eventDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
-  
-          createEventMarker(event);
-        }
-      });
-  
-      updateVisibleEvents(); // Redraw the list initially
-    } catch (err) {
-      console.error("Error fetching events:", err);
+  console.log('👋 fetchEvents started!');
+  function showSkeletonLoader(count = 5) {
       const listContainer = document.getElementById('events');
-      listContainer.innerHTML = `<div class="null-msg">Error loading events. Check console for details.</div>`;
-    }
+      listContainer.innerHTML = ''; // clear anything
+      for (let i = 0; i < count; i++) {
+        const skeleton = document.createElement('div');
+        skeleton.className = 'event skeleton';
+        skeleton.innerHTML = `
+          <div class="date-col"></div>
+          <div class="detail-col"></div>
+          <div class="btn-col"></div>
+        `;
+        listContainer.appendChild(skeleton);
+      }
+  }
+  showSkeletonLoader();
+  
+  try {
+    const res = await fetch(`${API_BASE_URL}/events`);
+    const data = await res.json();
+    console.log("📦 Received data:", data);
+
+    // Clear the global events array
+    allEvents = data.filter(event =>
+      event.approved !== false
+    );
+
+    console.log('Fetched events:', allEvents);
+
+    // Draw the map markers
+    allEvents.forEach(event => {
+
+      console.log('Trying to create marker for:', event.title, event.latitude, event.longitude);
+
+      if (event.latitude && event.longitude) {
+        const eventDate = new Date(event.date);
+        const friendlyDate = eventDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+        const friendlyTime = eventDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+
+        createEventMarker(event);
+      }
+    });
+
+    updateVisibleEvents(); // Redraw the list initially
+  } catch (err) {
+    console.error("Error fetching events:", err);
+    const listContainer = document.getElementById('events');
+    listContainer.innerHTML = `<div class="null-msg">Error loading events. Check console for details.</div>`;
+  }
 }
   
 
@@ -251,7 +262,7 @@ function updateVisibleEvents() {
       const eventDate = new Date(date);
       const friendlyDate = eventDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
       const friendlyTime = eventDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
-  
+
       // Add marker
       createEventMarker(event);
       const marker = eventMarkers.get(event);
@@ -286,7 +297,7 @@ function updateVisibleEvents() {
       const openUrlBtn = el.querySelector('.open-url-btn');
       openUrlBtn.addEventListener('click', (e) => {
         e.stopPropagation(); // Prevents also triggering the row click
-        window.open(url, '_blank');
+        window.open(formatEventUrl(url), '_blank');
       });
   
       listContainer.appendChild(el);

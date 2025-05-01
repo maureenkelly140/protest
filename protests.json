@@ -78,5 +78,15 @@
     "longitude": -84.5546295,
     "url": "https://www.washingtonpost.com/wellness/2025/01/29/phone-free-february-screentime-reduce",
     "approved": false
+  },
+  {
+    "title": "WHY THE FUCK - HELL NO!",
+    "date": "2025-05-02T03:30:00.000Z",
+    "location": "1354 W. Wabansia, Chicago, IL",
+    "latitude": 41.9139157,
+    "longitude": -87.6626385,
+    "url": "",
+    "approved": true,
+    "source": "blop-test"
   }
 ]
