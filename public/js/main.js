@@ -407,9 +407,6 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
   const address = document.getElementById('address').value;
   const url = document.getElementById('url').value;
 
-  const loadingMessage = document.getElementById('loading');
-  loadingMessage.style.display = 'block';
-
   try {
     const encodedAddress = encodeURIComponent(address);
     const geocodeUrl = `https://nominatim.openstreetmap.org/search?format=json&q=${encodedAddress}`;
@@ -417,8 +414,7 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
     const data = await res.json();
 
     if (data.length === 0) {
-      alert('Location not found. Please try a more specific address.');
-      loadingMessage.style.display = 'none';
+      alert('Location not found. Please try a more specific address.')
       return;
     }
 
@@ -468,9 +464,7 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
   } catch (err) {
     console.error("Error during geocoding:", err);
     alert('Something went wrong. Please try again.');
-  } finally {
-    loadingMessage.style.display = 'none';
-  }
+  } 
 });
 
 // === INITIALIZATION ===

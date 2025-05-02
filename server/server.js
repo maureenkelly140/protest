@@ -246,7 +246,7 @@ app.get('/pending-events', async (req, res) => {
 
 // --- Admin: Approve Event ---
 app.post('/approve-event', async (req, res) => {
-  const { id, title, location, date } = req.body;
+  const { id, title, location, date, latitude, longitude, approved } = req.body;
 
   try {
     const events = JSON.parse(await fs.readFile('protests.json', 'utf8'));
@@ -256,10 +256,15 @@ app.post('/approve-event', async (req, res) => {
       return res.status(404).json({ message: 'Event not found' });
     }
 
-    events[index].approved = true;
-    events[index].title = title;
-    events[index].location = location;
-    events[index].date = date;
+    events[index] = {
+      ...events[index], // keep all existing fields
+      title,
+      location,
+      date,
+      latitude,
+      longitude,
+      approved
+    };
 
     await fs.writeFile('protests.json', JSON.stringify(events, null, 2));
     res.json({ message: 'Event approved.' });
