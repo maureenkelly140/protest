@@ -1,10 +1,10 @@
 [
   {
-    "title": "Hey! Ho! Billionaires Have Got To Go!",
-    "date": "2025-05-04T17:30:00.000Z",
-    "location": "979 Santa Cruz Ave Menlo Park, CA",
-    "latitude": 37.4486086,
-    "longitude": -122.1864296,
+    "title": "Weekly Peaceful Vigil",
+    "date": "2025-05-03T00:00:00.000Z",
+    "location": "San Pablo Dam Road & Appian Way, El Sobrante, CA",
+    "latitude": 37.9662368,
+    "longitude": -122.309924,
     "url": "https://actionnetwork.org/events/teslatakedown-san-jose-santana-row-3",
     "approved": true
   },
@@ -186,6 +186,69 @@
     "latitude": 37.4486086,
     "longitude": -122.1864296,
     "url": "https://www.mobilize.us/mobilize/event/784207/",
+    "approved": false
+  },
+  {
+    "title": "Protest at Tesla Supercharger Station",
+    "date": "2025-05-04T21:00:00.000Z",
+    "location": "1150 El Camino Real, San Bruno, CA",
+    "latitude": 37.6363085,
+    "longitude": -122.4189509,
+    "url": " https://www.mobilize.us/mobilize/event/783614/",
+    "approved": false
+  },
+  {
+    "title": "Tesla Takedown - Peaceful Protest at Tesla Dealership",
+    "date": "2025-05-04T21:00:00.000Z",
+    "location": "201 Casa Buena Dr, Corte Madera, CA",
+    "latitude": 37.9242456,
+    "longitude": -122.5145935,
+    "url": "https://actionnetwork.org/events/testlatakedown-peaceful-protest-at-tesla-dealership-11/",
+    "approved": false
+  },
+  {
+    "title": "Community Vigil for Gaza",
+    "date": "2025-05-05T00:00:00.000Z",
+    "location": "855 El Camino Real, Palo Alto, CA",
+    "latitude": 37.4385075,
+    "longitude": -122.1604719,
+    "url": "https://www.instagram.com/p/DInUUwGxOii/",
+    "approved": false
+  },
+  {
+    "title": "San Francisco Federal Building Fridays",
+    "date": "2025-05-02T19:00:00.000Z",
+    "location": "90 7th St San Francisco, CA",
+    "latitude": 37.7792776,
+    "longitude": -122.4111649,
+    "url": "https://www.mobilize.us/mobilize/event/773501/",
+    "approved": false
+  },
+  {
+    "title": "Friday Demonstration at Castro Valley's Peace Corner",
+    "date": "2025-05-02T23:30:00.000Z",
+    "location": "Redwood Road & Castro Valley Boulevard, Castro Valley, CA",
+    "latitude": 37.69667,
+    "longitude": -122.0738594,
+    "url": "https://www.mobilize.us/indivisible/event/777199/",
+    "approved": false
+  },
+  {
+    "title": "Stop the Coup",
+    "date": "2025-05-03T00:00:00.000Z",
+    "location": "College Avenue & Ashby Avenue, Berkeley, CA",
+    "latitude": 37.8568243,
+    "longitude": -122.2531146,
+    "url": " https://www.mobilize.us/mobilize/event/774958/",
+    "approved": false
+  },
+  {
+    "title": "Weekly Peaceful Vigil",
+    "date": "2025-05-03T00:00:00.000Z",
+    "location": "San Pablo Dam Road & Appian Way, El Sobrante, CA",
+    "latitude": 37.9662368,
+    "longitude": -122.309924,
+    "url": "https://www.mobilize.us/mobilize/event/769039/",
     "approved": false
   }
 ]
