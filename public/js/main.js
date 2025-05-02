@@ -3,28 +3,21 @@ const API_BASE_URL = window.location.hostname === 'localhost'
   : 'https://protest-finder.onrender.com';
   
   // === MAP SETUP ===
-const map = L.map('map', { zoomControl: false }).setView([39.8283, -98.5795], 4);
-if (navigator.geolocation) {
+  const map = L.map('map', { zoomControl: false }).setView([39.8283, -98.5795], 4);
+
+  if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         const { latitude, longitude } = position.coords;
-        map.setView([latitude, longitude], 10); // Zoom in closer to user's area
+        console.log('GOT LOCATION:', latitude, longitude);
+        map.setView([latitude, longitude], 10); // Zoom to user's location
       },
       (error) => {
-        console.warn('Geolocation not available or permission denied.');
-        // No action needed — the default SF view stays
+        console.warn('Geolocation not available or permission denied:', error.message);
+        // Default US view already set above
       }
     );
-}
-navigator.geolocation.getCurrentPosition(
-    (position) => {
-      console.log('GOT LOCATION:', position.coords.latitude, position.coords.longitude);
-      map.setView([position.coords.latitude, position.coords.longitude], 10);
-    },
-    (error) => {
-      console.warn('Geolocation error:', error.message);
-    }
-  );
+  }
 L.control.zoom({ position: 'bottomleft' }).addTo(map);
 L.tileLayer('https://api.maptiler.com/maps/basic-v2/{z}/{x}/{y}.png?key=MEOZ1SILbWpzsJ65uy1u', {
     tileSize: 512,
@@ -100,11 +93,12 @@ function createEventMarker(event) {
     const marker = L.marker([event.latitude, event.longitude], { icon: normalIcon })
         .addTo(map)
         .bindPopup(`
-            <b>${event.title}</b><br>
-            ${event.location}<br>
-            ${friendlyDate} at ${friendlyTime}<br>
-            <a href="${formatEventUrl(event.url)}" target="_blank" rel="noopener noreferrer">View Details</a>
-        `);
+          <b>${event.title}</b><br>
+          ${event.location}<br>
+          ${friendlyDate} at ${friendlyTime}<br>
+          <a href="${formatEventUrl(event.url)}" target="_blank" rel="noopener noreferrer">View Details</a>
+        `, { autoPan: false });
+      
 
     eventMarkers.set(event, marker);
 }
