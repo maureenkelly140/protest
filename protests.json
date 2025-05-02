@@ -1,7 +1,133 @@
 [
   {
+    "title": "Boycott Tesla Protest in Dublin: Stop Musk-DOGE Coup with our Wallets!",
+    "date": "2025-05-03T20:00:00.000Z",
+    "location": "6701 Amador Plaza Rd, Dublin, CA",
+    "latitude": 37.3231261,
+    "longitude": -121.9516548,
+    "url": "https://actionnetwork.org/events/teslatakedown-san-jose-santana-row-3",
+    "approved": true
+  },
+  {
+    "title": "Oakland - Vigil for Black Lives - Dimond District",
+    "date": "2025-05-03T17:30:00.000Z",
+    "location": "Fruitvale Avenue & MacArthur Boulevard Oakland, CA 94602",
+    "latitude": 37.8000987,
+    "longitude": -122.216342,
+    "url": "https://www.mobilize.us/mobilize/event/779507/",
+    "approved": true
+  },
+  {
+    "title": "Tesla Takedown by Vallejo",
+    "date": "2025-05-03T18:00:00.000Z",
+    "location": "1001 Admiral Callaghan Ln",
+    "latitude": 38.135504,
+    "longitude": -122.220299,
+    "url": "https://www.mobilize.us/indivisible/event/779131/",
+    "approved": true
+  },
+  {
+    "title": "Stop the Cuts - Tesla Takedown Hands Off! - No Kings",
+    "date": "2025-05-03T18:30:00.000Z",
+    "location": "Civic Dr. & Ygnacio Valley Rd, Walnut Creek, ca",
+    "latitude": 37.9064547,
+    "longitude": -122.059991,
+    "url": "https://indivisibleresisters.org/",
+    "approved": true
+  },
+  {
     "title": "Protest Elon Musk's Illegal Government Takeover",
-    "date": "2025-06-01T21:00:00Z",
+    "date": "2025-05-03T19:00:00.000Z",
+    "location": "1901 Del Monte Blvd, Seaside, CA",
+    "latitude": 36.6171464,
+    "longitude": -121.8438533,
+    "url": "https://actionnetwork.org/events/protest-elon-musks-illegal-government-takeover-3/",
+    "approved": true
+  },
+  {
+    "title": "May Day Strong: We Are The Many",
+    "date": "2025-05-03T19:00:00.000Z",
+    "location": "2263 Santa Clara Ave Alameda, CA",
+    "latitude": 37.7664611,
+    "longitude": -122.2434959,
+    "url": "https://www.mobilize.us/mobilize/event/778850/",
+    "approved": true
+  },
+  {
+    "title": "People over Profit: Billionaires Shouldn’t Rule America",
+    "date": "2025-05-03T19:00:00.000Z",
+    "location": "999 Van Ness Ave San Francisco, CA",
+    "latitude": 37.7844266,
+    "longitude": -122.4217767,
+    "url": " https://www.mobilize.us/indivisible/event/757137/",
+    "approved": true
+  },
+  {
+    "title": "Day of Action in Antioch",
+    "date": "2025-05-03T19:00:00.000Z",
+    "location": "Hillcrest Avenue & Lone Tree Way Antioch, CA",
+    "latitude": 37.9623475,
+    "longitude": -121.7597894,
+    "url": "https://www.mobilize.us/ptp/event/784273/",
+    "approved": true
+  },
+  {
+    "title": "Stop the DOGE Destruction",
+    "date": "2025-05-03T19:00:00.000Z",
+    "location": "1731 Fourth St, Berkeley, CA",
+    "latitude": 37.8710198,
+    "longitude": -122.3006498,
+    "url": "https://www.mobilize.us/mobilize/event/767237/",
+    "approved": true
+  },
+  {
+    "title": "May Day Strong: We are the Many",
+    "date": "2025-05-03T19:00:00.000Z",
+    "location": "116 S Livermore Ave Livermore, CA",
+    "latitude": 37.6817336,
+    "longitude": -121.7681874,
+    "url": "https://www.mobilize.us/mayday/event/779588/",
+    "approved": true
+  },
+  {
+    "title": "Pacifica Stands Up for National Parks",
+    "date": "2025-05-03T19:00:00.000Z",
+    "location": "CA-1 & Mori Point Road, Pacifica, CA",
+    "latitude": 37.6188009,
+    "longitude": -122.4860582,
+    "url": "https://www.mobilize.us/mobilize/event/781790/",
+    "approved": true
+  },
+  {
+    "title": "Tesla Takedown - Stanford Mall",
+    "date": "2025-05-03T19:00:00.000Z",
+    "location": "Stanford Shopping Center, Palo Alto, CA",
+    "latitude": 37.4431921,
+    "longitude": -122.1709163,
+    "url": "https://www.findaprotest.info/event/Palo%20Alto/a24RQ4rgLcZcAol4BbEZFe",
+    "approved": true
+  },
+  {
+    "title": "May Day Strong: We are the Many",
+    "date": "2025-05-03T20:00:00.000Z",
+    "location": "E 14th St & Toler Avenue, San Leandro, CA",
+    "latitude": 37.7272585,
+    "longitude": -122.1579717,
+    "url": "https://www.mobilize.us/mobilize/event/777707/",
+    "approved": true
+  },
+  {
+    "title": "Boycott Tesla Protest in Dublin: Stop Musk-DOGE Coup with our Wallets!",
+    "date": "2025-05-03T20:00:00.000Z",
+    "location": "6701 Amador Plaza Rd, Dublin, CA",
+    "latitude": 37.7027365,
+    "longitude": -121.9249152,
+    "url": "https://www.mobilize.us/mobilize/event/764198/",
+    "approved": true
+  },
+  {
+    "title": "May Day Strong! Protest Elon Musk's Illegal Government Takeover",
+    "date": "2025-05-03T20:30:00.000Z",
     "location": "4180 El Camino Real, Palo Alto, CA",
     "latitude": 37.4108245,
     "longitude": -122.1245312,
@@ -9,84 +135,48 @@
     "approved": true
   },
   {
-    "title": "SURJ Meet-Up: Attend the May Day Strong Rally together! We are the Many!",
-    "date": "2025-05-01T00:00:00.000Z",
-    "location": "El Camino Real & Jefferson Avenue Redwood City, CA 94063",
-    "latitude": 37.4835662,
-    "longitude": -122.23143,
-    "url": "https://www.mobilize.us/mobilize/event/781348/",
+    "title": "Rally for a Just Peace in Israel-Palestine",
+    "date": "2025-05-03T21:00:00.000Z",
+    "location": "Lake Merritt Amphitheater, Oakland, CA 94612",
+    "latitude": 37.7990453,
+    "longitude": -122.2606799,
+    "url": "https://drive.google.com/file/d/13nD4dBw77Vix96WkvLw833rko3qVz_SP/view",
     "approved": true
   },
   {
-    "title": "May Day Strong: We are the Many",
-    "date": "2025-05-15T18:00:00Z",
-    "location": "Triangle Park, Frisco, CO",
-    "latitude": 39.5744299,
-    "longitude": -106.0975196,
-    "url": "https://www.mobilize.us/mobilize/event/780090/",
+    "title": "Protest Elon Musk's illegal government takeover",
+    "date": "2025-05-03T21:00:00.000Z",
+    "location": "770 E. El Camino Real, Sunnyvale, CA",
+    "latitude": 37.3569536,
+    "longitude": -122.0194069,
+    "url": "https://actionnetwork.org/events/protest-elon-musks-illegal-government-takeover-9",
     "approved": true
   },
   {
-    "title": "March for Voting Rights",
-    "date": "2025-05-15T18:00:00Z",
-    "location": "Freedom Plaza, Washington DC",
-    "latitude": 38.8946,
-    "longitude": -77.0322,
-    "url": "https://example.com/march-for-voting-rights",
+    "title": "May Day Strong: We are United",
+    "date": "2025-05-03T21:00:00.000Z",
+    "location": "1500 Collins Ave Colma, CA",
+    "latitude": 37.6706529,
+    "longitude": -122.463545,
+    "url": "https://www.mobilize.us/mobilize/event/780438/",
     "approved": true
   },
   {
-    "title": "Test - Boise",
-    "date": "2025-04-30T10:00:00.000Z",
-    "location": "Boise, ID",
-    "latitude": 43.6166163,
-    "longitude": -116.200886,
-    "url": "https://calendar.google.com/calendar/u/0/event?eid=NjBxM2VkaGhjbGhtYWI5aDYwczM0YjlrNmtwM2liYjJjY3FtMmJiM2M4c2phZHBvNzBwajZkaGo2MCB0d3dzYW5qb3NlQG0",
-    "approved": false
+    "title": "Veterans Tesla Takedown",
+    "date": "2025-05-03T22:00:00.000Z",
+    "location": "201 Casa Buena Drive, Corte Madera, CA",
+    "latitude": 37.9242456,
+    "longitude": -122.5145935,
+    "url": "https://actionnetwork.org/events/veterans-teslatakedown-9",
+    "approved": true
   },
   {
-    "title": "Testing a new event",
-    "date": "2025-04-30T16:00:00.000Z",
-    "location": "Half Moon Bay, CA",
-    "latitude": 37.4635519,
-    "longitude": -122.428586,
-    "url": "https://calendar.google.com/calendar/u/0/event?eid=NjBxM2VkaGhjbGhtYWI5aDYwczM0YjlrNmtwM2liYjJjY3FtMmJiM2M4c2phZHBvNzBwajZkaGo2MCB0d3dzYW5qb3NlQG0",
-    "approved": false
-  },
-  {
-    "title": "Testing another event",
-    "date": "2025-04-30T23:00:00.000Z",
-    "location": "Pacifica, CA",
-    "latitude": 37.5980374,
-    "longitude": -122.4995234,
-    "url": "https://actionnetwork.org/events/protest-elon-musks-fascist-government-takeover-part-5-the-revolution-will-be-live",
-    "approved": false
-  },
-  {
-    "title": "Test - Chicago",
-    "date": "2025-05-02T15:00:00.000Z",
-    "location": "Chicago, IL",
-    "latitude": 41.8755616,
-    "longitude": -87.6244212,
-    "url": "https://actionnetwork.org/events/protest-elon-musks-fascist-government-takeover-part-5-the-revolution-will-be-live"
-  },
-  {
-    "title": "Testing testing",
-    "date": "2025-05-06T19:00:00.000Z",
-    "location": "Lansing, MI",
-    "latitude": 42.7338254,
-    "longitude": -84.5546295,
-    "url": "https://www.washingtonpost.com/wellness/2025/01/29/phone-free-february-screentime-reduce",
-    "approved": false
-  },
-  {
-    "title": "WHY THE FUCK - HELL NO!",
-    "date": "2025-05-02T03:30:00.000Z",
-    "location": "1354 W. Wabansia, Chicago, IL",
-    "latitude": 41.9139157,
-    "longitude": -87.6626385,
-    "url": "",
-    "approved": true,
-    "source": "blop-test"
+    "title": "Fighting the Billionaire Coup: We Won't Back Down!",
+    "date": "2025-05-04T01:30:00.000Z",
+    "location": "815 Alice St, Oakland, CA 94607",
+    "latitude": 37.7985359,
+    "longitude": -122.2690249,
+    "url": " https://www.instagram.com/p/DJCmrcjzwu1/",
+    "approved": true
   }
 ]
