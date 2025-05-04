@@ -8,6 +8,8 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+const MANUAL_PROTESTS_PATH = path.join(__dirname, '../data/processed/manual-protests.json');
+
 const Papa = require('papaparse');
 const CACHE_PATH = path.join(__dirname, 'blop-events.json');
 const GEOCACHE_PATH = path.join(__dirname, 'blop-geocache.json');
@@ -21,21 +23,6 @@ const organizationIds = [42068, 42138, 41722]; // Tesla Takedown Sacramento, 505
 
 // === Serve Static Frontend ===
 app.use(express.static(path.join(__dirname, '..', 'public')));
-
-// === Load patches and other dynamic setup ===
-let patches = [];
-
-// === INITIALIZATION ===
-// Load patches at startup
-(async () => {
-  try {
-    const patchesData = await fs.readFile(path.join(__dirname, '..', 'patches.json'), 'utf8');
-    patches = JSON.parse(patchesData);
-    console.log(`Loaded ${patches.length} patches.`);
-  } catch (err) {
-    console.error('Error loading patches.json:', err);
-  }
-})();
 
 // === MIDDLEWARE ===
 app.use(express.json());
@@ -81,16 +68,6 @@ async function geocodeAddress(address) {
 app.get('/events', async (req, res) => {
   try {
     const now = Date.now();
-
-    // Load patches inside the route
-    let patches = [];
-    try {
-      const patchesData = await fs.readFile('patches.json', 'utf8');
-      patches = JSON.parse(patchesData);
-      console.log(`Loaded ${patches.length} patches.`);
-    } catch (err) {
-      console.error('Error loading patches.json:', err);
-    }
 
     // --- Fetch Mobilize events ---
     const fetchPromises = organizationIds.map(id =>
@@ -148,28 +125,17 @@ app.get('/events', async (req, res) => {
       })
     );
 
-    // Apply patches to Mobilize events
-    mobilizeMapped.forEach(event => {
-      patches.forEach(patch => {
-        if (event && event.title.includes(patch.match)) {
-          event.latitude = patch.latitude;
-          event.longitude = patch.longitude;
-          console.log(`Patched event: ${event.title}`);
-        }
-      });
-    });
-
     console.log(`Mobilize events fetched and mapped: ${mobilizeMapped.length}`);
 
-    // --- Load Manual protests.json ---
-    const protestsJsonRaw = await fs.readFile('protests.json', 'utf-8');
-    const manualEvents = JSON.parse(protestsJsonRaw);
+    // --- Load manually added protests ---
+    const protestsJsonRaw = await fs.readFile(MANUAL_PROTESTS_PATH, 'utf-8');
+    const manualProtests = JSON.parse(protestsJsonRaw);
 
-    const manualFutureEvents = manualEvents.filter(event =>
+    const manualFutureProtests = manualProtests.filter(event =>
       new Date(event.date).getTime() > now
     );
 
-    console.log(`Manual protests loaded: ${manualFutureEvents.length}`);
+    console.log(`Manual protests loaded: ${manualFutureProtests.length}`);
 
     // --- Load BLOP events from cache ---
     let blopEvents = [];
@@ -187,7 +153,7 @@ app.get('/events', async (req, res) => {
     // --- Merge all sources ---
     const combinedEvents = [
       ...mobilizeMapped.filter(Boolean),
-      ...manualFutureEvents,
+      ...manualFutureProtests,
       ...blopEvents
     ];
 
@@ -212,17 +178,16 @@ app.get('/api/blop-events', async (req, res) => {
   }
 });
 
-
 // --- Add New Event ---
 app.post('/add-event', async (req, res) => {
   try {
     const newEvent = req.body;
-    const fileData = await fs.readFile('protests.json', 'utf8');
+    const fileData = await fs.readFile(MANUAL_PROTESTS_PATH, 'utf-8');
     const existingEvents = JSON.parse(fileData);
 
     existingEvents.push(newEvent);
 
-    await fs.writeFile('protests.json', JSON.stringify(existingEvents, null, 2));
+    await fs.writeFile(MANUAL_PROTESTS_PATH, JSON.stringify(existingEvents, null, 2));
     console.log('Saved new event:', newEvent.title);
 
     res.status(200).json({ message: 'Event saved!' });
@@ -235,7 +200,7 @@ app.post('/add-event', async (req, res) => {
 // --- Admin: Pending Events ---
 app.get('/pending-events', async (req, res) => {
   try {
-    const events = JSON.parse(await fs.readFile('protests.json', 'utf8'));
+    const events = JSON.parse(await fs.readFile(MANUAL_PROTESTS_PATH, 'utf8'))
     const pendingEvents = events.filter(event => event.approved === false);
     res.json(pendingEvents);
   } catch (err) {
@@ -249,7 +214,7 @@ app.post('/approve-event', async (req, res) => {
   const { id, title, location, date, latitude, longitude, approved } = req.body;
 
   try {
-    const events = JSON.parse(await fs.readFile('protests.json', 'utf8'));
+    const events = JSON.parse(await fs.readFile(MANUAL_PROTESTS_PATH, 'utf8'));
     const index = events.findIndex(event => event.id === id);
     
     if (index === -1) {
@@ -266,7 +231,9 @@ app.post('/approve-event', async (req, res) => {
       approved
     };
 
-    await fs.writeFile('protests.json', JSON.stringify(events, null, 2));
+    console.log('Writing manual protests...');
+    await fs.writeFile(MANUAL_PROTESTS_PATH, JSON.stringify(events, null, 2));
+    console.log('Done writing manual protests');
     res.json({ message: 'Event approved.' });
   } catch (err) {
     console.error('Error approving event:', err);
@@ -279,10 +246,10 @@ app.post('/delete-event', async (req, res) => {
   const { id } = req.body;
 
   try {
-    const events = JSON.parse(await fs.readFile('protests.json', 'utf8'));
+    const events = JSON.parse(await fs.readFile(MANUAL_PROTESTS_PATH, 'utf8'));
     const updatedEvents = events.filter(event => event.id !== id);
 
-    await fs.writeFile('protests.json', JSON.stringify(updatedEvents, null, 2));
+    await fs.writeFile(MANUAL_PROTESTS_PATH, JSON.stringify(updatedEvents, null, 2));
     res.json({ message: 'Event deleted.' });
   } catch (err) {
     console.error('Error deleting event:', err);

@@ -126,14 +126,15 @@ async function fetchEvents() {
   try {
     const res = await fetch(`${API_BASE_URL}/events`);
     const data = await res.json();
-    console.log("📦 Received data:", data);
 
     // Clear the global events array
     allEvents = data.filter(event =>
       event.approved !== false
     );
 
-    console.log('Fetched events:', allEvents);
+    // DEBUG: show which events got excluded
+    const excluded = data.filter(event => event.approved === false);
+    console.log("Excluded events:", excluded.map(e => e.title));
 
     // Draw the map markers
     allEvents.forEach(event => {
@@ -439,8 +440,6 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
       } catch (err) {
         console.error('Error saving event:', err);
     }
-
-    allEvents.push(newEvent);
 
     // Don't create event immediately
     // createEventMarker(newEvent);
