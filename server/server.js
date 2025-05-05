@@ -11,8 +11,8 @@ const PORT = process.env.PORT || 3001;
 const MANUAL_PROTESTS_PATH = path.join(__dirname, '../data/processed/manual-protests.json');
 
 const Papa = require('papaparse');
-const CACHE_PATH = path.join(__dirname, 'blop-events.json');
-const GEOCACHE_PATH = path.join(__dirname, 'blop-geocache.json');
+const CACHE_PATH = path.join(__dirname, '../data/processed/blop-events.json');
+const GEOCACHE_PATH = path.join(__dirname, '../data/cache/blop-geocache.json');
 const organizationIds = [42068, 42138, 41722]; // Tesla Takedown Sacramento, 50501 Houston, May Day Strong
 
 // === Protect Admin Page ===
@@ -140,7 +140,7 @@ app.get('/events', async (req, res) => {
     // --- Load BLOP events from cache ---
     let blopEvents = [];
     try {
-      const blopRaw = await fs.readFile(path.join(__dirname, 'blop-events.json'), 'utf8');
+      const blopRaw = await fs.readFile(path.join(__dirname, '../data/processed/blop-events.json'), 'utf8');
       blopEvents = JSON.parse(blopRaw).filter(event =>
         new Date(event.date).getTime() > now
       );
@@ -170,7 +170,7 @@ app.get('/events', async (req, res) => {
 
 app.get('/api/blop-events', async (req, res) => {
   try {
-    const events = JSON.parse(await fs.readFile(path.join(__dirname, 'blop-events.json'), 'utf8'));
+    const events = JSON.parse(await fs.readFile(path.join(__dirname, '../data/processed/blop-events.json'), 'utf8'));
     res.json(events);
   } catch (err) {
     console.error('Failed to load blop-events.json:', err);

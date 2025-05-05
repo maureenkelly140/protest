@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "title": "Protest Elon Musk's Illegal Government Takeover",
+    "date": "2025-06-01T21:00:00Z",
+    "location": "4180 El Camino Real, Palo Alto, CA",
+    "latitude": 37.4108245,
+    "longitude": -122.1245312,
+    "url": "https://www.mobilize.us/mobilize/event/762213/",
+    "approved": true
+  },
+  {
+    "title": "SURJ Meet-Up: Attend the May Day Strong Rally together! We are the Many!",
+    "date": "2025-05-01T00:00:00.000Z",
+    "location": "El Camino Real & Jefferson Avenue Redwood City, CA 94063",
+    "latitude": 37.4835662,
+    "longitude": -122.23143,
+    "url": "https://www.mobilize.us/mobilize/event/781348/",
+    "approved": true
+  },
+  {
+    "title": "May Day Strong: We are the Many",
+    "date": "2025-05-15T18:00:00Z",
+    "location": "Triangle Park, Frisco, CO",
+    "latitude": 39.5744299,
+    "longitude": -106.0975196,
+    "url": "https://www.mobilize.us/mobilize/event/780090/",
+    "approved": true
+  },
+  {
+    "title": "March for Voting Rights",
+    "date": "2025-05-15T18:00:00Z",
+    "location": "Freedom Plaza, Washington DC",
+    "latitude": 38.8946,
+    "longitude": -77.0322,
+    "url": "https://example.com/march-for-voting-rights",
+    "approved": true
+  },
+  {
+    "title": "Test - Boise",
+    "date": "2025-04-30T10:00:00.000Z",
+    "location": "Boise, ID",
+    "latitude": 43.6166163,
+    "longitude": -116.200886,
+    "url": "https://calendar.google.com/calendar/u/0/event?eid=NjBxM2VkaGhjbGhtYWI5aDYwczM0YjlrNmtwM2liYjJjY3FtMmJiM2M4c2phZHBvNzBwajZkaGo2MCB0d3dzYW5qb3NlQG0",
+    "approved": false
+  },
+  {
+    "title": "Testing a new event",
+    "date": "2025-04-30T16:00:00.000Z",
+    "location": "Half Moon Bay, CA",
+    "latitude": 37.4635519,
+    "longitude": -122.428586,
+    "url": "https://calendar.google.com/calendar/u/0/event?eid=NjBxM2VkaGhjbGhtYWI5aDYwczM0YjlrNmtwM2liYjJjY3FtMmJiM2M4c2phZHBvNzBwajZkaGo2MCB0d3dzYW5qb3NlQG0",
+    "approved": false
+  },
+  {
+    "title": "Testing another event",
+    "date": "2025-04-30T23:00:00.000Z",
+    "location": "Pacifica, CA",
+    "latitude": 37.5980374,
+    "longitude": -122.4995234,
+    "url": "https://actionnetwork.org/events/protest-elon-musks-fascist-government-takeover-part-5-the-revolution-will-be-live",
+    "approved": false
+  },
+  {
+    "title": "Test - Chicago",
+    "date": "2025-05-02T15:00:00.000Z",
+    "location": "Chicago, IL",
+    "latitude": 41.8755616,
+    "longitude": -87.6244212,
+    "url": "https://actionnetwork.org/events/protest-elon-musks-fascist-government-takeover-part-5-the-revolution-will-be-live"
+  },
+  {
+    "title": "Testing testing",
+    "date": "2025-05-06T19:00:00.000Z",
+    "location": "Lansing, MI",
+    "latitude": 42.7338254,
+    "longitude": -84.5546295,
+    "url": "https://www.washingtonpost.com/wellness/2025/01/29/phone-free-february-screentime-reduce",
+    "approved": false
+  }
+]

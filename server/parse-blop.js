@@ -2,17 +2,30 @@ const fs = require('fs').promises;
 const path = require('path');
 const Papa = require('papaparse');
 
-const GEOCACHE_PATH = path.join(__dirname, 'blop-geocache.json');
-const CACHE_PATH = path.join(__dirname, 'blop-events.json');
+const GEOCACHE_PATH = path.join(__dirname, '../data/cache/blop-geocache.json');
+const CACHE_PATH = path.join(__dirname, '../data/processed/blop-events.json');
 
-// Dummy geocode function — replace with real one if needed
+const fetch = require('node-fetch');
+
 async function geocodeAddress(address) {
-  return { latitude: 0, longitude: 0 }; // Replace this with real logic
+  const encoded = encodeURIComponent(address);
+  const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encoded}`;
+  const res = await fetch(url);
+  const data = await res.json();
+
+  if (data && data.length > 0) {
+    return {
+      latitude: parseFloat(data[0].lat),
+      longitude: parseFloat(data[0].lon)
+    };
+  }
+
+  return null;
 }
 
 async function syncBlopEvents() {
   try {
-    const localCsvPath = path.join(__dirname, 'data/blop-latest.csv');
+    const localCsvPath = path.join(__dirname, '../data/raw/blop-latest.csv');
     const csvText = await fs.readFile(localCsvPath, 'utf-8');
     const parsed = Papa.parse(csvText, { header: true });
     const rows = parsed.data;

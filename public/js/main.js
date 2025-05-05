@@ -132,6 +132,10 @@ async function fetchEvents() {
       event.approved !== false
     );
 
+    // New debug line
+    console.log("Visible events after filter:", allEvents.length);
+    console.log("Sources of visible events:", allEvents.map(e => e.source || 'unknown'));
+
     // DEBUG: show which events got excluded
     const excluded = data.filter(event => event.approved === false);
     console.log("Excluded events:", excluded.map(e => e.title));
