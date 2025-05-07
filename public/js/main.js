@@ -212,7 +212,14 @@ document.addEventListener('click', (e) => {
 
 map.on('moveend', () => {
   if (fetchedEvents && fetchedEvents.length > 0) {
-    updateVisibleEvents();
+
+    //If a popup is already open on the map, don't refresh the results when the map moves
+    var isPopupOpen = document.getElementsByClassName('leaflet-popup');
+    if (isPopupOpen.length > 0) {
+        // a popup is open
+    } else {
+      updateVisibleEvents();
+    }
   }
 });
 
