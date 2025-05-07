@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobilize Diagnostics</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      padding: 30px;
+      font-size: 12px;
+    }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border: 1px solid #ccc; padding: 0.25rem; }
+    tr:hover td {
+      background-color: #f9f9f9;
+    }
+    th { background: #fcfcfc; text-align: left; }
+  </style>
+</head>
+<body>
+  <h1>Mobilize Event Diagnostics</h1>
+  <div id="summary"></div>
+  <div id="filters" style="padding: 10px; background-color: #eaeaea; display: flex; gap: 20px;">
+    <input type="text" id="searchBox" placeholder="Search events...">
+    <label>
+        <input type="checkbox" id="hideVirtualCheckbox">
+        Hide virtual events
+    </label>
+    <label>
+      Event type:
+      <select id="typeFilter">
+          <option value="">(All)</option>
+          <option value="RALLY">RALLY</option>
+          <option value="COMMUNITY">COMMUNITY</option>
+          <option value="SOLIDARITY_EVENT">SOLIDARITY_EVENT</option>
+          <option value="VISIBILITY_EVENT">VISIBILITY_EVENT</option>
+          <option value="OTHER">OTHER</option>
+          <option>-----</option>
+          <option value="CANVASS">CANVASS</option>
+          <option value="PHONE_BANK">PHONE_BANK</option>
+          <option value="TEXT_BANK">TEXT_BANK</option>
+          <option value="MEETING">MEETING</option>
+          <option value="FUNDRAISER">FUNDRAISER</option>
+          <option value="MEET_GREET">MEET_GREET</option>
+          <option value="HOUSE_PARTY">HOUSE_PARTY</option>
+          <option value="VOTER_REG">VOTER_REG</option>
+          <option value="TRAINING">TRAINING</option>
+          <option value="FRIEND_TO_FRIEND_OUTREACH">FRIEND_TO_FRIEND_OUTREACH</option>
+          <option value="DEBATE_WATCH_PARTY">DEBATE_WATCH_PARTY</option>
+          <option value="ADVOCACY_CALL">ADVOCACY_CALL</option>
+          <option value="RALLY">RALLY</option>
+          <option value="TOWN_HALL">TOWN_HALL</option>
+          <option value="OFFICE_OPENING">OFFICE_OPENING</option>
+          <option value="BARNSTORM">BARNSTORM</option>
+          <option value="COMMUNITY_CANVASS">COMMUNITY_CANVASS</option>
+          <option value="SIGNATURE_GATHERING">SIGNATURE_GATHERING</option>
+          <option value="CARPOOL">CARPOOL</option>
+          <option value="WORKSHOP">WORKSHOP</option>
+          <option value="PETITION">PETITION</option>
+          <option value="AUTOMATED_PHONE_BANK">AUTOMATED_PHONE_BANK</option>
+          <option value="LETTER_WRITING">LETTER_WRITING</option>
+          <option value="LITERATURE_DROP_OFF">LITERATURE_DROP_OFF</option>
+          
+          <!-- You can add more as you discover them -->
+      </select>
+    </label>
+  </div>
+  <table id="diagnostics-table">
+    <thead>
+      <tr><th>Title</th><th>Type</th><th>Tags</th><th>Action</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="/js/admin-diagnostics.js"></script>
+
+  <!-- Filtering -->
+  <script>
+    async function loadDiagnostics() {
+      const res = await fetch('/mobilize-diagnostics');
+      const data = await res.json();
+  
+      // Populate summary counts (if available)
+      const summaryEl = document.getElementById('summary');
+      if (data.total !== undefined && data.counts !== undefined) {
+          summaryEl.innerHTML = `<h2>Total: ${data.total}</h2><ul>` +
+              Object.entries(data.counts).map(([k, v]) => `<li>${k}: ${v}</li>`).join('') +
+              '</ul>';
+      } else {
+          summaryEl.innerHTML = '<h2>Summary not available</h2>';
+      }
+  
+      const tbody = document.querySelector('#diagnostics-table tbody');
+      tbody.innerHTML = '';
+  
+      const events = data.events || data;  // fallback if server sends raw array
+  
+      events.forEach(item => {
+          const tagNames = (item.tags || []).map(tag =>
+              typeof tag === 'string' ? tag : tag.name
+          );
+  
+          const tr = document.createElement('tr');
+          tr.dataset.isVirtual = item.is_virtual;
+          tr.dataset.title = item.title?.toString().toLowerCase() || '';
+          tr.dataset.location = item.location?.toString().toLowerCase() || '';
+          tr.dataset.eventType = (item.event_type || '').toString().toLowerCase();
+  
+          tr.innerHTML = `
+              <td><a href="${item.browser_url}" target="_blank" rel="noopener">${item.title || ''}</a></td>
+              <td>${item.event_type || ''}</td>
+              <td>${tagNames.join(', ')}</td>
+              <td>${item.action || 'included'}</td>
+          `;
+          tbody.appendChild(tr);
+      });
+  
+      applyFilters();
+    }
+    
+    function applyFilters() {
+      const searchValue = document.getElementById('searchBox').value.toLowerCase();
+      const hideVirtual = document.getElementById('hideVirtualCheckbox').checked;
+      const typeFilter = document.getElementById('typeFilter').value;
+
+      document.querySelectorAll('#diagnostics-table tbody tr').forEach(tr => {
+          const matchesSearch =
+              tr.dataset.title.includes(searchValue) ||
+              tr.dataset.location.includes(searchValue) ||
+              tr.dataset.eventType.includes(searchValue);
+
+          const isVirtual = tr.dataset.isVirtual === 'true';
+          const passesVirtual = !hideVirtual || !isVirtual;
+
+          const matchesType = !typeFilter || tr.dataset.eventType === typeFilter.toLowerCase();
+
+          tr.style.display = matchesSearch && passesVirtual && matchesType ? '' : 'none';
+      });
+    }
+    
+    document.getElementById('searchBox').addEventListener('input', applyFilters);
+    document.getElementById('hideVirtualCheckbox').addEventListener('change', applyFilters);
+    document.getElementById('typeFilter').addEventListener('change', applyFilters);
+    
+    loadDiagnostics();
+  </script>
+    
+
+</body>
+</html>

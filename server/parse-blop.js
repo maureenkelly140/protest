@@ -1,3 +1,4 @@
+const fetch = require('node-fetch');
 const fs = require('fs').promises;
 const path = require('path');
 const Papa = require('papaparse');
@@ -7,21 +8,7 @@ const CACHE_PATH = path.join(__dirname, '../data/processed/blop-events.json');
 
 const fetch = require('node-fetch');
 
-async function geocodeAddress(address) {
-  const encoded = encodeURIComponent(address);
-  const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encoded}`;
-  const res = await fetch(url);
-  const data = await res.json();
-
-  if (data && data.length > 0) {
-    return {
-      latitude: parseFloat(data[0].lat),
-      longitude: parseFloat(data[0].lon)
-    };
-  }
-
-  return null;
-}
+const { geocodeAddress } = require('./utils/geocode');
 
 async function syncBlopEvents() {
   try {

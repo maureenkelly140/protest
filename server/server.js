@@ -1,33 +1,41 @@
 // === SETUP ===
+require('dotenv').config();
+
+console.log('Mobilize API Key:', process.env.MOBILIZE_API_KEY);
+
 const express = require('express');
 const fetch = require('node-fetch');
 const fs = require('fs').promises;
-// const basicAuth = require('express-basic-auth');
 const path = require('path');
-
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const MANUAL_PROTESTS_PATH = path.join(__dirname, '../data/processed/manual-protests.json');
+const { processMobilizeEvents } = require('./utils/processMobilizeEvents');
+const { formatLocation } = require('./utils/format');
 
 const Papa = require('papaparse');
+const MANUAL_PROTESTS_PATH = path.join(__dirname, '../data/processed/manual-protests.json');
 const CACHE_PATH = path.join(__dirname, '../data/processed/blop-events.json');
 const GEOCACHE_PATH = path.join(__dirname, '../data/cache/blop-geocache.json');
-const organizationIds = [42068, 42138, 41722]; // Tesla Takedown Sacramento, 50501 Houston, May Day Strong
 
-// === Protect Admin Page ===
-// app.use('/admin-review-events.html', basicAuth({
-//   users: { 'admin': 'goodtrouble' },
-//  challenge: true
-// }));
+const { geocodeAddress } = require('./utils/geocode');
 
-// === Serve Static Frontend ===
-app.use(express.static(path.join(__dirname, '..', 'public')));
+// === CONFIG TOGGLE BLOCK ===
+const CONFIG = {
+  includeMobilize: true,
+  includeManual: true,
+  includeBlop: true,
+  startDate: '', // null means "today"; or specify a string like '2025-01-01'
+};
+
+const startTimestamp = Math.floor(
+  new Date(CONFIG.startDate || Date.now()).getTime() / 1000
+);
+
+const diagnostics = []; // for tracking display vs. filtered events
 
 // === MIDDLEWARE ===
 app.use(express.json());
-
-// Allow your frontend to fetch data easily
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS');
@@ -35,132 +43,97 @@ app.use((req, res, next) => {
   next();
 });
 
-// === HELPERS ===
-// Geocode an address using Nominatim
-async function geocodeAddress(address) {
-  const encodedAddress = encodeURIComponent(address);
-  const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodedAddress}`;
-
-  try {
-    console.log(`🔍 Geocoding: ${url}`);
-    const res = await fetch(url, {
-      headers: { 'User-Agent': 'ProtestFinderApp/1.0' } // Nominatim asks for a real User-Agent
-    });
-    const data = await res.json();
-    if (data.length > 0) {
-      return {
-        latitude: parseFloat(data[0].lat),
-        longitude: parseFloat(data[0].lon)
-      };
-    } else {
-      console.warn('No geocoding result for address:', address);
-      return null;
-    }
-  } catch (err) {
-    console.error('Geocoding failed for address:', address, err);
-    return null;
-  }
+// === HELPER ===
+function shouldIncludeEvent(eventDateStr) {
+  const eventDate = new Date(eventDateStr);
+  const cutoffDate = new Date(CONFIG.startDate || Date.now());
+  return eventDate >= cutoffDate;
 }
 
 // === ROUTES ===
-
-// --- Load all events into the UI ---
 app.get('/events', async (req, res) => {
+  console.log('Start date filter:', CONFIG.startDate || 'today');
+  console.log('Cutoff timestamp:', new Date(CONFIG.startDate || Date.now()).toISOString());
+  console.log(`startTimestamp: ${startTimestamp} → ${new Date(startTimestamp * 1000).toISOString()}`);
+
   try {
     const now = Date.now();
+    let combinedEvents = [];
 
-    // --- Fetch Mobilize events ---
-    const fetchPromises = organizationIds.map(id =>
-      fetch(`https://api.mobilize.us/v1/organizations/${id}/events`).then(r => r.json())
-    );
+    // --- Mobilize (from local chunked files) ---
+    if (CONFIG.includeMobilize) {
+      try {
+          const chunkDir = path.join(__dirname, '../data/raw');
+          const files = await fs.readdir(chunkDir);
+          const mobilizeFiles = files.filter(f => f.startsWith('all-mobilize-page') && f.endsWith('.json'));
 
-    const mobilizeResults = await Promise.all(fetchPromises);
-    const mobilizeRawEvents = mobilizeResults.flatMap(r => r.data || []);
-
-    const mobilizeFutureEvents = mobilizeRawEvents.filter(event =>
-      event.timeslots?.some(timeslot => (timeslot.start_date * 1000) > now)
-    );
-
-    const mobilizeMapped = await Promise.all(
-      mobilizeFutureEvents.map(async event => {
-        const futureTimes = event.timeslots.filter(t => (t.start_date * 1000) > now);
-        const nextTimeslot = futureTimes.length > 0
-          ? futureTimes.sort((a, b) => a.start_date - b.start_date)[0]
-          : event.timeslots.sort((a, b) => b.start_date - a.start_date)[0];
-
-        let latitude = event.location?.latitude;
-        let longitude = event.location?.longitude;
-
-        if (!latitude || !longitude) {
-          const address = event.location?.venue || (event.location?.address_lines?.join(', '));
-          if (address) {
-            const geo = await geocodeAddress(address);
-            if (geo) {
-              latitude = geo.latitude;
-              longitude = geo.longitude;
-            }
-          } else {
-            console.warn('Skipping event with no usable location:', event.title);
-            return null;
+          let allMobilizeEvents = [];
+          for (const file of mobilizeFiles) {
+              console.log(`📂 Reading ${file}`);
+              const raw = await fs.readFile(path.join(chunkDir, file), 'utf-8');
+              const parsed = JSON.parse(raw);
+              allMobilizeEvents.push(...parsed);
           }
-        }
 
-        if (
-          latitude < 24 || latitude > 50 ||
-          longitude < -125 || longitude > -66
-        ) {
-          console.warn(`Skipping event "${event.title}" with suspicious lat/lon: ${latitude}, ${longitude}`);
-          return null;
-        }
+          console.log(`✅ Loaded total ${allMobilizeEvents.length} Mobilize events from chunks`);
 
-        return {
-          title: event.title,
-          date: new Date(nextTimeslot.start_date * 1000).toISOString(),
-          location: event.location?.venue || (event.location?.address_lines?.join(', ')) || 'Unknown location',
-          latitude,
-          longitude,
-          url: event.browser_url,
-          source: 'mobilize'
-        };
-      })
-    );
+          const cutoffTime = new Date(CONFIG.startDate || Date.now()).getTime();
+          const processedEvents = await processMobilizeEvents(allMobilizeEvents, cutoffTime);
 
-    console.log(`Mobilize events fetched and mapped: ${mobilizeMapped.length}`);
+          // Only include those marked as "included"
+          const includedEvents = processedEvents.filter(e => e.action === 'included');
 
-    // --- Load manually added protests ---
-    const protestsJsonRaw = await fs.readFile(MANUAL_PROTESTS_PATH, 'utf-8');
-    const manualProtests = JSON.parse(protestsJsonRaw);
-
-    const manualFutureProtests = manualProtests.filter(event =>
-      new Date(event.date).getTime() > now
-    );
-
-    console.log(`Manual protests loaded: ${manualFutureProtests.length}`);
-
-    // --- Load BLOP events from cache ---
-    let blopEvents = [];
-    try {
-      const blopRaw = await fs.readFile(path.join(__dirname, '../data/processed/blop-events.json'), 'utf8');
-      blopEvents = JSON.parse(blopRaw).filter(event =>
-        new Date(event.date).getTime() > now
-      );
-      console.log(`BLOP events loaded from cache: ${blopEvents.length}`);
-      console.log('Sample BLOP event:', blopEvents[0]);
-    } catch (err) {
-      console.warn('⚠️ Could not load blop-events.json:', err.message);
+          combinedEvents.push(...includedEvents);
+      } catch (err) {
+          console.error('❌ Error loading Mobilize chunks:', err);
+      }
     }
 
-    // --- Merge all sources ---
-    const combinedEvents = [
-      ...mobilizeMapped.filter(Boolean),
-      ...manualFutureProtests,
-      ...blopEvents
-    ];
+    // --- Manual ---
+    if (CONFIG.includeManual) {
+      try {
+        const raw = await fs.readFile(MANUAL_PROTESTS_PATH, 'utf-8');
+        const parsed = JSON.parse(raw);
+
+        const cutoff = new Date(CONFIG.startDate || Date.now());
+        cutoff.setHours(0, 0, 0, 0);
+
+        const filtered = parsed.filter(e => {
+          const eventDate = new Date(e.date);
+          eventDate.setHours(0, 0, 0, 0);
+          if (isNaN(eventDate)) return false;
+          return shouldIncludeEvent(e.date);
+        });
+
+        combinedEvents.push(...filtered);
+      } catch (err) {
+        console.warn('⚠️ Could not load manual protests:', err.message);
+      }
+    }
+
+    // --- BLOP ---
+    if (CONFIG.includeBlop) {
+      try {
+        const blopRaw = await fs.readFile(CACHE_PATH, 'utf8');
+        const parsed = JSON.parse(blopRaw);
+
+        const cutoff = new Date(CONFIG.startDate || Date.now());
+        cutoff.setHours(0, 0, 0, 0);
+
+        const filtered = parsed.filter(e => {
+          const eventDate = new Date(e.date);
+          eventDate.setHours(0, 0, 0, 0);
+          if (isNaN(eventDate)) return false;
+          return eventDate >= cutoff;
+        });
+
+        combinedEvents.push(...filtered);
+      } catch (err) {
+        console.warn('⚠️ Could not load blop-events.json:', err.message);
+      }
+    }
 
     combinedEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
-
-    console.log(`Combined total events to send: ${combinedEvents.length}`);
-
     res.json(combinedEvents);
   } catch (error) {
     console.error('Error processing events:', error);
@@ -168,96 +141,44 @@ app.get('/events', async (req, res) => {
   }
 });
 
-app.get('/api/blop-events', async (req, res) => {
+// === Diagnostics Route ===
+app.get('/mobilize-diagnostics', async (req, res) => {
   try {
-    const events = JSON.parse(await fs.readFile(path.join(__dirname, '../data/processed/blop-events.json'), 'utf8'));
-    res.json(events);
+      const files = await fs.readdir('./data/raw');
+      const chunkFiles = files.filter(f => f.startsWith('all-mobilize-page') && f.endsWith('.json'));
+
+      let allEvents = [];
+      for (const file of chunkFiles) {
+          console.log(`📂 Reading diagnostics chunk ${file}`);
+          const raw = await fs.readFile(`./data/raw/${file}`, 'utf-8');
+          const events = JSON.parse(raw);
+          allEvents.push(...events);
+      }
+
+      const cutoffTime = new Date(CONFIG.startDate || Date.now()).getTime();
+      const processedEvents = await processMobilizeEvents(allEvents, cutoffTime);
+
+      console.log(`✅ Loaded ${processedEvents.length} events for diagnostics`);
+
+      const counts = processedEvents.reduce((acc, e) => {
+          acc[e.action] = (acc[e.action] || 0) + 1;
+          return acc;
+      }, {});
+
+      res.json({
+          total: processedEvents.length,
+          counts,
+          events: processedEvents,
+      });
+
   } catch (err) {
-    console.error('Failed to load blop-events.json:', err);
-    res.status(500).json({ error: 'Could not load events' });
-  }
-});
-
-// --- Add New Event ---
-app.post('/add-event', async (req, res) => {
-  try {
-    const newEvent = req.body;
-    const fileData = await fs.readFile(MANUAL_PROTESTS_PATH, 'utf-8');
-    const existingEvents = JSON.parse(fileData);
-
-    existingEvents.push(newEvent);
-
-    await fs.writeFile(MANUAL_PROTESTS_PATH, JSON.stringify(existingEvents, null, 2));
-    console.log('Saved new event:', newEvent.title);
-
-    res.status(200).json({ message: 'Event saved!' });
-  } catch (err) {
-    console.error('Error saving new event:', err);
-    res.status(500).json({ error: 'Failed to save event' });
-  }
-});
-
-// --- Admin: Pending Events ---
-app.get('/pending-events', async (req, res) => {
-  try {
-    const events = JSON.parse(await fs.readFile(MANUAL_PROTESTS_PATH, 'utf8'))
-    const pendingEvents = events.filter(event => event.approved === false);
-    res.json(pendingEvents);
-  } catch (err) {
-    console.error('Error reading pending events:', err);
-    res.status(500).json({ error: 'Failed to read pending events' });
-  }
-});
-
-// --- Admin: Approve Event ---
-app.post('/approve-event', async (req, res) => {
-  const { id, title, location, date, latitude, longitude, approved } = req.body;
-
-  try {
-    const events = JSON.parse(await fs.readFile(MANUAL_PROTESTS_PATH, 'utf8'));
-    const index = events.findIndex(event => event.id === id);
-    
-    if (index === -1) {
-      return res.status(404).json({ message: 'Event not found' });
-    }
-
-    events[index] = {
-      ...events[index], // keep all existing fields
-      title,
-      location,
-      date,
-      latitude,
-      longitude,
-      approved
-    };
-
-    console.log('Writing manual protests...');
-    await fs.writeFile(MANUAL_PROTESTS_PATH, JSON.stringify(events, null, 2));
-    console.log('Done writing manual protests');
-    res.json({ message: 'Event approved.' });
-  } catch (err) {
-    console.error('Error approving event:', err);
-    res.status(500).json({ error: 'Failed to approve event' });
-  }
-});
-
-// --- Admin: Delete Event ---
-app.post('/delete-event', async (req, res) => {
-  const { id } = req.body;
-
-  try {
-    const events = JSON.parse(await fs.readFile(MANUAL_PROTESTS_PATH, 'utf8'));
-    const updatedEvents = events.filter(event => event.id !== id);
-
-    await fs.writeFile(MANUAL_PROTESTS_PATH, JSON.stringify(updatedEvents, null, 2));
-    res.json({ message: 'Event deleted.' });
-  } catch (err) {
-    console.error('Error deleting event:', err);
-    res.status(500).json({ error: 'Failed to delete event' });
+      console.error('❌ Error loading diagnostics data:', err);
+      res.status(500).json({ error: 'Failed to load diagnostics data' });
   }
 });
 
 // === START SERVER ===
+app.use(express.static(path.join(__dirname, '..', 'public')));
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });

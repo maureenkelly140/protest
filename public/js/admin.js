@@ -3,6 +3,20 @@ const API_BASE_URL = window.location.hostname === 'localhost'
   ? 'http://localhost:3001'
   : 'https://protest-finder.onrender.com';
 
+app.post('/geocode', async (req, res) => {
+  const { address } = req.body;
+  if (!address) return res.status(400).json({ error: 'Missing address' });
+
+  try {
+    const geo = await geocodeAddress(address);
+    if (!geo) return res.status(404).json({ error: 'Address not found' });
+    res.json(geo);
+  } catch (err) {
+    console.error('Geocoding error:', err.message);
+    res.status(500).json({ error: 'Failed to geocode address' });
+  }
+});
+
 // === MAIN FUNCTIONS ===
 
 // Load all pending events into the table
@@ -60,14 +74,12 @@ async function approveEvent(event, row) {
 
   try {
     // === Geocode the updated location ===
-    const geoResult = await geocodeAddress(updatedLocation);
-
-    if (!geoResult) {
-      alert('Could not geocode the updated address. Please double-check it.');
-      return;
-    }
-
-    const { latitude, longitude } = geoResult;
+    const geoRes = await fetch(`${API_BASE_URL}/geocode`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ address: updatedLocation })
+    });
+    const geoResult = geoRes.ok ? await geoRes.json() : null;    
 
     const res = await fetch(`${API_BASE_URL}/approve-event`, {
       method: 'POST',
@@ -141,31 +153,6 @@ function formatLocalDate(isoDateString) {
     dateStyle: 'short',
     timeStyle: 'short'
   });
-}
-
-// Helper: Geocode an address using Nominatim
-async function geocodeAddress(address) {
-  const encodedAddress = encodeURIComponent(address);
-  const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodedAddress}`;
-
-  try {
-    const res = await fetch(url, {
-      headers: { 'User-Agent': 'ProtestFinderAdmin/1.0' }
-    });
-    const data = await res.json();
-    if (data.length > 0) {
-      return {
-        latitude: parseFloat(data[0].lat),
-        longitude: parseFloat(data[0].lon)
-      };
-    } else {
-      console.warn('No geocoding result for address:', address);
-      return null;
-    }
-  } catch (err) {
-    console.error('Geocoding failed for address:', address, err);
-    return null;
-  }
 }
 
 // === New View Map Handler ===
