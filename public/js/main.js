@@ -10,7 +10,9 @@ let currentDateFilter = 'all';
 let searchKeyword = '';
 
 // === MAP SETUP ===
-const map = L.map('map', { zoomControl: false }).setView([39.8283, -98.5795], 4);
+const map = L.map('map', { zoomControl: false, maxZoom: 18 }).setView([39.8283, -98.5795], 4);
+const markerClusterGroup = L.markerClusterGroup();
+map.addLayer(markerClusterGroup);
 L.control.zoom({ position: 'bottomleft' }).addTo(map);
 L.tileLayer('https://api.maptiler.com/maps/basic-v2/{z}/{x}/{y}.png?key=MEOZ1SILbWpzsJ65uy1u', {
   tileSize: 512,
@@ -111,6 +113,7 @@ function filterVisibleEvents() {
 function clearMarkersAndList() {
   eventMarkers.forEach(marker => map.removeLayer(marker));
   eventMarkers.clear();
+  markerClusterGroup.clearLayers();
   document.getElementById('events').innerHTML = '';
 }
 
@@ -130,9 +133,10 @@ function showSkeletonLoader(count = 5) {
 }
 
 function createEventMarker(ev) {
-  const marker = L.marker([ev.latitude, ev.longitude], { icon: normalIcon }).addTo(map).bindPopup(
+  const marker = L.marker([ev.latitude, ev.longitude], { icon: normalIcon }).bindPopup(
     `<b>${ev.title}</b><br>${formatLocationClient(ev.location)}<br>${formatDateTime(ev.date).friendlyDate} at ${formatDateTime(ev.date).friendlyTime}<br><a href="${formatEventUrl(ev.url)}" target="_blank">View Details</a>`
   );
+  markerClusterGroup.addLayer(marker);
   eventMarkers.set(ev, marker);
 }
 
