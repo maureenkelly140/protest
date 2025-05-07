@@ -92,6 +92,7 @@ async function processMobilizeEvents(rawEvents, cutoffTime) {
       latitude,
       longitude,
       date: new Date(nextTimeslot.start_date * 1000).toISOString(),
+      url: event.browser_url || event.url || '',
       action: 'included'
     });
   }
