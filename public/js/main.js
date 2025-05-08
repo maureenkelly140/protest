@@ -227,5 +227,128 @@ map.on('moveend', () => {
   }
 });
 
+// Copy Events Button
+
+document.getElementById('btn-copy').addEventListener('click', () => {
+  const visible = filterVisibleEvents();
+  
+  if (visible.length === 0) {
+    $('#btn-copy').tooltipster('content', 'No events!');
+    setTimeout(() => {
+      $('#btn-copy').tooltipster('content', 'Copy');
+    }, 2000);
+    return;
+  }
+
+  // Helper function
+  function getReadableLocation(loc) {
+    if (typeof loc === 'string') return loc;
+    if (typeof loc === 'object' && loc !== null) {
+      const parts = [
+        loc.venue,
+        ...(loc.address_lines || []),
+        loc.locality,
+        loc.region
+      ];
+      return parts.filter(Boolean).join(', ');
+    }
+    return 'Unknown location';
+  }
+
+  // Group by date
+  const grouped = {};
+  visible.forEach(ev => {
+    const dateStr = new Date(ev.date).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+    if (!grouped[dateStr]) grouped[dateStr] = [];
+    grouped[dateStr].push(ev);
+  });
+
+  let text = '';
+  Object.keys(grouped).forEach(date => {
+    text += `${date}\n\n`;
+    grouped[date].forEach(ev => {
+      const time = new Date(ev.date).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+      const location = getReadableLocation(ev.location);
+      text += `• ${ev.title} (${time})\n  ${ev.url}\n\n`;
+    });
+  });
+
+  
+});
+
+document.getElementById('btn-copy').addEventListener('click', async () => {
+  const visibleEvents = filterVisibleEvents();  // get currently filtered/visible events
+  if (visibleEvents.length === 0) {
+    alert('No events to copy!');
+    return;
+  }
+
+  const groupedByDate = {};
+  visibleEvents.forEach(ev => {
+    const date = new Date(ev.date).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+    if (!groupedByDate[date]) groupedByDate[date] = [];
+    groupedByDate[date].push(ev);
+  });
+
+  let htmlContent = '';
+  let plainContent = '';
+
+  for (const date in groupedByDate) {
+    htmlContent += `<b>${date}</b><br><ul>`;
+    plainContent += `${date}\n`;
+
+    groupedByDate[date].forEach(ev => {
+      const time = new Date(ev.date).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+    
+      let city = ev.city || (ev.location?.locality) || 'Unknown city';
+    
+      let address = 'Unknown address';
+      if (typeof ev.location === 'string') {
+        address = ev.location;
+      } else if (typeof ev.location === 'object' && ev.location !== null) {
+        address = [
+          ev.location.venue,
+          ...(ev.location.address_lines || []),
+          ev.location.locality,
+          ev.location.region,
+          ev.location.postal_code,
+          ev.location.country
+        ].filter(Boolean).join(', ');
+      }
+    
+      htmlContent += `<li>${city} - <a href="${ev.url}">${ev.title}</a> - ${time} @ ${address}</li>`;
+      plainContent += `• ${city} - ${ev.title} - ${time} @ ${address}\n`;
+    });
+
+    htmlContent += '</ul>';
+    plainContent += '\n';
+  }
+
+  htmlContent += `<i>Created with <a href="https://protestfinder.net">protestfinder.net</a></i>`;
+  plainContent += `Created with protestfinder.net`;
+
+  try {
+    await navigator.clipboard.write([
+      new ClipboardItem({
+        'text/plain': new Blob([plainContent], { type: 'text/plain' }),
+        'text/html': new Blob([htmlContent], { type: 'text/html' }),
+      })
+    ]);
+  
+    // ✅ SUCCESS → update button text/icon
+    $('#btn-copy .icon').html("check");
+    $('#btn-copy .text').html("Copied!");
+    setTimeout(() => {
+      $('#btn-copy .icon').html("content_copy");
+      $('#btn-copy .text').html("Copy");
+    }, 5000);
+  
+    console.log('✅ Events copied to clipboard');
+  } catch (err) {
+    console.error('❌ Failed to copy:', err);
+    alert('Failed to copy events to clipboard.');
+  }
+});
+
 // === INITIAL LOAD ===
 fetchEvents();

@@ -43,6 +43,16 @@ input {
     
 }
 
+.btn-sm {
+    height: 32px;
+    padding: 0 .75rem;
+    font-size: .75rem;
+}
+
+.btn .icon {
+    margin-right: 4px;
+}
+
 .btn:hover {
     background-color: #346ea4;
 }
@@ -200,15 +210,30 @@ h1 {
 }
 
 #col1-footer {
-    flex: 0 0 40px;
+    flex: 0 0 50px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 0 20px;
     background-color: #eaeaea;
     font-size: .75rem;
     color: #666;
 
+}
+
+#col1-footer .btn {
+    background-color: transparent;
+    color: #666;
+    margin-left: -4px;
+}
+
+#col1-footer .btn:hover {
+    background-color: rgba(0,0,0,.08);
+}
+
+#col1-footer .material-symbols-outlined {
+    font-size: 18px;
+    color: #666;
 }
 
 button {

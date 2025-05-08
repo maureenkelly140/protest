@@ -69,6 +69,7 @@ async function processBlopEvents() {
         title,
         date: date.toISOString(),
         location,
+        city: row['City'] || '',
         latitude: geocache[uuid].latitude,
         longitude: geocache[uuid].longitude,
         url: finalUrl,

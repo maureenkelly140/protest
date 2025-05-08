@@ -89,6 +89,7 @@ async function processMobilizeEvents(rawEvents, cutoffTime) {
 
     results.push({
       ...event,
+      city: event.location?.locality || '',
       latitude,
       longitude,
       date: new Date(nextTimeslot.start_date * 1000).toISOString(),
