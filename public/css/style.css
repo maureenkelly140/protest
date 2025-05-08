@@ -93,10 +93,11 @@ input {
     background-color: #eaeaea;
 }
 
-
+/* For now, hide Add Event button */
 
 #add-event-btn {
     background-color:rgba(255,255,255,.2); 
+    display: none;
 }
 
 #add-event-btn:hover {
