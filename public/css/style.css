@@ -109,6 +109,10 @@ input {
     background-color:rgba(255,255,255,.2); 
 }
 
+#add-event-btn.hidden {
+    display: none;
+}
+
 #add-event-btn:hover {
     background-color:rgba(255,255,255,.3); 
 }

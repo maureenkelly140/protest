@@ -370,6 +370,11 @@ document.getElementById('modal-overlay').addEventListener('click', (e) => {
 });
 
 // === FORM SUBMISSION ===
+
+if (window.location.href.indexOf("let-me-add") > -1) {
+  document.getElementById('add-event-btn').classList.remove('hidden');
+}
+
 document.getElementById('event-form').addEventListener('submit', async (e) => {
   e.preventDefault();
 
