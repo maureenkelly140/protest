@@ -1,10 +1,14 @@
 #!/bin/bash
 
 # === fetch-blop.sh ===
-# Downloads the latest Blop event CSV from Google Sheets and saves it to data/raw/blop-latest.csv.
-# Used by parse-blop.js to generate blop-events.json for the protest finder site.
+# Downloads the latest Blop event CSV from Google Sheets 
+# and saves it to data/raw/blop-latest.csv.
 #
-# To run this script:
+# NOTE: This script was part of an older workflow that used parse-blop.js.
+# The current preferred pipeline is update-blop-all.sh, 
+# which handles fetching, processing, and uploading to S3.
+#
+# To run manually (if needed):
 #   cd server
 #   bash fetch-blop.sh
 

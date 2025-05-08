@@ -1,8 +1,7 @@
 // === SETUP ===
 require('dotenv').config();
 
-console.log('Mobilize API Key:', process.env.MOBILIZE_API_KEY);
-
+const https = require('https');
 const express = require('express');
 const fetch = require('node-fetch');
 const fs = require('fs').promises;
@@ -15,7 +14,6 @@ const { formatLocation } = require('./utils/format');
 
 const Papa = require('papaparse');
 const MANUAL_PROTESTS_PATH = path.join(__dirname, '../data/processed/manual-protests.json');
-const CACHE_PATH = path.join(__dirname, '../data/processed/blop-events.json');
 const GEOCACHE_PATH = path.join(__dirname, '../data/cache/blop-geocache.json');
 
 const { geocodeAddress } = require('./utils/geocode');
@@ -60,32 +58,23 @@ app.get('/events', async (req, res) => {
     const now = Date.now();
     let combinedEvents = [];
 
-    // --- Mobilize (from local chunked files) ---
+    // --- Mobilize ---
+    const MOBILIZE_S3_URL = 'https://my-protest-finder-data.s3.us-west-1.amazonaws.com/processed/mobilize-events.json';
+    
     if (CONFIG.includeMobilize) {
       try {
-          const chunkDir = path.join(__dirname, '../data/raw');
-          const files = await fs.readdir(chunkDir);
-          const mobilizeFiles = files.filter(f => f.startsWith('all-mobilize-page') && f.endsWith('.json'));
+        const mobilizeData = await new Promise((resolve, reject) => {
+          https.get(MOBILIZE_S3_URL, res => {
+            let data = '';
+            res.on('data', chunk => data += chunk);
+            res.on('end', () => resolve(JSON.parse(data)));
+          }).on('error', reject);
+        });
 
-          let allMobilizeEvents = [];
-          for (const file of mobilizeFiles) {
-              console.log(`📂 Reading ${file}`);
-              const raw = await fs.readFile(path.join(chunkDir, file), 'utf-8');
-              const parsed = JSON.parse(raw);
-              allMobilizeEvents.push(...parsed);
-          }
-
-          console.log(`✅ Loaded total ${allMobilizeEvents.length} Mobilize events from chunks`);
-
-          const cutoffTime = new Date(CONFIG.startDate || Date.now()).getTime();
-          const processedEvents = await processMobilizeEvents(allMobilizeEvents, cutoffTime);
-
-          // Only include those marked as "included"
-          const includedEvents = processedEvents.filter(e => e.action === 'included');
-
-          combinedEvents.push(...includedEvents);
+        console.log(`✅ Loaded ${mobilizeData.length} Mobilize events from S3`);
+        combinedEvents.push(...mobilizeData);
       } catch (err) {
-          console.error('❌ Error loading Mobilize chunks:', err);
+        console.warn('⚠️ Could not load Mobilize events from S3:', err.message);
       }
     }
 
@@ -111,11 +100,12 @@ app.get('/events', async (req, res) => {
       }
     }
 
-    // --- BLOP ---
+    // --- BLOP (from S3) ---
     if (CONFIG.includeBlop) {
       try {
-        const blopRaw = await fs.readFile(CACHE_PATH, 'utf8');
-        const parsed = JSON.parse(blopRaw);
+        const response = await fetch('https://my-protest-finder-data.s3.us-west-1.amazonaws.com/processed/blop-events.json');
+        if (!response.ok) throw new Error('Failed to fetch blop-events.json from S3');
+        const parsed = await response.json();
 
         const cutoff = new Date(CONFIG.startDate || Date.now());
         cutoff.setHours(0, 0, 0, 0);
@@ -129,7 +119,7 @@ app.get('/events', async (req, res) => {
 
         combinedEvents.push(...filtered);
       } catch (err) {
-        console.warn('⚠️ Could not load blop-events.json:', err.message);
+        console.warn('⚠️ Could not load blop-events.json from S3:', err.message);
       }
     }
 
