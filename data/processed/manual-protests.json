@@ -1,11 +1,98 @@
 [
   {
-    "title": "Stand up for Science and Santiy",
-    "date": "2025-09-01T19:00:00Z",
-    "location": "Lytton Plaza, 200 University Avenue Palo Alto, CA 94301",
-    "latitude": null,
-    "longitude": null,
-    "url": "https://www.eventbrite.com/e/protest-stand-up-for-science-and-sanity-tickets-1332687747929",
-    "approved": false
+    "title": "Los Gatos #TeslaTakedown",
+    "date": "2025-05-10T17:00:00.000Z",
+    "location": "15500 Los Gatos Blvd, Los Gatos, CA 95032",
+    "latitude": 37.2433259,
+    "longitude": -121.959221,
+    "url": "https://actionnetwork.org/events/los-gatos-teslatakedown-3"
+  },
+  {
+    "title": "Santana Row Telsa Takedown",
+    "date": "2025-05-10T17:00:00.000Z",
+    "location": "Stevens Creek Blvd & Winchester Blvd, Santa Clara, CA",
+    "latitude": 37.3223635,
+    "longitude": -121.9503278,
+    "url": " https://actionnetwork.org/events/santana-row-tesla-showroom-3"
+  },
+  {
+    "title": "Peaceful Tesla Boycott Banner Brigade",
+    "date": "2025-05-10T19:00:00.000Z",
+    "location": "201 Casa Buena Drive, Corte Madera, CA 94925",
+    "latitude": 37.9242456,
+    "longitude": -122.5145935,
+    "url": "https://actionnetwork.org/events/peaceful-tesla-boycott-banner-brigade"
+  },
+  {
+    "title": "Dublin Boycott Tesla Protest: Stop Musk-DOGE Takeover",
+    "date": "2025-05-10T19:00:00.000Z",
+    "location": "6701 Amador Plaza Rd, Dublin, CA",
+    "latitude": 37.7027365,
+    "longitude": -121.9249152,
+    "url": "https://actionnetwork.org/events/dublin-boycott-tesla-protest-stop-musk-doge-takeover-2"
+  },
+  {
+    "title": "Protest Elon Musk's illegal government takeover",
+    "date": "2025-05-10T21:00:00.000Z",
+    "location": "770 E El Camino Real, Sunnyvale, CA",
+    "latitude": 37.3569536,
+    "longitude": -122.0194069,
+    "url": "https://actionnetwork.org/events/protest-elon-musks-illegal-government-takeover-14"
+  },
+  {
+    "title": "Veterans TeslaTakedown",
+    "date": "2025-05-10T22:00:00.000Z",
+    "location": "201 Casa Buena Drive, Corte Madera, CA",
+    "latitude": 37.9242456,
+    "longitude": -122.5145935,
+    "url": "https://actionnetwork.org/events/veterans-teslatakedown-10"
+  },
+  {
+    "title": "Moms Against Musk: A Mother’s Day Rally for Care, Not Cuts",
+    "date": "2025-05-11T17:30:00.000Z",
+    "location": "511 S Monroe St, San Jose, CA",
+    "latitude": 37.3181705,
+    "longitude": -121.9437182,
+    "url": "https://latinascontracancer.jotform.com/251187888162973"
+  },
+  {
+    "title": "Mothers Day Peaceful Protest at Tesla Dealership",
+    "date": "2025-05-11T21:00:00.000Z",
+    "location": "201 Casa Buena Dr, Corte Madera, CA",
+    "latitude": 37.9242456,
+    "longitude": -122.5145935,
+    "url": "https://actionnetwork.org/events/testlatakedown-peaceful-protest-at-tesla-dealership-12/"
+  },
+  {
+    "title": "Free Palestine",
+    "date": "2025-05-10T18:00:00.000Z",
+    "location": "Ocean & Water Street, Santa Cruz, CA",
+    "latitude": 36.9788909,
+    "longitude": -122.021225,
+    "url": "https://www.indybay.org/newsitems/2025/05/06/18876215.php"
+  },
+  {
+    "title": "19th Annual Mothers Day Golden Gate Bridge Walk for Peace",
+    "date": "2025-05-11T19:00:00.000Z",
+    "location": "Golden Gate Bridge Plaza, San Francisco, CA",
+    "latitude": 37.8073157,
+    "longitude": -122.475105,
+    "url": "https://www.indybay.org/newsitems/2025/05/02/18876105.php"
+  },
+  {
+    "title": "San Mateo - Protest for our Democracy!",
+    "date": "2025-05-10T18:30:00.000Z",
+    "location": "1528 S El Camino Real",
+    "latitude": 37.5532798,
+    "longitude": -122.3156589,
+    "url": "https://www.mobilize.us/mobilize/event/786319/?force_banner=true&share_context=event_details&share_medium=copy_link"
+  },
+  {
+    "title": "Stand Up for Science and Sanity",
+    "date": "2025-05-09T19:00:00.000Z",
+    "location": "200 University Avenue Palo Alto, CA",
+    "latitude": 37.444731,
+    "longitude": -122.162595,
+    "url": "https://www.eventbrite.com/e/protest-stand-up-for-science-and-sanity-tickets-1332687747929"
   }
 ]

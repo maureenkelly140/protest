@@ -167,6 +167,23 @@ app.get('/mobilize-diagnostics', async (req, res) => {
   }
 });
 
+// === Add Event Form ===
+app.post('/add-event', async (req, res) => {
+  try {
+    const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
+    const manualEventsRaw = await fs.readFile(manualFilePath, 'utf-8');
+    const manualEvents = JSON.parse(manualEventsRaw);
+
+    manualEvents.push(req.body);
+
+    await fs.writeFile(manualFilePath, JSON.stringify(manualEvents, null, 2));
+    res.json({ message: 'Event saved!' });
+  } catch (err) {
+    console.error('❌ Failed to save event:', err);
+    res.status(500).json({ error: 'Failed to save event' });
+  }
+});
+
 // === START SERVER ===
 app.use(express.static(path.join(__dirname, '..', 'public')));
 app.listen(PORT, () => {

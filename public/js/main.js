@@ -140,9 +140,6 @@ function createEventMarker(ev) {
   eventMarkers.set(ev, marker);
 }
 
-
-
-
 function renderVisibleEvents(list) {
   const container = document.getElementById('events');
   const counter = document.getElementById('event-counter');
@@ -348,6 +345,130 @@ document.getElementById('btn-copy').addEventListener('click', async () => {
     console.error('❌ Failed to copy:', err);
     alert('Failed to copy events to clipboard.');
   }
+});
+
+// Modal open/close
+document.getElementById('add-event-btn').addEventListener('click', () => {
+  document.getElementById('modal-overlay').classList.add('active');
+  document.getElementById('modal-overlay').classList.remove('hidden');
+});
+
+document.getElementById('close-modal').addEventListener('click', () => {
+  document.getElementById('modal-overlay').classList.remove('active');
+  setTimeout(() => {
+    document.getElementById('modal-overlay').classList.add('hidden');
+  }, 300);
+});
+
+document.getElementById('modal-overlay').addEventListener('click', (e) => {
+  if (e.target.className === 'backdrop') {
+    document.getElementById('modal-overlay').classList.remove('active');
+    setTimeout(() => {
+      document.getElementById('modal-overlay').classList.add('hidden');
+    }, 300);
+  }
+});
+
+// === FORM SUBMISSION ===
+document.getElementById('event-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+
+  const title = document.getElementById('title').value;
+  const dateInput = document.getElementById('date').value;
+
+  const hour = document.getElementById('start-hour').value;
+  const minute = document.getElementById('start-minute').value;
+  const ampm = document.getElementById('start-ampm').value;
+
+  const timeInput = `${hour}:${minute} ${ampm}`;
+
+  function convertTo24Hour(time12h) {
+    const [time, modifier] = time12h.split(' ');
+    let [hours, minutes] = time.split(':');
+
+    if (hours === '12') {
+      hours = '00';
+    }
+
+    if (modifier === 'PM') {
+      hours = parseInt(hours, 10) + 12;
+    }
+
+    return `${hours}:${minutes}`;
+  }
+
+  const time24h = convertTo24Hour(timeInput);
+
+  // Local date construction:
+  const [year, month, day] = dateInput.split('-');
+  const [hours, minutes] = time24h.split(':');
+
+  const fullDateTime = new Date(
+    parseInt(year),
+    parseInt(month) - 1, // JS months are 0-indexed
+    parseInt(day),
+    parseInt(hours),
+    parseInt(minutes)
+  );
+
+  const address = document.getElementById('address').value;
+  const url = document.getElementById('url').value;
+
+  try {
+    const encodedAddress = encodeURIComponent(address);
+    const geocodeUrl = `https://nominatim.openstreetmap.org/search?format=json&q=${encodedAddress}`;
+    const res = await fetch(geocodeUrl);
+    const data = await res.json();
+
+    if (data.length === 0) {
+      alert('Location not found. Please try a more specific address.');
+      return;
+    }
+
+    const latitude = parseFloat(data[0].lat);
+    const longitude = parseFloat(data[0].lon);
+
+    const newEvent = {
+      title,
+      date: fullDateTime.toISOString(false),
+      location: address,
+      latitude,
+      longitude,
+      url
+    };
+
+    console.log("New event added:", newEvent);
+
+    try {
+        const saveRes = await fetch('http://localhost:3001/add-event', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(newEvent)
+        });
+  
+        const result = await saveRes.json();
+        console.log(result.message); // "Event saved!"
+      } catch (err) {
+        console.error('Error saving event:', err);
+    }
+
+    fetchedEvents.push(newEvent);
+
+    createEventMarker(newEvent);
+
+    updateVisibleEvents();
+
+    document.getElementById('modal-overlay').classList.remove('active');
+    setTimeout(() => {
+      document.getElementById('modal-overlay').classList.add('hidden');
+    }, 300);
+
+    e.target.reset();
+
+  } catch (err) {
+    console.error("Error during geocoding:", err);
+    alert('Something went wrong. Please try again.');
+  } 
 });
 
 // === INITIAL LOAD ===
