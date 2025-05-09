@@ -1,9 +1,14 @@
 /**
  * process-all.js
  *
- * This script runs all processing pipelines:
- * - Mobilize
- * - Blop
+ * This script runs the **full data pipeline**:
+ * 1. Fetch latest raw data:
+ *    - Mobilize (via fetch-mobilize.js)
+ *    - Blop (via update-blop-all.sh)
+ *
+ * 2. Process and upload events:
+ *    - Mobilize (via process-mobilize.js → local + S3)
+ *    - Blop (via process-blop.js → local + S3)
  *
  * Manual events are assumed to already exist as:
  *   data/processed/manual-protests.json
@@ -16,16 +21,20 @@ const { execSync } = require('child_process');
 
 async function run() {
   try {
+    console.log('🚀 Fetching Mobilize raw data...');
+    execSync('node scripts/fetch-mobilize.js', { stdio: 'inherit' });
+
     console.log('🚀 Processing Mobilize events...');
     execSync('node scripts/process-mobilize.js', { stdio: 'inherit' });
 
-    console.log('🚀 Processing Blop events...');
-    execSync('node scripts/process-blop.js', { stdio: 'inherit' });
+    console.log('🚀 Updating Blop raw data...');
+    execSync('bash scripts/update-blop-all.sh', { stdio: 'inherit' });
 
-    console.log('✅ All event sources processed successfully.');
+    console.log('✅ All event sources fetched, processed, and uploaded successfully.');
   } catch (err) {
     console.error('❌ Error running process-all:', err);
   }
 }
 
 run();
+

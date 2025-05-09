@@ -3,23 +3,20 @@ set -e
 
 # === update-blop-all.sh ===
 # Runs the full Blop pipeline:
-# 1. Fetch latest CSV from Google Sheets
-# 2. Process it into JSON
-# 3. Upload to S3
+# 1. Fetch latest CSV (and upload to S3)
+# 2. Process it into JSON (which uploads separately)
 
+# Determine project root relative to this script
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+PROJECT_ROOT="$SCRIPT_DIR/.."
 
 # Load environment variables
-source ../.env
+source "$PROJECT_ROOT/.env"
 
 echo "🌐 Fetching latest Blop CSV..."
-curl -L -o ../data/raw/blop-latest.csv \
-  -H "User-Agent: Mozilla/5.0" \
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vT4ejObVvtY9C-dAH5wmUFDOW3K6uRGT6SCZPmr2ZPD1Sh-wb9OEeLj-lvqlUD-MFoDFof4cLGamxlz/pub?gid=0&single=true&output=csv"
+node "$PROJECT_ROOT/scripts/fetch-blop.js"
 
 echo "🔧 Processing Blop CSV into JSON..."
-node process-blop.js
-
-echo "📤 Uploading processed JSON to S3..."
-node upload-processed-to-s3.js
+node "$PROJECT_ROOT/scripts/process-blop.js"
 
 echo "✅ All done!"

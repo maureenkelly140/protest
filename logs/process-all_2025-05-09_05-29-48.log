@@ -1,0 +1,41 @@
+=== Running process-all at 2025-05-09_05-29-48 ===
+🚀 Processing Mobilize events...
+(node:47196) NOTE: The AWS SDK for JavaScript (v2) is in maintenance mode.
+ SDK releases are limited to address critical bug fixes and security issues only.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+📂 Reading all-mobilize-page1.json
+📂 Reading all-mobilize-page10.json
+📂 Reading all-mobilize-page11.json
+📂 Reading all-mobilize-page12.json
+📂 Reading all-mobilize-page13.json
+📂 Reading all-mobilize-page14.json
+📂 Reading all-mobilize-page15.json
+📂 Reading all-mobilize-page16.json
+📂 Reading all-mobilize-page17.json
+📂 Reading all-mobilize-page18.json
+📂 Reading all-mobilize-page19.json
+📂 Reading all-mobilize-page2.json
+📂 Reading all-mobilize-page20.json
+📂 Reading all-mobilize-page21.json
+📂 Reading all-mobilize-page22.json
+📂 Reading all-mobilize-page23.json
+📂 Reading all-mobilize-page24.json
+📂 Reading all-mobilize-page25.json
+📂 Reading all-mobilize-page26.json
+📂 Reading all-mobilize-page27.json
+📂 Reading all-mobilize-page3.json
+📂 Reading all-mobilize-page4.json
+📂 Reading all-mobilize-page5.json
+📂 Reading all-mobilize-page6.json
+📂 Reading all-mobilize-page7.json
+📂 Reading all-mobilize-page8.json
+📂 Reading all-mobilize-page9.json
+✅ Saved 748 processed Mobilize events locally at /Users/admin/Documents/protests/data/processed/mobilize-events.json
+✅ Uploaded processed/mobilize-events.json to S3 bucket my-protest-finder-data
+🚀 Processing Blop events...
+✅ Processed BLOP events saved: 19
+✅ All event sources processed successfully.
+=== Finished process-all at 2025-05-09_05-29-54 ===

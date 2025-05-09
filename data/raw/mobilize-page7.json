@@ -1,1322 +1,5 @@
 [
   {
-    "title": "Introduction to Organizing",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/lcvchispa/",
-      "created_date": 1714596141,
-      "modified_date": 1744699960,
-      "org_type": "C4",
-      "id": 37943,
-      "name": "Chispa National",
-      "slug": "lcvchispa",
-      "is_coordinated": false,
-      "is_independent": true,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Chispa%20National%20LCV%20Logo-%20Tagline_20240522151915753161.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/19_20250305220208158812.png",
-    "timeslots": [
-      {
-        "start_date": 1749164400,
-        "end_date": 1749169800,
-        "instructions": null,
-        "id": 5226002,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "",
-        ""
-      ],
-      "locality": "",
-      "region": "",
-      "country": "US",
-      "postal_code": "",
-      "location": {
-        "latitude": null,
-        "longitude": null
-      },
-      "congressional_district": null,
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "TRAINING",
-    "created_date": 1741212143,
-    "modified_date": 1741221291,
-    "browser_url": "https://www.mobilize.us/lcvchispa/event/761330/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "ACCESSIBLE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 761330,
-    "description": "What sets grassroots organizing apart from other social justice pathways? Join to understand Chispa Texas’ approach to organizing and hear from a powerful panel of organizers working in the environmental justice and climate justice space. If you are interested in power that is driven by the communities impacted, attend to deepen your understanding of community organizing.",
-    "timezone": "America/Chicago",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": true
-  },
-  {
-    "title": "House Meeting Training",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/lcvchispa/",
-      "created_date": 1714596141,
-      "modified_date": 1744699960,
-      "org_type": "C4",
-      "id": 37943,
-      "name": "Chispa National",
-      "slug": "lcvchispa",
-      "is_coordinated": false,
-      "is_independent": true,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Chispa%20National%20LCV%20Logo-%20Tagline_20240522151915753161.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/18_20250305220404783919.png",
-    "timeslots": [
-      {
-        "start_date": 1747263600,
-        "end_date": 1747269000,
-        "instructions": null,
-        "id": 5226006,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "",
-        ""
-      ],
-      "locality": "",
-      "region": "",
-      "country": "US",
-      "postal_code": "",
-      "location": {
-        "latitude": null,
-        "longitude": null
-      },
-      "congressional_district": null,
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "TRAINING",
-    "created_date": 1741212277,
-    "modified_date": 1741221283,
-    "browser_url": "https://www.mobilize.us/lcvchispa/event/761333/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "ACCESSIBLE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 761333,
-    "description": "House meetings are one of the most powerful tools for organizers to be able to share stories, identify leaders, and energize organizing campaigns. Many modern social movements have leveraged house meetings to harness the power of personal networks and to ensure the centering of local stories and leaders. This interactive sessions will include modeling and teaching along with opportunities to practice.",
-    "timezone": "America/Chicago",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": true
-  },
-  {
-    "title": "Paint Party",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/lebanoncountydemocrats/",
-      "created_date": 1688679151,
-      "modified_date": 1744697628,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 36118,
-      "name": "Lebanon County Democrats",
-      "slug": "lebanoncountydemocrats",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "PA",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/lebanon_county_20230706213325875702.jpeg"
-    },
-    "featured_image_url": "",
-    "timeslots": [
-      {
-        "start_date": 1757872800,
-        "end_date": 1757880000,
-        "instructions": null,
-        "id": 5226008,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "Lebanon County Democratic Headquarters",
-      "address_lines": [
-        "23 S. 6th Street",
-        ""
-      ],
-      "locality": "Lebanon",
-      "region": "PA",
-      "country": "US",
-      "postal_code": "17042",
-      "location": {
-        "latitude": 40.3388367,
-        "longitude": -76.4213502
-      },
-      "congressional_district": "9",
-      "state_leg_district": "101",
-      "state_senate_district": "48"
-    },
-    "event_type": "COMMUNITY",
-    "created_date": 1741212470,
-    "modified_date": 1743014252,
-    "browser_url": "https://www.mobilize.us/lebanoncountydemocrats/event/761335/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 761335,
-    "description": "We will have a lively and friendly environment where you can socialize and have fun with fellow participants. Our paint party has been moved to Lebanon County Democratic Headquarters, 23 S. 6th Street in Lebanon. Check here for updates, or follow us on Facebook for an update.",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "HD74- Coffee Postcards & Canvas With Amy4OK- SUNDAYS",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/okdemocrats/",
-      "created_date": 1695071152,
-      "modified_date": 1746637452,
-      "org_type": "CAMPAIGN",
-      "id": 36582,
-      "name": "Oklahoma Democratic Party",
-      "slug": "okdemocrats",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "OK",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/OKDEMS-455x165.fw_-2_20230919033917090911.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/sunday%20amy_20250305223645678084.png",
-    "timeslots": [
-      {
-        "start_date": 1746975600,
-        "end_date": 1746982800,
-        "instructions": null,
-        "id": 5250297,
-        "is_full": false
-      },
-      {
-        "start_date": 1746979200,
-        "end_date": 1746986400,
-        "instructions": null,
-        "id": 5250305,
-        "is_full": false
-      },
-      {
-        "start_date": 1746982800,
-        "end_date": 1746986400,
-        "instructions": null,
-        "id": 5250313,
-        "is_full": false
-      },
-      {
-        "start_date": 1746986400,
-        "end_date": 1746993600,
-        "instructions": null,
-        "id": 5250321,
-        "is_full": false
-      },
-      {
-        "start_date": 1746990000,
-        "end_date": 1746997200,
-        "instructions": null,
-        "id": 5250329,
-        "is_full": false
-      },
-      {
-        "start_date": 1747580400,
-        "end_date": 1747587600,
-        "instructions": null,
-        "id": 5250298,
-        "is_full": false
-      },
-      {
-        "start_date": 1747584000,
-        "end_date": 1747591200,
-        "instructions": null,
-        "id": 5250306,
-        "is_full": false
-      },
-      {
-        "start_date": 1747587600,
-        "end_date": 1747591200,
-        "instructions": null,
-        "id": 5250314,
-        "is_full": false
-      },
-      {
-        "start_date": 1747591200,
-        "end_date": 1747598400,
-        "instructions": null,
-        "id": 5250322,
-        "is_full": false
-      },
-      {
-        "start_date": 1747594800,
-        "end_date": 1747602000,
-        "instructions": null,
-        "id": 5250330,
-        "is_full": false
-      },
-      {
-        "start_date": 1748185200,
-        "end_date": 1748192400,
-        "instructions": null,
-        "id": 5250299,
-        "is_full": false
-      },
-      {
-        "start_date": 1748188800,
-        "end_date": 1748196000,
-        "instructions": null,
-        "id": 5250307,
-        "is_full": false
-      },
-      {
-        "start_date": 1748192400,
-        "end_date": 1748196000,
-        "instructions": null,
-        "id": 5250315,
-        "is_full": false
-      },
-      {
-        "start_date": 1748196000,
-        "end_date": 1748203200,
-        "instructions": null,
-        "id": 5250323,
-        "is_full": false
-      },
-      {
-        "start_date": 1748199600,
-        "end_date": 1748206800,
-        "instructions": null,
-        "id": 5250331,
-        "is_full": false
-      }
-    ],
-    "tags": [
-      {
-        "id": 20357,
-        "name": "Postcard Writing"
-      },
-      {
-        "id": 699,
-        "name": "Canvass"
-      },
-      {
-        "id": 1898,
-        "name": "Literature Drop-off"
-      }
-    ],
-    "location": {
-      "venue": "Panera Bread",
-      "address_lines": [
-        "12417 E 96th St N",
-        ""
-      ],
-      "locality": "Owasso",
-      "region": "OK",
-      "country": "US",
-      "postal_code": "74055",
-      "location": {
-        "latitude": 36.2950032,
-        "longitude": -95.8337148
-      },
-      "congressional_district": "1",
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "CANVASS",
-    "created_date": 1741214387,
-    "modified_date": 1746478812,
-    "browser_url": "https://www.mobilize.us/okdemocrats/event/761362/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 761362,
-    "description": "### We’re gathering every Sunday between 10 AM and 2 PM at Panera Bread in Owasso to chat over coffee and choose between writing postcards or knocking on doors about my campaign! Please expect each shift to be around 2 hours!\n\n_No experience needed- we’ll give you everything you need to make you comfortable and feel at ease!_\n\nYou can knock doors, have conversations, or just drop lit—whatever works for you!\n\n**If you cannot do weekends, let us know, and we will help you volunteer on your own schedule.**",
-    "timezone": "America/Chicago",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "MCDC General Body Meeting",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/georgiademocrats/",
-      "created_date": 1533225777,
-      "modified_date": 1744690410,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 618,
-      "name": "Democratic Party of Georgia",
-      "slug": "georgiademocrats",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "GA",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/GADemsLogo_mobilize_20200821182232350216.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/win%20the%20whole%20dem%20thing_mobilize_v3_20210223222835563987.png",
-    "timeslots": [
-      {
-        "start_date": 1747171800,
-        "end_date": 1747177200,
-        "instructions": null,
-        "id": 5226313,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "locality": "Columbus",
-      "region": "GA",
-      "country": "US",
-      "postal_code": "31906",
-      "congressional_district": "2",
-      "state_leg_district": null,
-      "state_senate_district": "15",
-      "address_lines": [
-        "This event’s address is private. Sign up for more details",
-        ""
-      ],
-      "venue": "This event’s address is private. Sign up for more details"
-    },
-    "event_type": "MEETING",
-    "created_date": 1741221286,
-    "modified_date": 1746579607,
-    "browser_url": "https://www.mobilize.us/georgiademocrats/event/761404/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": true,
-    "address_visibility": "PRIVATE",
-    "accessibility_status": "ACCESSIBLE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 761404,
-    "description": "Regular scheduled General Membership Meeting",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": null,
-    "is_virtual": false
-  },
-  {
-    "title": "WORKSHOP | Yes, you can host a house party!",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/cadems/",
-      "created_date": 1579293615,
-      "modified_date": 1744753536,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 2289,
-      "name": "California Democratic Party",
-      "slug": "cadems",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "CA",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/CADEM%20Logo%20%282%29_20250311045655956117.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Mobilize%20house%20party%201_20250301023402018551.png",
-    "timeslots": [
-      {
-        "start_date": 1747101600,
-        "end_date": 1747105200,
-        "instructions": null,
-        "id": 5226505,
-        "is_full": false
-      },
-      {
-        "start_date": 1747706400,
-        "end_date": 1747710000,
-        "instructions": null,
-        "id": 5226506,
-        "is_full": false
-      },
-      {
-        "start_date": 1748311200,
-        "end_date": 1748314800,
-        "instructions": null,
-        "id": 5226507,
-        "is_full": false
-      },
-      {
-        "start_date": 1748916000,
-        "end_date": 1748919600,
-        "instructions": null,
-        "id": 5226508,
-        "is_full": false
-      },
-      {
-        "start_date": 1749520800,
-        "end_date": 1749524400,
-        "instructions": null,
-        "id": 5226509,
-        "is_full": false
-      },
-      {
-        "start_date": 1750125600,
-        "end_date": 1750129200,
-        "instructions": null,
-        "id": 5226510,
-        "is_full": false
-      },
-      {
-        "start_date": 1750730400,
-        "end_date": 1750734000,
-        "instructions": null,
-        "id": 5226511,
-        "is_full": false
-      },
-      {
-        "start_date": 1751335200,
-        "end_date": 1751338800,
-        "instructions": null,
-        "id": 5226512,
-        "is_full": false
-      },
-      {
-        "start_date": 1751940000,
-        "end_date": 1751943600,
-        "instructions": null,
-        "id": 5226513,
-        "is_full": false
-      },
-      {
-        "start_date": 1752544800,
-        "end_date": 1752548400,
-        "instructions": null,
-        "id": 5226514,
-        "is_full": false
-      },
-      {
-        "start_date": 1753149600,
-        "end_date": 1753153200,
-        "instructions": null,
-        "id": 5226515,
-        "is_full": false
-      },
-      {
-        "start_date": 1753754400,
-        "end_date": 1753758000,
-        "instructions": null,
-        "id": 5226516,
-        "is_full": false
-      },
-      {
-        "start_date": 1754359200,
-        "end_date": 1754362800,
-        "instructions": null,
-        "id": 5226517,
-        "is_full": false
-      },
-      {
-        "start_date": 1754964000,
-        "end_date": 1754967600,
-        "instructions": null,
-        "id": 5226518,
-        "is_full": false
-      },
-      {
-        "start_date": 1755568800,
-        "end_date": 1755572400,
-        "instructions": null,
-        "id": 5226519,
-        "is_full": false
-      },
-      {
-        "start_date": 1756173600,
-        "end_date": 1756177200,
-        "instructions": null,
-        "id": 5226520,
-        "is_full": false
-      },
-      {
-        "start_date": 1756778400,
-        "end_date": 1756782000,
-        "instructions": null,
-        "id": 5226521,
-        "is_full": false
-      },
-      {
-        "start_date": 1757383200,
-        "end_date": 1757386800,
-        "instructions": null,
-        "id": 5226522,
-        "is_full": false
-      },
-      {
-        "start_date": 1757988000,
-        "end_date": 1757991600,
-        "instructions": null,
-        "id": 5226523,
-        "is_full": false
-      },
-      {
-        "start_date": 1758592800,
-        "end_date": 1758596400,
-        "instructions": null,
-        "id": 5226524,
-        "is_full": false
-      },
-      {
-        "start_date": 1759197600,
-        "end_date": 1759201200,
-        "instructions": null,
-        "id": 5226525,
-        "is_full": false
-      }
-    ],
-    "tags": [
-      {
-        "id": 337,
-        "name": "Volunteer"
-      }
-    ],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "",
-        ""
-      ],
-      "locality": "Chico",
-      "region": "CA",
-      "country": "US",
-      "postal_code": "95928",
-      "location": {
-        "latitude": 39.703129,
-        "longitude": -121.8334868
-      },
-      "congressional_district": null,
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "TRAINING",
-    "created_date": 1741225333,
-    "modified_date": 1746586843,
-    "browser_url": "https://www.mobilize.us/cadems/event/761427/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 761427,
-    "description": "**Why host a house party?**  Yes, door knocks, phone banks, postcards, rallies are all important organizing tools.  But in 2025-26, we need to do something more and different to win.  House parties can:\n\n- Reach voters outside of our political bubbles\n\n- Have friend and neighbor conversations with those who support our democratic values\n\n- Inoculate voters against the onslaught of right-wing media\n\n- Expand our volunteer base\n\n**Are you thinking about hosting a house party, but don't know how to get started?**  If you've never hosted one before (and even if you're a fellow introvert), or just want a refresher, join the Bay Area Coalition every Monday, 7 pm (PT) for our ** *California-wide* ** house party workshop ...\n\n - How to plan your house party\n\n - Tips and tools for hosting conversations with your friends, neighbors, colleagues\n\n - Learn PDI-on-the-GO to find your local Democrats, or others who share our values\n\n*You'll leave the workshop fired up and ready to host your house party!*\n\nSign up here for ** *nationwide* ** house party workshops every Monday, 5 pm (PT) / 7 pm (CT) / 8 pm (ET) - https://www.mobilize.us/cadems/event/778676/\n\nFor more Bay Area Coalition actions: https://bayareacoalition.org/",
-    "timezone": "America/Los_Angeles",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": true
-  },
-  {
-    "title": "WORKSHOP | Yes, you can host a house party!",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/cadems/",
-      "created_date": 1579293615,
-      "modified_date": 1744753536,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 2289,
-      "name": "California Democratic Party",
-      "slug": "cadems",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "CA",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/CADEM%20Logo%20%282%29_20250311045655956117.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Mobilize%20house%20party%201_20250301023402018551.png",
-    "timeslots": [
-      {
-        "start_date": 1747101600,
-        "end_date": 1747105200,
-        "instructions": null,
-        "id": 5226568,
-        "is_full": false
-      },
-      {
-        "start_date": 1747706400,
-        "end_date": 1747710000,
-        "instructions": null,
-        "id": 5226569,
-        "is_full": false
-      },
-      {
-        "start_date": 1748311200,
-        "end_date": 1748314800,
-        "instructions": null,
-        "id": 5226570,
-        "is_full": false
-      },
-      {
-        "start_date": 1748916000,
-        "end_date": 1748919600,
-        "instructions": null,
-        "id": 5226571,
-        "is_full": false
-      },
-      {
-        "start_date": 1749520800,
-        "end_date": 1749524400,
-        "instructions": null,
-        "id": 5226572,
-        "is_full": false
-      },
-      {
-        "start_date": 1750125600,
-        "end_date": 1750129200,
-        "instructions": null,
-        "id": 5226573,
-        "is_full": false
-      },
-      {
-        "start_date": 1750730400,
-        "end_date": 1750734000,
-        "instructions": null,
-        "id": 5226574,
-        "is_full": false
-      },
-      {
-        "start_date": 1751335200,
-        "end_date": 1751338800,
-        "instructions": null,
-        "id": 5226575,
-        "is_full": false
-      },
-      {
-        "start_date": 1751940000,
-        "end_date": 1751943600,
-        "instructions": null,
-        "id": 5226576,
-        "is_full": false
-      },
-      {
-        "start_date": 1752544800,
-        "end_date": 1752548400,
-        "instructions": null,
-        "id": 5226577,
-        "is_full": false
-      },
-      {
-        "start_date": 1753149600,
-        "end_date": 1753153200,
-        "instructions": null,
-        "id": 5226578,
-        "is_full": false
-      },
-      {
-        "start_date": 1753754400,
-        "end_date": 1753758000,
-        "instructions": null,
-        "id": 5226579,
-        "is_full": false
-      },
-      {
-        "start_date": 1754359200,
-        "end_date": 1754362800,
-        "instructions": null,
-        "id": 5226580,
-        "is_full": false
-      },
-      {
-        "start_date": 1754964000,
-        "end_date": 1754967600,
-        "instructions": null,
-        "id": 5226581,
-        "is_full": false
-      },
-      {
-        "start_date": 1755568800,
-        "end_date": 1755572400,
-        "instructions": null,
-        "id": 5226582,
-        "is_full": false
-      },
-      {
-        "start_date": 1756173600,
-        "end_date": 1756177200,
-        "instructions": null,
-        "id": 5226583,
-        "is_full": false
-      },
-      {
-        "start_date": 1756778400,
-        "end_date": 1756782000,
-        "instructions": null,
-        "id": 5226584,
-        "is_full": false
-      },
-      {
-        "start_date": 1757383200,
-        "end_date": 1757386800,
-        "instructions": null,
-        "id": 5226585,
-        "is_full": false
-      },
-      {
-        "start_date": 1757988000,
-        "end_date": 1757991600,
-        "instructions": null,
-        "id": 5226586,
-        "is_full": false
-      },
-      {
-        "start_date": 1758592800,
-        "end_date": 1758596400,
-        "instructions": null,
-        "id": 5226587,
-        "is_full": false
-      },
-      {
-        "start_date": 1759197600,
-        "end_date": 1759201200,
-        "instructions": null,
-        "id": 5226588,
-        "is_full": false
-      }
-    ],
-    "tags": [
-      {
-        "id": 337,
-        "name": "Volunteer"
-      }
-    ],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "",
-        ""
-      ],
-      "locality": "Redding",
-      "region": "CA",
-      "country": "US",
-      "postal_code": "96002",
-      "location": {
-        "latitude": 40.5229147,
-        "longitude": -122.3221947
-      },
-      "congressional_district": null,
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "TRAINING",
-    "created_date": 1741225407,
-    "modified_date": 1746586843,
-    "browser_url": "https://www.mobilize.us/cadems/event/761428/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 761428,
-    "description": "**Why host a house party?**  Yes, door knocks, phone banks, postcards, rallies are all important organizing tools.  But in 2025-26, we need to do something more and different to win.  House parties can:\n\n- Reach voters outside of our political bubbles\n\n- Have friend and neighbor conversations with those who support our democratic values\n\n- Inoculate voters against the onslaught of right-wing media\n\n- Expand our volunteer base\n\n**Are you thinking about hosting a house party, but don't know how to get started?**  If you've never hosted one before (and even if you're a fellow introvert), or just want a refresher, join the Bay Area Coalition every Monday, 7 pm (PT) for our ** *California-wide* ** house party workshop ...\n\n - How to plan your house party\n\n - Tips and tools for hosting conversations with your friends, neighbors, colleagues\n\n - Learn PDI-on-the-GO to find your local Democrats, or others who share our values\n\n*You'll leave the workshop fired up and ready to host your house party!*\n\nSign up here for ** *nationwide* ** house party workshops every Monday, 5 pm (PT) / 7 pm (CT) / 8 pm (ET) - https://www.mobilize.us/cadems/event/778676/\n\nFor more Bay Area Coalition actions: https://bayareacoalition.org/",
-    "timezone": "America/Los_Angeles",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": true
-  },
-  {
-    "title": "WORKSHOP | Yes, you can host a house party!",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/cadems/",
-      "created_date": 1579293615,
-      "modified_date": 1744753536,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 2289,
-      "name": "California Democratic Party",
-      "slug": "cadems",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "CA",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/CADEM%20Logo%20%282%29_20250311045655956117.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Mobilize%20house%20party%201_20250301023402018551.png",
-    "timeslots": [
-      {
-        "start_date": 1747101600,
-        "end_date": 1747105200,
-        "instructions": null,
-        "id": 5226599,
-        "is_full": false
-      },
-      {
-        "start_date": 1747706400,
-        "end_date": 1747710000,
-        "instructions": null,
-        "id": 5226600,
-        "is_full": false
-      },
-      {
-        "start_date": 1748311200,
-        "end_date": 1748314800,
-        "instructions": null,
-        "id": 5226601,
-        "is_full": false
-      },
-      {
-        "start_date": 1748916000,
-        "end_date": 1748919600,
-        "instructions": null,
-        "id": 5226602,
-        "is_full": false
-      },
-      {
-        "start_date": 1749520800,
-        "end_date": 1749524400,
-        "instructions": null,
-        "id": 5226603,
-        "is_full": false
-      },
-      {
-        "start_date": 1750125600,
-        "end_date": 1750129200,
-        "instructions": null,
-        "id": 5226604,
-        "is_full": false
-      },
-      {
-        "start_date": 1750730400,
-        "end_date": 1750734000,
-        "instructions": null,
-        "id": 5226605,
-        "is_full": false
-      },
-      {
-        "start_date": 1751335200,
-        "end_date": 1751338800,
-        "instructions": null,
-        "id": 5226606,
-        "is_full": false
-      },
-      {
-        "start_date": 1751940000,
-        "end_date": 1751943600,
-        "instructions": null,
-        "id": 5226607,
-        "is_full": false
-      },
-      {
-        "start_date": 1752544800,
-        "end_date": 1752548400,
-        "instructions": null,
-        "id": 5226608,
-        "is_full": false
-      },
-      {
-        "start_date": 1753149600,
-        "end_date": 1753153200,
-        "instructions": null,
-        "id": 5226609,
-        "is_full": false
-      },
-      {
-        "start_date": 1753754400,
-        "end_date": 1753758000,
-        "instructions": null,
-        "id": 5226610,
-        "is_full": false
-      },
-      {
-        "start_date": 1754359200,
-        "end_date": 1754362800,
-        "instructions": null,
-        "id": 5226611,
-        "is_full": false
-      },
-      {
-        "start_date": 1754964000,
-        "end_date": 1754967600,
-        "instructions": null,
-        "id": 5226612,
-        "is_full": false
-      },
-      {
-        "start_date": 1755568800,
-        "end_date": 1755572400,
-        "instructions": null,
-        "id": 5226613,
-        "is_full": false
-      },
-      {
-        "start_date": 1756173600,
-        "end_date": 1756177200,
-        "instructions": null,
-        "id": 5226614,
-        "is_full": false
-      },
-      {
-        "start_date": 1756778400,
-        "end_date": 1756782000,
-        "instructions": null,
-        "id": 5226615,
-        "is_full": false
-      },
-      {
-        "start_date": 1757383200,
-        "end_date": 1757386800,
-        "instructions": null,
-        "id": 5226616,
-        "is_full": false
-      },
-      {
-        "start_date": 1757988000,
-        "end_date": 1757991600,
-        "instructions": null,
-        "id": 5226617,
-        "is_full": false
-      },
-      {
-        "start_date": 1758592800,
-        "end_date": 1758596400,
-        "instructions": null,
-        "id": 5226618,
-        "is_full": false
-      },
-      {
-        "start_date": 1759197600,
-        "end_date": 1759201200,
-        "instructions": null,
-        "id": 5226619,
-        "is_full": false
-      }
-    ],
-    "tags": [
-      {
-        "id": 337,
-        "name": "Volunteer"
-      }
-    ],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "",
-        ""
-      ],
-      "locality": "San Luis Obispo",
-      "region": "CA",
-      "country": "US",
-      "postal_code": "93403",
-      "location": {
-        "latitude": 35.28,
-        "longitude": -120.66
-      },
-      "congressional_district": null,
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "TRAINING",
-    "created_date": 1741225463,
-    "modified_date": 1746586843,
-    "browser_url": "https://www.mobilize.us/cadems/event/761430/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 761430,
-    "description": "**Why host a house party?**  Yes, door knocks, phone banks, postcards, rallies are all important organizing tools.  But in 2025-26, we need to do something more and different to win.  House parties can:\n\n- Reach voters outside of our political bubbles\n\n- Have friend and neighbor conversations with those who support our democratic values\n\n- Inoculate voters against the onslaught of right-wing media\n\n- Expand our volunteer base\n\n**Are you thinking about hosting a house party, but don't know how to get started?**  If you've never hosted one before (and even if you're a fellow introvert), or just want a refresher, join the Bay Area Coalition every Monday, 7 pm (PT) for our ** *California-wide* ** house party workshop ...\n\n - How to plan your house party\n\n - Tips and tools for hosting conversations with your friends, neighbors, colleagues\n\n - Learn PDI-on-the-GO to find your local Democrats, or others who share our values\n\n*You'll leave the workshop fired up and ready to host your house party!*\n\nSign up here for ** *nationwide* ** house party workshops every Monday, 5 pm (PT) / 7 pm (CT) / 8 pm (ET) - https://www.mobilize.us/cadems/event/778676/\n\nFor more Bay Area Coalition actions: https://bayareacoalition.org/",
-    "timezone": "America/Los_Angeles",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": true
-  },
-  {
-    "title": "WORKSHOP | Yes, you can host a house party!",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/cadems/",
-      "created_date": 1579293615,
-      "modified_date": 1744753536,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 2289,
-      "name": "California Democratic Party",
-      "slug": "cadems",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "CA",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/CADEM%20Logo%20%282%29_20250311045655956117.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Mobilize%20house%20party%201_20250301023402018551.png",
-    "timeslots": [
-      {
-        "start_date": 1747101600,
-        "end_date": 1747105200,
-        "instructions": null,
-        "id": 5226629,
-        "is_full": false
-      },
-      {
-        "start_date": 1747706400,
-        "end_date": 1747710000,
-        "instructions": null,
-        "id": 5226630,
-        "is_full": false
-      },
-      {
-        "start_date": 1748311200,
-        "end_date": 1748314800,
-        "instructions": null,
-        "id": 5226631,
-        "is_full": false
-      },
-      {
-        "start_date": 1748916000,
-        "end_date": 1748919600,
-        "instructions": null,
-        "id": 5226632,
-        "is_full": false
-      },
-      {
-        "start_date": 1749520800,
-        "end_date": 1749524400,
-        "instructions": null,
-        "id": 5226633,
-        "is_full": false
-      },
-      {
-        "start_date": 1750125600,
-        "end_date": 1750129200,
-        "instructions": null,
-        "id": 5226634,
-        "is_full": false
-      },
-      {
-        "start_date": 1750730400,
-        "end_date": 1750734000,
-        "instructions": null,
-        "id": 5226635,
-        "is_full": false
-      },
-      {
-        "start_date": 1751335200,
-        "end_date": 1751338800,
-        "instructions": null,
-        "id": 5226636,
-        "is_full": false
-      },
-      {
-        "start_date": 1751940000,
-        "end_date": 1751943600,
-        "instructions": null,
-        "id": 5226637,
-        "is_full": false
-      },
-      {
-        "start_date": 1752544800,
-        "end_date": 1752548400,
-        "instructions": null,
-        "id": 5226638,
-        "is_full": false
-      },
-      {
-        "start_date": 1753149600,
-        "end_date": 1753153200,
-        "instructions": null,
-        "id": 5226639,
-        "is_full": false
-      },
-      {
-        "start_date": 1753754400,
-        "end_date": 1753758000,
-        "instructions": null,
-        "id": 5226640,
-        "is_full": false
-      },
-      {
-        "start_date": 1754359200,
-        "end_date": 1754362800,
-        "instructions": null,
-        "id": 5226641,
-        "is_full": false
-      },
-      {
-        "start_date": 1754964000,
-        "end_date": 1754967600,
-        "instructions": null,
-        "id": 5226642,
-        "is_full": false
-      },
-      {
-        "start_date": 1755568800,
-        "end_date": 1755572400,
-        "instructions": null,
-        "id": 5226643,
-        "is_full": false
-      },
-      {
-        "start_date": 1756173600,
-        "end_date": 1756177200,
-        "instructions": null,
-        "id": 5226644,
-        "is_full": false
-      },
-      {
-        "start_date": 1756778400,
-        "end_date": 1756782000,
-        "instructions": null,
-        "id": 5226645,
-        "is_full": false
-      },
-      {
-        "start_date": 1757383200,
-        "end_date": 1757386800,
-        "instructions": null,
-        "id": 5226646,
-        "is_full": false
-      },
-      {
-        "start_date": 1757988000,
-        "end_date": 1757991600,
-        "instructions": null,
-        "id": 5226647,
-        "is_full": false
-      },
-      {
-        "start_date": 1758592800,
-        "end_date": 1758596400,
-        "instructions": null,
-        "id": 5226648,
-        "is_full": false
-      },
-      {
-        "start_date": 1759197600,
-        "end_date": 1759201200,
-        "instructions": null,
-        "id": 5226649,
-        "is_full": false
-      }
-    ],
-    "tags": [
-      {
-        "id": 337,
-        "name": "Volunteer"
-      }
-    ],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "",
-        ""
-      ],
-      "locality": "Palmdale",
-      "region": "CA",
-      "country": "US",
-      "postal_code": "93591",
-      "location": {
-        "latitude": 34.5925622,
-        "longitude": -117.8194197
-      },
-      "congressional_district": null,
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "TRAINING",
-    "created_date": 1741225521,
-    "modified_date": 1746586843,
-    "browser_url": "https://www.mobilize.us/cadems/event/761431/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 761431,
-    "description": "**Why host a house party?**  Yes, door knocks, phone banks, postcards, rallies are all important organizing tools.  But in 2025-26, we need to do something more and different to win.  House parties can:\n\n- Reach voters outside of our political bubbles\n\n- Have friend and neighbor conversations with those who support our democratic values\n\n- Inoculate voters against the onslaught of right-wing media\n\n- Expand our volunteer base\n\n**Are you thinking about hosting a house party, but don't know how to get started?**  If you've never hosted one before (and even if you're a fellow introvert), or just want a refresher, join the Bay Area Coalition every Monday, 7 pm (PT) for our ** *California-wide* ** house party workshop ...\n\n - How to plan your house party\n\n - Tips and tools for hosting conversations with your friends, neighbors, colleagues\n\n - Learn PDI-on-the-GO to find your local Democrats, or others who share our values\n\n*You'll leave the workshop fired up and ready to host your house party!*\n\nSign up here for ** *nationwide* ** house party workshops every Monday, 5 pm (PT) / 7 pm (CT) / 8 pm (ET) - https://www.mobilize.us/cadems/event/778676/\n\nFor more Bay Area Coalition actions: https://bayareacoalition.org/",
-    "timezone": "America/Los_Angeles",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": true
-  },
-  {
     "title": "WORKSHOP | Yes, you can host a house party!",
     "summary": "",
     "sponsor": {
@@ -6053,7 +4736,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1741235697,
-    "modified_date": 1746665409,
+    "modified_date": 1746752409,
     "browser_url": "https://www.mobilize.us/indivisible-greater-vancouver/event/761483/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -6064,7 +4747,7 @@
     "event_campaign": null,
     "instructions": null,
     "id": 761483,
-    "description": "Join Indivisible Greater Vancouver (IGV) and MoveOn-Clark County for a peaceful protest at Vancouver's Tesla dealership! \n\nUnvetted DOGE operatives hired by Musk are accessing our data, impounding funds allocated by Congress, and crippling federal agencies. This empowers the surveillance state and paves the way for billionaire tax cuts, deregulation and more. \n\nWe'll march on the sidewalk/right of way outside Vancouver's Tesla showroom on Fourth Plain Blvd., staying on public property. Park on the street or in the surrounding neighborhood. Bring a large sign to let everyone know we stand united against Musk, DOGE, and unelected oligarchs!\n\nNEW SATURDAY TIMES STARTING MAY 3\nStarting May 3 and continuing through the month of May our Saturday Stop Elon Musk! rallies will be from 4 pm - 6 pm. We've made this time change to allow people to attend more than one event on Saturdays. Thank you for your dedication to showing up for democracy!\n\nWe at IGV strongly believe that peaceful, non-violent activism offers social movements the most power to effect change.Through peaceful protests, we set an example of making our voices heard with dignity, empowered by truth. IGV does not condone intimidation, threats, vandalism, interference with access to a business, or any other lawless actions. If instigators or our opponents attempt to violate our commitment to non-violence, we will try to de-escalate them and will call law enforcement if needed to shut down such unauthorized activity.",
+    "description": "### Join Indivisible Greater Vancouver (IGV) and MoveOn-Clark County for a peaceful protest at Vancouver's Tesla dealership! \n\nUnvetted DOGE operatives hired by Musk are accessing our data, impounding funds allocated by Congress, and crippling federal agencies. This empowers the surveillance state and paves the way for billionaire tax cuts, deregulation and more. \n\nWe'll march on the sidewalk/right of way outside Vancouver's Tesla showroom on Fourth Plain Blvd., staying on public property. Park on the street or in the surrounding neighborhood. Bring a large sign to let everyone know we stand united against Musk, DOGE, and unelected oligarchs!\n\n### NEW SATURDAY TIMES \nThrough the month of May our Saturday Stop Elon Musk! rallies will be from 4 pm - 6 pm. We've made this time change to allow people to attend more than one event on Saturdays. Thank you for your dedication to showing up for democracy!\n\nWe at IGV strongly believe that peaceful, non-violent activism offers social movements the most power to effect change. Through peaceful protests, we set an example of making our voices heard with dignity, empowered by truth. IGV does not condone intimidation, threats, vandalism, interference with access to a business, or any other lawless actions. If instigators or our opponents attempt to violate our commitment to non-violence, we will try to de-escalate them and will end the event if needed to maintain a safe environment.",
     "timezone": "America/Los_Angeles",
     "high_priority": null,
     "virtual_action_url": null,
@@ -6468,7 +5151,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1741280482,
-    "modified_date": 1746381750,
+    "modified_date": 1746723613,
     "browser_url": "https://www.mobilize.us/indivisible/event/761582/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -6485,6 +5168,99 @@
     "virtual_action_url": null,
     "accessibility_notes": null,
     "is_virtual": false
+  },
+  {
+    "title": "Floridians For Immigrant Justice Know Your Rights Team Meeting",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/aclufl/",
+      "created_date": 1617725993,
+      "modified_date": 1744692550,
+      "org_type": "C3",
+      "id": 7951,
+      "name": "ACLU Florida",
+      "slug": "aclufl",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "FL",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/ACLU%20Mobilize%20Banner%201200x630_20210812175914352667.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Copy%20of%20KYR%20Mobilize_20240108183022869177.jpg",
+    "timeslots": [
+      {
+        "start_date": 1749592800,
+        "end_date": 1749596400,
+        "instructions": null,
+        "id": 5227774,
+        "is_full": false
+      },
+      {
+        "start_date": 1752012000,
+        "end_date": 1752015600,
+        "instructions": null,
+        "id": 5311712,
+        "is_full": false
+      },
+      {
+        "start_date": 1755036000,
+        "end_date": 1755039600,
+        "instructions": null,
+        "id": 5311713,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 1935,
+        "name": "Know Your Rights"
+      },
+      {
+        "id": 4032,
+        "name": "Floridians For Immigrants' Justice"
+      }
+    ],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "",
+      "region": "",
+      "country": "US",
+      "postal_code": "",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "MEETING",
+    "created_date": 1741284990,
+    "modified_date": 1746726736,
+    "browser_url": "https://www.mobilize.us/aclufl/event/761614/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 761614,
+    "description": "Join our Floridians For Immigrant Justice Know Your Rights Team meeting on the second Tuesday of every month.  \n\nWe will strategize on how to best inform and educate our impacted immigrant communities on exercising their rights, and be prepared when interacting with law enforcement agencies. \n\nLet's mobilize together to build strong and informed communities that uplift and empower immigrants in Florida!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": true
   },
   {
     "title": "UPDATE Congresswoman Jasmine Crockett To Be Keynote Speaker at Fundraiser!",
@@ -6649,20 +5425,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/dvu%20rally%20-%20calvert%20-%20photo_20250501032702007535.jpg",
     "timeslots": [
-      {
-        "start_date": 1746727200,
-        "end_date": 1746731700,
-        "instructions": null,
-        "id": 5237728,
-        "is_full": false
-      },
-      {
-        "start_date": 1746745200,
-        "end_date": 1746749700,
-        "instructions": null,
-        "id": 5237773,
-        "is_full": true
-      },
       {
         "start_date": 1746813600,
         "end_date": 1746818100,
@@ -6918,7 +5680,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1741289709,
-    "modified_date": 1746717041,
+    "modified_date": 1746752408,
     "browser_url": "https://www.mobilize.us/cadems/event/761659/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -6959,20 +5721,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/ffoh%20photo%20for%20mobilize_20250306193959255258.JPG",
     "timeslots": [
-      {
-        "start_date": 1746732600,
-        "end_date": 1746737100,
-        "instructions": null,
-        "id": 5237648,
-        "is_full": false
-      },
-      {
-        "start_date": 1746750600,
-        "end_date": 1746755100,
-        "instructions": null,
-        "id": 5237684,
-        "is_full": true
-      },
       {
         "start_date": 1746819000,
         "end_date": 1746823500,
@@ -7228,7 +5976,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1741290299,
-    "modified_date": 1746720264,
+    "modified_date": 1746756099,
     "browser_url": "https://www.mobilize.us/cadems/event/761662/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -7269,20 +6017,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/cd%2022%20photo%20for%20phonebank%20-%20kids%20rally_20250501005906895945.jpg",
     "timeslots": [
-      {
-        "start_date": 1746738000,
-        "end_date": 1746742500,
-        "instructions": null,
-        "id": 5237559,
-        "is_full": false
-      },
-      {
-        "start_date": 1746756000,
-        "end_date": 1746760500,
-        "instructions": null,
-        "id": 5237604,
-        "is_full": false
-      },
       {
         "start_date": 1746824400,
         "end_date": 1746828900,
@@ -7538,7 +6272,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1741290633,
-    "modified_date": 1746676836,
+    "modified_date": 1746763279,
     "browser_url": "https://www.mobilize.us/cadems/event/761667/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -7746,13 +6480,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Vintage%20rotary%20phone%20photos%20-%20coloured%20retro%20phones_20231107204309102824.jpeg",
     "timeslots": [
-      {
-        "start_date": 1746763200,
-        "end_date": 1746848700,
-        "instructions": null,
-        "id": 5228348,
-        "is_full": false
-      },
       {
         "start_date": 1746849600,
         "end_date": 1746935100,
@@ -9875,7 +8602,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1741298222,
-    "modified_date": 1746666145,
+    "modified_date": 1746752623,
     "browser_url": "https://www.mobilize.us/hillsboroughcountydec/event/761716/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10232,7 +8959,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1741301936,
-    "modified_date": 1746698428,
+    "modified_date": 1746723005,
     "browser_url": "https://www.mobilize.us/seiuhcpa/event/761764/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10670,7 +9397,7 @@
     },
     "event_type": "TOWN_HALL",
     "created_date": 1741328936,
-    "modified_date": 1746571209,
+    "modified_date": 1746726341,
     "browser_url": "https://www.mobilize.us/ft6/event/761881/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10681,7 +9408,7 @@
     "event_campaign": null,
     "instructions": null,
     "id": 761881,
-    "description": "Join us for our third annual tentpole event – the Register Democrats Summit 2025! (ALL ON ZOOM.) Find the full schedule here soon: https://www.fieldteam6.org/summit-2025\n\nIt’s time to bring together a movement-wide coalition focused on registering Democrats across the country. This FREE one-day virtual Summit brings together the best and brightest minds from elected officials to tech leaders to grassroots organizers, and so much more. \n\nConfirmed speakers and panelists:\nSec. Deb Haaland * \nRep. Jamie Raskin * \nRep. Maxwell Frost * \nIndivisible's Leah Greenberg * \n50501's Hunter Dunn * \nCongressional candidate George Hornedo (IN-07) * \nMeidas Touch * \nMessaging Luminary Billy Ray  * \nSubstack Star Jessica Craven - \"Chop Wood, Carry Water\" * \nSubstack Star Robert Hubbell - \"Today's Edition\" * \nLeigh McGowan - \"Politics Girl\" * \n\nYou will receive reminders before this event with the Zoom link. If you have any questions or concerns, please email summit@fieldteam6.org.\n\nCan't wait to see you at the Register Democrats Summit. Join us – we've got a world to save!!",
+    "description": "Join us for our third annual tentpole event – the Register Democrats Summit 2025! (ALL ON ZOOM.) Find the full schedule here soon: https://www.fieldteam6.org/summit-2025\n\nIt’s time to bring together a movement-wide coalition focused on registering Democrats across the country. This FREE one-day virtual Summit brings together the best and brightest minds from elected officials to tech leaders to grassroots organizers, and so much more. \n\nConfirmed speakers and panelists:\nSec. Deb Haaland * Rep. Jamie Raskin * Rep. Maxwell Frost * Rep. Sarah McBride * Rep. Abigail Spanberger * Rep. Anna Eskamani * Indivisible's Leah Greenberg * Run for Something's Amanda Litman * 50501's Hunter Dunn * Congressional candidate Deja Foxx (AZ-07) * Congressional candidate George Hornedo (IN-07) * Meidas Touch * Messaging Luminary Billy Ray * Substack Star Jessica Craven - \"Chop Wood, Carry Water\" * Substack Star Robert Hubbell - \"Today's Edition\" * Leigh McGowan - \"Politics Girl\" * Sylvia Salazar - Tono.Latino * Ricardo Gutiérrez - The Comedy Resistance * Matt Moore - Improv For The People *\n\nAfter her keynote, Sec. Deb Haaland wants to answer your questions, so please submit them here – https://secure.everyaction.com/InLlOCXpkk2N2bS_ufk4Lg2 – and we'll ask as many as we can!\n\nYou will receive reminders before this event with the Zoom link. If you have any questions or concerns, please email summit@fieldteam6.org.\n\nCan't wait to see you at the Register Democrats Summit. Join us – we've got a world to save!!",
     "timezone": "America/Los_Angeles",
     "high_priority": null,
     "virtual_action_url": null,
@@ -10889,13 +9616,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Central%20Piedmont%20Training%20Series%20FINAL%20%282%29_20250327204911878216.png",
     "timeslots": [
       {
-        "start_date": 1746741600,
-        "end_date": 1746745200,
-        "instructions": null,
-        "id": 5229250,
-        "is_full": false
-      },
-      {
         "start_date": 1749765600,
         "end_date": 1749769200,
         "instructions": null,
@@ -10924,7 +9644,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1741366569,
-    "modified_date": 1746644471,
+    "modified_date": 1746744605,
     "browser_url": "https://www.mobilize.us/democracync/event/761934/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10941,76 +9661,6 @@
     "virtual_action_url": null,
     "accessibility_notes": "",
     "is_virtual": true
-  },
-  {
-    "title": "Haywood County DW:  Monthly Meeting",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/haywoodcountydemocrats/",
-      "created_date": 1615570636,
-      "modified_date": 1744699052,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 6978,
-      "name": "Haywood County Democrats",
-      "slug": "haywoodcountydemocrats",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "NC",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/haywood%20logo_20240425162720826178.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/mobilize%20headers_20250307181017866018.png",
-    "timeslots": [
-      {
-        "start_date": 1746739800,
-        "end_date": 1746747000,
-        "instructions": null,
-        "id": 5229456,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "Haywood Dem HQ",
-      "address_lines": [
-        "734 N Main St",
-        ""
-      ],
-      "locality": "Waynesville",
-      "region": "NC",
-      "country": "US",
-      "postal_code": "28786",
-      "location": {
-        "latitude": 35.4962767,
-        "longitude": -82.9802908
-      },
-      "congressional_district": "11",
-      "state_leg_district": "118",
-      "state_senate_district": "50"
-    },
-    "event_type": "MEETING",
-    "created_date": 1741370258,
-    "modified_date": 1746644469,
-    "browser_url": "https://www.mobilize.us/haywoodcountydemocrats/event/761966/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 761966,
-    "description": "Join the Haywood County Democratic Women for our monthly meeting.  There's food, fun and a great time with good friends.  We have guest speakers, special events and we would love to have you join our community.\n\nOur featured speaker for the month of March is Julia Buckner, former state president of the DW of North Carolina.  She's leading a chat about Dems, Democracy & YOU!",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
   },
   {
     "title": "Intown Women’s Resistance IN PERSON meeting",
@@ -11323,7 +9973,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1741379049,
-    "modified_date": 1746716907,
+    "modified_date": 1746795829,
     "browser_url": "https://www.mobilize.us/contest-every-race/event/762027/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -11882,13 +10532,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Office%20meeting%20meme%20for%20zoom_20250308030534713893.jpg",
     "timeslots": [
       {
-        "start_date": 1746723600,
-        "end_date": 1746729000,
-        "instructions": null,
-        "id": 5230005,
-        "is_full": false
-      },
-      {
         "start_date": 1747933200,
         "end_date": 1747938600,
         "instructions": null,
@@ -11926,7 +10569,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1741403162,
-    "modified_date": 1746709206,
+    "modified_date": 1746728403,
     "browser_url": "https://www.mobilize.us/polkcountydec/event/762152/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -12543,7 +11186,7 @@
     },
     "event_type": "CANVASS",
     "created_date": 1741446909,
-    "modified_date": 1745622239,
+    "modified_date": 1746792019,
     "browser_url": "https://www.mobilize.us/arroyoforlancaster/event/762188/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -13064,13 +11707,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/HCDBC%20logo%202022%20transparent_20231001233910902219.png",
     "timeslots": [
       {
-        "start_date": 1746741600,
-        "end_date": 1746747000,
-        "instructions": null,
-        "id": 5230310,
-        "is_full": false
-      },
-      {
         "start_date": 1749765600,
         "end_date": 1749771000,
         "instructions": null,
@@ -13127,7 +11763,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1741484841,
-    "modified_date": 1746644471,
+    "modified_date": 1746746411,
     "browser_url": "https://www.mobilize.us/hillsboroughcountydec/event/762300/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -13232,7 +11868,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1741525138,
-    "modified_date": 1746374470,
+    "modified_date": 1746792020,
     "browser_url": "https://www.mobilize.us/indivisible/event/762323/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -13862,7 +12498,7 @@
     },
     "event_type": "VOTER_REG",
     "created_date": 1741530144,
-    "modified_date": 1746647408,
+    "modified_date": 1746734561,
     "browser_url": "https://www.mobilize.us/novaohio/event/762332/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -13904,13 +12540,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
     "timeslots": [
       {
-        "start_date": 1746754200,
-        "end_date": 1746761400,
-        "instructions": null,
-        "id": 5230750,
-        "is_full": false
-      },
-      {
         "start_date": 1749778200,
         "end_date": 1749785400,
         "instructions": null,
@@ -13939,7 +12568,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1741537676,
-    "modified_date": 1746658819,
+    "modified_date": 1746760803,
     "browser_url": "https://www.mobilize.us/indivisible/event/762349/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -14617,7 +13246,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1741624785,
-    "modified_date": 1746477136,
+    "modified_date": 1746722558,
     "browser_url": "https://www.mobilize.us/cleoinstitute/event/762538/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -14736,7 +13365,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1741631270,
-    "modified_date": 1744560184,
+    "modified_date": 1746792016,
     "browser_url": "https://www.mobilize.us/lakecountydec/event/762573/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -14918,7 +13547,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1741635640,
-    "modified_date": 1746671818,
+    "modified_date": 1746727253,
     "browser_url": "https://www.mobilize.us/indivisible/event/762605/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -15235,7 +13864,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1741649193,
-    "modified_date": 1746341397,
+    "modified_date": 1746734495,
     "browser_url": "https://www.mobilize.us/indivisible/event/762716/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -15382,13 +14011,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/AK%20CiA%20Google%20Header%20%281%29_20250311000739109486.png",
     "timeslots": [
       {
-        "start_date": 1746741600,
-        "end_date": 1746748800,
-        "instructions": null,
-        "id": 5236674,
-        "is_full": false
-      },
-      {
         "start_date": 1747951200,
         "end_date": 1747958400,
         "instructions": null,
@@ -15413,7 +14035,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1741651737,
-    "modified_date": 1746644471,
+    "modified_date": 1746748211,
     "browser_url": "https://www.mobilize.us/ndwa-c4/event/762731/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -15933,7 +14555,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1741663205,
-    "modified_date": 1746649202,
+    "modified_date": 1746727453,
     "browser_url": "https://www.mobilize.us/indivisible/event/762787/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -15974,13 +14596,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/ld2-signs-of-resistance_20250311045020404801.jpg",
     "timeslots": [
-      {
-        "start_date": 1746738000,
-        "end_date": 1746748800,
-        "instructions": null,
-        "id": 5273831,
-        "is_full": false
-      },
       {
         "start_date": 1746910800,
         "end_date": 1746921600,
@@ -16099,7 +14714,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1741669459,
-    "modified_date": 1746706168,
+    "modified_date": 1746748210,
     "browser_url": "https://www.mobilize.us/ld2democrats2024/event/762810/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -16594,7 +15209,7 @@
     },
     "event_type": "VOTER_REG",
     "created_date": 1741707097,
-    "modified_date": 1744139316,
+    "modified_date": 1746727456,
     "browser_url": "https://www.mobilize.us/marioncountydec/event/762878/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -16635,13 +15250,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%202_20231214173755488494.png",
     "timeslots": [
-      {
-        "start_date": 1746747000,
-        "end_date": 1746752400,
-        "instructions": null,
-        "id": 5232412,
-        "is_full": false
-      },
       {
         "start_date": 1747351800,
         "end_date": 1747357200,
@@ -16727,7 +15335,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1741707736,
-    "modified_date": 1746651631,
+    "modified_date": 1746751842,
     "browser_url": "https://www.mobilize.us/indivisible/event/762887/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -16845,7 +15453,7 @@
       "candidate_name": "Jess Coleman",
       "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Jess%20for%20NY_Final%20%281%29%20%281%29_20250227180056516813.png"
     },
-    "featured_image_url": "",
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Jess-NYC-03%2C28%2C2025-Best-44_20250509035847693608.jpeg",
     "timeslots": [
       {
         "start_date": 1746892800,
@@ -17016,7 +15624,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1741709888,
-    "modified_date": 1746720004,
+    "modified_date": 1746795871,
     "browser_url": "https://www.mobilize.us/jessfornewyork/event/762918/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -17135,7 +15743,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1741716316,
-    "modified_date": 1746649811,
+    "modified_date": 1746727453,
     "browser_url": "https://www.mobilize.us/baltimoresignwaves/event/762991/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -17176,13 +15784,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Phonebanking%20%281%29_20250407182104080443.png",
     "timeslots": [
-      {
-        "start_date": 1746738000,
-        "end_date": 1746747000,
-        "instructions": null,
-        "id": 5232745,
-        "is_full": false
-      },
       {
         "start_date": 1747170000,
         "end_date": 1747179000,
@@ -17296,7 +15897,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1741719539,
-    "modified_date": 1746662407,
+    "modified_date": 1746746410,
     "browser_url": "https://www.mobilize.us/mayaforcouncil/event/763025/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -17337,13 +15938,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Door%20Knocking_20250507190448044254.png",
     "timeslots": [
-      {
-        "start_date": 1746738000,
-        "end_date": 1746745200,
-        "instructions": null,
-        "id": 5232813,
-        "is_full": false
-      },
       {
         "start_date": 1746824400,
         "end_date": 1746831600,
@@ -17751,7 +16345,7 @@
     },
     "event_type": "CANVASS",
     "created_date": 1741720491,
-    "modified_date": 1746658869,
+    "modified_date": 1746792020,
     "browser_url": "https://www.mobilize.us/mayaforcouncil/event/763041/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -17792,13 +16386,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/buildingfund_20240411233345327606.png",
     "timeslots": [
-      {
-        "start_date": 1746774000,
-        "end_date": 1746860340,
-        "instructions": null,
-        "id": 5233037,
-        "is_full": false
-      },
       {
         "start_date": 1746860400,
         "end_date": 1746946740,
@@ -19473,7 +18060,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1741723972,
-    "modified_date": 1746676878,
+    "modified_date": 1746763280,
     "browser_url": "https://www.mobilize.us/yumacountydemocraticparty/event/763096/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -20639,13 +19226,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/CSCC_1200x630_20250313153749934167.jpg",
     "timeslots": [
       {
-        "start_date": 1746741600,
-        "end_date": 1746745200,
-        "instructions": null,
-        "id": 5286155,
-        "is_full": false
-      },
-      {
         "start_date": 1746887400,
         "end_date": 1746892800,
         "instructions": null,
@@ -20729,7 +19309,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1741798543,
-    "modified_date": 1746644470,
+    "modified_date": 1746792017,
     "browser_url": "https://www.mobilize.us/columbussafetycollectivecampaign/event/763449/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -20822,7 +19402,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1741798824,
-    "modified_date": 1746658204,
+    "modified_date": 1746745295,
     "browser_url": "https://www.mobilize.us/pastandsup/event/763454/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -21200,7 +19780,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1741811249,
-    "modified_date": 1746636603,
+    "modified_date": 1746723610,
     "browser_url": "https://www.mobilize.us/indivisible/event/763591/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -21241,13 +19821,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Rise%20for%20Freedom%20Mobilize%20Graphic%20%28Dark%29_20250321211802414649.png",
     "timeslots": [
-      {
-        "start_date": 1746748800,
-        "end_date": 1746756000,
-        "instructions": null,
-        "id": 5245040,
-        "is_full": false
-      },
       {
         "start_date": 1747353600,
         "end_date": 1747360800,
@@ -21307,7 +19880,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1741812934,
-    "modified_date": 1746651633,
+    "modified_date": 1746755411,
     "browser_url": "https://www.mobilize.us/risefordemocracy/event/763611/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -21772,7 +20345,7 @@
     },
     "event_type": "CANVASS",
     "created_date": 1741821436,
-    "modified_date": 1746658203,
+    "modified_date": 1746745282,
     "browser_url": "https://www.mobilize.us/mikiesherrillforgovernor/event/763696/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -22159,7 +20732,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1741891151,
-    "modified_date": 1746652814,
+    "modified_date": 1746741714,
     "browser_url": "https://www.mobilize.us/baltimoresignwaves/event/763996/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -22280,13 +20853,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/fww-20a-mobilize_20250313195039688872.jpg",
     "timeslots": [
       {
-        "start_date": 1746766800,
-        "end_date": 1746853140,
-        "instructions": null,
-        "id": 5236191,
-        "is_full": false
-      },
-      {
         "start_date": 1746853200,
         "end_date": 1746939540,
         "instructions": null,
@@ -22345,7 +20911,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1741895622,
-    "modified_date": 1746669742,
+    "modified_date": 1746756012,
     "browser_url": "https://www.mobilize.us/fww/event/764031/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -22432,76 +20998,6 @@
     "virtual_action_url": null,
     "accessibility_notes": "",
     "is_virtual": true
-  },
-  {
-    "title": "UWGB SP 25 Meetings",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/leadersignitingtransformation/",
-      "created_date": 1702485171,
-      "modified_date": 1744698623,
-      "org_type": "C4",
-      "id": 37022,
-      "name": "Leaders Igniting Transformation",
-      "slug": "leadersignitingtransformation",
-      "is_coordinated": false,
-      "is_independent": true,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/20-LIT-FlameSticker_20250127172711183505.png"
-    },
-    "featured_image_url": "",
-    "timeslots": [
-      {
-        "start_date": 1746739800,
-        "end_date": 1746745200,
-        "instructions": null,
-        "id": 5236252,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "Union - World Unity B",
-      "address_lines": [
-        "2420 Nicolet Dr",
-        ""
-      ],
-      "locality": "Green Bay",
-      "region": "WI",
-      "country": "US",
-      "postal_code": "54311",
-      "location": {
-        "latitude": 44.578973,
-        "longitude": -87.908104
-      },
-      "congressional_district": "8",
-      "state_leg_district": "90",
-      "state_senate_district": "30"
-    },
-    "event_type": "COMMUNITY",
-    "created_date": 1741896853,
-    "modified_date": 1746644468,
-    "browser_url": "https://www.mobilize.us/leadersignitingtransformation/event/764045/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 764045,
-    "description": "Join us to learn about social justice, advocacy, and build community! We're kickin it every Thursday @ 4:30 PM in World Unity B ---see you there! ❤️‍🔥\n\nOur meeting on Thurs, 4/24 will be virtual due to the NFL Draft--you can join via Zoom here!",
-    "timezone": "America/Chicago",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
   },
   {
     "title": "Indivisible SJC Monthly Virtual Zoom",
@@ -22674,7 +21170,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1741898215,
-    "modified_date": 1746378048,
+    "modified_date": 1746795874,
     "browser_url": "https://www.mobilize.us/indivisible/event/764055/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -23291,7 +21787,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1741905458,
-    "modified_date": 1746656414,
+    "modified_date": 1746745283,
     "browser_url": "https://www.mobilize.us/chippewavalleyindivisible/event/764113/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -23783,7 +22279,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1741958897,
-    "modified_date": 1746306015,
+    "modified_date": 1746723617,
     "browser_url": "https://www.mobilize.us/indivisiblephiladelphia/event/764219/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -24019,13 +22515,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/IMG_8729_20250314163740811615.jpeg",
     "timeslots": [
       {
-        "start_date": 1746741600,
-        "end_date": 1746748800,
-        "instructions": null,
-        "id": 5289912,
-        "is_full": false
-      },
-      {
         "start_date": 1746806400,
         "end_date": 1746817200,
         "instructions": null,
@@ -24145,7 +22634,7 @@
     },
     "event_type": "CANVASS",
     "created_date": 1741970379,
-    "modified_date": 1746709230,
+    "modified_date": 1746792019,
     "browser_url": "https://www.mobilize.us/gaineyformayor/event/764299/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -24347,13 +22836,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/SemDems%20General%20Meeting%20Setup_20250314181505286504.png",
     "timeslots": [
       {
-        "start_date": 1746741600,
-        "end_date": 1746752400,
-        "instructions": null,
-        "id": 5237069,
-        "is_full": false
-      },
-      {
         "start_date": 1749765600,
         "end_date": 1749776400,
         "instructions": null,
@@ -24424,7 +22906,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1741976116,
-    "modified_date": 1746644469,
+    "modified_date": 1746751841,
     "browser_url": "https://www.mobilize.us/semdems/event/764349/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -24783,7 +23265,7 @@
     },
     "event_type": "CANVASS",
     "created_date": 1741984619,
-    "modified_date": 1746546935,
+    "modified_date": 1746795864,
     "browser_url": "https://www.mobilize.us/dr_mia_for_fortworth/event/764437/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -25635,7 +24117,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1742025612,
-    "modified_date": 1746665409,
+    "modified_date": 1746752408,
     "browser_url": "https://www.mobilize.us/ipaplus/event/764602/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -25879,7 +24361,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1742060530,
-    "modified_date": 1746709210,
+    "modified_date": 1746784837,
     "browser_url": "https://www.mobilize.us/indivisible/event/764701/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -25920,13 +24402,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Mobilize%20Size_20250315182141104436.png",
     "timeslots": [
-      {
-        "start_date": 1746763200,
-        "end_date": 1746849540,
-        "instructions": null,
-        "id": 5238167,
-        "is_full": false
-      },
       {
         "start_date": 1746849600,
         "end_date": 1746935940,
@@ -26977,7 +25452,7 @@
     },
     "event_type": "OTHER",
     "created_date": 1742063144,
-    "modified_date": 1746666145,
+    "modified_date": 1746752623,
     "browser_url": "https://www.mobilize.us/sisterdistrictmari/event/764712/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -27059,76 +25534,6 @@
     "instructions": null,
     "id": 764716,
     "description": "The Heartland Workers Center will be canvassing in District 2 May, 2025 to spread awareness and increase engagement in the local elections. Our local primary election is April 1st, where we will be voting on which city council member candidates and mayor candidates will advance to the general election on May 13. Come & be a part of civic change!",
-    "timezone": "America/Chicago",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "District 4 Canvassing!",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/heartlandworkerscenter/",
-      "created_date": 1724778565,
-      "modified_date": 1744701674,
-      "org_type": "C3",
-      "id": 39491,
-      "name": "Heartland Workers Center",
-      "slug": "heartlandworkerscenter",
-      "is_coordinated": false,
-      "is_independent": true,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/2023%20HWC%20Logo_WEB_Full_Color%20%281%29_20250226183319736343.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/IMG-20240917-WA0001_20250414220624325373.jpg",
-    "timeslots": [
-      {
-        "start_date": 1746736200,
-        "end_date": 1746743400,
-        "instructions": null,
-        "id": 5238362,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "4923 S 24th St",
-        ""
-      ],
-      "locality": "Omaha",
-      "region": "NE",
-      "country": "US",
-      "postal_code": "68107",
-      "location": {
-        "latitude": 41.2089479,
-        "longitude": -95.9466256
-      },
-      "congressional_district": "2",
-      "state_leg_district": null,
-      "state_senate_district": "7"
-    },
-    "event_type": "CANVASS",
-    "created_date": 1742064425,
-    "modified_date": 1746658868,
-    "browser_url": "https://www.mobilize.us/heartlandworkerscenter/event/764718/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 764718,
-    "description": "The Heartland Workers Center will be canvassing in District 4 May, 2025 to spread awareness and increase engagement in the local elections. Our local primary election is April 1st, where we will be voting on which city council member candidates and mayor candidates will advance to the general election on May 13. Come & be a part of civic change!",
     "timezone": "America/Chicago",
     "high_priority": null,
     "virtual_action_url": null,
@@ -27389,7 +25794,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1742087078,
-    "modified_date": 1746720004,
+    "modified_date": 1746795876,
     "browser_url": "https://www.mobilize.us/indivisible/event/764820/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -27612,13 +26017,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/E12E0D27-293F-4AD9-8637-F26F596241D5_20250316112307775400.png",
     "timeslots": [
       {
-        "start_date": 1746732600,
-        "end_date": 1746741600,
-        "instructions": null,
-        "id": 5240529,
-        "is_full": false
-      },
-      {
         "start_date": 1746819000,
         "end_date": 1746824400,
         "instructions": null,
@@ -27706,7 +26104,7 @@
     },
     "event_type": "COMMUNITY_CANVASS",
     "created_date": 1742124850,
-    "modified_date": 1746720263,
+    "modified_date": 1746792018,
     "browser_url": "https://www.mobilize.us/familyandfriendsofjanetdz/event/764869/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -27747,13 +26145,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/E12E0D27-293F-4AD9-8637-F26F596241D5_20250316121111194479.png",
     "timeslots": [
-      {
-        "start_date": 1746795600,
-        "end_date": 1746828000,
-        "instructions": null,
-        "id": 5238712,
-        "is_full": false
-      },
       {
         "start_date": 1746882000,
         "end_date": 1746914400,
@@ -27858,7 +26249,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1742127153,
-    "modified_date": 1746698434,
+    "modified_date": 1746784837,
     "browser_url": "https://www.mobilize.us/familyandfriendsofjanetdiaz/event/764871/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -27883,7 +26274,7 @@
       "race_type": null,
       "event_feed_url": "https://www.mobilize.us/beaufortcountyscdems/",
       "created_date": 1575478316,
-      "modified_date": 1746127867,
+      "modified_date": 1746723119,
       "org_type": "CAMPAIGN",
       "id": 2116,
       "name": "Beaufort County Democratic Party",
@@ -28252,7 +26643,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1742183801,
-    "modified_date": 1746666008,
+    "modified_date": 1746741638,
     "browser_url": "https://www.mobilize.us/maricopacountydemocraticparty/event/765082/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -28486,7 +26877,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1742212896,
-    "modified_date": 1746663606,
+    "modified_date": 1746752408,
     "browser_url": "https://www.mobilize.us/beavercountydemocraticcommittee/event/765107/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -28563,7 +26954,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1742213594,
-    "modified_date": 1746378048,
+    "modified_date": 1746795875,
     "browser_url": "https://www.mobilize.us/indivisible/event/765110/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -28675,6 +27066,1445 @@
     "id": 765172,
     "description": "Join the MCDO on Tuesdays as we reach out to voters across Middlesex County to educate them on the upcoming June 10th Primary Election.",
     "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Collin County Democratic Party NIGHT AT RIDERS FIELD (Must purchase tickets)",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/collindemocrats/",
+      "created_date": 1533678003,
+      "modified_date": 1744835553,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 635,
+      "name": "Collin County Democratic Party",
+      "slug": "collindemocrats",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "TX",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/collin%20logo%20resized%20for%20NGPVAN-2_20201006193904727537.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Screenshot%202025-03-17%20at%2010.24.19%E2%80%AFAM_20250317152426157140.png",
+    "timeslots": [
+      {
+        "start_date": 1748127600,
+        "end_date": 1748142000,
+        "instructions": null,
+        "id": 5239773,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Frisco RoughRiders",
+      "address_lines": [
+        "7300 Rough Riders Trl",
+        ""
+      ],
+      "locality": "Frisco",
+      "region": "TX",
+      "country": "US",
+      "postal_code": "75034",
+      "location": {
+        "latitude": 33.0985803,
+        "longitude": -96.8195266
+      },
+      "congressional_district": "4",
+      "state_leg_district": "66",
+      "state_senate_district": "30"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1742225095,
+    "modified_date": 1746551003,
+    "browser_url": "https://www.mobilize.us/collindemocrats/event/765176/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 765176,
+    "description": "⚾️ Collin County Democratic Party Night at Riders Field! 💙\n\n**This is a ticketed event -- you must purchase your tickets in advance before May 10 by clicking on this link: http://txdp.cc/RR2025**\n\nTickets will be delivered via email after May 10. \n\nJoin us for a night of baseball, community, and Democratic spirit at Riders Field as we come together to support the Collin County Democratic Party!\n\n📅 Date: Saturday, May 24th\n\n⏰ Time: First pitch at 7:05 PM (Gates open at 6:00 PM)\n\n📍 Location: Riders Field, Frisco, TX\n\n🎟️ Tickets: Just $25 – includes a $10 concession voucher for the game!\n\n💙 $5 from every ticket goes back to CCDP!\n\n⏳ Deadline Alert: Tickets must be purchased by May 10! No tickets will be sold after this date, so don't wait—grab yours now!\n\nThis isn't just about baseball—it's about showing our strength as a community and ensuring we have the resources to fight back against the attacks coming from Austin and Washington. The work of CCDP is more important than ever, and every ticket purchased helps us continue the fight for Democratic values in Collin County.\n\nHelp us make the biggest impact! Invite your friends, family, and neighbors to join us at the game. The more people we bring, the stronger our presence and the bigger our impact.\n\n📣 Spread the word! Let's fill the stands with Democrats and make it a night to remember! See you at the ballpark! 💙⚾️",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "LVSU Housing Team Meeting",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/pastandsup/",
+      "created_date": 1557871771,
+      "modified_date": 1744694143,
+      "org_type": "C4",
+      "id": 1476,
+      "name": "Pennsylvania Stands Up",
+      "slug": "pastandsup",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "PA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Untitled%20design_20231002191625333535.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/PASU%20Event%20templates%20%284%29_20250508144905140226.png",
+    "timeslots": [
+      {
+        "start_date": 1747864800,
+        "end_date": 1747868400,
+        "instructions": null,
+        "id": 5313250,
+        "is_full": false
+      },
+      {
+        "start_date": 1749074400,
+        "end_date": 1749078000,
+        "instructions": null,
+        "id": 5239949,
+        "is_full": false
+      },
+      {
+        "start_date": 1750284000,
+        "end_date": 1750287600,
+        "instructions": null,
+        "id": 5313251,
+        "is_full": false
+      },
+      {
+        "start_date": 1751493600,
+        "end_date": 1751497200,
+        "instructions": null,
+        "id": 5239950,
+        "is_full": false
+      },
+      {
+        "start_date": 1752703200,
+        "end_date": 1752706800,
+        "instructions": null,
+        "id": 5313252,
+        "is_full": false
+      },
+      {
+        "start_date": 1754517600,
+        "end_date": 1754521200,
+        "instructions": null,
+        "id": 5239951,
+        "is_full": false
+      },
+      {
+        "start_date": 1755727200,
+        "end_date": 1755730800,
+        "instructions": null,
+        "id": 5313253,
+        "is_full": false
+      },
+      {
+        "start_date": 1756936800,
+        "end_date": 1756940400,
+        "instructions": null,
+        "id": 5239952,
+        "is_full": false
+      },
+      {
+        "start_date": 1758146400,
+        "end_date": 1758150000,
+        "instructions": null,
+        "id": 5313254,
+        "is_full": false
+      },
+      {
+        "start_date": 1759356000,
+        "end_date": 1759359600,
+        "instructions": null,
+        "id": 5239953,
+        "is_full": false
+      },
+      {
+        "start_date": 1760565600,
+        "end_date": 1760569200,
+        "instructions": null,
+        "id": 5313255,
+        "is_full": false
+      },
+      {
+        "start_date": 1762383600,
+        "end_date": 1762387200,
+        "instructions": null,
+        "id": 5239954,
+        "is_full": false
+      },
+      {
+        "start_date": 1763593200,
+        "end_date": 1763596800,
+        "instructions": null,
+        "id": 5313256,
+        "is_full": false
+      },
+      {
+        "start_date": 1764802800,
+        "end_date": 1764806400,
+        "instructions": null,
+        "id": 5239955,
+        "is_full": false
+      },
+      {
+        "start_date": 1766012400,
+        "end_date": 1766016000,
+        "instructions": null,
+        "id": 5313257,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 2662,
+        "name": "Housing"
+      },
+      {
+        "id": 219,
+        "name": "Lehigh Valley Stands Up"
+      },
+      {
+        "id": 2577,
+        "name": "Housing Justice"
+      }
+    ],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "",
+      "region": "",
+      "country": "US",
+      "postal_code": "",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "MEETING",
+    "created_date": 1742229546,
+    "modified_date": 1746745296,
+    "browser_url": "https://www.mobilize.us/pastandsup/event/765221/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 765221,
+    "description": "Everyone in the Lehigh Valley deserves to have safe, sustainable, and affordable housing no matter their race, place, gender, or generation. Our work is guided by the people, so join our housing team meetings to help guide our plans and goals.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": true
+  },
+  {
+    "title": "Vote-By-Mail Enrollment Phonebank in Hollywood",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/browardcountydems/",
+      "created_date": 1525371556,
+      "modified_date": 1744692064,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 264,
+      "name": "Broward Democratic Party",
+      "slug": "browardcountydems",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "FL",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/BDP_LOGOTransparent_20221118215110639051.png"
+    },
+    "featured_image_url": "",
+    "timeslots": [
+      {
+        "start_date": 1746889200,
+        "end_date": 1746907200,
+        "instructions": null,
+        "id": 5239998,
+        "is_full": false
+      },
+      {
+        "start_date": 1747339200,
+        "end_date": 1747353600,
+        "instructions": null,
+        "id": 5239984,
+        "is_full": false
+      },
+      {
+        "start_date": 1747494000,
+        "end_date": 1747512000,
+        "instructions": null,
+        "id": 5239999,
+        "is_full": false
+      },
+      {
+        "start_date": 1747944000,
+        "end_date": 1747958400,
+        "instructions": null,
+        "id": 5239985,
+        "is_full": false
+      },
+      {
+        "start_date": 1748098800,
+        "end_date": 1748116800,
+        "instructions": null,
+        "id": 5240000,
+        "is_full": false
+      },
+      {
+        "start_date": 1748548800,
+        "end_date": 1748563200,
+        "instructions": null,
+        "id": 5239986,
+        "is_full": false
+      },
+      {
+        "start_date": 1748703600,
+        "end_date": 1748721600,
+        "instructions": null,
+        "id": 5240001,
+        "is_full": false
+      },
+      {
+        "start_date": 1749153600,
+        "end_date": 1749168000,
+        "instructions": null,
+        "id": 5239987,
+        "is_full": false
+      },
+      {
+        "start_date": 1749308400,
+        "end_date": 1749326400,
+        "instructions": null,
+        "id": 5240002,
+        "is_full": false
+      },
+      {
+        "start_date": 1749758400,
+        "end_date": 1749772800,
+        "instructions": null,
+        "id": 5239988,
+        "is_full": false
+      },
+      {
+        "start_date": 1749913200,
+        "end_date": 1749931200,
+        "instructions": null,
+        "id": 5240003,
+        "is_full": false
+      },
+      {
+        "start_date": 1750363200,
+        "end_date": 1750377600,
+        "instructions": null,
+        "id": 5239989,
+        "is_full": false
+      },
+      {
+        "start_date": 1750518000,
+        "end_date": 1750536000,
+        "instructions": null,
+        "id": 5240004,
+        "is_full": false
+      },
+      {
+        "start_date": 1750968000,
+        "end_date": 1750982400,
+        "instructions": null,
+        "id": 5239990,
+        "is_full": false
+      },
+      {
+        "start_date": 1751122800,
+        "end_date": 1751140800,
+        "instructions": null,
+        "id": 5240005,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 134,
+        "name": "Voter registration"
+      },
+      {
+        "id": 267,
+        "name": "Vbm Phone Bank"
+      },
+      {
+        "id": 337,
+        "name": "Volunteer"
+      }
+    ],
+    "location": {
+      "locality": "Hollywood",
+      "region": "FL",
+      "country": "US",
+      "postal_code": "33020",
+      "congressional_district": "25",
+      "state_leg_district": "105",
+      "state_senate_district": "37",
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "PHONE_BANK",
+    "created_date": 1742230200,
+    "modified_date": 1746792021,
+    "browser_url": "https://www.mobilize.us/browardcountydems/event/765231/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 765231,
+    "description": "Sandy, Karyn's World Famous Phone Bank is BACK!!!  \n\nJoin Sandy, Karyn and the other south Broward Democrats in Hollywood at Todd Delmay's office to call local Democrats and tell them they need to re-register to vote-by-mail in the 2026 election. \n\nCome for a little bit or stay the whole time, we will have a place for you to work - and we'll even teach you how to do it from home too. Whatever time you can spare - we'll take it!\n\nPlease bring your cell phone and an iPad/tablet or laptop computer. If you don't have one, please let us know. \n\nQuestions? \nContact Karyn at (412) 901-8248 or Sandy at (754) 971-7467",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Indivisible Sonoma County After Hours Support / Brainstorm / Activist Group",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisiblesonomacounty/",
+      "created_date": 1644509906,
+      "modified_date": 1746328965,
+      "org_type": "CAMPAIGN",
+      "id": 31830,
+      "name": "Indivisible Sonoma County",
+      "slug": "indivisiblesonomacounty",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "CA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/MobilizeLogoSabra3_20240803000909845117.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/brainstorm%20pix_20250317172337929006.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1747357200,
+        "end_date": 1747362600,
+        "instructions": null,
+        "id": 5246251,
+        "is_full": true
+      },
+      {
+        "start_date": 1747962000,
+        "end_date": 1747967400,
+        "instructions": null,
+        "id": 5246252,
+        "is_full": false
+      },
+      {
+        "start_date": 1748566800,
+        "end_date": 1748572200,
+        "instructions": null,
+        "id": 5246253,
+        "is_full": false
+      },
+      {
+        "start_date": 1749171600,
+        "end_date": 1749177000,
+        "instructions": null,
+        "id": 5246254,
+        "is_full": false
+      },
+      {
+        "start_date": 1749776400,
+        "end_date": 1749781800,
+        "instructions": null,
+        "id": 5246255,
+        "is_full": false
+      },
+      {
+        "start_date": 1750381200,
+        "end_date": 1750386600,
+        "instructions": null,
+        "id": 5246256,
+        "is_full": false
+      },
+      {
+        "start_date": 1750986000,
+        "end_date": 1750991400,
+        "instructions": null,
+        "id": 5246257,
+        "is_full": false
+      },
+      {
+        "start_date": 1751590800,
+        "end_date": 1751596200,
+        "instructions": null,
+        "id": 5246258,
+        "is_full": false
+      },
+      {
+        "start_date": 1752195600,
+        "end_date": 1752201000,
+        "instructions": null,
+        "id": 5246259,
+        "is_full": false
+      },
+      {
+        "start_date": 1752800400,
+        "end_date": 1752805800,
+        "instructions": null,
+        "id": 5246260,
+        "is_full": false
+      },
+      {
+        "start_date": 1753405200,
+        "end_date": 1753410600,
+        "instructions": null,
+        "id": 5246261,
+        "is_full": false
+      },
+      {
+        "start_date": 1754010000,
+        "end_date": 1754015400,
+        "instructions": null,
+        "id": 5246262,
+        "is_full": false
+      },
+      {
+        "start_date": 1754614800,
+        "end_date": 1754620200,
+        "instructions": null,
+        "id": 5246263,
+        "is_full": false
+      },
+      {
+        "start_date": 1755219600,
+        "end_date": 1755225000,
+        "instructions": null,
+        "id": 5246264,
+        "is_full": false
+      },
+      {
+        "start_date": 1755824400,
+        "end_date": 1755829800,
+        "instructions": null,
+        "id": 5246265,
+        "is_full": false
+      },
+      {
+        "start_date": 1756429200,
+        "end_date": 1756434600,
+        "instructions": null,
+        "id": 5246266,
+        "is_full": false
+      },
+      {
+        "start_date": 1757034000,
+        "end_date": 1757039400,
+        "instructions": null,
+        "id": 5246267,
+        "is_full": false
+      },
+      {
+        "start_date": 1757638800,
+        "end_date": 1757644200,
+        "instructions": null,
+        "id": 5246268,
+        "is_full": false
+      },
+      {
+        "start_date": 1758243600,
+        "end_date": 1758249000,
+        "instructions": null,
+        "id": 5246269,
+        "is_full": false
+      },
+      {
+        "start_date": 1758848400,
+        "end_date": 1758853800,
+        "instructions": null,
+        "id": 5246270,
+        "is_full": false
+      },
+      {
+        "start_date": 1759453200,
+        "end_date": 1759458600,
+        "instructions": null,
+        "id": 5246271,
+        "is_full": false
+      },
+      {
+        "start_date": 1760058000,
+        "end_date": 1760063400,
+        "instructions": null,
+        "id": 5246272,
+        "is_full": false
+      },
+      {
+        "start_date": 1760662800,
+        "end_date": 1760668200,
+        "instructions": null,
+        "id": 5246273,
+        "is_full": false
+      },
+      {
+        "start_date": 1761267600,
+        "end_date": 1761273000,
+        "instructions": null,
+        "id": 5246274,
+        "is_full": false
+      },
+      {
+        "start_date": 1761872400,
+        "end_date": 1761877800,
+        "instructions": null,
+        "id": 5246275,
+        "is_full": false
+      },
+      {
+        "start_date": 1762480800,
+        "end_date": 1762486200,
+        "instructions": null,
+        "id": 5246276,
+        "is_full": false
+      },
+      {
+        "start_date": 1763085600,
+        "end_date": 1763091000,
+        "instructions": null,
+        "id": 5246277,
+        "is_full": false
+      },
+      {
+        "start_date": 1763690400,
+        "end_date": 1763695800,
+        "instructions": null,
+        "id": 5246278,
+        "is_full": false
+      },
+      {
+        "start_date": 1764900000,
+        "end_date": 1764905400,
+        "instructions": null,
+        "id": 5246280,
+        "is_full": false
+      },
+      {
+        "start_date": 1765504800,
+        "end_date": 1765510200,
+        "instructions": null,
+        "id": 5246281,
+        "is_full": false
+      },
+      {
+        "start_date": 1766109600,
+        "end_date": 1766115000,
+        "instructions": null,
+        "id": 5246282,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 25477,
+        "name": "Resistance"
+      },
+      {
+        "id": 20244,
+        "name": "In-person Event"
+      },
+      {
+        "id": 8418,
+        "name": "Meetup"
+      }
+    ],
+    "location": {
+      "locality": "Santa Rosa",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "95401",
+      "congressional_district": "4",
+      "state_leg_district": "2",
+      "state_senate_district": "2",
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "FRIEND_TO_FRIEND_OUTREACH",
+    "created_date": 1742232275,
+    "modified_date": 1746757264,
+    "browser_url": "https://www.mobilize.us/indivisiblesonomacounty/event/765261/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 765261,
+    "description": "In Person in Santa Rosa / After-Hours Edition\n  \nCome to one or all of these meetings to gather with a community of progressive folks active in grassroots actions.\n\nIF THIS IS YOUR FIRST TIME ATTENDING, PLEASE ARRIVE AT 5:45PM FOR ORIENTATION. THANK YOU.\n\nThis is a time for democracy and each of us has something to contribute to this existential responsibility that rests on all of us.\n\nWe will be there and hope you will be too. In-person event (no Zoom).",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "San Francisco 2025 Summer of Housing",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/homesf/",
+      "created_date": 1742239294,
+      "modified_date": 1742239294,
+      "org_type": "C3",
+      "id": 41352,
+      "name": "Home SF",
+      "slug": "homesf",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "",
+    "timeslots": [
+      {
+        "start_date": 1750521600,
+        "end_date": 1750543200,
+        "instructions": null,
+        "id": 5240378,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "2130 Fulton St",
+        ""
+      ],
+      "locality": "San Francisco",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "94117",
+      "location": {
+        "latitude": 37.7762354,
+        "longitude": -122.4511028
+      },
+      "congressional_district": "11",
+      "state_leg_district": "19",
+      "state_senate_district": "11"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1742239877,
+    "modified_date": 1742240950,
+    "browser_url": "https://www.mobilize.us/homesf/event/765342/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 765342,
+    "description": "We are excited to announce the 11th Annual Housing Expo - but this year, we’re expanding our efforts into a broader engagement initiative: Summer of Housing! From April through June, we will be hosting a series of housing-related events, culminating in the HSF Housing Fair and HELP Center at USF on June 21, 2025. These events will create even more opportunities for community involvement, including neighborhood canvassing, community outreach events, and more.\n\nHow can you help?\nWe need volunteers like you to help make this initiative a success! There will be a variety of roles available across different events, and your participation will be instrumental in supporting this community-driven effort.\n\nAs an early invitation, we would love for you and your organization to join us in Summer of Housing, in collaboration with the Mayor’s Office of Housing and Community Development, member agencies, and community partners. \n\nWe’d also be happy to help coordinate your preferred day(s) of volunteering. Stay tuned--I'll be sharing the signup forms and additional details soon!\n\nCOMMUNITY OUTREACH (SCHEDULE TBD)\n\nPREP DAY -FRIDAY 6/20/2025\n\nHOUSING FAIR: SATURDAY 6/21/2025 (VARIOUS TIMESLOT)\n\nThank you for your support, and we look forward to working together.",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "MN United Parents say: Hands Off Paid Sick Days!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/takeactionminnesota/",
+      "created_date": 1580925228,
+      "modified_date": 1744695835,
+      "org_type": "C4",
+      "id": 2343,
+      "name": "TakeAction Minnesota",
+      "slug": "takeactionminnesota",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/LOGO%20400X700_20200721183912926813.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/MNUP_20250425154029899848.JPG",
+    "timeslots": [
+      {
+        "start_date": 1747180800,
+        "end_date": 1747184400,
+        "instructions": null,
+        "id": 5292787,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "",
+      "region": "",
+      "country": "US",
+      "postal_code": "",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "TRAINING",
+    "created_date": 1742240284,
+    "modified_date": 1746666151,
+    "browser_url": "https://www.mobilize.us/takeactionminnesota/event/765344/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 765344,
+    "description": "MN United Parents long-term vision is that every baby, toddler, and pre-kindergartner in Minnesota has safe, enriching, and joyful places to grow and develop (that are free or deeply affordable).\n\nAnd in the short-term, we believe that every worker in the state deserves a minimum of paid sick and safe days to care for themselves and their family!\n\nUnfortunately, MN lawmakers from both parties are attacking paid sick and safe days. Join this training to get organized + fight back!",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": true
+  },
+  {
+    "title": "Shawnee County Young Democrats Monthly Meeting",
+    "summary": "",
+    "sponsor": {
+      "race_type": "OTHER_LOCAL",
+      "event_feed_url": "https://www.mobilize.us/shawneecountyyoungdemocrats/",
+      "created_date": 1742239929,
+      "modified_date": 1744701768,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 41354,
+      "name": "Shawnee County Young Democrats",
+      "slug": "shawneecountyyoungdemocrats",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "KS",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/SNCO%20YD%20Logo%20%281%29_20250317194428188177.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/SNCO%20YD%20Logo%20%281%29_20250317193258794113.png",
+    "timeslots": [
+      {
+        "start_date": 1747596600,
+        "end_date": 1747603800,
+        "instructions": null,
+        "id": 5240385,
+        "is_full": false
+      },
+      {
+        "start_date": 1750620600,
+        "end_date": 1750627800,
+        "instructions": null,
+        "id": 5240386,
+        "is_full": false
+      },
+      {
+        "start_date": 1753039800,
+        "end_date": 1753047000,
+        "instructions": null,
+        "id": 5240387,
+        "is_full": false
+      },
+      {
+        "start_date": 1755459000,
+        "end_date": 1755466200,
+        "instructions": null,
+        "id": 5240388,
+        "is_full": false
+      },
+      {
+        "start_date": 1758483000,
+        "end_date": 1758490200,
+        "instructions": null,
+        "id": 5240389,
+        "is_full": false
+      },
+      {
+        "start_date": 1760902200,
+        "end_date": 1760909400,
+        "instructions": null,
+        "id": 5240390,
+        "is_full": false
+      },
+      {
+        "start_date": 1763325000,
+        "end_date": 1763332200,
+        "instructions": null,
+        "id": 5240391,
+        "is_full": false
+      },
+      {
+        "start_date": 1766349000,
+        "end_date": 1766356200,
+        "instructions": null,
+        "id": 5240392,
+        "is_full": false
+      },
+      {
+        "start_date": 1768768200,
+        "end_date": 1768775400,
+        "instructions": null,
+        "id": 5240393,
+        "is_full": false
+      },
+      {
+        "start_date": 1771187400,
+        "end_date": 1771194600,
+        "instructions": null,
+        "id": 5240394,
+        "is_full": false
+      },
+      {
+        "start_date": 1773603000,
+        "end_date": 1773610200,
+        "instructions": null,
+        "id": 5240395,
+        "is_full": false
+      },
+      {
+        "start_date": 1776627000,
+        "end_date": 1776634200,
+        "instructions": null,
+        "id": 5240396,
+        "is_full": false
+      },
+      {
+        "start_date": 1779046200,
+        "end_date": 1779053400,
+        "instructions": null,
+        "id": 5240397,
+        "is_full": false
+      },
+      {
+        "start_date": 1782070200,
+        "end_date": 1782077400,
+        "instructions": null,
+        "id": 5240398,
+        "is_full": false
+      },
+      {
+        "start_date": 1784489400,
+        "end_date": 1784496600,
+        "instructions": null,
+        "id": 5240399,
+        "is_full": false
+      },
+      {
+        "start_date": 1786908600,
+        "end_date": 1786915800,
+        "instructions": null,
+        "id": 5240400,
+        "is_full": false
+      },
+      {
+        "start_date": 1789932600,
+        "end_date": 1789939800,
+        "instructions": null,
+        "id": 5240401,
+        "is_full": false
+      },
+      {
+        "start_date": 1792351800,
+        "end_date": 1792359000,
+        "instructions": null,
+        "id": 5240402,
+        "is_full": false
+      },
+      {
+        "start_date": 1794774600,
+        "end_date": 1794781800,
+        "instructions": null,
+        "id": 5240403,
+        "is_full": false
+      },
+      {
+        "start_date": 1797798600,
+        "end_date": 1797805800,
+        "instructions": null,
+        "id": 5240404,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "locality": "Topeka",
+      "region": "KS",
+      "country": "US",
+      "postal_code": "66604",
+      "congressional_district": "2",
+      "state_leg_district": "53",
+      "state_senate_district": "20",
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "MEETING",
+    "created_date": 1742240515,
+    "modified_date": 1744668078,
+    "browser_url": "https://www.mobilize.us/shawneecountyyoungdemocrats/event/765347/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 765347,
+    "description": "Our Monthly Business Meeting is scheduled each Third Sunday* of the month at 2:30pm. All Democrats aged 35 or younger are welcome to attend! *Sometimes Meetings are rescheduled for a better fitting Sunday.",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Feather River Democratic Club Monthly Meeting",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/cadems/",
+      "created_date": 1579293615,
+      "modified_date": 1744753536,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 2289,
+      "name": "California Democratic Party",
+      "slug": "cadems",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "CA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/CADEM%20Logo%20%282%29_20250311045655956117.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/FRDC-logo-symbol-cropped_20250317195457352070.png",
+    "timeslots": [
+      {
+        "start_date": 1747360800,
+        "end_date": 1747364400,
+        "instructions": null,
+        "id": 5240459,
+        "is_full": false
+      },
+      {
+        "start_date": 1750384800,
+        "end_date": 1750388400,
+        "instructions": null,
+        "id": 5240460,
+        "is_full": false
+      },
+      {
+        "start_date": 1752804000,
+        "end_date": 1752807600,
+        "instructions": null,
+        "id": 5240461,
+        "is_full": false
+      },
+      {
+        "start_date": 1755828000,
+        "end_date": 1755831600,
+        "instructions": null,
+        "id": 5240462,
+        "is_full": false
+      },
+      {
+        "start_date": 1758247200,
+        "end_date": 1758250800,
+        "instructions": null,
+        "id": 5240463,
+        "is_full": false
+      },
+      {
+        "start_date": 1760666400,
+        "end_date": 1760670000,
+        "instructions": null,
+        "id": 5240464,
+        "is_full": false
+      },
+      {
+        "start_date": 1763694000,
+        "end_date": 1763697600,
+        "instructions": null,
+        "id": 5240465,
+        "is_full": false
+      },
+      {
+        "start_date": 1766113200,
+        "end_date": 1766116800,
+        "instructions": null,
+        "id": 5240466,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "locality": "Yuba City",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "95993",
+      "congressional_district": "1",
+      "state_leg_district": "3",
+      "state_senate_district": "1",
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "MEETING",
+    "created_date": 1742241781,
+    "modified_date": 1745031628,
+    "browser_url": "https://www.mobilize.us/cadems/event/765365/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 765365,
+    "description": "Join Democrats from Yuba and Sutter counties to discuss actions we are taking in our communities.\n\nIf you cannot join in person, please contact Joene Tranter at jtranter1463@comcast.net for the Zoom link.",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Clinic Defense Training Dates",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisibleactiontampabay/",
+      "created_date": 1603737360,
+      "modified_date": 1744820999,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 5427,
+      "name": "Indivisible Action Tampa Bay",
+      "slug": "indivisibleactiontampabay",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/IATB%20Logo_20220616185717227867.jpg"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/tampa%20clinic%20pink_20250317201957618438.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1748989800,
+        "end_date": 1748991600,
+        "instructions": null,
+        "id": 5289415,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 3239,
+        "name": "Women's Health"
+      },
+      {
+        "id": 22579,
+        "name": "Reproductive Rights, Abortion,"
+      }
+    ],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "",
+      "region": "",
+      "country": "US",
+      "postal_code": "",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "MEETING",
+    "created_date": 1742242975,
+    "modified_date": 1746744605,
+    "browser_url": "https://www.mobilize.us/indivisibleactiontampabay/event/765386/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 765386,
+    "description": "We appreciate your interest in clinic defense and patient escort work. We are looking for people 18 years and older to participate.\n\nYou will be helping patients access safe and legal abortion healthcare in Hillsborough or Pinellas Counties. We hold online training periodically to ensure you are fully aware of the roles and practices taken to ensure everyone's safety.\n\nWe will walk through our Clinic Defense roles and information to keep you safe while supporting women's access to healthcare.\n\nClinic Escort: Stay on the property to shield patients with umbrellas, fabric screens, and signs. You only interact with patients, not protestors. \n\nClinic Defender: Stay at the perimeter, filming and interacting with protestors, blocking their signs with pro-choice messaging, and drowning out their shouts with cowbells, chants, and bullhorns.\n\nSign Waving: Sign Waving: Show support by waving signs, raising awareness about reversing Florida's 6-week abortion ban or supporting reproductive rights.You can choose not to engage with patients or protestors.\n\nWe don't physically engage with protestors but ensure patients can enter the clinic with minimal harassment.\n\nOnce trained, you can access the Sign up pages for specific clinic locations and times.\n\nThank you for your support!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": true
+  },
+  {
+    "title": "Support Veterans Rush Hour Rally",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisiblecentralohio/",
+      "created_date": 1732645652,
+      "modified_date": 1744694562,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 40451,
+      "name": "Indivisible Central Ohio",
+      "slug": "indivisiblecentralohio",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "OH",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/OHCentral_3C_NEW%20%281%29_20241126201819684787.jpg"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/VA%20visibility%20Mobilize%20graphic%20no%20date_20250429224625739293.png",
+    "timeslots": [
+      {
+        "start_date": 1747168200,
+        "end_date": 1747171800,
+        "instructions": null,
+        "id": 5288085,
+        "is_full": false
+      },
+      {
+        "start_date": 1747773000,
+        "end_date": 1747776600,
+        "instructions": null,
+        "id": 5288086,
+        "is_full": false
+      },
+      {
+        "start_date": 1748377800,
+        "end_date": 1748381400,
+        "instructions": null,
+        "id": 5288087,
+        "is_full": false
+      },
+      {
+        "start_date": 1748982600,
+        "end_date": 1748986200,
+        "instructions": null,
+        "id": 5288088,
+        "is_full": false
+      },
+      {
+        "start_date": 1749587400,
+        "end_date": 1749591000,
+        "instructions": null,
+        "id": 5288089,
+        "is_full": false
+      },
+      {
+        "start_date": 1750192200,
+        "end_date": 1750195800,
+        "instructions": null,
+        "id": 5288090,
+        "is_full": false
+      },
+      {
+        "start_date": 1750797000,
+        "end_date": 1750800600,
+        "instructions": null,
+        "id": 5288091,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Chalmers P. Wylie Ambulatory Care Center",
+      "address_lines": [
+        "420 N James Rd",
+        ""
+      ],
+      "locality": "Columbus",
+      "region": "OH",
+      "country": "US",
+      "postal_code": "43219",
+      "location": {
+        "latitude": 39.9808663,
+        "longitude": -82.909499
+      },
+      "congressional_district": "3",
+      "state_leg_district": null,
+      "state_senate_district": "15"
+    },
+    "event_type": "RALLY",
+    "created_date": 1742248438,
+    "modified_date": 1746655296,
+    "browser_url": "https://www.mobilize.us/indivisiblecentralohio/event/765447/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 765447,
+    "description": "Support veterans: Protect the VA!\n\nJoin our Rush-Hour Resistance Rally outside the Chalmers Wylie VA Clinic to protest the cuts to the VA and support veterans!\n\nThis huge facility, serving veterans from a wide area, is on James Road just south of the Columbus Airport. Thousands of cars pass this location during rush hour every weekday afternoon, making this the perfect place to inform people about the crippling cuts that Trump, Musk and DOGE are making to our federal government.\n\nDemonstration area: We will be demonstrating on public sidewalks on both sides of James Road, which are highly visible to commuters passing by.\n\nUPDATED PARKING INFO: To eliminate any possibility of getting in the way of patients or staff at the clinic, we are asking everyone to avoid using the VA lot to the east of James Road. Instead, please park west of James Road. Look for Visitor Parking signs in the lot for Africentric High School, 3223 Allegheny Ave, Columbus, OH 43209. Or you can park on three side streets—Kellner, Lowell and Edgevale—off Ruhl Ave., which is the first stoplight intersection south of the VA clinic. If you’re car-pooling, you should be able to drop off passengers on Allegheny Ave. just west of James, on the way to the Africentric parking lot.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Elon Musk & Tesla Protest",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/sonomacountyagainstelonmusk/",
+      "created_date": 1742252905,
+      "modified_date": 1745056845,
+      "org_type": "INDIVIDUAL",
+      "id": 41360,
+      "name": "Sonoma County Against Elon Musk",
+      "slug": "sonomacountyagainstelonmusk",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "",
+    "timeslots": [
+      {
+        "start_date": 1746900000,
+        "end_date": 1746907200,
+        "instructions": null,
+        "id": 5240844,
+        "is_full": false
+      },
+      {
+        "start_date": 1747504800,
+        "end_date": 1747512000,
+        "instructions": null,
+        "id": 5240845,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "3286 Airway Dr",
+        ""
+      ],
+      "locality": "Santa Rosa",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "95403",
+      "location": {
+        "latitude": 38.4741768,
+        "longitude": -122.737465
+      },
+      "congressional_district": null,
+      "state_leg_district": "2",
+      "state_senate_district": "2"
+    },
+    "event_type": "RALLY",
+    "created_date": 1742253748,
+    "modified_date": 1746388993,
+    "browser_url": "https://www.mobilize.us/sonomacountyagainstelonmusk/event/765480/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 765480,
+    "description": "This is a weekly protest against Elon Musk in front of his company Tesla. Let's keep up the momentum! \n\nJoin us on the sidewalk outside the Tesla showroom in Santa Rosa. \n3286 Airway Drive, Santa Rosa, CA, 95403.\n\nIdeas of what to bring: Signs, drums, an American flag, friends & family \n\nPlease stay on the sidewalk and do not block entrances.\n\nTimes/details are subject to change w/o notice.",
+    "timezone": "America/Los_Angeles",
     "high_priority": null,
     "virtual_action_url": null,
     "accessibility_notes": "",

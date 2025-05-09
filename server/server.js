@@ -135,7 +135,7 @@ app.get('/events', async (req, res) => {
 app.get('/mobilize-diagnostics', async (req, res) => {
   try {
       const files = await fs.readdir('./data/raw');
-      const chunkFiles = files.filter(f => f.startsWith('all-mobilize-page') && f.endsWith('.json'));
+      const chunkFiles = files.filter(f => f.startsWith('mobilize-page') && f.endsWith('.json'));
 
       let allEvents = [];
       for (const file of chunkFiles) {

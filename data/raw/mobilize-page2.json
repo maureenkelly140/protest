@@ -1,137 +1,5 @@
 [
   {
-    "title": "Ramsey County Court Watch",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/mnfreedomfund/",
-      "created_date": 1702938758,
-      "modified_date": 1744699253,
-      "org_type": "C3",
-      "id": 37046,
-      "name": "Minnesota Freedom Fund",
-      "slug": "mnfreedomfund",
-      "is_coordinated": false,
-      "is_independent": false,
-      "is_nonelectoral": true,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize%20Branding%20Logo3_20240102195806279672.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Court%20Watch%20Image_20240102214000222737.jpg",
-    "timeslots": [
-      {
-        "start_date": 1748354400,
-        "end_date": 1748361600,
-        "instructions": null,
-        "id": 5134642,
-        "is_full": false
-      },
-      {
-        "start_date": 1750687200,
-        "end_date": 1750694400,
-        "instructions": null,
-        "id": 5134643,
-        "is_full": false
-      },
-      {
-        "start_date": 1753711200,
-        "end_date": 1753718400,
-        "instructions": null,
-        "id": 5134644,
-        "is_full": false
-      },
-      {
-        "start_date": 1756130400,
-        "end_date": 1756137600,
-        "instructions": null,
-        "id": 5134645,
-        "is_full": false
-      },
-      {
-        "start_date": 1758549600,
-        "end_date": 1758556800,
-        "instructions": null,
-        "id": 5134646,
-        "is_full": false
-      },
-      {
-        "start_date": 1761573600,
-        "end_date": 1761580800,
-        "instructions": null,
-        "id": 5134647,
-        "is_full": false
-      },
-      {
-        "start_date": 1763996400,
-        "end_date": 1764003600,
-        "instructions": null,
-        "id": 5134648,
-        "is_full": false
-      },
-      {
-        "start_date": 1766415600,
-        "end_date": 1766422800,
-        "instructions": null,
-        "id": 5134649,
-        "is_full": false
-      }
-    ],
-    "tags": [
-      {
-        "id": 805,
-        "name": "Civic Engagement"
-      },
-      {
-        "id": 1203,
-        "name": "Social Justice"
-      },
-      {
-        "id": 337,
-        "name": "Volunteer"
-      }
-    ],
-    "location": {
-      "venue": "Law Enforcement Center, Sheriff's Office",
-      "address_lines": [
-        "425 Grove St",
-        ""
-      ],
-      "locality": "Saint Paul",
-      "region": "MN",
-      "country": "US",
-      "postal_code": "55101",
-      "location": {
-        "latitude": 44.956338,
-        "longitude": -93.085435
-      },
-      "congressional_district": "4",
-      "state_leg_district": "65B",
-      "state_senate_district": "65"
-    },
-    "event_type": "COMMUNITY",
-    "created_date": 1704231748,
-    "modified_date": 1745942443,
-    "browser_url": "https://www.mobilize.us/mnfreedomfund/event/597321/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 597321,
-    "description": "Court watching is a tactic to raise public awareness about our legal system and to hold the system accountable through witnessing, documenting, and sharing experiences at bail hearings. This is a powerful and critical tool for organizing because so much harm is never witnessed and goes unchecked. Court watching is a tool of PEOPLE POWER against those in power.\n\nMN Freedom Funds court watching is a volunteer-based program aimed at shining a light on Ramsey County and Hennepin County Arraignment hearings. This is where money bail decisions are made and ultimately, people's access to pretrial freedom is determined.​\n\nRamsey County Court Watch Shifts every 4th Monday of the month at 9:00am\n\nHennepin County Court Watch Shifts are every 1st Thursday and every 2nd Monday of the month at 1:30 pm.\n\n*These dates are subject to change*",
-    "timezone": "America/Chicago",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "Lyft rides available.",
-    "is_virtual": false
-  },
-  {
     "title": "Lake County Democrats Monthly Meeting",
     "summary": "",
     "sponsor": {
@@ -154,13 +22,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Lake%20County%20%282%29_20230731010152213237.jpg",
     "timeslots": [
-      {
-        "start_date": 1746743400,
-        "end_date": 1746750600,
-        "instructions": null,
-        "id": 5126486,
-        "is_full": false
-      },
       {
         "start_date": 1749767400,
         "end_date": 1749774600,
@@ -232,7 +93,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1704288361,
-    "modified_date": 1746648087,
+    "modified_date": 1746750002,
     "browser_url": "https://www.mobilize.us/lakecountydec/event/597405/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -273,13 +134,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/ChatGPT%20Image%20Mar%2026%2C%202025%2C%2004_23_57%20PM_20250326232406678578.png",
     "timeslots": [
-      {
-        "start_date": 1746748800,
-        "end_date": 1746752400,
-        "instructions": null,
-        "id": 5156079,
-        "is_full": false
-      },
       {
         "start_date": 1747353600,
         "end_date": 1747357200,
@@ -546,7 +400,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1704419081,
-    "modified_date": 1746651635,
+    "modified_date": 1746751842,
     "browser_url": "https://www.mobilize.us/seattleindivisible/event/597816/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -744,7 +598,7 @@
     },
     "event_type": "POSTCARD_WRITING",
     "created_date": 1704492578,
-    "modified_date": 1746712808,
+    "modified_date": 1746795829,
     "browser_url": "https://www.mobilize.us/fresnocountydemocraticparty/event/598090/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -785,13 +639,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Generic%20Phone%20Bank%20for%20Twitter%20%26%20Mobilize_20250326154953959659.png",
     "timeslots": [
-      {
-        "start_date": 1746723600,
-        "end_date": 1746730800,
-        "instructions": null,
-        "id": 5250184,
-        "is_full": false
-      },
       {
         "start_date": 1747256400,
         "end_date": 1747263600,
@@ -981,7 +828,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1704822494,
-    "modified_date": 1746709206,
+    "modified_date": 1746745287,
     "browser_url": "https://www.mobilize.us/ncdems/event/598615/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -1372,7 +1219,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1705101952,
-    "modified_date": 1744556409,
+    "modified_date": 1746784837,
     "browser_url": "https://www.mobilize.us/georgiademocrats/event/599464/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -1601,13 +1448,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/fww-mobilize-default-action-network-monthly-meeting_hm2c_20230622205518383468.jpg",
     "timeslots": [
       {
-        "start_date": 1746743400,
-        "end_date": 1746747000,
-        "instructions": null,
-        "id": 5297707,
-        "is_full": false
-      },
-      {
         "start_date": 1748557800,
         "end_date": 1748563200,
         "instructions": null,
@@ -1656,7 +1496,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1706297141,
-    "modified_date": 1746648086,
+    "modified_date": 1746746410,
     "browser_url": "https://www.mobilize.us/fwa/event/602085/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -1698,13 +1538,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/NDCC_20240129152400676421.jpg",
     "timeslots": [
       {
-        "start_date": 1746745200,
-        "end_date": 1746750600,
-        "instructions": null,
-        "id": 4734613,
-        "is_full": false
-      },
-      {
         "start_date": 1749769200,
         "end_date": 1749774600,
         "instructions": null,
@@ -1743,7 +1576,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1706370138,
-    "modified_date": 1746648088,
+    "modified_date": 1746750003,
     "browser_url": "https://www.mobilize.us/nhdp_events/event/602224/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -1965,7 +1798,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1706585633,
-    "modified_date": 1746716907,
+    "modified_date": 1746784867,
     "browser_url": "https://www.mobilize.us/indivisible/event/602625/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -2117,7 +1950,7 @@
     },
     "event_type": "TOWN_HALL",
     "created_date": 1706764339,
-    "modified_date": 1746643808,
+    "modified_date": 1746730856,
     "browser_url": "https://www.mobilize.us/ft6/event/603218/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -2362,7 +2195,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1706913285,
-    "modified_date": 1746121376,
+    "modified_date": 1746788435,
     "browser_url": "https://www.mobilize.us/swingbluealliance/event/603623/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -2481,7 +2314,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1707103557,
-    "modified_date": 1744560178,
+    "modified_date": 1746788443,
     "browser_url": "https://www.mobilize.us/georgiademocrats/event/603851/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -3736,13 +3569,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Mobolize%20State%20Graphics%2035_20241121200322305167.png",
     "timeslots": [
       {
-        "start_date": 1746741600,
-        "end_date": 1746748800,
-        "instructions": null,
-        "id": 5155575,
-        "is_full": false
-      },
-      {
         "start_date": 1747346400,
         "end_date": 1747353600,
         "instructions": null,
@@ -3818,7 +3644,7 @@
     },
     "event_type": "AUTOMATED_PHONE_BANK",
     "created_date": 1708039686,
-    "modified_date": 1746644471,
+    "modified_date": 1746748210,
     "browser_url": "https://www.mobilize.us/rideshare2vote/event/606379/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -4535,13 +4361,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/website%20image_20240223191351712454.png",
     "timeslots": [
-      {
-        "start_date": 1746763200,
-        "end_date": 1746849540,
-        "instructions": null,
-        "id": 4180076,
-        "is_full": false
-      },
       {
         "start_date": 1746849600,
         "end_date": 1746935940,
@@ -6594,7 +6413,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1708712154,
-    "modified_date": 1746666147,
+    "modified_date": 1746752626,
     "browser_url": "https://www.mobilize.us/mivoices/event/608186/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -7278,7 +7097,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1710019789,
-    "modified_date": 1744560176,
+    "modified_date": 1746784837,
     "browser_url": "https://www.mobilize.us/oconeecountydemocrats/event/612279/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -8350,13 +8169,6 @@
         "instructions": null,
         "id": 5209122,
         "is_full": false
-      },
-      {
-        "start_date": 1750359600,
-        "end_date": 1750363200,
-        "instructions": null,
-        "id": 5209123,
-        "is_full": false
       }
     ],
     "tags": [],
@@ -8380,7 +8192,7 @@
     },
     "event_type": "SOLIDARITY_EVENT",
     "created_date": 1712273688,
-    "modified_date": 1745006429,
+    "modified_date": 1746727972,
     "browser_url": "https://www.mobilize.us/surj/event/617713/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -8948,7 +8760,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1713468992,
-    "modified_date": 1745114456,
+    "modified_date": 1746730903,
     "browser_url": "https://www.mobilize.us/brevarddems/event/621032/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -8967,7 +8779,7 @@
     "is_virtual": false
   },
   {
-    "title": "Join “Unhappy/Happy Hour” Zoom: “What’s Your Plan?”What actions are you taking? Fri May 2 @5pm CT",
+    "title": "Join “Unhappy/Happy Hour” Zoom: “What’s Your Plan?”What actions are you taking? Fri May 9 @5pm CT",
     "summary": "",
     "sponsor": {
       "race_type": null,
@@ -9130,7 +8942,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1713562155,
-    "modified_date": 1746313207,
+    "modified_date": 1746751770,
     "browser_url": "https://www.mobilize.us/nwsofaindivisible/event/621324/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -9141,7 +8953,7 @@
     "event_campaign": null,
     "instructions": null,
     "id": 621324,
-    "description": "### Join “Unhappy/Happy Hour” Zoom: “What’s Your Plan?”What actions are you taking? Fri May 2 @5pm CT\n\n_102 days in? Will it ever end .. Trump 2.0 “so much Sh*t on the wall.. What are you or your group doing?_\n\n#### Did you attend a May 1st protests” Tell us about it .. \n\n#### US Tariffs - World Economics Disaster .. Trump backs down\n\n#### the Week in Review  .. Fast paced Conversation between Attendee’s \n\n**This week ..What We / You are doing or your groups are doing .. along with some Local, National & International Stuff …. ZOOM- it’s a “CONVERSATION between Attendee’s not a presentation”. … ZOOM Friday 5 pm central time**\n\n### Let us know that you will be attending - RSVP by Clicking Here! —>>>   https://mobilize.us/s/0RUsrK\n\nIt’s the “ NWSOFA WEEKLY NEWS / HAPPY HOUR” Every Friday Night @ 5 PM central …. It's Where we Talk about Stuff!!!! .. the Stuff that happened this last week .. join us and the crazy News Cycle!!\n\n_It's Friday Night .. It's 5 PM .. do you know where YOU should be? Talking to us at 5 pm - We have it set up that anyone can join and start the conversation about stuff.. _\n\n### ZOOM LINK to Friday Night “Happy Hour” Click Here at 4:55 PM for the 5pm cst ->> https://bit.ly/NWSOFA-Zoom",
+    "description": "### Join “Unhappy/Happy Hour” Zoom: “What’s Your Plan?”What actions are you taking? Fri May 9 @5pm CT\n\n_109 days in? Will it ever end .. Trump 2.0 “so much Sh*t on the wall.. What are you or your group doing?_\n\n#### Did you attend a May 1st protests” Tell us about it .. \n\n#### US Tariffs - World Economics Disaster .. Trump backs down\n\n#### the Week in Review  .. Fast paced Conversation between Attendee’s \n\n**This week ..What We / You are doing or your groups are doing .. along with some Local, National & International Stuff …. ZOOM- it’s a “CONVERSATION between Attendee’s not a presentation”. … ZOOM Friday 5 pm central time**\n\n### Let us know that you will be attending - RSVP by Clicking Here! —>>>   https://mobilize.us/s/0RUsrK\n\nIt’s the “ NWSOFA WEEKLY NEWS / HAPPY HOUR” Every Friday Night @ 5 PM central …. It's Where we Talk about Stuff!!!! .. the Stuff that happened this last week .. join us and the crazy News Cycle!!\n\n_It's Friday Night .. It's 5 PM .. do you know where YOU should be? Talking to us at 5 pm - We have it set up that anyone can join and start the conversation about stuff.. _\n\n### ZOOM LINK to Friday Night “Happy Hour” Click Here at 4:55 PM for the 5pm cst ->> https://bit.ly/NWSOFA-Zoom",
     "timezone": "America/Chicago",
     "high_priority": null,
     "virtual_action_url": null,
@@ -9930,7 +9742,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1713722356,
-    "modified_date": 1746716907,
+    "modified_date": 1746784865,
     "browser_url": "https://www.mobilize.us/nwsofaindivisible/event/621533/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10469,7 +10281,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1714060698,
-    "modified_date": 1746712809,
+    "modified_date": 1746795830,
     "browser_url": "https://www.mobilize.us/poweredxpeople/event/622514/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10510,13 +10322,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/boxesofproduce_20240425184540070308.jpg",
     "timeslots": [
-      {
-        "start_date": 1746743400,
-        "end_date": 1746746100,
-        "instructions": null,
-        "id": 5253039,
-        "is_full": false
-      },
       {
         "start_date": 1747348200,
         "end_date": 1747350900,
@@ -10752,7 +10557,7 @@
     },
     "event_type": "OTHER",
     "created_date": 1714071092,
-    "modified_date": 1746648087,
+    "modified_date": 1746745813,
     "browser_url": "https://www.mobilize.us/endhunger/event/622590/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -11796,13 +11601,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Mobilize_CDC_20240516182011240934.jpg",
     "timeslots": [
       {
-        "start_date": 1746743400,
-        "end_date": 1746748800,
-        "instructions": null,
-        "id": 5230323,
-        "is_full": false
-      },
-      {
         "start_date": 1750372200,
         "end_date": 1750377600,
         "instructions": null,
@@ -11882,7 +11680,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1715884360,
-    "modified_date": 1746648086,
+    "modified_date": 1746748212,
     "browser_url": "https://www.mobilize.us/lancastercountydems/event/627780/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -13151,7 +12949,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1718049406,
-    "modified_date": 1746661804,
+    "modified_date": 1746749034,
     "browser_url": "https://www.mobilize.us/aclufl/event/634847/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -14218,7 +14016,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1719933916,
-    "modified_date": 1746649209,
+    "modified_date": 1746738231,
     "browser_url": "https://www.mobilize.us/brady/event/643195/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -14706,7 +14504,7 @@
     },
     "event_type": "VOTER_REG",
     "created_date": 1720735193,
-    "modified_date": 1746640203,
+    "modified_date": 1746727449,
     "browser_url": "https://www.mobilize.us/novaohio/event/648245/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -14910,7 +14708,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1721084644,
-    "modified_date": 1745965885,
+    "modified_date": 1746749131,
     "browser_url": "https://www.mobilize.us/wisdems/event/649516/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -15561,7 +15359,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1721408323,
-    "modified_date": 1746663606,
+    "modified_date": 1746752408,
     "browser_url": "https://www.mobilize.us/fairvotewa/event/651442/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -15890,159 +15688,6 @@
     "is_virtual": false
   },
   {
-    "title": "Thank You Cards to New Citizens",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/lwvhouston/",
-      "created_date": 1691443728,
-      "modified_date": 1744695414,
-      "org_type": "C3",
-      "id": 36323,
-      "name": "League of Women Voters of Houston",
-      "slug": "lwvhouston",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "TX",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Untitled%20design%20%2818%29_20230807223558460072.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/VOTER%20EMPOWERMENT%20%281%29_20230811211901729451.png",
-    "timeslots": [
-      {
-        "start_date": 1746730800,
-        "end_date": 1746738000,
-        "instructions": null,
-        "id": 5291572,
-        "is_full": false
-      }
-    ],
-    "tags": [
-      {
-        "id": 67,
-        "name": "Education"
-      },
-      {
-        "id": 34,
-        "name": "Get out the Vote"
-      },
-      {
-        "id": 22809,
-        "name": "Voter Empowerment"
-      }
-    ],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "5510 Morningside Dr 150",
-        ""
-      ],
-      "locality": "Houston",
-      "region": "TX",
-      "country": "US",
-      "postal_code": "77005",
-      "location": {
-        "latitude": 29.7159813,
-        "longitude": -95.4152475
-      },
-      "congressional_district": "7",
-      "state_leg_district": "134",
-      "state_senate_district": "13"
-    },
-    "event_type": "COMMUNITY",
-    "created_date": 1721755318,
-    "modified_date": 1746716906,
-    "browser_url": "https://www.mobilize.us/lwvhouston/event/652815/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 652815,
-    "description": "Thank-you cards are back! Join us on Thursdays at Black Walnut Kitchen & Bar to write thank-you cards to new citizens—congratulating them on their journey, reminding them about upcoming elections, and sharing key information on how to stay engaged in their community. This is a fantastic opportunity to connect with fellow volunteers, share stories, and build meaningful relationships with new voters. Let’s come together to celebrate democracy and inspire civic participation!\n\n##### Please remember that all events hosted by the League of Women Voters of Houston are strictly nonpartisan. We ask that you please refrain from candidate and party specific conversations and wearing campaign merch from any active or past candidate.",
-    "timezone": "America/Chicago",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "LD4 Dems Happy Hour",
-    "summary": "",
-    "sponsor": {
-      "race_type": "STATE_LEG",
-      "event_feed_url": "https://www.mobilize.us/ld4democrats/",
-      "created_date": 1584716807,
-      "modified_date": 1744695349,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 2510,
-      "name": "LD4 Democrats",
-      "slug": "ld4democrats",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "az",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/LOGO_20230223182030179842.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Happy%20hour_20250415032803642198.png",
-    "timeslots": [
-      {
-        "start_date": 1746748800,
-        "end_date": 1746754200,
-        "instructions": null,
-        "id": 5279053,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "21001 N Tatum Blvd",
-        ""
-      ],
-      "locality": "Phoenix",
-      "region": "AZ",
-      "country": "US",
-      "postal_code": "85050",
-      "location": {
-        "latitude": 33.6777073,
-        "longitude": -111.9702277
-      },
-      "congressional_district": "1",
-      "state_leg_district": "4",
-      "state_senate_district": "4"
-    },
-    "event_type": "COMMUNITY",
-    "created_date": 1721869925,
-    "modified_date": 1746651634,
-    "browser_url": "https://www.mobilize.us/ld4democrats/event/653904/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 653904,
-    "description": "Our happy hours are always well attended and a great opportunity to meet fellow Dems. Bring a friend, everyone is welcome!\nThis month's event is at Pigtails Speakeasy at Desert Ridge\n(enter from The Whining Pig, 21001 N Tatum Blvd, tucked away downstairs diagonally across from Dave & Busters)",
-    "timezone": "America/Phoenix",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
     "title": "Sierra College Voter Registration",
     "summary": "",
     "sponsor": {
@@ -16108,7 +15753,7 @@
     },
     "event_type": "VOTER_REG",
     "created_date": 1722285209,
-    "modified_date": 1746647408,
+    "modified_date": 1746734561,
     "browser_url": "https://www.mobilize.us/cadems/event/656095/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -16916,7 +16561,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1723940689,
-    "modified_date": 1746663608,
+    "modified_date": 1746752408,
     "browser_url": "https://www.mobilize.us/wisdems/event/671290/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -17324,7 +16969,7 @@
     "is_virtual": false
   },
   {
-    "title": "Join “Unhappy/Happy Hour” Zoom: “What’s Your Plan?”What actions are you taking? Fri May 2 @5pm CT",
+    "title": "Join “Unhappy/Happy Hour” Zoom: “What’s Your Plan?”What actions are you taking? Fri May 9 @5pm CT",
     "summary": "",
     "sponsor": {
       "race_type": null,
@@ -17480,7 +17125,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1725054456,
-    "modified_date": 1746313207,
+    "modified_date": 1746751883,
     "browser_url": "https://www.mobilize.us/indivisible/event/681204/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -17491,7 +17136,7 @@
     "event_campaign": null,
     "instructions": null,
     "id": 681204,
-    "description": "### Join “Unhappy/Happy Hour” Zoom: “What’s Your Plan?”What actions are you taking? Fri May 2 @5pm CT\n\n_102 days in? Will it ever end .. Trump 2.0 “so much Sh*t on the wall.. What are you or your group doing?_\n\n#### Did you attend a May 1st protests” Tell us about it .. \n\n#### US Tariffs - World Economics Disaster .. Trump backs down\n\n#### the Week in Review  .. Fast paced Conversation between Attendee’s \n\n**This week ..What We / You are doing or your groups are doing .. along with some Local, National & International Stuff …. ZOOM- it’s a “CONVERSATION between Attendee’s not a presentation”. … ZOOM Friday 5 pm central time**\n\n### Let us know that you will be attending - RSVP by Clicking Here! —>>>   https://mobilize.us/s/0RUsrK\n\nIt’s the “ NWSOFA WEEKLY NEWS / HAPPY HOUR” Every Friday Night @ 5 PM central …. It's Where we Talk about Stuff!!!! .. the Stuff that happened this last week .. join us and the crazy News Cycle!!\n\n_It's Friday Night .. It's 5 PM .. do you know where YOU should be? Talking to us at 5 pm - We have it set up that anyone can join and start the conversation about stuff.. _\n\n### ZOOM LINK to Friday Night “Happy Hour” Click Here at 4:55 PM for the 5pm cst ->> https://bit.ly/NWSOFA-Zoom",
+    "description": "### Join “Unhappy/Happy Hour” Zoom: “What’s Your Plan?”What actions are you taking? Fri May 9 @5pm CT\n\n_109 days in? Will it ever end .. Trump 2.0 “so much Sh*t on the wall.. What are you or your group doing?_\n\n#### Did you attend a May 1st protests” Tell us about it .. \n\n#### US Tariffs - World Economics Disaster .. Trump backs down\n\n#### the Week in Review  .. Fast paced Conversation between Attendee’s \n\n**This week ..What We / You are doing or your groups are doing .. along with some Local, National & International Stuff …. ZOOM- it’s a “CONVERSATION between Attendee’s not a presentation”. … ZOOM Friday 5 pm central time**\n\n### Let us know that you will be attending - RSVP by Clicking Here! —>>>   https://mobilize.us/s/0RUsrK\n\nIt’s the “ NWSOFA WEEKLY NEWS / HAPPY HOUR” Every Friday Night @ 5 PM central …. It's Where we Talk about Stuff!!!! .. the Stuff that happened this last week .. join us and the crazy News Cycle!!\n\n_It's Friday Night .. It's 5 PM .. do you know where YOU should be? Talking to us at 5 pm - We have it set up that anyone can join and start the conversation about stuff.. _\n\n### ZOOM LINK to Friday Night “Happy Hour” Click Here at 4:55 PM for the 5pm cst ->> https://bit.ly/NWSOFA-Zoom",
     "timezone": "America/Chicago",
     "high_priority": null,
     "virtual_action_url": null,
@@ -17627,13 +17272,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/pb%20basics1_20250222073116575059.jpg",
     "timeslots": [
       {
-        "start_date": 1746750600,
-        "end_date": 1746757800,
-        "instructions": null,
-        "id": 5253411,
-        "is_full": false
-      },
-      {
         "start_date": 1747350000,
         "end_date": 1747357200,
         "instructions": null,
@@ -17703,7 +17341,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1725484422,
-    "modified_date": 1746655294,
+    "modified_date": 1746757265,
     "browser_url": "https://www.mobilize.us/workingfamilies/event/685482/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -18012,13 +17650,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/shutterstock_1833016393_20240912130644923292.jpg",
     "timeslots": [
-      {
-        "start_date": 1746763200,
-        "end_date": 1746849540,
-        "instructions": null,
-        "id": 4714289,
-        "is_full": false
-      },
       {
         "start_date": 1746849600,
         "end_date": 1746935940,
@@ -18923,7 +18554,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1726147008,
-    "modified_date": 1746666146,
+    "modified_date": 1746752626,
     "browser_url": "https://www.mobilize.us/pbcdemocraticparty/event/694115/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -18964,13 +18595,6 @@
     },
     "featured_image_url": "",
     "timeslots": [
-      {
-        "start_date": 1746745200,
-        "end_date": 1746748800,
-        "instructions": null,
-        "id": 5311625,
-        "is_full": false
-      },
       {
         "start_date": 1747954800,
         "end_date": 1747958400,
@@ -19048,7 +18672,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1726161732,
-    "modified_date": 1746648087,
+    "modified_date": 1746748212,
     "browser_url": "https://www.mobilize.us/norcodemspa/event/694382/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -20893,7 +20517,7 @@
       "race_type": null,
       "event_feed_url": "https://www.mobilize.us/stjohnsdems/",
       "created_date": 1526398648,
-      "modified_date": 1744693301,
+      "modified_date": 1746745412,
       "org_type": "PARTY_COMMITTEE",
       "id": 328,
       "name": "St. Johns Dems",
@@ -21278,13 +20902,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Brown%20County%20Mobilize_20241015201753403554.png",
     "timeslots": [
       {
-        "start_date": 1746748800,
-        "end_date": 1746752400,
-        "instructions": null,
-        "id": 5024260,
-        "is_full": false
-      },
-      {
         "start_date": 1749772800,
         "end_date": 1749776400,
         "instructions": null,
@@ -21353,7 +20970,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1729023627,
-    "modified_date": 1746651635,
+    "modified_date": 1746751843,
     "browser_url": "https://www.mobilize.us/sddp/event/728079/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -22002,20 +21619,6 @@
     },
     "featured_image_url": "",
     "timeslots": [
-      {
-        "start_date": 1746723600,
-        "end_date": 1746730800,
-        "instructions": null,
-        "id": 5303201,
-        "is_full": false
-      },
-      {
-        "start_date": 1746730800,
-        "end_date": 1746738000,
-        "instructions": null,
-        "id": 5303202,
-        "is_full": false
-      },
       {
         "start_date": 1747058400,
         "end_date": 1747065600,
@@ -23066,7 +22669,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1730925513,
-    "modified_date": 1746720359,
+    "modified_date": 1746738231,
     "browser_url": "https://www.mobilize.us/mecklenburgcountydems/event/742377/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -23297,7 +22900,7 @@
     "is_virtual": false
   },
   {
-    "title": "Join “Unhappy/Happy Hour” Zoom: “What’s Your Plan?”What actions are you taking? Fri May 2 @5pm CT",
+    "title": "Join “Unhappy/Happy Hour” Zoom: “What’s Your Plan?”What actions are you taking? Fri May 9 @5pm CT",
     "summary": "",
     "sponsor": {
       "race_type": null,
@@ -23439,7 +23042,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1731086904,
-    "modified_date": 1746313206,
+    "modified_date": 1746752044,
     "browser_url": "https://www.mobilize.us/indivisible/event/742785/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -23450,7 +23053,7 @@
     "event_campaign": null,
     "instructions": null,
     "id": 742785,
-    "description": "### Join “Unhappy/Happy Hour” Zoom: “What’s Your Plan?”What actions are you taking? Fri May 2 @5pm CT\n\n_102 days in? Will it ever end .. Trump 2.0 “so much Sh*t on the wall.. What are you or your group doing?_\n\n#### Did you attend a May 1st protests” Tell us about it .. \n\n#### US Tariffs - World Economics Disaster .. Trump backs down\n\n#### the Week in Review  .. Fast paced Conversation between Attendee’s \n\n**This week ..What We / You are doing or your groups are doing .. along with some Local, National & International Stuff …. ZOOM- it’s a “CONVERSATION between Attendee’s not a presentation”. … ZOOM Friday 5 pm central time**\n\n### Let us know that you will be attending - RSVP by Clicking Here! —>>>   https://mobilize.us/s/0RUsrK\n\nIt’s the “ NWSOFA WEEKLY NEWS / HAPPY HOUR” Every Friday Night @ 5 PM central …. It's Where we Talk about Stuff!!!! .. the Stuff that happened this last week .. join us and the crazy News Cycle!!\n\n_It's Friday Night .. It's 5 PM .. do you know where YOU should be? Talking to us at 5 pm - We have it set up that anyone can join and start the conversation about stuff.. _\n\n### ZOOM LINK to Friday Night “Happy Hour” Click Here at 4:55 PM for the 5pm cst ->> https://bit.ly/NWSOFA-Zoom",
+    "description": "### Join “Unhappy/Happy Hour” Zoom: “What’s Your Plan?”What actions are you taking? Fri May 9 @5pm CT\n\n_109 days in? Will it ever end .. Trump 2.0 “so much Sh*t on the wall.. What are you or your group doing?_\n\n#### Did you attend a May 1st protests” Tell us about it .. \n\n#### US Tariffs - World Economics Disaster .. Trump backs down\n\n#### the Week in Review  .. Fast paced Conversation between Attendee’s \n\n**This week ..What We / You are doing or your groups are doing .. along with some Local, National & International Stuff …. ZOOM- it’s a “CONVERSATION between Attendee’s not a presentation”. … ZOOM Friday 5 pm central time**\n\n### Let us know that you will be attending - RSVP by Clicking Here! —>>>   https://mobilize.us/s/0RUsrK\n\nIt’s the “ NWSOFA WEEKLY NEWS / HAPPY HOUR” Every Friday Night @ 5 PM central …. It's Where we Talk about Stuff!!!! .. the Stuff that happened this last week .. join us and the crazy News Cycle!!\n\n_It's Friday Night .. It's 5 PM .. do you know where YOU should be? Talking to us at 5 pm - We have it set up that anyone can join and start the conversation about stuff.. _\n\n### ZOOM LINK to Friday Night “Happy Hour” Click Here at 4:55 PM for the 5pm cst ->> https://bit.ly/NWSOFA-Zoom",
     "timezone": "America/Chicago",
     "high_priority": null,
     "virtual_action_url": null,
@@ -23890,7 +23493,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1731100596,
-    "modified_date": 1744563621,
+    "modified_date": 1746788443,
     "browser_url": "https://www.mobilize.us/leecountydec/event/742870/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -24462,7 +24065,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1731265163,
-    "modified_date": 1746665820,
+    "modified_date": 1746784837,
     "browser_url": "https://www.mobilize.us/leecountydec/event/743123/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -24587,13 +24190,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/donate%20invest%20local%20grassroots_20241111155506669965.png",
     "timeslots": [
-      {
-        "start_date": 1746774000,
-        "end_date": 1746860340,
-        "instructions": null,
-        "id": 5118996,
-        "is_full": false
-      },
       {
         "start_date": 1746860400,
         "end_date": 1746946740,
@@ -27772,7 +27368,7 @@
     },
     "event_type": "CANVASS",
     "created_date": 1731340644,
-    "modified_date": 1746676879,
+    "modified_date": 1746763280,
     "browser_url": "https://www.mobilize.us/southeastvalleydems/event/743257/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -27814,13 +27410,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Club_20241111183000602505.png",
     "timeslots": [
       {
-        "start_date": 1746743400,
-        "end_date": 1746747000,
-        "instructions": null,
-        "id": 5120942,
-        "is_full": false
-      },
-      {
         "start_date": 1749767400,
         "end_date": 1749771000,
         "instructions": null,
@@ -27850,7 +27439,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1731349909,
-    "modified_date": 1746648086,
+    "modified_date": 1746746410,
     "browser_url": "https://www.mobilize.us/leecountydec/event/743282/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -29612,7 +29201,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1731977678,
-    "modified_date": 1746662501,
+    "modified_date": 1746741713,
     "browser_url": "https://www.mobilize.us/georgiayouthjustice/event/744415/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -29896,7 +29485,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1732044060,
-    "modified_date": 1746670825,
+    "modified_date": 1746759639,
     "browser_url": "https://www.mobilize.us/az-wfp/event/744489/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -30283,7 +29872,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1732056827,
-    "modified_date": 1746640203,
+    "modified_date": 1746727449,
     "browser_url": "https://www.mobilize.us/lacompost/event/744546/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -30498,7 +30087,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1732214904,
-    "modified_date": 1746655296,
+    "modified_date": 1746723617,
     "browser_url": "https://www.mobilize.us/fww/event/744734/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -30700,13 +30289,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Every%20Call%20Counts_20241201221253207020.png",
     "timeslots": [
       {
-        "start_date": 1746763200,
-        "end_date": 1746848700,
-        "instructions": null,
-        "id": 5245380,
-        "is_full": false
-      },
-      {
         "start_date": 1746849600,
         "end_date": 1746935100,
         "instructions": null,
@@ -30891,7 +30473,7 @@
     },
     "event_type": "ADVOCACY",
     "created_date": 1732307258,
-    "modified_date": 1746666145,
+    "modified_date": 1746752623,
     "browser_url": "https://www.mobilize.us/indivisiblecharlottenc/event/744890/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -32376,6 +31958,249 @@
     "instructions": null,
     "id": 745658,
     "description": "Join Georgia Youth Justice Coalition for Action in advocating for public education at your Fulton County School Board meeting. Once you sign up, we'll reach out to make sure you have a buddy to join you and support from our team if you're providing public comment for the first time.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Drinking Liberally, Englewood Democratic Club",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/charlottecountydec/",
+      "created_date": 1526326416,
+      "modified_date": 1744692562,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 290,
+      "name": "Charlotte County Democrats",
+      "slug": "charlottecountydec",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "FL",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/2023%20Charlotte%20Democrats%20Logo_20230830204333937493.jpg"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Drinking%20Liberally%202022-05-01_20250202195552301414.jpg",
+    "timeslots": [
+      {
+        "start_date": 1749155400,
+        "end_date": 1749159000,
+        "instructions": null,
+        "id": 5294569,
+        "is_full": false
+      },
+      {
+        "start_date": 1751574600,
+        "end_date": 1751578200,
+        "instructions": null,
+        "id": 5294570,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Artur's Restaurant",
+      "address_lines": [
+        "70 N Indiana Ave",
+        ""
+      ],
+      "locality": "Englewood",
+      "region": "FL",
+      "country": "US",
+      "postal_code": "34223",
+      "location": {
+        "latitude": 26.9635947,
+        "longitude": -82.353392
+      },
+      "congressional_district": "17",
+      "state_leg_district": "75",
+      "state_senate_district": "22"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1733243614,
+    "modified_date": 1746223260,
+    "browser_url": "https://www.mobilize.us/charlottecountydec/event/745663/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 745663,
+    "description": "### Come and join the fun with fellow Democrats!  It will be held at Artur's Restaurant at 70 N. Indiana Ave., Englewood.  They have great food and drinks!\n\n- ** *Drinking Liberally gives like-minded, left-leaning individuals a place to learn from peers, trade jokes, vent frustration. Hang out in an environment where it's not taboo to talk politics. Solve the world's problems! Don't worry if you don't drink alcohol many of our members prefer soft drinks.* **\n\nTHANK YOU FOR SIGNING UP -  See you there!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Basic Bluesky Skills for Social Storming with Field Team 6!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/ft6/",
+      "created_date": 1546979889,
+      "modified_date": 1744690548,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 1255,
+      "name": "Field Team 6",
+      "slug": "ft6",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/ft6%20for%20mobes%201_20231128231125005709.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/NEW_social%20training_Bluesky%20BEG_FB_BS_20250121024358367183.png",
+    "timeslots": [
+      {
+        "start_date": 1747850400,
+        "end_date": 1747854000,
+        "instructions": null,
+        "id": 5256062,
+        "is_full": false
+      },
+      {
+        "start_date": 1749060000,
+        "end_date": 1749063600,
+        "instructions": null,
+        "id": 5283097,
+        "is_full": false
+      },
+      {
+        "start_date": 1750269600,
+        "end_date": 1750273200,
+        "instructions": null,
+        "id": 5283098,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 20053,
+        "name": "Storm"
+      }
+    ],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "",
+      "region": "",
+      "country": "US",
+      "postal_code": "",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "OTHER",
+    "created_date": 1733249618,
+    "modified_date": 1746730856,
+    "browser_url": "https://www.mobilize.us/ft6/event/745677/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 745677,
+    "description": "Excited about what you’re hearing about Bluesky? Over 30 million people are already using it!\n\n \n\nJoin us to build awareness for Field Team 6’s Voter Registration efforts all from the comfort of your own social media account!\n\n \n\nWe’ll cover -\n\n \n\n*How to create your new Bluesky account\n\n*How to set up your Bluesky profile\n\n*Finding your first followers\n\n*Sharing Field Team 6 ready-made posts\n\n*Tips & Tricks for using and enjoying your Bluesky experience!\n\nIf you're ready for more, check out our Advanced Bluesky session here: https://www.mobilize.us/ft6/event/747440/",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": true
+  },
+  {
+    "title": "Philly Members Gathering",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/pa-wfp/",
+      "created_date": 1564173341,
+      "modified_date": 1744694264,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 1724,
+      "name": "Pennsylvania Working Families Party",
+      "slug": "pa-wfp",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/PAWFP-LOGO-%5BGP%2BWO%5D_20201005234018203948.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/0002_20241203190802505989.png",
+    "timeslots": [
+      {
+        "start_date": 1752184800,
+        "end_date": 1752188400,
+        "instructions": null,
+        "id": 5179042,
+        "is_full": false
+      },
+      {
+        "start_date": 1758664800,
+        "end_date": 1758670200,
+        "instructions": null,
+        "id": 5179043,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Suite 2112",
+      "address_lines": [
+        "3502 Scotts Ln",
+        ""
+      ],
+      "locality": "Philadelphia",
+      "region": "PA",
+      "country": "US",
+      "postal_code": "19129",
+      "location": {
+        "latitude": 40.0078385,
+        "longitude": -75.1860501
+      },
+      "congressional_district": "3",
+      "state_leg_district": "190",
+      "state_senate_district": "7"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1733252973,
+    "modified_date": 1744243354,
+    "browser_url": "https://www.mobilize.us/pa-wfp/event/745686/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 745686,
+    "description": "Join the Working Families Party for a vibrant community gathering where we’ll connect, collaborate, and work together to build the political party of our dreams. This is more than just a meeting—it’s a chance to engage with neighbors, share your vision, and be a part of shaping a movement that stands for justice, equity, and opportunity for all. Whether you’re already involved or new to the cause, your ideas and energy are essential as we come together to create a powerful force for positive change. Let’s unite, organize, and make our collective dreams a reality!",
     "timezone": "America/New_York",
     "high_priority": null,
     "virtual_action_url": null,

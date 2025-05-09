@@ -1,7 +1,7 @@
 /**
  * process-mobilize.js
  *
- * This script reads raw Mobilize event files (data/raw/all-mobilize-page*.json),
+ * This script reads raw Mobilize event files (data/raw/mobilize-page*.json),
  * applies filtering and processing logic, and outputs the processed events to:
  *   1. Local file: data/processed/mobilize-events.json
  *   2. S3 bucket: [your configured bucket]/processed/mobilize-events.json
@@ -51,7 +51,7 @@ async function uploadToS3(filePath, key) {
 async function run() {
   try {
     const files = await fs.readdir(RAW_DIR);
-    const chunkFiles = files.filter(f => f.startsWith('all-mobilize-page') && f.endsWith('.json'));
+    const chunkFiles = files.filter(f => f.startsWith('mobilize-page') && f.endsWith('.json'));
 
     let allEvents = [];
     for (const file of chunkFiles) {

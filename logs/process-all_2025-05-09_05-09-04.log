@@ -1,0 +1,72 @@
+=== Running process-all at 2025-05-09_05-09-04 ===
+🚀 Processing Mobilize events...
+(node:46997) NOTE: The AWS SDK for JavaScript (v2) is in maintenance mode.
+ SDK releases are limited to address critical bug fixes and security issues only.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+📂 Reading all-mobilize-page1.json
+📂 Reading all-mobilize-page10.json
+📂 Reading all-mobilize-page11.json
+📂 Reading all-mobilize-page12.json
+📂 Reading all-mobilize-page13.json
+📂 Reading all-mobilize-page14.json
+📂 Reading all-mobilize-page15.json
+📂 Reading all-mobilize-page16.json
+📂 Reading all-mobilize-page17.json
+📂 Reading all-mobilize-page18.json
+📂 Reading all-mobilize-page19.json
+📂 Reading all-mobilize-page2.json
+📂 Reading all-mobilize-page20.json
+📂 Reading all-mobilize-page21.json
+📂 Reading all-mobilize-page22.json
+📂 Reading all-mobilize-page23.json
+📂 Reading all-mobilize-page24.json
+📂 Reading all-mobilize-page25.json
+📂 Reading all-mobilize-page26.json
+📂 Reading all-mobilize-page27.json
+📂 Reading all-mobilize-page3.json
+📂 Reading all-mobilize-page4.json
+📂 Reading all-mobilize-page5.json
+📂 Reading all-mobilize-page6.json
+📂 Reading all-mobilize-page7.json
+📂 Reading all-mobilize-page8.json
+📂 Reading all-mobilize-page9.json
+✅ Saved 748 processed Mobilize events locally at /Users/admin/Documents/protests/data/processed/mobilize-events.json
+❌ Error processing Mobilize events: Error: connect EHOSTDOWN 169.254.169.254:80 - Local (192.168.7.21:56765)
+    at internalConnect (node:net:1115:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:464:18)
+    at node:net:1355:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+  message: 'Missing credentials in config, if using AWS_CONFIG_FILE, set AWS_SDK_LOAD_CONFIG=1',
+  errno: -64,
+  code: 'CredentialsError',
+  syscall: 'connect',
+  address: '169.254.169.254',
+  port: 80,
+  time: 2025-05-09T12:09:14.536Z,
+  originalError: {
+    message: 'Could not load credentials from any providers',
+    errno: -64,
+    code: 'CredentialsError',
+    syscall: 'connect',
+    address: '169.254.169.254',
+    port: 80,
+    time: 2025-05-09T12:09:14.536Z,
+    originalError: {
+      message: 'EC2 Metadata roleName request returned error',
+      errno: -64,
+      code: 'EHOSTDOWN',
+      syscall: 'connect',
+      address: '169.254.169.254',
+      port: 80,
+      time: 2025-05-09T12:09:14.535Z,
+      originalError: [Object]
+    }
+  }
+}
+🚀 Processing Blop events...
+✅ Processed BLOP events saved: 19
+✅ All event sources processed successfully.
+=== Finished process-all at 2025-05-09_05-09-15 ===

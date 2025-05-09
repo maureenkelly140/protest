@@ -1,0 +1,39 @@
+=== Running process-all at 2025-05-09_05-27-08 ===
+🚀 Processing Mobilize events...
+node:internal/modules/cjs/loader:1404
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/admin/Documents/protests/process-mobilize.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+    at Function._load (node:internal/modules/cjs/loader:1211:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.15.0
+❌ Error running process-all: Error: Command failed: node process-mobilize.js
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:882:11)
+    at execSync (node:child_process:954:15)
+    at run (/Users/admin/Documents/protests/scripts/process-all.js:21:5)
+    at Object.<anonymous> (/Users/admin/Documents/protests/scripts/process-all.js:32:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 47149,
+  stdout: null,
+  stderr: null
+}
+=== Finished process-all at 2025-05-09_05-27-09 ===

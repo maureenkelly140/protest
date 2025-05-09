@@ -315,7 +315,7 @@
     },
     "event_type": "LETTER_WRITING",
     "created_date": 1589826431,
-    "modified_date": 1746320447,
+    "modified_date": 1746734496,
     "browser_url": "https://www.mobilize.us/swingleft/event/274619/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -581,13 +581,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/SemDems%20General%20Meeting%20Graphic_20250104145136264167.PNG",
     "timeslots": [
       {
-        "start_date": 1746745200,
-        "end_date": 1746750600,
-        "instructions": null,
-        "id": 5203567,
-        "is_full": false
-      },
-      {
         "start_date": 1749769200,
         "end_date": 1749774600,
         "instructions": null,
@@ -658,7 +651,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1593480684,
-    "modified_date": 1746648089,
+    "modified_date": 1746750002,
     "browser_url": "https://www.mobilize.us/semdems/event/284688/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -1760,7 +1753,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1616189866,
-    "modified_date": 1746661803,
+    "modified_date": 1746749029,
     "browser_url": "https://www.mobilize.us/johnstoncountydems/event/379788/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -3012,13 +3005,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/BYOP%20Bootcamp%20NEW_TW_20240307035348990477.png",
     "timeslots": [
       {
-        "start_date": 1746741600,
-        "end_date": 1746747000,
-        "instructions": null,
-        "id": 5266534,
-        "is_full": false
-      },
-      {
         "start_date": 1747346400,
         "end_date": 1747351800,
         "instructions": null,
@@ -3081,7 +3067,7 @@
     },
     "event_type": "TEXT_BANK",
     "created_date": 1627955861,
-    "modified_date": 1746644471,
+    "modified_date": 1746746411,
     "browser_url": "https://www.mobilize.us/ft6/event/405150/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -3930,7 +3916,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1633455303,
-    "modified_date": 1746563752,
+    "modified_date": 1746784837,
     "browser_url": "https://www.mobilize.us/richlandcountydemocrats/event/420308/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -4383,7 +4369,7 @@
     },
     "event_type": "MEET_GREET",
     "created_date": 1635530356,
-    "modified_date": 1746658203,
+    "modified_date": 1746745295,
     "browser_url": "https://www.mobilize.us/brady/event/425528/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -6111,13 +6097,6 @@
     "featured_image_url": "",
     "timeslots": [
       {
-        "start_date": 1746745200,
-        "end_date": 1746750600,
-        "instructions": null,
-        "id": 5221623,
-        "is_full": false
-      },
-      {
         "start_date": 1749769200,
         "end_date": 1749774600,
         "instructions": null,
@@ -6186,7 +6165,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1648658872,
-    "modified_date": 1746648089,
+    "modified_date": 1746750002,
     "browser_url": "https://www.mobilize.us/fairfaxdems/event/450178/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -7516,89 +7495,6 @@
     "is_virtual": true
   },
   {
-    "title": "HWD Info Session",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/hwd/",
-      "created_date": 1663623546,
-      "modified_date": 1744696251,
-      "org_type": "C3",
-      "id": 34282,
-      "name": "Harriet’s Wildest Dreams",
-      "slug": "hwd",
-      "is_coordinated": false,
-      "is_independent": false,
-      "is_nonelectoral": true,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/HWD-logo-type-01_20220923234833358092.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/home%20rule%2C%20whole%20state%20%281200%20x%20630%20px%29_20250106191830062306.png",
-    "timeslots": [
-      {
-        "start_date": 1746745200,
-        "end_date": 1746750600,
-        "instructions": null,
-        "id": 5294008,
-        "is_full": false
-      }
-    ],
-    "tags": [
-      {
-        "id": 87,
-        "name": "LGBTQ+"
-      },
-      {
-        "id": 21117,
-        "name": "Abolition"
-      },
-      {
-        "id": 90,
-        "name": "Black community"
-      }
-    ],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "",
-        ""
-      ],
-      "locality": "",
-      "region": "",
-      "country": "US",
-      "postal_code": "",
-      "location": {
-        "latitude": null,
-        "longitude": null
-      },
-      "congressional_district": null,
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "TRAINING",
-    "created_date": 1664482719,
-    "modified_date": 1746648089,
-    "browser_url": "https://www.mobilize.us/hwd/event/520496/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 520496,
-    "description": "In this info session, we will make space to contend with the current political moment and give you a snapshot of the work Harriet’s Wildest Dreams is engaged in. Our liberation is tied to one another and we need each other to do this work  to protect our people — Black people, formerly incarcerated folks, queer and trans communities, and all those at risk of state sanctioned violence. \n\nBeing in the nation's capital we are at the center of the empire and also a target for far right extremists. DC is NO ONE’s playground and we must remain vigilant in our fight for statehood, our fight against mass incarceration and the fight for gender liberation and bodily autonomy for all. \n\nIf you and your friends are interested in building a better world, free from patriarchal violence, a world where queer is in, then you've come to the right place! Come sit with us as we re-imagine what this world can be and reclaim safety for all of DC. \n\n\nWho Are We: \n\nWe are a Black-led abolitionist community defense hub centering all Black lives most at risk for state-sanctioned violence in the Greater Washington area.\n\nWhat we do: \n\nOur work includes legal empowerment, political and civic education, mass protest, organizing campaigns, and community care that builds alternatives to oppressive systems.\n\nIf you are in need of ASL interpretation please let us know at least 48 hours in advance.",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": true
-  },
-  {
     "title": "Courtwatch DC Training",
     "summary": "",
     "sponsor": {
@@ -7787,13 +7683,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/4_20240421211856366309.png",
     "timeslots": [
       {
-        "start_date": 1746745200,
-        "end_date": 1746752400,
-        "instructions": null,
-        "id": 5238936,
-        "is_full": false
-      },
-      {
         "start_date": 1749769200,
         "end_date": 1749776400,
         "instructions": null,
@@ -7877,7 +7766,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1665501484,
-    "modified_date": 1746648089,
+    "modified_date": 1746751842,
     "browser_url": "https://www.mobilize.us/fcdemsnc/event/527845/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -8569,7 +8458,7 @@
         "end_date": 1748627100,
         "instructions": null,
         "id": 5228068,
-        "is_full": false
+        "is_full": true
       },
       {
         "start_date": 1749225600,
@@ -8626,7 +8515,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1670539602,
-    "modified_date": 1746709232,
+    "modified_date": 1746792008,
     "browser_url": "https://www.mobilize.us/lacompost/event/545556/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -9374,13 +9263,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/2023%20Mobilize%20event%20cover%20templates%20%283%29_20241115234939527329.png",
     "timeslots": [
       {
-        "start_date": 1746739800,
-        "end_date": 1746745200,
-        "instructions": null,
-        "id": 5220106,
-        "is_full": false
-      },
-      {
         "start_date": 1748554200,
         "end_date": 1748559600,
         "instructions": null,
@@ -9500,7 +9382,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1673029912,
-    "modified_date": 1746644468,
+    "modified_date": 1746744603,
     "browser_url": "https://www.mobilize.us/forthemany/event/547042/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10017,7 +9899,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1673902940,
-    "modified_date": 1746316909,
+    "modified_date": 1746734495,
     "browser_url": "https://www.mobilize.us/lacompost/event/547806/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10059,13 +9941,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Screenshot%202023-07-18%20at%203.06.32%20PM_20230718190647060938.png",
     "timeslots": [
       {
-        "start_date": 1746748800,
-        "end_date": 1746752400,
-        "instructions": null,
-        "id": 5225526,
-        "is_full": false
-      },
-      {
         "start_date": 1748390400,
         "end_date": 1748394000,
         "instructions": null,
@@ -10094,7 +9969,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1673903150,
-    "modified_date": 1746651635,
+    "modified_date": 1746751841,
     "browser_url": "https://www.mobilize.us/generationvote/event/547808/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10183,7 +10058,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1673904050,
-    "modified_date": 1746642030,
+    "modified_date": 1746730854,
     "browser_url": "https://www.mobilize.us/lacompost/event/547810/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10304,7 +10179,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1673904822,
-    "modified_date": 1746481658,
+    "modified_date": 1746795878,
     "browser_url": "https://www.mobilize.us/lacompost/event/547815/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10350,14 +10225,14 @@
         "end_date": 1746817200,
         "instructions": null,
         "id": 5228272,
-        "is_full": true
+        "is_full": false
       },
       {
         "start_date": 1747413000,
         "end_date": 1747422000,
         "instructions": null,
         "id": 5228273,
-        "is_full": false
+        "is_full": true
       },
       {
         "start_date": 1748017800,
@@ -10428,7 +10303,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1673905328,
-    "modified_date": 1746712808,
+    "modified_date": 1746795827,
     "browser_url": "https://www.mobilize.us/lacompost/event/547816/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10725,7 +10600,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1673910780,
-    "modified_date": 1746665410,
+    "modified_date": 1746752406,
     "browser_url": "https://www.mobilize.us/lacompost/event/547833/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10844,7 +10719,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1673981400,
-    "modified_date": 1746114363,
+    "modified_date": 1746795879,
     "browser_url": "https://www.mobilize.us/edfaction/event/547904/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -11384,7 +11259,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1674074927,
-    "modified_date": 1746392515,
+    "modified_date": 1746795878,
     "browser_url": "https://www.mobilize.us/lacompost/event/548075/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -11564,7 +11439,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1674075080,
-    "modified_date": 1746396023,
+    "modified_date": 1746795877,
     "browser_url": "https://www.mobilize.us/lacompost/event/548077/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -12290,7 +12165,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1675880597,
-    "modified_date": 1746664834,
+    "modified_date": 1746752406,
     "browser_url": "https://www.mobilize.us/lacompost/event/550519/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -13526,7 +13401,7 @@
         "end_date": 1752600600,
         "instructions": null,
         "id": 5311237,
-        "is_full": false
+        "is_full": true
       }
     ],
     "tags": [
@@ -14194,13 +14069,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Food%20Scraps%20Collection_%20LA%20River%20Farmers%27%20Market_20241204222742080870.png",
     "timeslots": [
       {
-        "start_date": 1746752400,
-        "end_date": 1746758700,
-        "instructions": null,
-        "id": 5229417,
-        "is_full": false
-      },
-      {
         "start_date": 1747357200,
         "end_date": 1747363500,
         "instructions": null,
@@ -14276,7 +14144,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1681497345,
-    "modified_date": 1746655295,
+    "modified_date": 1746758402,
     "browser_url": "https://www.mobilize.us/lacompost/event/559650/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -14793,7 +14661,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1683061312,
-    "modified_date": 1745605305,
+    "modified_date": 1746795865,
     "browser_url": "https://www.mobilize.us/sanfrancisco/event/562121/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -15374,7 +15242,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1687971998,
-    "modified_date": 1746672085,
+    "modified_date": 1746788443,
     "browser_url": "https://www.mobilize.us/nhdp_events/event/569677/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -15421,6 +15289,20 @@
         "instructions": null,
         "id": 5228213,
         "is_full": false
+      },
+      {
+        "start_date": 1750111200,
+        "end_date": 1750114800,
+        "instructions": null,
+        "id": 5313507,
+        "is_full": false
+      },
+      {
+        "start_date": 1753135200,
+        "end_date": 1753138800,
+        "instructions": null,
+        "id": 5313508,
+        "is_full": false
       }
     ],
     "tags": [
@@ -15457,7 +15339,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1688588285,
-    "modified_date": 1745362877,
+    "modified_date": 1746725587,
     "browser_url": "https://www.mobilize.us/pastandsup/event/570372/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -16146,13 +16028,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/org%20hours_20250128153618890892.png",
     "timeslots": [
       {
-        "start_date": 1746730800,
-        "end_date": 1746734400,
-        "instructions": null,
-        "id": 5231846,
-        "is_full": false
-      },
-      {
         "start_date": 1747335600,
         "end_date": 1747339200,
         "instructions": null,
@@ -16218,7 +16093,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1690475144,
-    "modified_date": 1746716906,
+    "modified_date": 1746733818,
     "browser_url": "https://www.mobilize.us/ncdems/event/573255/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -16703,7 +16578,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1691530571,
-    "modified_date": 1746654642,
+    "modified_date": 1746734502,
     "browser_url": "https://www.mobilize.us/aclufl/event/574875/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -16744,13 +16619,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/MFD%20DTNWSG%20TM%20for%20Mobilize_20230202175800413937.png",
     "timeslots": [
-      {
-        "start_date": 1746797400,
-        "end_date": 1746806400,
-        "instructions": null,
-        "id": 5120995,
-        "is_full": false
-      },
       {
         "start_date": 1747143000,
         "end_date": 1747152000,
@@ -16978,7 +16846,7 @@
     },
     "event_type": "POSTCARD_WRITING",
     "created_date": 1692472925,
-    "modified_date": 1746702011,
+    "modified_date": 1746784865,
     "browser_url": "https://www.mobilize.us/markersfordemocracy/event/576527/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -17322,13 +17190,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/avc%20voter%20reg%20graphic_20250503065256920465.png",
     "timeslots": [
       {
-        "start_date": 1746734400,
-        "end_date": 1746741600,
-        "instructions": null,
-        "id": 5284457,
-        "is_full": false
-      },
-      {
         "start_date": 1747684800,
         "end_date": 1747692000,
         "instructions": null,
@@ -17370,7 +17231,7 @@
     },
     "event_type": "VOTER_REG",
     "created_date": 1693112643,
-    "modified_date": 1746720265,
+    "modified_date": 1746741009,
     "browser_url": "https://www.mobilize.us/indivisibleantelopevalley/event/577634/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -17411,13 +17272,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Untitled%20%281200%20%C3%97%20630%20px%29%20%281%29_20230827212140994458.png",
     "timeslots": [
-      {
-        "start_date": 1746745200,
-        "end_date": 1746748800,
-        "instructions": null,
-        "id": 5235470,
-        "is_full": false
-      },
       {
         "start_date": 1749769200,
         "end_date": 1749772800,
@@ -17510,7 +17364,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1693171373,
-    "modified_date": 1746648089,
+    "modified_date": 1746748212,
     "browser_url": "https://www.mobilize.us/chestercountydemocraticparty/event/577691/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -17824,7 +17678,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1694807591,
-    "modified_date": 1746388994,
+    "modified_date": 1746795878,
     "browser_url": "https://www.mobilize.us/lacompost/event/581529/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -18489,13 +18343,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/HCDBC%20logo%202022%20transparent_20231001233910902219.png",
     "timeslots": [
       {
-        "start_date": 1746741600,
-        "end_date": 1746747000,
-        "instructions": null,
-        "id": 5094085,
-        "is_full": false
-      },
-      {
         "start_date": 1749765600,
         "end_date": 1749771000,
         "instructions": null,
@@ -18552,7 +18399,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1696204042,
-    "modified_date": 1746644471,
+    "modified_date": 1746746411,
     "browser_url": "https://www.mobilize.us/hillsboroughcountydec/event/584728/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -18887,13 +18734,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/MLabs%20Logo%20002_20230331145337916880.png",
     "timeslots": [
       {
-        "start_date": 1746738000,
-        "end_date": 1746740700,
-        "instructions": null,
-        "id": 5155840,
-        "is_full": false
-      },
-      {
         "start_date": 1749157200,
         "end_date": 1749159900,
         "instructions": null,
@@ -18969,7 +18809,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1696259741,
-    "modified_date": 1746641129,
+    "modified_date": 1746740410,
     "browser_url": "https://www.mobilize.us/movementlabs/event/584803/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -19608,13 +19448,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Tent%20Events%20Training%20Mobilize%20graphic_20231016221131321140.jpg",
     "timeslots": [
       {
-        "start_date": 1746741600,
-        "end_date": 1746745200,
-        "instructions": null,
-        "id": 5278158,
-        "is_full": false
-      },
-      {
         "start_date": 1747594800,
         "end_date": 1747598400,
         "instructions": null,
@@ -19662,7 +19495,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1697494432,
-    "modified_date": 1746644471,
+    "modified_date": 1746744604,
     "browser_url": "https://www.mobilize.us/chathamcountydems/event/588211/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -20007,20 +19840,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/FeedLouNewLogoWhitebackground_20231030020921671333.png",
     "timeslots": [
       {
-        "start_date": 1746723600,
-        "end_date": 1746732600,
-        "instructions": null,
-        "id": 5247967,
-        "is_full": true
-      },
-      {
-        "start_date": 1746795600,
-        "end_date": 1746806400,
-        "instructions": null,
-        "id": 5247963,
-        "is_full": true
-      },
-      {
         "start_date": 1746810000,
         "end_date": 1746819000,
         "instructions": null,
@@ -20039,7 +19858,7 @@
         "end_date": 1747152000,
         "instructions": null,
         "id": 5255479,
-        "is_full": false
+        "is_full": true
       },
       {
         "start_date": 1747155600,
@@ -20158,7 +19977,7 @@
         "end_date": 1748534400,
         "instructions": null,
         "id": 5255491,
-        "is_full": false
+        "is_full": true
       },
       {
         "start_date": 1748538000,
@@ -20674,7 +20493,7 @@
     },
     "event_type": "OTHER",
     "created_date": 1698632303,
-    "modified_date": 1746720358,
+    "modified_date": 1746795982,
     "browser_url": "https://www.mobilize.us/feedlouisville/event/590695/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -21149,7 +20968,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1699562843,
-    "modified_date": 1745769608,
+    "modified_date": 1746784837,
     "browser_url": "https://www.mobilize.us/coratrails/event/592334/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -21535,7 +21354,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1701897630,
-    "modified_date": 1744492140,
+    "modified_date": 1746723617,
     "browser_url": "https://www.mobilize.us/organizetn/event/595101/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -21615,7 +21434,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1701909626,
-    "modified_date": 1746663607,
+    "modified_date": 1746752408,
     "browser_url": "https://www.mobilize.us/indivisiblenationbk/event/595129/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -23000,6 +22819,138 @@
     "high_priority": null,
     "virtual_action_url": null,
     "accessibility_notes": "Lyft rides available",
+    "is_virtual": false
+  },
+  {
+    "title": "Ramsey County Court Watch",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/mnfreedomfund/",
+      "created_date": 1702938758,
+      "modified_date": 1744699253,
+      "org_type": "C3",
+      "id": 37046,
+      "name": "Minnesota Freedom Fund",
+      "slug": "mnfreedomfund",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize%20Branding%20Logo3_20240102195806279672.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Court%20Watch%20Image_20240102214000222737.jpg",
+    "timeslots": [
+      {
+        "start_date": 1748354400,
+        "end_date": 1748361600,
+        "instructions": null,
+        "id": 5134642,
+        "is_full": false
+      },
+      {
+        "start_date": 1750687200,
+        "end_date": 1750694400,
+        "instructions": null,
+        "id": 5134643,
+        "is_full": false
+      },
+      {
+        "start_date": 1753711200,
+        "end_date": 1753718400,
+        "instructions": null,
+        "id": 5134644,
+        "is_full": false
+      },
+      {
+        "start_date": 1756130400,
+        "end_date": 1756137600,
+        "instructions": null,
+        "id": 5134645,
+        "is_full": false
+      },
+      {
+        "start_date": 1758549600,
+        "end_date": 1758556800,
+        "instructions": null,
+        "id": 5134646,
+        "is_full": false
+      },
+      {
+        "start_date": 1761573600,
+        "end_date": 1761580800,
+        "instructions": null,
+        "id": 5134647,
+        "is_full": false
+      },
+      {
+        "start_date": 1763996400,
+        "end_date": 1764003600,
+        "instructions": null,
+        "id": 5134648,
+        "is_full": false
+      },
+      {
+        "start_date": 1766415600,
+        "end_date": 1766422800,
+        "instructions": null,
+        "id": 5134649,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 805,
+        "name": "Civic Engagement"
+      },
+      {
+        "id": 1203,
+        "name": "Social Justice"
+      },
+      {
+        "id": 337,
+        "name": "Volunteer"
+      }
+    ],
+    "location": {
+      "venue": "Law Enforcement Center, Sheriff's Office",
+      "address_lines": [
+        "425 Grove St",
+        ""
+      ],
+      "locality": "Saint Paul",
+      "region": "MN",
+      "country": "US",
+      "postal_code": "55101",
+      "location": {
+        "latitude": 44.956338,
+        "longitude": -93.085435
+      },
+      "congressional_district": "4",
+      "state_leg_district": "65B",
+      "state_senate_district": "65"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1704231748,
+    "modified_date": 1745942443,
+    "browser_url": "https://www.mobilize.us/mnfreedomfund/event/597321/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 597321,
+    "description": "Court watching is a tactic to raise public awareness about our legal system and to hold the system accountable through witnessing, documenting, and sharing experiences at bail hearings. This is a powerful and critical tool for organizing because so much harm is never witnessed and goes unchecked. Court watching is a tool of PEOPLE POWER against those in power.\n\nMN Freedom Funds court watching is a volunteer-based program aimed at shining a light on Ramsey County and Hennepin County Arraignment hearings. This is where money bail decisions are made and ultimately, people's access to pretrial freedom is determined.​\n\nRamsey County Court Watch Shifts every 4th Monday of the month at 9:00am\n\nHennepin County Court Watch Shifts are every 1st Thursday and every 2nd Monday of the month at 1:30 pm.\n\n*These dates are subject to change*",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "Lyft rides available.",
     "is_virtual": false
   }
 ]

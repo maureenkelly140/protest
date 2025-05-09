@@ -1,606 +1,5 @@
 [
   {
-    "title": "Centre County Democrats Summer Golf Tournament",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/centrecountydemocraticcommittee/",
-      "created_date": 1690896589,
-      "modified_date": 1744699239,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 36270,
-      "name": "Centre County Democratic Committee",
-      "slug": "centrecountydemocraticcommittee",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "PA",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/centrecountybanner_20230801133042857198.png"
-    },
-    "featured_image_url": "",
-    "timeslots": [
-      {
-        "start_date": 1753189200,
-        "end_date": 1753223400,
-        "instructions": null,
-        "id": 5172394,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "Mountain View Country Club",
-      "address_lines": [
-        "310 Elks Club Rd",
-        ""
-      ],
-      "locality": "Boalsburg",
-      "region": "PA",
-      "country": "US",
-      "postal_code": "16827",
-      "location": {
-        "latitude": 40.7851073,
-        "longitude": -77.7609543
-      },
-      "congressional_district": "15",
-      "state_leg_district": "82",
-      "state_senate_district": "25"
-    },
-    "event_type": "FUNDRAISER",
-    "created_date": 1738266250,
-    "modified_date": 1738266255,
-    "browser_url": "https://www.mobilize.us/centrecountydemocraticcommittee/event/752220/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 752220,
-    "description": "Bring you and 3 friends for the CCDC's summer golf tournament!",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "Centre County Democrats Summer Picnic",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/centrecountydemocraticcommittee/",
-      "created_date": 1690896589,
-      "modified_date": 1744699239,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 36270,
-      "name": "Centre County Democratic Committee",
-      "slug": "centrecountydemocraticcommittee",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "PA",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/centrecountybanner_20230801133042857198.png"
-    },
-    "featured_image_url": "",
-    "timeslots": [
-      {
-        "start_date": 1753214400,
-        "end_date": 1753223400,
-        "instructions": null,
-        "id": 5172395,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "Mountain View Country Club",
-      "address_lines": [
-        "310 Elks Club Rd",
-        ""
-      ],
-      "locality": "Boalsburg",
-      "region": "PA",
-      "country": "US",
-      "postal_code": "16827",
-      "location": {
-        "latitude": 40.7851073,
-        "longitude": -77.7609543
-      },
-      "congressional_district": "15",
-      "state_leg_district": "82",
-      "state_senate_district": "25"
-    },
-    "event_type": "FUNDRAISER",
-    "created_date": 1738266307,
-    "modified_date": 1738266312,
-    "browser_url": "https://www.mobilize.us/centrecountydemocraticcommittee/event/752221/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 752221,
-    "description": "Join us for our summer picnic and hear about our 2025 candidates!",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "Clarence Young Democratic Club Summer Picnic",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/centrecountydemocraticcommittee/",
-      "created_date": 1690896589,
-      "modified_date": 1744699239,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 36270,
-      "name": "Centre County Democratic Committee",
-      "slug": "centrecountydemocraticcommittee",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "PA",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/centrecountybanner_20230801133042857198.png"
-    },
-    "featured_image_url": "",
-    "timeslots": [
-      {
-        "start_date": 1752944400,
-        "end_date": 1752958800,
-        "instructions": null,
-        "id": 5172401,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "122 Pancake Rd",
-        ""
-      ],
-      "locality": "Clarence",
-      "region": "PA",
-      "country": "US",
-      "postal_code": "16829",
-      "location": {
-        "latitude": 41.0482947,
-        "longitude": -77.9393739
-      },
-      "congressional_district": "15",
-      "state_leg_district": "82",
-      "state_senate_district": "25"
-    },
-    "event_type": "COMMUNITY",
-    "created_date": 1738266769,
-    "modified_date": 1738266774,
-    "browser_url": "https://www.mobilize.us/centrecountydemocraticcommittee/event/752225/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 752225,
-    "description": "Join the Clarence Young Democratic Club for their summer picnic!",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "Turning Pages: Fiction Book Club",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/andersoncountydemocraticparty/",
-      "created_date": 1710019508,
-      "modified_date": 1744697212,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 37569,
-      "name": "Anderson County Democratic Party - Tennessee",
-      "slug": "andersoncountydemocraticparty",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "TN",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/ACDP%20-%20Block%20%284%29_20240309214104092794.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/DEMS%20%26%20FRIENDS%20%2811%20%C3%97%208.5%20in%29%20%281920%20x%201080%20px%29.pdf%20%2837%29_20250413191937275981.png",
-    "timeslots": [
-      {
-        "start_date": 1748556000,
-        "end_date": 1748559600,
-        "instructions": null,
-        "id": 5303642,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "Anderson County Democratic Party",
-      "address_lines": [
-        "14 Kentucky Ave",
-        ""
-      ],
-      "locality": "Oak Ridge",
-      "region": "TN",
-      "country": "US",
-      "postal_code": "37830",
-      "location": {
-        "latitude": 36.0283776,
-        "longitude": -84.2403403
-      },
-      "congressional_district": "3",
-      "state_leg_district": "33",
-      "state_senate_district": "5"
-    },
-    "event_type": "OTHER",
-    "created_date": 1738272124,
-    "modified_date": 1746641883,
-    "browser_url": "https://www.mobilize.us/andersoncountydemocraticparty/event/752267/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 752267,
-    "description": "📚 Join the Anderson County Democratic Party for our Fiction Book Club!\n\nWe’ll be meeting every 4th Thursday at ACDP HQ to dive into thought-provoking fiction and enjoy great discussions with fellow book lovers.\n\nWe’d love for you to read that month’s book before attending, but even more, we’d love for you to join in the conversation!\n\nFebruary’s Book: \"The Nightingale\" by Kristin Hannah\nMarch: \"The Eyre Affair\" by Jasper Fforde\nApril: \"Confederacy of Dunces\"\nMay’s Book: Evidence of Unseen Things by Marianne Wiggins\n\nCome sip some coffee, share your thoughts, and connect with like-minded readers. See you there!",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "Reality Check: Non-Fiction Book Club",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/andersoncountydemocraticparty/",
-      "created_date": 1710019508,
-      "modified_date": 1744697212,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 37569,
-      "name": "Anderson County Democratic Party - Tennessee",
-      "slug": "andersoncountydemocraticparty",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "TN",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/ACDP%20-%20Block%20%284%29_20240309214104092794.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/DEMS%20%26%20FRIENDS%20%2811%20%C3%97%208.5%20in%29%20%281920%20x%201080%20px%29.pdf%20%2836%29_20250413191650183255.png",
-    "timeslots": [
-      {
-        "start_date": 1747324800,
-        "end_date": 1747337400,
-        "instructions": null,
-        "id": 5303641,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "Anderson County Democratic Party",
-      "address_lines": [
-        "14 Kentucky Ave",
-        ""
-      ],
-      "locality": "Oak Ridge",
-      "region": "TN",
-      "country": "US",
-      "postal_code": "37830",
-      "location": {
-        "latitude": 36.0283776,
-        "longitude": -84.2403403
-      },
-      "congressional_district": "3",
-      "state_leg_district": "33",
-      "state_senate_district": "5"
-    },
-    "event_type": "OTHER",
-    "created_date": 1738272296,
-    "modified_date": 1746358841,
-    "browser_url": "https://www.mobilize.us/andersoncountydemocraticparty/event/752269/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 752269,
-    "description": "📚 Join the Anderson County Democratic Party for our Non-Fiction Book Club!\n\nWe’ll be meeting from 2-4 PM at ACDP HQ to explore impactful non-fiction books that challenge, inform, and inspire action.\n\nFebruary: we’re reading \"The 1619 Project\" by Nikole Hannah-Jones—a powerful examination of how slavery and its legacy have shaped American history and continue to influence our society today.\n\nMarch: we're reading Patriot\" by Alexei Nevalney\n\nApril: we're reading \"Nexus\" by Yuval Noah Harari\n\nMay: \"The Rediscovery of America\" by Ned Blackhawk\n\nEven if you don’t finish the book, we’d love for you to come and join the discussion! Let’s engage in meaningful conversations about history, justice, and progress.",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "SCCDP 2025 General Meeting",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/santacruzazdems/",
-      "created_date": 1578959557,
-      "modified_date": 1744697456,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 2278,
-      "name": "Santa Cruz AZ Dems",
-      "slug": "santacruzazdems",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "AZ",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/Santa%20Cruz%20County%20Democratic%20Party%20-%20Logo%202021_20211103212747133235.png"
-    },
-    "featured_image_url": "",
-    "timeslots": [
-      {
-        "start_date": 1747503000,
-        "end_date": 1747506600,
-        "instructions": null,
-        "id": 5172632,
-        "is_full": false
-      },
-      {
-        "start_date": 1752600600,
-        "end_date": 1752607800,
-        "instructions": null,
-        "id": 5172634,
-        "is_full": false
-      },
-      {
-        "start_date": 1757957400,
-        "end_date": 1757964600,
-        "instructions": null,
-        "id": 5172636,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "",
-        ""
-      ],
-      "locality": "",
-      "region": "",
-      "country": "US",
-      "postal_code": "",
-      "location": {
-        "latitude": null,
-        "longitude": null
-      },
-      "congressional_district": null,
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "MEETING",
-    "created_date": 1738282388,
-    "modified_date": 1745681372,
-    "browser_url": "https://www.mobilize.us/santacruzazdems/event/752293/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 752293,
-    "description": "General Meeting for Santa Cruz County AZ Dems",
-    "timezone": "America/Phoenix",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": true
-  },
-  {
-    "title": "Organizing Hub Phone Banking TBD",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/massdems/",
-      "created_date": 1537538973,
-      "modified_date": 1744691410,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 957,
-      "name": "MassDems",
-      "slug": "massdems",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "MA",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/ma_dems_2line_light_RGB%20copy_20180921171831121605.png"
-    },
-    "featured_image_url": "",
-    "timeslots": [
-      {
-        "start_date": 1762117200,
-        "end_date": 1762124400,
-        "instructions": null,
-        "id": 5255943,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "",
-        ""
-      ],
-      "locality": "Boston",
-      "region": "MA",
-      "country": "US",
-      "postal_code": "02215",
-      "location": {
-        "latitude": 42.3476181,
-        "longitude": -71.1002881
-      },
-      "congressional_district": null,
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "PHONE_BANK",
-    "created_date": 1738283507,
-    "modified_date": 1743458560,
-    "browser_url": "https://www.mobilize.us/massdems/event/752298/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 752298,
-    "description": "Organizing Hub is hosted by the Massachusetts Democratic Party’s Campaign Services Committee and open to people anywhere who want to volunteer with us to support Democratic campaigns and issues!\n\nWe are currently planning our next activity.  In the meantime, see other ongoing volunteer options at https://linktr.ee/organizinghub and https://mobilize.us/massdems/",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": true
-  },
-  {
-    "title": "VAAC Friday Community Meeting",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/vaac/",
-      "created_date": 1738180123,
-      "modified_date": 1744701765,
-      "org_type": "C3",
-      "id": 40753,
-      "name": "VAAC",
-      "slug": "vaac",
-      "is_coordinated": false,
-      "is_independent": false,
-      "is_nonelectoral": true,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": ""
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/VAAC%201st%20meeting%202023%20announcement%20%281200%20x%20630%20px%29_20250131132151289985.png",
-    "timeslots": [
-      {
-        "start_date": 1747413000,
-        "end_date": 1747416600,
-        "instructions": null,
-        "id": 5172748,
-        "is_full": false
-      },
-      {
-        "start_date": 1748622600,
-        "end_date": 1748626200,
-        "instructions": null,
-        "id": 5172749,
-        "is_full": false
-      },
-      {
-        "start_date": 1749227400,
-        "end_date": 1749231000,
-        "instructions": null,
-        "id": 5172750,
-        "is_full": false
-      }
-    ],
-    "tags": [
-      {
-        "id": 67,
-        "name": "Education"
-      },
-      {
-        "id": 34,
-        "name": "Get out the Vote"
-      },
-      {
-        "id": 73,
-        "name": "Voting rights"
-      }
-    ],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "",
-        ""
-      ],
-      "locality": "",
-      "region": "",
-      "country": "US",
-      "postal_code": "",
-      "location": {
-        "latitude": null,
-        "longitude": null
-      },
-      "congressional_district": null,
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "MEETING",
-    "created_date": 1738327391,
-    "modified_date": 1746295665,
-    "browser_url": "https://www.mobilize.us/vaac/event/752317/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 752317,
-    "description": "VAAC Community – We’re Back! Join Our First Meeting of 2025!\n\nVAAC is back with our first Community Meeting of 2025! We’re excited to kick off the year with a crucial discussion on Michigan’s legislative landscape and its impact on our work, led by policy consultant Tony Gant, who will share key insights and updates. Join us on Friday, January 31, at 12:30 PM, as we reconnect, strategize, and continue our collective fight for voting access for all.\n\nThese Friday Community Meetings provide a space for our community and coalition members to share important updates, discuss critical issues, and plan our next steps together. We’re thrilled to reconnect with you as we build momentum for the year ahead!\n\nMeeting Details:\n🗓️ Date: Friday, January 31, 2025\n⏰ Time: 12:30 – 1:30 PM\n\nMichigan, like many states, is facing ongoing efforts to restrict voting access, spread misinformation, and create barriers to civic participation—challenges that disproportionately impact justice-impacted individuals, who are often excluded from the very policy discussions that shape their lives.\n\nWith the 2026 elections on the horizon, decisions being made right now will determine the future of voting rights, civic engagement, criminal justice reform, and other critical issues for years to come. \n\nJoin Us and Be Part of This Critical Conversation!\nYour participation is essential as we work to expand voting access and advocate for meaningful change in Michigan. Let’s build power together!",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": true
-  },
-  {
     "title": "2025 MountainTrue BioBlitz at Hickory Nut Gap Farm near Asheville, NC 6/21",
     "summary": "",
     "sponsor": {
@@ -652,7 +51,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1738337021,
-    "modified_date": 1746538264,
+    "modified_date": 1746736932,
     "browser_url": "https://www.mobilize.us/mountaintrue/event/752329/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -663,7 +62,7 @@
     "event_campaign": null,
     "instructions": null,
     "id": 752329,
-    "description": "Each year, MountainTrue hosts a BioBlitz to record all the species we can find in a given area. We identify and catalog organisms using the online app iNaturalist. The BioBiltz this year will be on June 21st at Hickory Nut Gap Farm near Asheville, NC.\nVolunteers will hike with experts in reptiles/amphibians, mammals, birds, plants, and mushrooms.\n*Group sign-ups are taken at the event and are first come, first serve.  Group availability is subject to change.\n\nWe will meet at 12:30 pm to complete waivers and sign-up for groups. The BioBlitz will kick off at 1 pm and end at 5 pm. But the fun doesn’t stop there. We hope our volunteers will stick around for the barn dance at Hickory Nut Gap from 5 to 9 pm. All BioBlitz volunteers will receive free admission to the barn dance. \n\nGarage BBQ food truck, proudly serving HNG meats with style, smoke and THE SAUCES, will be on site where you can purchase dinner! MountainTrue will provide snacks.\n\nPlease bring: water, sunscreen, bug spray, notebook (if desired), sturdy close-toed shoes and any snacks, etc. that you may need.\n\n**Kids aged 6 and up are welcome to join if they are accompanied by a parent/guardian for the duration of the trip.",
+    "description": "Each year, MountainTrue hosts a BioBlitz to record all the species we can find in a given area. We identify and catalog organisms using the online app iNaturalist. The BioBiltz this year will be on June 21st at Hickory Nut Gap Farm near Asheville, NC.\nVolunteers will hike with experts in reptiles/amphibians, mammals, birds, plants, and mushrooms.\n*Group sign-ups are taken at the event and are first come, first serve.  Group availability is subject to change.\n\nWe will meet at 12:30 pm to complete waivers and sign-up for groups. The BioBlitz will kick off at 1 pm and end at 5 pm. But the fun doesn’t stop there. We hope our volunteers will stick around for the barn dance at Hickory Nut Gap from 5 to 9 pm. All BioBlitz volunteers will receive free admission to the barn dance. \n\nGarage BBQ food truck will be on site where you can purchase dinner. MountainTrue will provide snacks.\n\nPlease bring: water, sunscreen, bug spray, notebook (if desired), sturdy close-toed shoes and any snacks, etc. that you may need.\n\n**Kids aged 6 and up are welcome to join if they are accompanied by a parent/guardian for the duration of the trip.",
     "timezone": "America/New_York",
     "high_priority": null,
     "virtual_action_url": null,
@@ -791,13 +190,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Copy%20of%20Mobilize%20Banners%20%2811%29_20250506231707624066.png",
     "timeslots": [
-      {
-        "start_date": 1746741600,
-        "end_date": 1746748800,
-        "instructions": null,
-        "id": 5173016,
-        "is_full": false
-      },
       {
         "start_date": 1747087200,
         "end_date": 1747094400,
@@ -1002,7 +394,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1738350999,
-    "modified_date": 1746662495,
+    "modified_date": 1746749028,
     "browser_url": "https://www.mobilize.us/sarahbatchuforcouncil/event/752387/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -1617,7 +1009,7 @@
     },
     "event_type": "TRAINING",
     "created_date": 1738381228,
-    "modified_date": 1746670826,
+    "modified_date": 1746759639,
     "browser_url": "https://www.mobilize.us/swingleft/event/752521/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -2711,7 +2103,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1738511265,
-    "modified_date": 1746645609,
+    "modified_date": 1746734561,
     "browser_url": "https://www.mobilize.us/fww/event/752635/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -3403,13 +2795,6 @@
     "featured_image_url": "",
     "timeslots": [
       {
-        "start_date": 1746754200,
-        "end_date": 1746761400,
-        "instructions": null,
-        "id": 5174667,
-        "is_full": false
-      },
-      {
         "start_date": 1749778200,
         "end_date": 1749785400,
         "instructions": null,
@@ -3560,7 +2945,7 @@
     },
     "event_type": "MEET_GREET",
     "created_date": 1738535531,
-    "modified_date": 1746658819,
+    "modified_date": 1746760803,
     "browser_url": "https://www.mobilize.us/southeastvalleydems/event/752687/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -4068,7 +3453,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1738546950,
-    "modified_date": 1746647408,
+    "modified_date": 1746734561,
     "browser_url": "https://www.mobilize.us/swingleft/event/752710/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -4378,13 +3763,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/NLR%20Store_20250203194846103314.png",
     "timeslots": [
-      {
-        "start_date": 1746727200,
-        "end_date": 1746739800,
-        "instructions": null,
-        "id": 5176551,
-        "is_full": false
-      },
       {
         "start_date": 1746801000,
         "end_date": 1746813600,
@@ -7137,7 +6515,7 @@
     },
     "event_type": "OTHER",
     "created_date": 1738605271,
-    "modified_date": 1746717041,
+    "modified_date": 1746792016,
     "browser_url": "https://www.mobilize.us/ourhouseshelter/event/752924/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -7178,13 +6556,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/LR%20Store_20250203194606751516.png",
     "timeslots": [
-      {
-        "start_date": 1746725400,
-        "end_date": 1746738000,
-        "instructions": null,
-        "id": 5177135,
-        "is_full": false
-      },
       {
         "start_date": 1746799200,
         "end_date": 1746811800,
@@ -9937,7 +9308,7 @@
     },
     "event_type": "OTHER",
     "created_date": 1738611994,
-    "modified_date": 1746717041,
+    "modified_date": 1746788442,
     "browser_url": "https://www.mobilize.us/ourhouseshelter/event/752979/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10138,13 +9509,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/TMC%20Mobilize%20%281200%20x%20630%20px%29%20%282%29_20250203213934247753.png",
     "timeslots": [
       {
-        "start_date": 1746745200,
-        "end_date": 1746750600,
-        "instructions": null,
-        "id": 5261672,
-        "is_full": false
-      },
-      {
         "start_date": 1747954800,
         "end_date": 1747960200,
         "instructions": null,
@@ -10178,7 +9542,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1738619139,
-    "modified_date": 1746648089,
+    "modified_date": 1746750003,
     "browser_url": "https://www.mobilize.us/pastandsup/event/753043/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10436,7 +9800,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1738671427,
-    "modified_date": 1746567340,
+    "modified_date": 1746791010,
     "browser_url": "https://www.mobilize.us/equalitymi/event/753201/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10815,7 +10179,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1738712647,
-    "modified_date": 1746636603,
+    "modified_date": 1746723610,
     "browser_url": "https://www.mobilize.us/opalmissionvote/event/753480/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10972,13 +10336,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/2023%20PPFF%20Mobilize%20Graphics%20%2825%29_20250205024201921148.jpg",
     "timeslots": [
       {
-        "start_date": 1746738000,
-        "end_date": 1746745200,
-        "instructions": null,
-        "id": 5181680,
-        "is_full": false
-      },
-      {
         "start_date": 1747342800,
         "end_date": 1747350000,
         "instructions": null,
@@ -11034,7 +10391,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1738723410,
-    "modified_date": 1746641130,
+    "modified_date": 1746744604,
     "browser_url": "https://www.mobilize.us/peoplepowerforflorida/event/753532/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -11289,13 +10646,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Mobilize%20Virginia%20%283%29_20250402183614013508.png",
     "timeslots": [
       {
-        "start_date": 1746741600,
-        "end_date": 1746748800,
-        "instructions": null,
-        "id": 5279725,
-        "is_full": false
-      },
-      {
         "start_date": 1747173600,
         "end_date": 1747180800,
         "instructions": null,
@@ -11394,7 +10744,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1738773086,
-    "modified_date": 1746662500,
+    "modified_date": 1746748211,
     "browser_url": "https://www.mobilize.us/cfcg-rov/event/753599/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -11419,7 +10769,7 @@
       "race_type": "OTHER_LOCAL",
       "event_feed_url": "https://www.mobilize.us/seanryanforbuffalo/",
       "created_date": 1738697552,
-      "modified_date": 1746543179,
+      "modified_date": 1746797635,
       "org_type": "CAMPAIGN",
       "id": 40797,
       "name": "Sean Ryan for Buffalo",
@@ -11435,41 +10785,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/GENERAL%20-%20Mobilize%20Canvassing%20Cover%20Photo_20250505233618806245.png",
     "timeslots": [
-      {
-        "start_date": 1746727200,
-        "end_date": 1746738000,
-        "instructions": null,
-        "id": 5195262,
-        "is_full": false
-      },
-      {
-        "start_date": 1746738000,
-        "end_date": 1746748800,
-        "instructions": null,
-        "id": 5209782,
-        "is_full": false
-      },
-      {
-        "start_date": 1746972000,
-        "end_date": 1746982800,
-        "instructions": null,
-        "id": 5219886,
-        "is_full": false
-      },
-      {
-        "start_date": 1746979200,
-        "end_date": 1746990000,
-        "instructions": null,
-        "id": 5219901,
-        "is_full": false
-      },
-      {
-        "start_date": 1746986400,
-        "end_date": 1746997200,
-        "instructions": null,
-        "id": 5219917,
-        "is_full": false
-      },
       {
         "start_date": 1747159200,
         "end_date": 1747170000,
@@ -12003,7 +11318,7 @@
     },
     "event_type": "CANVASS",
     "created_date": 1738785827,
-    "modified_date": 1746712810,
+    "modified_date": 1746749017,
     "browser_url": "https://www.mobilize.us/seanryanforbuffalo/event/753680/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -12124,13 +11439,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/josh%20template%20%287%29_20250205235209400473.png",
     "timeslots": [
       {
-        "start_date": 1746743400,
-        "end_date": 1746747000,
-        "instructions": null,
-        "id": 5303442,
-        "is_full": false
-      },
-      {
         "start_date": 1747952100,
         "end_date": 1747958400,
         "instructions": null,
@@ -12182,7 +11490,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1738799788,
-    "modified_date": 1746648085,
+    "modified_date": 1746746411,
     "browser_url": "https://www.mobilize.us/aclufl/event/753766/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -12372,7 +11680,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1738867404,
-    "modified_date": 1746682810,
+    "modified_date": 1746795864,
     "browser_url": "https://www.mobilize.us/georgiademocrats/event/753936/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -12556,7 +11864,7 @@
     },
     "event_type": "VOLUNTEER_SHIFT",
     "created_date": 1738868790,
-    "modified_date": 1746388988,
+    "modified_date": 1746792020,
     "browser_url": "https://www.mobilize.us/lacompost/event/753951/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -13049,13 +12357,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/54363183636_39d51a719f_c_20250312205924126448.jpg",
     "timeslots": [
       {
-        "start_date": 1746734400,
-        "end_date": 1746738000,
-        "instructions": null,
-        "id": 5191260,
-        "is_full": false
-      },
-      {
         "start_date": 1747339200,
         "end_date": 1747342800,
         "instructions": null,
@@ -13115,7 +12416,7 @@
     },
     "event_type": "FUNDRAISER",
     "created_date": 1738898697,
-    "modified_date": 1746720268,
+    "modified_date": 1746737416,
     "browser_url": "https://www.mobilize.us/landerformayor/event/754110/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -13426,7 +12727,7 @@
       "race_type": "OTHER_LOCAL",
       "event_feed_url": "https://www.mobilize.us/seanryanforbuffalo/",
       "created_date": 1738697552,
-      "modified_date": 1746543179,
+      "modified_date": 1746797635,
       "org_type": "CAMPAIGN",
       "id": 40797,
       "name": "Sean Ryan for Buffalo",
@@ -13442,13 +12743,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/GENERAL%20-%20Phone%20Banking%20Cover%20Photo%20%282%29_20250506034534673931.png",
     "timeslots": [
-      {
-        "start_date": 1746741600,
-        "end_date": 1746748800,
-        "instructions": null,
-        "id": 5195201,
-        "is_full": false
-      },
       {
         "start_date": 1746907200,
         "end_date": 1746914400,
@@ -13611,7 +12905,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1738946848,
-    "modified_date": 1746662501,
+    "modified_date": 1746748211,
     "browser_url": "https://www.mobilize.us/seanryanforbuffalo/event/754181/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -14421,7 +13715,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1739049296,
-    "modified_date": 1746665410,
+    "modified_date": 1746752409,
     "browser_url": "https://www.mobilize.us/hcdp/event/754443/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -15248,7 +14542,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1739210301,
-    "modified_date": 1746188646,
+    "modified_date": 1746792018,
     "browser_url": "https://www.mobilize.us/marionindivisible/event/754730/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -15527,7 +14821,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1739286858,
-    "modified_date": 1746484144,
+    "modified_date": 1746722497,
     "browser_url": "https://www.mobilize.us/pinellascountydec/event/754910/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -16409,7 +15703,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1739337423,
-    "modified_date": 1746374467,
+    "modified_date": 1746788443,
     "browser_url": "https://www.mobilize.us/facistfighters/event/755184/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -16913,13 +16207,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Commissions%20meeting%20for%20mobilize_20250226171932565994.jpg",
     "timeslots": [
       {
-        "start_date": 1746727200,
-        "end_date": 1746734400,
-        "instructions": null,
-        "id": 5199988,
-        "is_full": false
-      },
-      {
         "start_date": 1747692000,
         "end_date": 1747699200,
         "instructions": null,
@@ -16969,7 +16256,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1739396230,
-    "modified_date": 1746712811,
+    "modified_date": 1746733819,
     "browser_url": "https://www.mobilize.us/forsythcountydems/event/755346/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -17544,7 +16831,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1739482710,
-    "modified_date": 1746658204,
+    "modified_date": 1746745289,
     "browser_url": "https://www.mobilize.us/indivisible/event/755635/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -17982,7 +17269,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1739489852,
-    "modified_date": 1746385261,
+    "modified_date": 1746723613,
     "browser_url": "https://www.mobilize.us/civicjoyfund/event/755689/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -20551,7 +19838,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1739545980,
-    "modified_date": 1746388995,
+    "modified_date": 1746728065,
     "browser_url": "https://www.mobilize.us/civicjoyfund/event/755829/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -20713,13 +20000,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/mobilze%20monthly%20sustainers_20250227003506875225.png",
     "timeslots": [
-      {
-        "start_date": 1746763200,
-        "end_date": 1746849540,
-        "instructions": null,
-        "id": 5201624,
-        "is_full": false
-      },
       {
         "start_date": 1746849600,
         "end_date": 1746935940,
@@ -22394,7 +21674,7 @@
     },
     "event_type": "OTHER",
     "created_date": 1739550237,
-    "modified_date": 1746666145,
+    "modified_date": 1746752623,
     "browser_url": "https://www.mobilize.us/democracync/event/755858/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -22555,7 +21835,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1739557043,
-    "modified_date": 1746378050,
+    "modified_date": 1746795878,
     "browser_url": "https://www.mobilize.us/indivisible/event/755899/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -23932,7 +23212,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1739562387,
-    "modified_date": 1744502467,
+    "modified_date": 1746730905,
     "browser_url": "https://www.mobilize.us/civicjoyfund/event/755939/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -24359,7 +23639,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1739578202,
-    "modified_date": 1746672603,
+    "modified_date": 1746759639,
     "browser_url": "https://www.mobilize.us/planevada/event/756038/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -25829,7 +25109,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1739589654,
-    "modified_date": 1746640202,
+    "modified_date": 1746727450,
     "browser_url": "https://www.mobilize.us/civicjoyfund/event/756071/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -25870,13 +25150,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/_Fort%20Miley%20Cleanup%20and%20Workday._001_20240626051054762671_20250215032204034366.jpeg",
     "timeslots": [
-      {
-        "start_date": 1746723600,
-        "end_date": 1746730800,
-        "instructions": null,
-        "id": 5203227,
-        "is_full": false
-      },
       {
         "start_date": 1747328400,
         "end_date": 1747335600,
@@ -26125,7 +25398,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1739589806,
-    "modified_date": 1746709206,
+    "modified_date": 1746730207,
     "browser_url": "https://www.mobilize.us/civicjoyfund/event/756072/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -26302,13 +25575,6 @@
         "is_full": false
       },
       {
-        "start_date": 1748192400,
-        "end_date": 1748196000,
-        "instructions": null,
-        "id": 5236257,
-        "is_full": false
-      },
-      {
         "start_date": 1750370400,
         "end_date": 1750374000,
         "instructions": null,
@@ -26437,7 +25703,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1739590552,
-    "modified_date": 1745863250,
+    "modified_date": 1746745805,
     "browser_url": "https://www.mobilize.us/civicjoyfund/event/756077/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -30727,7 +29993,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1739634578,
-    "modified_date": 1746316910,
+    "modified_date": 1746734497,
     "browser_url": "https://www.mobilize.us/civicjoyfund/event/756136/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -30848,7 +30114,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1739634836,
-    "modified_date": 1744570833,
+    "modified_date": 1746795878,
     "browser_url": "https://www.mobilize.us/civicjoyfund/event/756138/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -31033,7 +30299,7 @@
     },
     "event_type": "COMMUNITY",
     "created_date": 1739638031,
-    "modified_date": 1746712810,
+    "modified_date": 1746795830,
     "browser_url": "https://www.mobilize.us/andersoncountydemocraticparty/event/756147/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -31725,7 +30991,7 @@
       "race_type": null,
       "event_feed_url": "https://www.mobilize.us/beaufortcountyscdems/",
       "created_date": 1575478316,
-      "modified_date": 1746127867,
+      "modified_date": 1746723119,
       "org_type": "CAMPAIGN",
       "id": 2116,
       "name": "Beaufort County Democratic Party",
@@ -31741,13 +31007,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/calling%20dems%20to%20action%20%283%29_20250220154402614255.png",
     "timeslots": [
-      {
-        "start_date": 1746763200,
-        "end_date": 1746849540,
-        "instructions": null,
-        "id": 5204716,
-        "is_full": false
-      },
       {
         "start_date": 1746849600,
         "end_date": 1746935940,
@@ -32036,7 +31295,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1739724487,
-    "modified_date": 1746666145,
+    "modified_date": 1746752624,
     "browser_url": "https://www.mobilize.us/beaufortcountyscdems/event/756298/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -32734,7 +31993,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1739744649,
-    "modified_date": 1746648066,
+    "modified_date": 1746788442,
     "browser_url": "https://www.mobilize.us/bluevote/event/756389/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -33014,7 +32273,7 @@
     },
     "event_type": "MEETING",
     "created_date": 1739816574,
-    "modified_date": 1746655215,
+    "modified_date": 1746730904,
     "browser_url": "https://www.mobilize.us/indivisible/event/756525/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -33229,5 +32488,787 @@
     "virtual_action_url": null,
     "accessibility_notes": "",
     "is_virtual": true
+  },
+  {
+    "title": "Cherokee Democrats GA | Political Chat",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/georgiademocrats/",
+      "created_date": 1533225777,
+      "modified_date": 1744690410,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 618,
+      "name": "Democratic Party of Georgia",
+      "slug": "georgiademocrats",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "GA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/GADemsLogo_mobilize_20200821182232350216.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/win%20the%20whole%20dem%20thing_mobilize_v3_20210223222835563987.png",
+    "timeslots": [
+      {
+        "start_date": 1747593000,
+        "end_date": 1747598400,
+        "instructions": null,
+        "id": 5205624,
+        "is_full": false
+      },
+      {
+        "start_date": 1750012200,
+        "end_date": 1750017600,
+        "instructions": null,
+        "id": 5238817,
+        "is_full": false
+      },
+      {
+        "start_date": 1753036200,
+        "end_date": 1753041600,
+        "instructions": null,
+        "id": 5245129,
+        "is_full": false
+      },
+      {
+        "start_date": 1755455400,
+        "end_date": 1755460800,
+        "instructions": null,
+        "id": 5245130,
+        "is_full": false
+      },
+      {
+        "start_date": 1758479400,
+        "end_date": 1758484800,
+        "instructions": null,
+        "id": 5245131,
+        "is_full": false
+      },
+      {
+        "start_date": 1760898600,
+        "end_date": 1760904000,
+        "instructions": null,
+        "id": 5245132,
+        "is_full": false
+      },
+      {
+        "start_date": 1763321400,
+        "end_date": 1763326800,
+        "instructions": null,
+        "id": 5245133,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Sequoyah Regional Library System",
+      "address_lines": [
+        "116 Brown Industrial Pkwy",
+        ""
+      ],
+      "locality": "Canton",
+      "region": "GA",
+      "country": "US",
+      "postal_code": "30114",
+      "location": {
+        "latitude": 34.237974,
+        "longitude": -84.468936
+      },
+      "congressional_district": "11",
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "FRIEND_TO_FRIEND_OUTREACH",
+    "created_date": 1739824458,
+    "modified_date": 1746791612,
+    "browser_url": "https://www.mobilize.us/georgiademocrats/event/756583/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 756583,
+    "description": "A dynamic round-table discussion of current local, state, and national issues. Join us for this community conversation on the 3rd Sunday of each month from 2:30PM-4PM.\n\nThis event is not sponsored by the library.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false
+  },
+  {
+    "title": "Cherokee Democrats GA | Monthly Meeting",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/georgiademocrats/",
+      "created_date": 1533225777,
+      "modified_date": 1744690410,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 618,
+      "name": "Democratic Party of Georgia",
+      "slug": "georgiademocrats",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "GA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/GADemsLogo_mobilize_20200821182232350216.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Peach%20Vote_20210423163401886439.png",
+    "timeslots": [
+      {
+        "start_date": 1749769200,
+        "end_date": 1749774600,
+        "instructions": null,
+        "id": 5205639,
+        "is_full": false
+      },
+      {
+        "start_date": 1752188400,
+        "end_date": 1752193800,
+        "instructions": null,
+        "id": 5205640,
+        "is_full": false
+      },
+      {
+        "start_date": 1755212400,
+        "end_date": 1755217800,
+        "instructions": null,
+        "id": 5205641,
+        "is_full": false
+      },
+      {
+        "start_date": 1757631600,
+        "end_date": 1757637000,
+        "instructions": null,
+        "id": 5205642,
+        "is_full": false
+      },
+      {
+        "start_date": 1760050800,
+        "end_date": 1760056200,
+        "instructions": null,
+        "id": 5205643,
+        "is_full": false
+      },
+      {
+        "start_date": 1763078400,
+        "end_date": 1763083800,
+        "instructions": null,
+        "id": 5205644,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Allen Temple AME Church",
+      "address_lines": [
+        "232 Arnold Mill Rd",
+        ""
+      ],
+      "locality": "Woodstock",
+      "region": "GA",
+      "country": "US",
+      "postal_code": "30188",
+      "location": {
+        "latitude": 34.1005967,
+        "longitude": -84.5095577
+      },
+      "congressional_district": "11",
+      "state_leg_district": null,
+      "state_senate_district": "56"
+    },
+    "event_type": "MEETING",
+    "created_date": 1739828498,
+    "modified_date": 1746750003,
+    "browser_url": "https://www.mobilize.us/georgiademocrats/event/756592/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 756592,
+    "description": "Join us at our monthly meeting in Woodstock on the second Thursday of each month at 7 p.m. We extend a warm invitation to all local Democrats, Liberals, Independents, and those with left-leaning views. This gathering presents an excellent chance to discover our ongoing initiatives, connect with like-minded individuals, meet aspiring candidates, and explore ways in which you can contribute to our cause. Don't miss out on this valuable opportunity to make a difference in our community.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false
+  },
+  {
+    "title": "Organizing for Equity Workshop Series: Winning the Fight in Our Communities",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/pastandsup/",
+      "created_date": 1557871771,
+      "modified_date": 1744694143,
+      "org_type": "C4",
+      "id": 1476,
+      "name": "Pennsylvania Stands Up",
+      "slug": "pastandsup",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "PA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Untitled%20design_20231002191625333535.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Organizing%20for%20Equity%20Flyer%20_20250314195524139979.png",
+    "timeslots": [
+      {
+        "start_date": 1747692000,
+        "end_date": 1747695600,
+        "instructions": null,
+        "id": 5308601,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 87,
+        "name": "LGBTQ+"
+      },
+      {
+        "id": 19886,
+        "name": "Nepa Stands Up"
+      },
+      {
+        "id": 4267,
+        "name": "Workshop"
+      }
+    ],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "",
+      "region": "",
+      "country": "US",
+      "postal_code": "",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "MEETING",
+    "created_date": 1739832122,
+    "modified_date": 1746476157,
+    "browser_url": "https://www.mobilize.us/pastandsup/event/756608/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 756608,
+    "description": "Part 5 of our 5-part online Organizing for Equity Series. We'll discuss our plan to get non-discrimination ordinances passed in our community and highlight state-wide legislation & policy that would benefit queer Pennsylvanians.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": true
+  },
+  {
+    "title": "Monthly Meeting",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/nefldiversitycaucus/",
+      "created_date": 1739886617,
+      "modified_date": 1744701679,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 40962,
+      "name": "NE FL Diversity Caucus",
+      "slug": "nefldiversitycaucus",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "",
+    "timeslots": [
+      {
+        "start_date": 1747864800,
+        "end_date": 1747870200,
+        "instructions": null,
+        "id": 5274196,
+        "is_full": false
+      },
+      {
+        "start_date": 1750543200,
+        "end_date": 1750548600,
+        "instructions": null,
+        "id": 5274197,
+        "is_full": false
+      },
+      {
+        "start_date": 1753135200,
+        "end_date": 1753140600,
+        "instructions": null,
+        "id": 5274198,
+        "is_full": false
+      },
+      {
+        "start_date": 1755813600,
+        "end_date": 1755819000,
+        "instructions": null,
+        "id": 5274199,
+        "is_full": false
+      },
+      {
+        "start_date": 1758492000,
+        "end_date": 1758497400,
+        "instructions": null,
+        "id": 5274200,
+        "is_full": false
+      },
+      {
+        "start_date": 1761084000,
+        "end_date": 1761089400,
+        "instructions": null,
+        "id": 5274201,
+        "is_full": false
+      },
+      {
+        "start_date": 1763766000,
+        "end_date": 1763771400,
+        "instructions": null,
+        "id": 5274202,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 87,
+        "name": "LGBTQ+"
+      }
+    ],
+    "location": {
+      "venue": "Zaxby's",
+      "address_lines": [
+        "950 Santa Maria Blvd",
+        ""
+      ],
+      "locality": "St. Augustine",
+      "region": "FL",
+      "country": "US",
+      "postal_code": "32086",
+      "location": {
+        "latitude": 29.8158495,
+        "longitude": -81.3217569
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": "7"
+    },
+    "event_type": "MEETING",
+    "created_date": 1739886994,
+    "modified_date": 1744934545,
+    "browser_url": "https://www.mobilize.us/nefldiversitycaucus/event/756670/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 756670,
+    "description": "We will be meeting monthly on the third Wednesday of the month at Zaxby's in St. Augustine. It is our first monthly meeting of the year. We can have it hybrid with a Google Meeting.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Demfest 2025",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/padems/",
+      "created_date": 1527172606,
+      "modified_date": 1744689956,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 353,
+      "name": "PA Democratic Party",
+      "slug": "padems",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "PA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/PA%20Dems_20180605174107022514_20230605180404090084.jpg"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/mobilizedemfest_20250218155826743131.png",
+    "timeslots": [
+      {
+        "start_date": 1751119200,
+        "end_date": 1751144400,
+        "instructions": null,
+        "id": 5205814,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Knoebels Amusement Resort",
+      "address_lines": [
+        "391 Knoebels Blvd",
+        ""
+      ],
+      "locality": "Elysburg",
+      "region": "PA",
+      "country": "US",
+      "postal_code": "17824",
+      "location": {
+        "latitude": 40.8799602,
+        "longitude": -76.5020762
+      },
+      "congressional_district": "9",
+      "state_leg_district": "107",
+      "state_senate_district": "27"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1739894393,
+    "modified_date": 1739894401,
+    "browser_url": "https://www.mobilize.us/padems/event/756688/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 756688,
+    "description": "The North Central Caucus is thrilled to bring back Demfest in partnership with the Northeast Caucus! Join us for a day of fun, family, food, and candidates at Knoebels Park! Keep an eye out for ticket information. All Democrats and family welcome!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Richmond Library Cleanup",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/civicjoyfund/",
+      "created_date": 1739291178,
+      "modified_date": 1744697826,
+      "org_type": "C3",
+      "id": 40887,
+      "name": "Civic Joy Fund",
+      "slug": "civicjoyfund",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "CA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/CJF%20logo%20%28horizontal%29_20250318000032599502.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/RichmondLibrary-Cleanup_20230427163728929433_20250218162346635742.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1747175400,
+        "end_date": 1747179000,
+        "instructions": null,
+        "id": 5205829,
+        "is_full": false
+      },
+      {
+        "start_date": 1749594600,
+        "end_date": 1749598200,
+        "instructions": null,
+        "id": 5205830,
+        "is_full": false
+      },
+      {
+        "start_date": 1752013800,
+        "end_date": 1752017400,
+        "instructions": null,
+        "id": 5205831,
+        "is_full": false
+      },
+      {
+        "start_date": 1755037800,
+        "end_date": 1755041400,
+        "instructions": null,
+        "id": 5205832,
+        "is_full": false
+      },
+      {
+        "start_date": 1757457000,
+        "end_date": 1757460600,
+        "instructions": null,
+        "id": 5205833,
+        "is_full": false
+      },
+      {
+        "start_date": 1760481000,
+        "end_date": 1760484600,
+        "instructions": null,
+        "id": 5205834,
+        "is_full": false
+      },
+      {
+        "start_date": 1762903800,
+        "end_date": 1762907400,
+        "instructions": null,
+        "id": 5205835,
+        "is_full": false
+      },
+      {
+        "start_date": 1765323000,
+        "end_date": 1765326600,
+        "instructions": null,
+        "id": 5205836,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 5847,
+        "name": "Cleanup"
+      },
+      {
+        "id": 337,
+        "name": "Volunteer"
+      }
+    ],
+    "location": {
+      "venue": "Richmond Library",
+      "address_lines": [
+        "351 9th Ave",
+        ""
+      ],
+      "locality": "San Francisco",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "94118",
+      "location": {
+        "latitude": 37.7818433,
+        "longitude": -122.4681747
+      },
+      "congressional_district": "11",
+      "state_leg_district": "19",
+      "state_senate_district": "11"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1739895952,
+    "modified_date": 1744243357,
+    "browser_url": "https://www.mobilize.us/civicjoyfund/event/756695/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 756695,
+    "description": "Join the Richmond Library, Refuse Refuse, SF Public Works, and the community  for a friendly neighborhood cleanup!\n\nVolunteers will meet at the 10th Avenue entrance by the playground at the Richmond Library at 3:30pm where we'll to grab our supplies and form our crew. Then, cleaning will occur around the neighborhood until 4:30 pm. \n\nSign up today and let’s beautify San Francisco together!\n\nOrganizer: Vince",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "SATURDAY WRITING PARTIES ARE BACK WITH SWING LEFT INLAND VALLEY!!!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/swingleft/",
+      "created_date": 1516984264,
+      "modified_date": 1744689951,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 159,
+      "name": "Swing Left",
+      "slug": "swingleft",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/swingLeft_logo_color_20220407205542908250.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/sl_events_meta_letters3_20210608140138790771.png",
+    "timeslots": [
+      {
+        "start_date": 1746896400,
+        "end_date": 1746903600,
+        "instructions": null,
+        "id": 5305126,
+        "is_full": false
+      },
+      {
+        "start_date": 1747501200,
+        "end_date": 1747508400,
+        "instructions": null,
+        "id": 5305127,
+        "is_full": false
+      },
+      {
+        "start_date": 1748710800,
+        "end_date": 1748718000,
+        "instructions": null,
+        "id": 5305128,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "Claremont",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "91711",
+      "location": {
+        "latitude": 34.1707374,
+        "longitude": -117.702148
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "LETTER_WRITING",
+    "created_date": 1739896711,
+    "modified_date": 1746385266,
+    "browser_url": "https://www.mobilize.us/swingleft/event/756701/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 756701,
+    "description": "Join [Swing Left Inland Valley](https://swingleft.org/group/swing-left-claremontinland-valley) on **Saturdays for our virtual writing parties** to inform voters and potential voters of what's at stake! **NOW** is the time to take action. We’ll provide writing instructions and answer questions, all while engaging in interesting and fun conversations with like-minded defenders of democracy. **After registering, you will receive more info and the Zoom link to join the writing party**.\n\nWrite postcards to voters. Here are links with information on the campaign(s) and how to obtain addresses and scripts. Again, we can help get you started!\n\n- [Field Team 6](https://fieldteam6.herokuapp.com). Use the power of your handwritten messages to register likely Democrats to vote. FT6 motto: Register Democrats, Save the World!\n\n- [Activate America](https://www.activateamerica.vote/postcards). Write to high potential voters to support Democrats and defeat MAGA Republicans.\n\n- [Postcards to Voters](https://postcardstovoters.org/current/). This is Tony the Democrat's postcarding campaign with addresses for special elections.\n\n\nThink about it: if you help get a voter registered and to the polls, that is an important step towards creating a more inclusive and equitable government and society. Looking forward to seeing you!",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": true
+  },
+  {
+    "title": "Wildflower Walk and Garlic Mustard Pull near Hot Springs, NC 5/10 (rescheduled from 5/3)",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/mountaintrue/",
+      "created_date": 1736369984,
+      "modified_date": 1744699826,
+      "org_type": "C3",
+      "id": 40578,
+      "name": "MountainTrue",
+      "slug": "mountaintrue",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/MountainTrue%20logo_20250123151829380556.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/IMG_1853_20250218163806180782.JPG",
+    "timeslots": [
+      {
+        "start_date": 1746882000,
+        "end_date": 1746910800,
+        "instructions": null,
+        "id": 5205851,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 2935,
+        "name": "Workday"
+      },
+      {
+        "id": 337,
+        "name": "Volunteer"
+      },
+      {
+        "id": 25888,
+        "name": "Wildflower"
+      }
+    ],
+    "location": {
+      "venue": "Appalachian National Scenic Trail Trailhead Parking",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "Del Rio",
+      "region": "TN",
+      "country": "US",
+      "postal_code": "37727",
+      "location": {
+        "latitude": 35.7922183,
+        "longitude": -82.9620577
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1739896948,
+    "modified_date": 1746196656,
+    "browser_url": "https://www.mobilize.us/mountaintrue/event/756704/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 756704,
+    "description": "Wildflowers will be peaking above 4,000' on this scenic section of the Appalachian Trail.  Originally scheduled for May 3rd, this event has been rescheduled to May 10 due to high winds and unsafe conditions.\n\nJoin MountainTrue Biologist Josh Kelly for a 4 mile hike where you will learn about wildflowers, songbirds, and other sights and sounds of the Appalachian Spring. Midway through the hike, the group will stop to pull garlic mustard for two hours and help maintain the native herbaceous diversity in a very rich forest. \n\nThis is a strenuous hike and participants need to be comfortable walking on steep slopes. Keep in mind this hike will occur above 4,000' in elevation and it will the 5-10 degrees colder than in the surrounding valleys.\n\n\nPhoto Release & Waiver of Liability-all participants must read and agree:\nThere are certain risks inherent in any outdoor activity. Each participant, member, and guest must check the box below and in doing so, agrees to release from liability the leader(s), MountainTrue, its Partners, Affiliates, and members for any accident, injury, illness, or personal loss which might occur while participating in this activity or while traveling in any vehicle during this trip. Each participant further agrees to abide by the rules and regulations of MountainTrue concerning safety, to follow instructions of the leader(s), and not to become intentionally separated from the group. MountainTrue also has the right to use any images collected on this trip for future publications and promotions.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
   }
 ]
