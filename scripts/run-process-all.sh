@@ -33,3 +33,7 @@ LOG_FILE="$LOG_DIR/process-all_$TIMESTAMP.log"
 echo "=== Running process-all at $TIMESTAMP ===" >> "$LOG_FILE"
 $NODE_PATH "$PROJECT_ROOT/scripts/process-all.js" >> "$LOG_FILE" 2>&1
 echo "=== Finished process-all at $(date +"%Y-%m-%d_%H-%M-%S") ===" >> "$LOG_FILE"
+
+echo "=== JOB LOG START ==="
+cat "$PROJECT_ROOT/logs/job.log"
+echo "=== JOB LOG END ==="
