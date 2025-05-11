@@ -124,65 +124,62 @@
     </div>
   </div>
 
-  <div id="top-bar" style="height: 80px; display: flex; padding: 0 20px 0 10px; align-items: center; justify-content: space-between; background-color: #fff; z-index: 10; position: relative;  box-shadow: 0 0 3px rgba(0,0,0,.6); z-index: 1000; display: none;">
-    
-    
-  </div>
-
-  <div id="map-plus-events" style="z-index: 1; position: relative; height: calc(100vh);">
-    
-    <div class="col1 title-plus-list">
-
-      <div id="top-container" style="padding: 20px; border-bottom: 1px solid #eaeaea; position: relative; background-color: #346ea4; color: #fff;">
-
-        <button id="add-event-btn" class="btn icon-btn hidden" style="position: absolute; top: 16px; right: 16px;">
-          <span class="material-symbols-outlined">add</span>
-        </button>
-
-
-        <div id="logo-plus-name" style="display: flex; align-items: center; gap: 8px; flex: 1 1 auto; padding: 0 0 8px 6px;">
+  <div id="content-container">
+    <div id="header">
+      <button id="add-event-btn" class="btn icon-btn hidden" style="position: absolute; top: 16px; right: 16px;">
+        <span class="material-symbols-outlined">add</span>
+      </button>
+  
+      <div class="row">
+        <div id="logo-plus-name" >
           <img src="images/icon-raised-fist.avif" style="width: 60px; display: none;">
           <div style="font-size: 22px; font-weight: 500;">Protest Finder</div>
         </div>
-
-        <div id="filter-row" style="display: flex; align-items: center; gap: 8px; white-space: nowrap; height: 54px;">
-
-          <div class="filter-btn">
-            <div id="date-filter" class="filter-item dropdown" style="color: #fff;">
-              <span class="material-symbols-outlined icon" style="color: #fff;">calendar_today</span>
-              <div id="selected-filter" style="width: 100%; padding-right: 24px;">All Dates</div>
-              <div id="filter-options" class="dropdown-options hidden" style="color: #000;">
-                <div class="dropdown-option" data-filter="today">Today</div>
-                <div class="dropdown-option" data-filter="week">This Week</div>
-                <div class="dropdown-option" data-filter="june14">June 14</div>
-                <div class="dropdown-option" data-filter="all">All Dates</div>
-              </div>
+        <div id="mobile-toggle" class="toggle-buttons">
+          <button id="btn-show-map" class="toggle active" title="Map view">
+            <span class="material-symbols-outlined icon">map</span>
+            Map
+          </button>
+          <button id="btn-show-list" class="toggle" title="List view">
+            <span class="material-symbols-outlined icon">list</span>
+            List
+          </button>
+        </div>
+      </div>
+      <div class="row filter-row">
+        <div class="filter-btn">
+          <div id="date-filter" class="filter-item dropdown" style="color: #fff;">
+            <span class="material-symbols-outlined icon" style="color: #fff;">calendar_today</span>
+            <div id="selected-filter" style="width: 100%; padding-right: 24px;">All Dates</div>
+            <div id="filter-options" class="dropdown-options hidden" style="color: #000;">
+              <div class="dropdown-option" data-filter="today">Today</div>
+              <div class="dropdown-option" data-filter="week">This Week</div>
+              <div class="dropdown-option" data-filter="june14">June 14</div>
+              <div class="dropdown-option" data-filter="all">All Dates</div>
             </div>
-            <div class="filter-separator"  style="display: none;"></div>
-            <div class="filter-item" style="display: none;">
-              <span class="material-symbols-outlined icon">location_on</span>
-              (Some locatiton control?)
-            </div>
-            <div id="go-btn"  style="display: none;">
-              Go
-            </div>
-            
           </div>
-          <div class="search-wrapper filter-btn" style="display: none;">
-            <span class="material-symbols-outlined icon">search</span>
-            <input type="text" id="search-box" placeholder="Search" />
+          <div class="filter-separator"  style="display: none;"></div>
+          <div class="filter-item" style="display: none;">
+            <span class="material-symbols-outlined icon">location_on</span>
+            (Some locatiton control?)
           </div>
-          <div style="padding: 16px; font-size: .85rem; flex: 1 1 100%;">
-            <div id="event-counter"></div>
+          <div id="go-btn"  style="display: none;">
+            Go
           </div>
           
         </div>
-      
+        <div class="search-wrapper filter-btn" style="display: none;">
+          <span class="material-symbols-outlined icon">search</span>
+          <input type="text" id="search-box" placeholder="Search" />
+        </div>
+        <div style="padding: 16px; font-size: .85rem; flex: 1 1 100%;">
+          <div id="event-counter"></div>
+        </div>
       </div>
-      
-      <div id="events" style="padding: 0;"></div>
-
-      <div id="col1-footer">
+    </div>
+    <div id="panel-list" class="content-view">
+      <div id="events"></div>
+      <div id="events-footer">
         <button id="btn-copy" class="btn btn-sm" title="Copy">
           <span class="material-symbols-outlined icon">content_copy</span>
           <span class="text">Copy</span>
@@ -190,10 +187,9 @@
         <div>Contact us: info@protestfinder.net</div>
       </div>
     </div>
-    <div class="col2">
-      <div id="map" style="height: calc(100vh);"></div>
+    <div id="panel-map" class="content-view">
+      <div id="map"></div>
     </div>
-    
   </div>
 
   <!-- Load jQuery -->

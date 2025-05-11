@@ -476,5 +476,56 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
   } 
 });
 
+const container = document.getElementById("content-container");
+
+function isMobile() {
+  return window.innerWidth <= 768;
+}
+
+// Set default view on initial load (map view on mobile)
+if (isMobile()) {
+  container.classList.add("mobile-map");
+}
+
+// Handle screen resizing
+window.addEventListener("resize", () => {
+  if (!isMobile()) {
+    // Reset layout for desktop
+    container.classList.remove("mobile-map", "mobile-list");
+  } else if (
+    !container.classList.contains("mobile-map") &&
+    !container.classList.contains("mobile-list")
+  ) {
+    // Set default on resize into mobile if none is active
+    container.classList.add("mobile-map");
+  }
+});
+
+// Toggle handlers
+document.getElementById("btn-show-map").addEventListener("click", () => {
+  if (isMobile()) {
+    container.classList.add("mobile-map");
+    container.classList.remove("mobile-list");
+  }
+  document.getElementById("btn-show-map").classList.add("active");
+  document.getElementById("btn-show-list").classList.remove("active");
+
+  // Refresh map size (important for Leaflet)
+  setTimeout(() => {
+    if (window.map && typeof window.map.invalidateSize === 'function') {
+      window.map.invalidateSize();
+    }
+  }, 200);
+});
+
+document.getElementById("btn-show-list").addEventListener("click", () => {
+  if (isMobile()) {
+    container.classList.add("mobile-list");
+    container.classList.remove("mobile-map");
+  }
+  document.getElementById("btn-show-list").classList.add("active");
+  document.getElementById("btn-show-map").classList.remove("active");
+});
+
 // === INITIAL LOAD ===
 fetchEvents();

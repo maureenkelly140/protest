@@ -16,7 +16,132 @@ body {
   box-sizing: border-box;
 }
 
+/* Page Framework */
 
+/* HEADER — Fixed width in desktop, full-width in mobile */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 130px; /* or whatever your real height is */
+    background-color: #346ea4;
+    color: white;
+    z-index: 1000;
+    padding: 20px;
+  }  
+  
+  #header .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #header .row + .row {
+    margin-top: 8px;
+  }
+  
+  #logo-plus-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 0 0 auto;
+  }
+  
+  /* Toggle buttons (mobile only) */
+  #mobile-toggle {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+  }
+
+  @media (max-width: 768px) {
+    #mobile-toggle {
+      display: flex;
+    }
+  }
+  
+  .toggle {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: .85rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 32px;
+    padding: 0 .75rem;
+    border: 1px solid transparent;
+    border-radius: 100px;
+  }
+  
+  .toggle.active {
+    border: 1px solid #fff;
+  }
+  
+  .toggle .icon {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  #content-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+  
+/* Panel Layout */
+#panel-list {
+    flex: 0 0 500px;
+    height: 100vh;
+    padding-top: 130px; /* leave room for fixed header */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#panel-map {
+    flex: 1 1 auto;
+    height: 100%;
+}
+
+/* Make #map fill its panel */
+#map {
+    height: 100%;
+    width: 100%;
+}
+  
+  /* Mobile adjustments */
+@media (max-width: 768px) {
+    #content-container {
+      flex-direction: column;
+    }
+  
+    #header {
+      width: 100%;
+      height: 110px;
+      padding: 16px;
+    }
+  
+    #panel-list,
+    #panel-map {
+      flex: 1 1 auto;
+      width: 100%;
+      height: calc(100vh - 110px);
+      overflow-y: auto;
+      padding-top: 0;
+    }
+  
+    #content-container.mobile-map #panel-list {
+      display: none;
+    }
+  
+    #content-container.mobile-list #panel-map {
+      display: none;
+    }
+  }
+  
 h2 {
     font-weight: normal;
     font-size: 22px;
@@ -57,13 +182,14 @@ input {
     background-color: #346ea4;
 }
 
-
-
+.filter-row {
+    height: 38px;
+}
 
 .filter-btn {
     background-color: transparent;
     color: white;
-    height: 42px;
+    height: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,6 +199,7 @@ input {
     font-size: .85rem;
     cursor: pointer;
     transition: all 0.3s ease;
+    white-space: nowrap;
 }
 
 .filter-btn:hover {
@@ -207,12 +334,12 @@ h1 {
     height: calc(100vh);
 }
 #events {
-    padding: 8px 22px;
+    padding: 0px;
     flex: 1 1 100%;
     overflow-y: auto;
 }
 
-#col1-footer {
+#events-footer {
     flex: 0 0 50px;
     display: flex;
     align-items: center;
@@ -221,20 +348,19 @@ h1 {
     background-color: #eaeaea;
     font-size: .75rem;
     color: #666;
-
 }
 
-#col1-footer .btn {
+#events-footer .btn {
     background-color: transparent;
     color: #666;
     margin-left: -4px;
 }
 
-#col1-footer .btn:hover {
+#events-footer .btn:hover {
     background-color: rgba(0,0,0,.08);
 }
 
-#col1-footer .material-symbols-outlined {
+#events-footer .material-symbols-outlined {
     font-size: 18px;
     color: #666;
 }
@@ -613,4 +739,3 @@ background: #f0f0f0;
     50% { opacity: 0.5; }
     100% { opacity: 1; }
   }
-
