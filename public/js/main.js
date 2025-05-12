@@ -101,12 +101,19 @@ function filterVisibleEvents() {
   return fetchedEvents.filter(ev => {
     const time = new Date(ev.date);
     const inBounds = bounds.contains([ev.latitude, ev.longitude]);
-    const matchesDate = currentDateFilter === 'all' ||
+    const matchesDate =
+      currentDateFilter === 'all' ||
       (currentDateFilter === 'today' && time >= today && time < new Date(today.getTime() + 86400000)) ||
       (currentDateFilter === 'week' && time >= today && time <= weekEnd) ||
-      (currentDateFilter === 'june14' && time.getUTCFullYear() === 2025 && time.getUTCMonth() === 5 && time.getUTCDate() === 14);
+      (currentDateFilter === 'june14' &&
+        time.getUTCFullYear() === 2025 &&
+        time.getUTCMonth() === 5 &&
+        time.getUTCDate() === 14);
 
-    const matchesSearch = ev.title.toLowerCase().includes(searchKeyword) || ev.location.toLowerCase().includes(searchKeyword);
+    const matchesSearch =
+      ev.title.toLowerCase().includes(searchKeyword) ||
+      formatLocationClient(ev.location).toLowerCase().includes(searchKeyword);
+
     return inBounds && matchesDate && matchesSearch;
   });
 }
@@ -397,6 +404,16 @@ document.getElementById('btn-copy').addEventListener('click', async () => {
     console.error('❌ Failed to copy:', err);
     alert('Failed to copy events to clipboard.');
   }
+});
+
+// Info popup
+
+document.getElementById('show-info-popup').addEventListener('click', () => {
+  document.getElementById('info-popup').style.display = "block";
+});
+
+document.getElementById('close-info-popup').addEventListener('click', () => {
+  document.getElementById('info-popup').style.display = "none";
 });
 
 // Modal open/close

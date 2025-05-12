@@ -24,22 +24,79 @@ body {
     top: 0;
     left: 0;
     width: 500px;
-    height: 130px; /* or whatever your real height is */
-    background-color: #346ea4;
     color: white;
     z-index: 1000;
-    padding: 20px;
+    padding:0px;
+    padding: 0;
   }  
   
+  .main-header {
+    background-color: #346ea4;
+    padding: 16px 20px;
+  }
+
   #header .row {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-  
-  #header .row + .row {
-    margin-top: 8px;
+
+  .title-row {
+    padding-bottom: 20px;
   }
+
+  .filter-row {
+  }
+
+  input#search-box {
+    background-color: transparent;
+    color: #fff;
+    padding: 0;
+    width: 100px;
+  }
+
+  input#search-box::placeholder {
+    color: rgba(255,255,255,.7);
+  }
+
+  input#search-box:focus {
+    border: 0;
+    outline: 0;
+  }
+
+  .count-row {
+    background-color: #e2e8ef;
+    color: #333;
+    font-size: .75rem;
+    padding: 0 10px 0 20px;
+    height: 40px;
+    flex: 0 0 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadada;
+  }
+
+
+#btn-copy {
+    background-color: transparent;
+    color: #666;
+    margin-left: -4px;
+    border-radius: 0;
+}
+
+#btn-copy:hover {
+    background-color: transparent;
+}
+
+#btn-copy:hover .text {
+    text-decoration: underline;
+}
+
+#btn-copy .material-symbols-outlined {
+    font-size: 18px;
+    color: #666;
+}
+  
   
   #logo-plus-name {
     display: flex;
@@ -60,6 +117,11 @@ body {
       display: flex;
     }
   }
+
+  .toggle-buttons {
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, .2);
+  }
   
   .toggle {
     background-color: transparent;
@@ -71,18 +133,23 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     height: 32px;
-    padding: 0 .75rem;
     border: 1px solid transparent;
     border-radius: 100px;
+    padding: 10px;
   }
   
   .toggle.active {
-    border: 1px solid #fff;
+    background-color: #fff;
+    background-color: rgba(255,255,255,.7);
   }
   
   .toggle .icon {
     font-size: 18px;
     color: #fff;
+  }
+
+  .toggle.active .icon {
+    color: #1e6dc7;
   }
   
   #content-container {
@@ -90,12 +157,16 @@ body {
     display: flex;
     flex-direction: row;
   }
+
+  .toggle + .toggle {
+    margin-left: -4px;
+  }
   
 /* Panel Layout */
 #panel-list {
     flex: 0 0 500px;
     height: 100vh;
-    padding-top: 130px; /* leave room for fixed header */
+    padding-top: 138px; /* leave room for fixed header */
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -120,19 +191,18 @@ body {
   
     #header {
       width: 100%;
-      height: 110px;
-      padding: 16px;
     }
   
     #panel-list,
     #panel-map {
       flex: 1 1 auto;
       width: 100%;
-      height: calc(100vh - 110px);
+      height: calc(100vh - 140px);
       overflow-y: auto;
       padding-top: 0;
+      margin-top: 140px;
     }
-  
+
     #content-container.mobile-map #panel-list {
       display: none;
     }
@@ -182,31 +252,42 @@ input {
     background-color: #346ea4;
 }
 
-.filter-row {
-    height: 38px;
+.title-row {
+    height: 34px;
 }
 
 .filter-btn {
     background-color: transparent;
     color: white;
-    height: 38px;
+    height: 34px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgba(255,255,255,.7);
-    padding: 0 8px 0 18px;
-    border-radius: 999px;
     font-size: .85rem;
     cursor: pointer;
     transition: all 0.3s ease;
     white-space: nowrap;
+    margin-right: 10px;
+    background-color: rgba(255,255,255, .2);
+    border-radius: 100px;
+    margin-right: 6px;
+    padding: 0 12px;
 }
 
 .filter-btn:hover {
     background-color: rgba(255,255,255,.1);
 }
 
+.filter-btn .icon {
+    color: #fff;
+    margin-right: 8px;
+    font-size: 20px;
+    color: rgba(255,255,255,.8);
+}
 
+.search-wrapper .icon {
+    font-size: 22px;
+}
 
 .icon-btn {
     border-radius: 999px;
@@ -234,6 +315,11 @@ input {
 
 #add-event-btn {
     background-color:rgba(255,255,255,.2); 
+    background-color: transparent;
+    height: 28px;
+    width: auto;
+    padding: 0 15px 0 10px;
+    margin-right: -10px;
 }
 
 #add-event-btn.hidden {
@@ -241,13 +327,8 @@ input {
 }
 
 #add-event-btn:hover {
-    background-color:rgba(255,255,255,.3); 
+    background-color:rgba(255,255,255,.15); 
 }
-
-#selected-filtier:hover {
-    background-color:rgba(255,255,255,.1); 
-}
-
 
 .btn:active {
     transform: translateY(0); /* Press down */
@@ -293,7 +374,6 @@ h1 {
 .filter-item {
     display: flex;
     align-items: center;
-    gap: 8px;
     height: 20px;
 }
 
@@ -339,31 +419,6 @@ h1 {
     overflow-y: auto;
 }
 
-#events-footer {
-    flex: 0 0 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    background-color: #eaeaea;
-    font-size: .75rem;
-    color: #666;
-}
-
-#events-footer .btn {
-    background-color: transparent;
-    color: #666;
-    margin-left: -4px;
-}
-
-#events-footer .btn:hover {
-    background-color: rgba(0,0,0,.08);
-}
-
-#events-footer .material-symbols-outlined {
-    font-size: 18px;
-    color: #666;
-}
 
 button {
     white-space: nowrap;
@@ -449,6 +504,18 @@ a.event {
 .icon, a .icon {
     color: #777;
     font-size: 24px
+}
+
+.icon-sm {
+    font-size: 20px;
+}
+
+.icon-light {
+    color: rgba(255,255,255,.8);
+}
+
+.icon-interactive {
+    cursor: pointer;
 }
 
 a .icon:hover {
@@ -643,6 +710,16 @@ select.form-field {
     cursor: pointer;
 }
 
+.dropdown:after {
+  font-family: 'Material Symbols Outlined';
+  content: 'keyboard_arrow_down';
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  opacity: .8;
+}
+
 /* Selected item */
 .dropdown-selected {
     background: white;
@@ -804,4 +881,29 @@ background: #f0f0f0;
     0% { opacity: 1; }
     50% { opacity: 0.5; }
     100% { opacity: 1; }
+  }
+
+  .popup {
+    padding: 14px 30px 14px 20px ;
+    position: absolute;
+    width: 240px;
+    left: 160px;
+    top: 38px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 100;
+    background-color: #fff;
+    color: #333;
+    font-size: .85rem;
+    display: none;
+  }
+
+  .close-popup {
+    font-family: 'Material Symbols Outlined';
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
   }
