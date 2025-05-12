@@ -8,6 +8,7 @@ let fetchedEvents = [];
 let eventMarkers = new Map();
 let currentDateFilter = 'all';
 let searchKeyword = '';
+let suppressEventListRefresh = false;
 
 // === MAP SETUP ===
 const map = L.map('map', { zoomControl: false, maxZoom: 18 }).setView([39.8283, -98.5795], 4);
@@ -110,7 +111,11 @@ function filterVisibleEvents() {
   });
 }
 
-function clearMarkersAndList() {
+function clearMarkersAndList(preservePopup = false) {
+  if (!preservePopup) {
+    map.closePopup();
+  }
+
   eventMarkers.forEach(marker => map.removeLayer(marker));
   eventMarkers.clear();
   markerClusterGroup.clearLayers();
@@ -198,7 +203,14 @@ function renderVisibleEvents(list) {
     el.addEventListener('click', (e) => {
       if (!isMobile()) {
         e.preventDefault(); // prevent link on desktop
-        eventMarkers.get(ev)?.openPopup();
+        const marker = eventMarkers.get(ev);
+        if (marker) {
+          suppressEventListRefresh = true;
+
+          markerClusterGroup.zoomToShowLayer(marker, () => {
+            marker.openPopup();
+          });
+        }
       }
     });
 
@@ -216,8 +228,8 @@ function renderVisibleEvents(list) {
   $('.tooltip').tooltipster({ animation: 'fade', side: 'right' });
 }
 
-function updateVisibleEvents() {
-  clearMarkersAndList();
+function updateVisibleEvents(preservePopup = false) {
+  clearMarkersAndList(preservePopup);
   const visible = filterVisibleEvents();
   renderVisibleEvents(visible);
 }
@@ -248,12 +260,16 @@ document.addEventListener('click', (e) => {
 });
 
 map.on('moveend', () => {
-  if (fetchedEvents && fetchedEvents.length > 0) {
 
-    //If a popup is already open on the map, don't refresh the results when the map moves
-    var isPopupOpen = document.getElementsByClassName('leaflet-popup');
+  if (suppressEventListRefresh) {
+    suppressEventListRefresh = false;
+    return;
+  }
+
+  if (fetchedEvents && fetchedEvents.length > 0) {
+    const isPopupOpen = document.getElementsByClassName('leaflet-popup');
     if (isPopupOpen.length > 0) {
-        // a popup is open
+      // popup is open, do nothing
     } else {
       updateVisibleEvents();
     }

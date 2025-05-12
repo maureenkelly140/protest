@@ -701,6 +701,66 @@ background: #f0f0f0;
     line-height: inherit;
 }
 
+/* Cluster styling */
+
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+    background-color: rgba(59, 122, 195, 0.4);
+}
+
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+    background-color: rgba(59, 122, 195, 0.7);
+    color: #fff;
+}
+
+
+.marker-cluster-large {
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: -30px !important;
+    margin-top: -30px !important;
+    border-radius: 60px;
+}
+
+.marker-cluster-large div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.marker-cluster-medium {
+    width: 50px !important;
+    height: 50px !important;
+    margin-left: -25px !important;
+    margin-top: -25px !important;
+    border-radius: 50px;
+}
+
+.marker-cluster-medium div {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.marker-cluster-small div {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.marker-cluster > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marker-cluster span {
+    line-height: auto;
+}
+
 /* === Skeleton Loader Styles === */
 .skeleton {
     background-color: #fff;
