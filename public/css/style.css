@@ -431,6 +431,12 @@ a.event {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    #content-container.mobile-list .event .btn-col {
+        display: none;
+    }
+}
+
 .event .btn-col .icon {
     opacity: 0;
     transition: all .2s ease;

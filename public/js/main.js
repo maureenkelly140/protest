@@ -141,42 +141,78 @@ function createEventMarker(ev) {
 }
 
 function renderVisibleEvents(list) {
-  const container = document.getElementById('events');
+  const eventListContainer = document.getElementById('events');
+  const layoutContainer = document.getElementById('content-container'); // renamed to avoid conflict
   const counter = document.getElementById('event-counter');
-  if (counter) counter.innerHTML = list.length ? `${list.length} protest${list.length !== 1 ? 's' : ''} found` : 'No protests found';
+
+  if (counter) {
+    counter.innerHTML = list.length
+      ? `${list.length} protest${list.length !== 1 ? 's' : ''} found`
+      : 'No protests found';
+  }
 
   if (list.length === 0) {
-    container.innerHTML = `<div class="null-msg"><p>No protests found in this area.</p><button class="btn" id="reset-view-btn">Show All Protests</button></div>`;
+    eventListContainer.innerHTML = `
+      <div class="null-msg">
+        <p>No protests found in this area.</p>
+        <button class="btn" id="reset-view-btn">Show All Protests</button>
+      </div>`;
+    
     document.getElementById('reset-view-btn').addEventListener('click', () => {
       map.flyTo([39.8283, -98.5795], 4);
       currentDateFilter = 'all';
       document.getElementById('selected-filter').textContent = 'All Dates';
       updateVisibleEvents();
     });
+
     return;
   }
+
+  eventListContainer.innerHTML = ''; // clear previous
 
   list.forEach(ev => {
     const { title, date, location, url } = ev;
     const { friendlyDate, friendlyTime } = formatDateTime(date);
     createEventMarker(ev);
 
-    const el = document.createElement('div');
+    el = document.createElement('a');
     el.className = 'event';
-    el.innerHTML = `
-      <div class="date-col"><div class="date">${friendlyDate}</div><div class="time">${friendlyTime}</div></div>
-      <div class="detail-col"><div class="event-title">${title}</div><div class="event-description">${formatLocationClient(location)}</div></div>
-      <div class="btn-col"><span class="icon material-symbols-outlined open-url-btn tooltip" title="View Details">open_in_new</span></div>`;
+    el.href = formatEventUrl(url);
+    el.target = isMobile() ? '_self' : '_blank'; // or always '_blank' if you prefer
 
-    el.addEventListener('click', () => eventMarkers.get(ev)?.openPopup());
+    el.innerHTML = `
+      <div class="date-col">
+        <div class="date">${friendlyDate}</div>
+        <div class="time">${friendlyTime}</div>
+      </div>
+      <div class="detail-col">
+        <div class="event-title">${title}</div>
+        <div class="event-description">${formatLocationClient(location)}</div>
+      </div>
+      <div class="btn-col">
+        <span class="icon material-symbols-outlined open-url-btn tooltip" title="View Details">open_in_new</span>
+      </div>
+    `;
+
+    // Handle main row click
+    el.addEventListener('click', (e) => {
+      if (!isMobile()) {
+        e.preventDefault(); // prevent link on desktop
+        eventMarkers.get(ev)?.openPopup();
+      }
+    });
+
+    // Prevent row click from triggering when icon is clicked
     el.querySelector('.open-url-btn').addEventListener('click', (e) => {
+      e.preventDefault();
       e.stopPropagation();
       window.open(formatEventUrl(url), '_blank');
     });
 
-    container.appendChild(el);
+    eventListContainer.appendChild(el);
   });
 
+  // Tooltip setup
   $('.tooltip').tooltipster({ animation: 'fade', side: 'right' });
 }
 
@@ -476,7 +512,7 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
   } 
 });
 
-const container = document.getElementById("content-container");
+const layoutContainer = document.getElementById("content-container");
 
 function isMobile() {
   return window.innerWidth <= 768;
@@ -484,28 +520,26 @@ function isMobile() {
 
 // Set default view on initial load (map view on mobile)
 if (isMobile()) {
-  container.classList.add("mobile-map");
+  layoutContainer.classList.add("mobile-map");
 }
 
 // Handle screen resizing
 window.addEventListener("resize", () => {
   if (!isMobile()) {
-    // Reset layout for desktop
-    container.classList.remove("mobile-map", "mobile-list");
+    layoutContainer.classList.remove("mobile-map", "mobile-list");
   } else if (
-    !container.classList.contains("mobile-map") &&
-    !container.classList.contains("mobile-list")
+    !layoutContainer.classList.contains("mobile-map") &&
+    !layoutContainer.classList.contains("mobile-list")
   ) {
-    // Set default on resize into mobile if none is active
-    container.classList.add("mobile-map");
+    layoutContainer.classList.add("mobile-map");
   }
 });
 
 // Toggle handlers
 document.getElementById("btn-show-map").addEventListener("click", () => {
   if (isMobile()) {
-    container.classList.add("mobile-map");
-    container.classList.remove("mobile-list");
+    layoutContainer.classList.add("mobile-map");
+    layoutContainer.classList.remove("mobile-list");
   }
   document.getElementById("btn-show-map").classList.add("active");
   document.getElementById("btn-show-list").classList.remove("active");
@@ -520,8 +554,8 @@ document.getElementById("btn-show-map").addEventListener("click", () => {
 
 document.getElementById("btn-show-list").addEventListener("click", () => {
   if (isMobile()) {
-    container.classList.add("mobile-list");
-    container.classList.remove("mobile-map");
+    layoutContainer.classList.add("mobile-list");
+    layoutContainer.classList.remove("mobile-map");
   }
   document.getElementById("btn-show-list").classList.add("active");
   document.getElementById("btn-show-map").classList.remove("active");
