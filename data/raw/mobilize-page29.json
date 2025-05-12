@@ -1,0 +1,3507 @@
+[
+  {
+    "title": "Hit the Road for Our Future",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisibleakron/",
+      "created_date": 1746557612,
+      "modified_date": 1746657932,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42535,
+      "name": "Indivisible Akron",
+      "slug": "indivisibleakron",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Logo_IndivisibleAkron_Horizontal_ForLightBackground%20980_20250507224101212715.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/hit%20the%20road_20250512024206220914.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747429200,
+        "end_date": 1747432800,
+        "instructions": null,
+        "id": 5318005,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 2530,
+        "name": "Save Democracy"
+      },
+      {
+        "id": 23850,
+        "name": "Project2025"
+      },
+      {
+        "id": 26357,
+        "name": "Anti-trump"
+      }
+    ],
+    "location": {
+      "locality": "Akron",
+      "region": "OH",
+      "country": "US",
+      "postal_code": "44320",
+      "congressional_district": "13",
+      "state_leg_district": null,
+      "state_senate_district": null,
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747017064,
+    "modified_date": 1747017817,
+    "browser_url": "https://www.mobilize.us/indivisibleakron/event/788647/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788647,
+    "description": "**Join Us for a Visibility Event to Defend Democracy**  \n\nOur democracy thrives when we show up — and that doesn’t always mean thousands in the streets. Sometimes, presence alone makes the difference.  \n\nWe invite you to join us in a peaceful and powerful **visibility event** where we will stand together — literally — on safe walk bridges and highway overpasses throughout Akron. With bold, high-visibility signs like **NO KINGS** and **HANDS OFF** and **HIT THE ROAD TRUMP** we’ll remind passing drivers that democracy is worth fighting for.  \n\nThis is an **anti-Trump, anti-Project 2025, pro-democracy event**. We believe in safeguarding the Constitution and resisting efforts to undermine it. **Every voice counts. Every presence matters.** Whether you’re alone or in a group, your participation sends a message: We will not be silent.  \n\n🔹 **Bring a sign** with a short, clear message. Make it bold, make it visible.  \n🔹 **Stand with us** whether for a few minutes or an hour.  \n🔹 **Be seen, be heard, be part of something meaningful.**  \n\nChange begins with visibility. Let’s stand together for democracy.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "This visibility event is probably not ideal for someone with mobility issues. Parking will be in a nearby neighborhood, and there will be a short walk to the overpass.",
+    "is_virtual": false
+  },
+  {
+    "title": "North Snohomish County Indivisible Satellite Meeting",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/snohomishcountyindivisible/",
+      "created_date": 1655826830,
+      "modified_date": 1744698641,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 33198,
+      "name": "Snohomish County Indivisible",
+      "slug": "snohomishcountyindivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "WA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/facebook2_20230316194343094441.png"
+    },
+    "featured_image_url": "",
+    "timeslots": [
+      {
+        "start_date": 1748203200,
+        "end_date": 1748208600,
+        "instructions": null,
+        "id": 5318008,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "6120 Grove St",
+        ""
+      ],
+      "locality": "Marysville",
+      "region": "WA",
+      "country": "US",
+      "postal_code": "98270",
+      "location": {
+        "latitude": 48.0635417,
+        "longitude": -122.1477684
+      },
+      "congressional_district": "1",
+      "state_leg_district": "38",
+      "state_senate_district": null
+    },
+    "event_type": "MEETING",
+    "created_date": 1747018467,
+    "modified_date": 1747018472,
+    "browser_url": "https://www.mobilize.us/snohomishcountyindivisible/event/788650/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788650,
+    "description": "Come Join us for our May meeting at the Marysville Library in the Large meeting room. \n6120 Grove Street in Marysville!",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "North Snohomish County Indivisible Satellite Meeting--June",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/snohomishcountyindivisible/",
+      "created_date": 1655826830,
+      "modified_date": 1744698641,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 33198,
+      "name": "Snohomish County Indivisible",
+      "slug": "snohomishcountyindivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "WA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/facebook2_20230316194343094441.png"
+    },
+    "featured_image_url": "",
+    "timeslots": [
+      {
+        "start_date": 1751227200,
+        "end_date": 1751232600,
+        "instructions": null,
+        "id": 5318009,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Marysville Library",
+      "address_lines": [
+        "6120 Grove St",
+        ""
+      ],
+      "locality": "Marysville",
+      "region": "WA",
+      "country": "US",
+      "postal_code": "98270",
+      "location": {
+        "latitude": 48.0635417,
+        "longitude": -122.1477684
+      },
+      "congressional_district": "1",
+      "state_leg_district": "38",
+      "state_senate_district": null
+    },
+    "event_type": "MEETING",
+    "created_date": 1747018769,
+    "modified_date": 1747018774,
+    "browser_url": "https://www.mobilize.us/snohomishcountyindivisible/event/788651/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788651,
+    "description": "Come Join us for our June meeting at the Marysville Library in the Large meeting room. \n6120 Grove Street in Marysville!",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "L.A. Trump Must Go Now! Protest - Rally and March",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/refusefascismla/",
+      "created_date": 1747018789,
+      "modified_date": 1747018789,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42714,
+      "name": "Refuse Fascism L.A.",
+      "slug": "refusefascismla",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/7e645e4b-db70-4c17-97a3-60872c00365b_20250512032821868320.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747508400,
+        "end_date": 1747519200,
+        "instructions": null,
+        "id": 5318013,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Los Angeles City Hall Steps",
+      "address_lines": [
+        "200 N Spring St",
+        ""
+      ],
+      "locality": "Los Angeles",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "90012",
+      "location": {
+        "latitude": 34.0537136,
+        "longitude": -118.2426533
+      },
+      "congressional_district": "34",
+      "state_leg_district": null,
+      "state_senate_district": "26"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747019596,
+    "modified_date": 1747020512,
+    "browser_url": "https://www.mobilize.us/refusefascismla/event/788655/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788655,
+    "description": "Take to the streets on May 17 in mass protests to make Trump Must Go NOW! known in cities and towns. These protests combined with dramatic banner drops, vigils, and other creative nonviolent actions across the country in the days going into Saturday, on the day itself, and in the days after can make get this demand seen by millions:\n\nWe all feel it – the atrocities are relentless. Another right snatched away. Someone else disappeared. Due process shredded. Law firms targeted. Universities threatened. Books banned. Immigrants shipped to overseas forever-prisons. Trump promises to disappear “home-growns” (US citizens) next. Trans people banned from the military. It feels impossible to keep up.\n\nWe cannot win by chasing each attack as it comes, overwhelmed and outmatched by the vicious speed of Trump's fascist regime. Nor can we wait until 2026 or 2028.\n\nBut there is a way to win – a way to defeat this fascist juggernaut.\n\nIt is time to come together to take the offense against the whole damn thing — infusing “TRUMP MUST GO NOW!” into all the resistance movements forging a mighty force to stop the regime from carrying out its horrific fascist assault on people here and around the world.\n\nThe Refuse Fascism Call to Conscience/Call to Act breaks down the strategy to oust this regime through mass, sustained, nonviolent protest and resistance. Read it. Sign it at RefuseFascism.org/act Spread it to others.\n\nThen, On May 17, join with others across this country to make a big leap in projecting this demand – Trump Must Go Now! – to the tens of millions who are heartsick and furious about all Trump is doing. Let them see there is a movement for them to join with a real strategy to win. Keep raising this demand all summer long, including at the nationwide protests called for June 14,“No Kings Day”!\n\nIf we act with courage and heart, if we unite all who can be united from diverse political perspectives, we have the numbers and the power to reclaim the future.\n\nIn the Name of Humanity, We Refuse to Accept A Fascist America!",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Greenville 50501 - Memorial Day Event",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/greenvillenc50501/",
+      "created_date": 1747020824,
+      "modified_date": 1747020824,
+      "org_type": "OTHER",
+      "id": 42716,
+      "name": "Greenville, NC 50501",
+      "slug": "greenvillenc50501",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Black%20Elegant%20Torn%20Paper%20Classic%20Funeral%20Invitation_20250512034346974106.png",
+    "timeslots": [
+      {
+        "start_date": 1748268000,
+        "end_date": 1748275200,
+        "instructions": null,
+        "id": 5318017,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Town Common",
+      "address_lines": [
+        "105 E 1st St",
+        ""
+      ],
+      "locality": "Greenville",
+      "region": "NC",
+      "country": "US",
+      "postal_code": "27858",
+      "location": {
+        "latitude": 35.6152917,
+        "longitude": -77.3692778
+      },
+      "congressional_district": "3",
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "SOLIDARITY_EVENT",
+    "created_date": 1747021685,
+    "modified_date": 1747021690,
+    "browser_url": "https://www.mobilize.us/greenvillenc50501/event/788659/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788659,
+    "description": "A memorial service for the United States Constitution. Please wear black and bring any signage addressing constitutional issues.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "Town Commons by the Sycamore monument",
+    "is_virtual": false
+  },
+  {
+    "title": "Unite & Resist- National day of Action/ peaceful protest for visibility",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1747497600,
+        "end_date": 1747501200,
+        "instructions": null,
+        "id": 5318019,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Tribou Park",
+      "address_lines": [
+        "10 Central St",
+        ""
+      ],
+      "locality": "Woodstock",
+      "region": "VT",
+      "country": "US",
+      "postal_code": "05091",
+      "location": {
+        "latitude": 43.6267073,
+        "longitude": -72.5148443
+      },
+      "congressional_district": "1",
+      "state_leg_district": "WDR-5",
+      "state_senate_district": "WSR"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747021730,
+    "modified_date": 1747021737,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788661/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788661,
+    "description": "This national call to action coincides with our local 100th consecutive day of protesting in Tribou Park.\n  \nSince Feb 7th, community members have been coming out everyday with signs to wave at passerby’s and make our resistance visible.\n\nWe know it is not the number of days that count- but the number of reasons we have to keep coming out that do.    Bring your reasons, and come join us!\n\nThere will be sign holding, waving, postcard writing, chanting, community spirit building , mass call to congress, group art project and more!!!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "Outside!  Dress for the weather.",
+    "is_virtual": false
+  },
+  {
+    "title": "100th day of Protest!  Call for community solidarity!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%202_20231214173755488494.png",
+    "timeslots": [
+      {
+        "start_date": 1747495800,
+        "end_date": 1747503000,
+        "instructions": null,
+        "id": 5318022,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Tribou Park",
+      "address_lines": [
+        "10 Central St",
+        ""
+      ],
+      "locality": "Woodstock",
+      "region": "VT",
+      "country": "US",
+      "postal_code": "05091",
+      "location": {
+        "latitude": 43.6267073,
+        "longitude": -72.5148443
+      },
+      "congressional_district": "1",
+      "state_leg_district": "WDR-5",
+      "state_senate_district": "WSR"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747022531,
+    "modified_date": 1747022538,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788664/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788664,
+    "description": "Join us in Woodstock, Vt- where we have been holding an ongoing daily protest from 12-1pm in Tribou Park since Feb 7th.\n\nSat. May 17 will be our 100th day of protesting and we would love for you to stand with us in solidarity!  We know the number of days is not the important thing- but the reasons we all have to stop Trump that are important.  These are the things we care about most, and out of love are committed to standing up for to save.   So many things are at stake.  We need to build our people power and show up for each other during this trying time.\n\nBring a sign or borrow one of ours.  \nWe will have a group art project, postcard writing, sign holding and waving to passerby’s, cookies, and more!  This is a peaceful protest, desiring to make resistance visible- but also desiring to meet new and like minded people, and encourage each other in knowing we are not alone.\n\nOutside- Rain or Shine. \nDress for the weather.\n\nStreet Parking available. Some is metered.  Or free parking in health center lot or east end park.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false
+  },
+  {
+    "title": "Strawberries in Harmony!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/endhunger/",
+      "created_date": 1688162068,
+      "modified_date": 1744698332,
+      "org_type": "C3",
+      "id": 36078,
+      "name": "Society of St. Andrew",
+      "slug": "endhunger",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Shield---color---trans---dither_20230925204013361182.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/IMG_7548-min_20250512041345445094.JPG",
+    "timeslots": [
+      {
+        "start_date": 1747137600,
+        "end_date": 1747144800,
+        "instructions": null,
+        "id": 5318024,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Harmony",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "Harmony",
+      "region": "NC",
+      "country": "US",
+      "postal_code": "28634",
+      "location": {
+        "latitude": 35.9554015,
+        "longitude": -80.7719883
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1747023417,
+    "modified_date": 1747040415,
+    "browser_url": "https://www.mobilize.us/endhunger/event/788666/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788666,
+    "description": "We will be gleaning strawberries in Harmony, NC.  Tuesday, May 13th from 8am-10am.  \n\nThis farm has a fantastic produce stand as well. \n\nThe fields will be muddy, wear your rubber boots!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Stand in Solidarity for Immigrants",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/allofus/",
+      "created_date": 1744603946,
+      "modified_date": 1744701774,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 41892,
+      "name": "All Of Us",
+      "slug": "allofus",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/May%2018th_20250512041020013591.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747591200,
+        "end_date": 1747598400,
+        "instructions": null,
+        "id": 5318025,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 87,
+        "name": "LGBTQ+"
+      },
+      {
+        "id": 3,
+        "name": "Student event"
+      },
+      {
+        "id": 98,
+        "name": "Latinx community"
+      }
+    ],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "East State Street & South Mulford Road",
+        ""
+      ],
+      "locality": "Rockford",
+      "region": "IL",
+      "country": "US",
+      "postal_code": "61108",
+      "location": {
+        "latitude": 42.2668042,
+        "longitude": -88.9995642
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": "34"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747023435,
+    "modified_date": 1747023440,
+    "browser_url": "https://www.mobilize.us/allofus/event/788667/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788667,
+    "description": "Join us in standing in solidarity for Immigrants! Silence is complicity. Please join us and be part of the solution.\nPark in old Kmart parking lot.",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Resistance and Snacks",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisiblegrandjunction/",
+      "created_date": 1746557613,
+      "modified_date": 1747060456,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42552,
+      "name": "Indivisible Grand Junction",
+      "slug": "indivisiblegrandjunction",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/INDIVISIBLE%20%28%20%281920%20x%201080%20px%29_20250512143410274904.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/0a8e5597b5b37d9a475c729af934323359e564765a39bf4244011d4f997c1813_20250512043520531069.png",
+    "timeslots": [
+      {
+        "start_date": 1747785600,
+        "end_date": 1747791000,
+        "instructions": null,
+        "id": 5318030,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 3742,
+        "name": "Outreach"
+      },
+      {
+        "id": 133,
+        "name": "Community building"
+      },
+      {
+        "id": 67,
+        "name": "Education"
+      }
+    ],
+    "location": {
+      "locality": "Grand Junction",
+      "region": "CO",
+      "country": "US",
+      "postal_code": "81501",
+      "congressional_district": "3",
+      "state_leg_district": "55",
+      "state_senate_district": "7",
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "MEETING",
+    "created_date": 1747024741,
+    "modified_date": 1747024745,
+    "browser_url": "https://www.mobilize.us/indivisiblegrandjunction/event/788669/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788669,
+    "description": "Join us for our new leadership kick-off on 5/19/25!  We will introduce the new leadership team and look forward to our exciting events we have coming up.\n\nEvery month we will highlight an informational portion to our evening and this month we will be featuring a presentation on protest safety.  We are excited to meet you all, or re-connect with old friends while we talk about ways to keep ourselves safe as we lift our voices high.\n\nEvening refreshments will be provided.  RSVP's required.",
+    "timezone": "America/Denver",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Take Action Tuesdays",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/peoplesprogressiveagenda/",
+      "created_date": 1747016238,
+      "modified_date": 1747016238,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42713,
+      "name": "Peoples’Progressive Agenda",
+      "slug": "peoplesprogressiveagenda",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Take_Action_Tuesdays_PPA_400x150_Original_20250512043528576526.png",
+    "timeslots": [
+      {
+        "start_date": 1747166400,
+        "end_date": 1747173600,
+        "instructions": null,
+        "id": 5318032,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "Gainesville Social Security Office4652 NW 13th St",
+        ""
+      ],
+      "locality": "Gainesville",
+      "region": "FL",
+      "country": "US",
+      "postal_code": "32609",
+      "location": {
+        "latitude": 29.698341,
+        "longitude": -82.3397439
+      },
+      "congressional_district": "3",
+      "state_leg_district": "21",
+      "state_senate_district": "6"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747025494,
+    "modified_date": 1747026015,
+    "browser_url": "https://www.mobilize.us/peoplesprogressiveagenda/event/788671/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788671,
+    "description": "Make your voice heard taking a stand against the DOGe assault on Social Security and Federal Workers.  Let’s show up with signs, voices and solidarity.  \nBring your signs, there will also be some extras available.  There is some on site parking and some across the street parking\n\n4653 NW 13th St. Gainesville 32609  4-6pm",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Karen Breslin Town Hall",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisiblegrandjunction/",
+      "created_date": 1746557613,
+      "modified_date": 1747060456,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42552,
+      "name": "Indivisible Grand Junction",
+      "slug": "indivisiblegrandjunction",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/INDIVISIBLE%20%28%20%281920%20x%201080%20px%29_20250512143410274904.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/KB%20townhall_20250512045029453238.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1747353600,
+        "end_date": 1747359000,
+        "instructions": null,
+        "id": 5318033,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 3742,
+        "name": "Outreach"
+      },
+      {
+        "id": 19994,
+        "name": "Primary Election"
+      },
+      {
+        "id": 96,
+        "name": "Women"
+      }
+    ],
+    "location": {
+      "venue": "Mesa County Central Library",
+      "address_lines": [
+        "443 N 6th St",
+        ""
+      ],
+      "locality": "Grand Junction",
+      "region": "CO",
+      "country": "US",
+      "postal_code": "81501",
+      "location": {
+        "latitude": 39.0710994,
+        "longitude": -108.5631271
+      },
+      "congressional_district": "3",
+      "state_leg_district": "55",
+      "state_senate_district": "7"
+    },
+    "event_type": "TOWN_HALL",
+    "created_date": 1747025632,
+    "modified_date": 1747025637,
+    "browser_url": "https://www.mobilize.us/indivisiblegrandjunction/event/788672/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788672,
+    "description": "Join us in meeting Karen Breslin.  She is running in the primaries against John Hickenlooper.",
+    "timezone": "America/Denver",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Lettuce in Cleveland, NC",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/endhunger/",
+      "created_date": 1688162068,
+      "modified_date": 1744698332,
+      "org_type": "C3",
+      "id": 36078,
+      "name": "Society of St. Andrew",
+      "slug": "endhunger",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Shield---color---trans---dither_20230925204013361182.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/NC%20-%20Lettuce%20Gleaning%202021_20250512045417579552.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1747224000,
+        "end_date": 1747231200,
+        "instructions": null,
+        "id": 5318034,
+        "is_full": true
+      }
+    ],
+    "tags": [],
+    "location": {
+      "locality": "Cleveland",
+      "region": "NC",
+      "country": "US",
+      "postal_code": "27013",
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null,
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1747025788,
+    "modified_date": 1747025793,
+    "browser_url": "https://www.mobilize.us/endhunger/event/788673/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788673,
+    "description": "We will be gleaning lettuce in Cleveland, NC.  Wednesday, May 14th from 8-10am. We leave for the field at 8 and if you are late, you be be left behind.\n\nPlease be at the farm at 7:50am  \n\nThere are only 5 spots available.  please don't sign up if  you will not show up.\n\nWear your rubber boots, the fields will be muddy.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Help BABE VOTE Register Voters at Canyon County Pride",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/babevote/",
+      "created_date": 1666721408,
+      "modified_date": 1744696408,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 34604,
+      "name": "BABE VOTE",
+      "slug": "babevote",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/DCC6D9C1-FA9B-4C9B-B7AF-23766EF0DE6C_20221025183356623605.jpeg"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Volunteer%20with-7_20250512044851334808.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1749394800,
+        "end_date": 1749403800,
+        "instructions": null,
+        "id": 5318035,
+        "is_full": false
+      },
+      {
+        "start_date": 1749402900,
+        "end_date": 1749411900,
+        "instructions": null,
+        "id": 5318036,
+        "is_full": false
+      },
+      {
+        "start_date": 1749411000,
+        "end_date": 1749420000,
+        "instructions": null,
+        "id": 5318037,
+        "is_full": false
+      },
+      {
+        "start_date": 1749419100,
+        "end_date": 1749429000,
+        "instructions": null,
+        "id": 5318038,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Lakeview Park",
+      "address_lines": [
+        "1304 7th St N",
+        ""
+      ],
+      "locality": "Nampa",
+      "region": "ID",
+      "country": "US",
+      "postal_code": "83687",
+      "location": {
+        "latitude": 43.5858167,
+        "longitude": -116.5460694
+      },
+      "congressional_district": "1",
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "VOTER_REG",
+    "created_date": 1747025986,
+    "modified_date": 1747026173,
+    "browser_url": "https://www.mobilize.us/babevote/event/788674/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788674,
+    "description": "Help BABE VOTE register voters at Canyon County Pride Sunday, June 8 at Lakeview Park in Nampa, Idaho. \n\nDemocracy survives only when we, the people claim our power and vote. Do your part by helping people get registered to vote and request their absentee ballots.\n\nSign up for a shift or 2 and we will get you more details. Thank you!",
+    "timezone": "America/Denver",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "This is an outdoor event on a grass lawn.",
+    "is_virtual": false
+  },
+  {
+    "title": "Veterans Defend the Constitution",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisiblegrandjunction/",
+      "created_date": 1746557613,
+      "modified_date": 1747060456,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42552,
+      "name": "Indivisible Grand Junction",
+      "slug": "indivisiblegrandjunction",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/INDIVISIBLE%20%28%20%281920%20x%201080%20px%29_20250512143410274904.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/91437a8fffd05b526b5c93172877d90659d7460a25b4a74b441c81e549a746e4_20250512050249765236.png",
+    "timeslots": [
+      {
+        "start_date": 1749249000,
+        "end_date": 1749258000,
+        "instructions": null,
+        "id": 5318039,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 1957,
+        "name": "March"
+      },
+      {
+        "id": 338,
+        "name": "Town Hall"
+      },
+      {
+        "id": 737,
+        "name": "Rally"
+      }
+    ],
+    "location": {
+      "locality": "Grand Junction",
+      "region": "CO",
+      "country": "US",
+      "postal_code": "81501",
+      "congressional_district": "3",
+      "state_leg_district": "55",
+      "state_senate_district": "7",
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "SOLIDARITY_EVENT",
+    "created_date": 1747026304,
+    "modified_date": 1747026408,
+    "browser_url": "https://www.mobilize.us/indivisiblegrandjunction/event/788675/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788675,
+    "description": "Join us as we celebrate and support the voices of Veterans!\n\nAmerica made a promise to its veterans. It's a promise we intend to keep.\n\nOn June 6th, join thousands of veterans, military families, and their allies on the National Mall in Washington, D.C., for the Unite for Veterans, Unite for America Rally.\n\nWe are coming together to defend the benefits, jobs, and dignity that every generation of veterans has earned through sacrifice.\n\nVeteran jobs, healthcare, and essential VA services are under attack. We will not stand by.\n\nVeterans and military family members are being fired by the thousands from federal jobs. Our healthcare is being gutted. Our benefits are under siege.\n\nThis isn't the first time veterans have had to fight for what was promised. From the Bonus Army of 1932 to the battles for the GI Bill and Agent Orange care, veterans have always led the charge for justice.\n\nNow, it's our turn.\n\nWe rally to:\n\nDefend veteran and military family member employment in the federal workforce\n\nStop the privatization and weakening of the Department of Veterans Affairs\n\nHold political leaders accountable for policies that harm veterans and their families",
+    "timezone": "America/Denver",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Indivisible OV bi-weekly meeting",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1748203200,
+        "end_date": 1748210400,
+        "instructions": null,
+        "id": 5318040,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Clientele Art Studio",
+      "address_lines": [
+        "43 15th St",
+        ""
+      ],
+      "locality": "Wheeling",
+      "region": "WV",
+      "country": "US",
+      "postal_code": "26003",
+      "location": {
+        "latitude": 40.0653349,
+        "longitude": -80.7188863
+      },
+      "congressional_district": "2",
+      "state_leg_district": "5",
+      "state_senate_district": "1"
+    },
+    "event_type": "MEETING",
+    "created_date": 1747027836,
+    "modified_date": 1747027853,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788676/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788676,
+    "description": "Bi-weekly meeting",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false
+  },
+  {
+    "title": "Hands Off Our Democracy Protest",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisibleleft/",
+      "created_date": 1730760376,
+      "modified_date": 1744698522,
+      "org_type": "CAMPAIGN",
+      "id": 40341,
+      "name": "Indivisible LEFT",
+      "slug": "indivisibleleft",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "MN",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Untitled%20design%20%281%29_20250401035542848438.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/cd16602e-4576-4d6f-845d-1587fbe8332b_20250512052913272130.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1748556000,
+        "end_date": 1748559600,
+        "instructions": null,
+        "id": 5318041,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "Dodd Boulevard & Cedar Avenue",
+        ""
+      ],
+      "locality": "Lakeville",
+      "region": "MN",
+      "country": "US",
+      "postal_code": "55044",
+      "location": {
+        "latitude": 44.6948499,
+        "longitude": -93.2176224
+      },
+      "congressional_district": "2",
+      "state_leg_district": null,
+      "state_senate_district": "57"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747028004,
+    "modified_date": 1747028008,
+    "browser_url": "https://www.mobilize.us/indivisibleleft/event/788677/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788677,
+    "description": "5/29 5-6 pm\nMeet at the corner of Cedar and Dodd in Lakeville\nThis will be a peaceful protest.\nBring a sign if you have one.\nBring a friend or more!\n\nWe will collect non-perishable food items for The Open Door pantry the day of the event.",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "NO KINGS East Bay",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible-east-bay/",
+      "created_date": 1652937986,
+      "modified_date": 1744694492,
+      "org_type": "CAMPAIGN",
+      "id": 32784,
+      "name": "Indivisible East Bay",
+      "slug": "indivisible-east-bay",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/IEB%20logo%20square%20-small_20240109003604978335.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/NO%20KINGS_20250512065727105766.png",
+    "timeslots": [
+      {
+        "start_date": 1749931200,
+        "end_date": 1749936600,
+        "instructions": null,
+        "id": 5318049,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "Oakland",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "94612",
+      "location": {
+        "latitude": 37.8113159,
+        "longitude": -122.2682245
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1747033099,
+    "modified_date": 1747033147,
+    "browser_url": "https://www.mobilize.us/indivisible-east-bay/event/788680/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788680,
+    "description": "The narcissist-in-chief is throwing a ridiculous military parade for himself in DC - everywhere else we rise up to say NO KINGS!!\n\nThe event will be in Oakland, exact location TBD - we'll update the event link with more info as soon as we have it. \n\nExpect a rally with inspiring speakers, a magical MC, a march, music, great signs, and solidarity!",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "MCDC Booth at Juneteenth Freedom Festival Stroudsburg",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/monroecountydemocraticparty/",
+      "created_date": 1663019186,
+      "modified_date": 1744696036,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 34198,
+      "name": "Monroe County PA Democratic Party",
+      "slug": "monroecountydemocraticparty",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "PA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/monroe_county_PA_20220912214945391174.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Juneteenth%20Stroudsburg_20250512114010985798.png",
+    "timeslots": [
+      {
+        "start_date": 1749916800,
+        "end_date": 1749924000,
+        "instructions": null,
+        "id": 5318060,
+        "is_full": false
+      },
+      {
+        "start_date": 1749924000,
+        "end_date": 1749931200,
+        "instructions": null,
+        "id": 5318061,
+        "is_full": false
+      },
+      {
+        "start_date": 1749931200,
+        "end_date": 1749938400,
+        "instructions": null,
+        "id": 5318062,
+        "is_full": false
+      },
+      {
+        "start_date": 1749938400,
+        "end_date": 1749942000,
+        "instructions": null,
+        "id": 5318063,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "38 N 7th St",
+        ""
+      ],
+      "locality": "Stroudsburg",
+      "region": "PA",
+      "country": "US",
+      "postal_code": "18360",
+      "location": {
+        "latitude": 40.9865079,
+        "longitude": -75.1943409
+      },
+      "congressional_district": "8",
+      "state_leg_district": "189",
+      "state_senate_district": "40"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1747050521,
+    "modified_date": 1747058220,
+    "browser_url": "https://www.mobilize.us/monroecountydemocraticparty/event/788687/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788687,
+    "description": "Help the Monroe County Democratic Committee with our booth at the Juneteenth Freedom Festival.\n\n12:00 PM - 2:00 PM - Set-up and transportation - 4 volunteers\n\n2:00 PM - 4:00 PM - Staff Tent - 3 volunteers\n\n4:00 PM - 6:00 PM - Staff Tent - 3 volunteers\n\n6:00 PM - 7:00 PM - Take-down and transport - 4 volunteers\n\nVisit us at Juneteenth\nhttps://www.poconomountains.com/event/juneteenth-freedom-festival/21234/\n\nRegister voters and encourage voters to vote for our Democratic candidates.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Defend Our Democracy! Rally",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1751130000,
+        "end_date": 1751137200,
+        "instructions": null,
+        "id": 5318064,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Rhinelander",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "Rhinelander",
+      "region": "WI",
+      "country": "US",
+      "postal_code": "54501",
+      "location": {
+        "latitude": 45.6366228,
+        "longitude": -89.4120753
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "RALLY",
+    "created_date": 1747050616,
+    "modified_date": 1747050715,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788688/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788688,
+    "description": "This a local Indivisible event!",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false
+  },
+  {
+    "title": "We The People Cloquet Area Indivisible Monthly Meeting",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%202_20231214173755488494.png",
+    "timeslots": [
+      {
+        "start_date": 1747177200,
+        "end_date": 1747182600,
+        "instructions": null,
+        "id": 5318065,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Our Saviour's Lutheran Church",
+      "address_lines": [
+        "612 12th St",
+        ""
+      ],
+      "locality": "Cloquet",
+      "region": "MN",
+      "country": "US",
+      "postal_code": "55720",
+      "location": {
+        "latitude": 46.7126825,
+        "longitude": -92.4517525
+      },
+      "congressional_district": "8",
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "MEETING",
+    "created_date": 1747050813,
+    "modified_date": 1747051207,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788689/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788689,
+    "description": "Cone to our monthly group meeting at 6:00 p.m. on Tuesday, May 13th. Bring your name tag lanyard if you have one, a water/ coffee bottle or cup and be ready to talk about our accomplishments and what's going on for the next month. Sign some postcards and learn how to be an activist. Chill out with the cool people on a hot night.",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false
+  },
+  {
+    "title": "MCDC Booth at Pocono Pride Festival",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/monroecountydemocraticparty/",
+      "created_date": 1663019186,
+      "modified_date": 1744696036,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 34198,
+      "name": "Monroe County PA Democratic Party",
+      "slug": "monroecountydemocraticparty",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "PA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/monroe_county_PA_20220912214945391174.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Pocono%20Pride%20Festival_20240409133722514540.png",
+    "timeslots": [
+      {
+        "start_date": 1748781000,
+        "end_date": 1748786400,
+        "instructions": null,
+        "id": 5318068,
+        "is_full": false
+      },
+      {
+        "start_date": 1748786400,
+        "end_date": 1748793600,
+        "instructions": null,
+        "id": 5318069,
+        "is_full": false
+      },
+      {
+        "start_date": 1748793600,
+        "end_date": 1748802600,
+        "instructions": null,
+        "id": 5318070,
+        "is_full": false
+      },
+      {
+        "start_date": 1748802600,
+        "end_date": 1748811600,
+        "instructions": null,
+        "id": 5318071,
+        "is_full": false
+      },
+      {
+        "start_date": 1748811600,
+        "end_date": 1748817000,
+        "instructions": null,
+        "id": 5318072,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "38 N 7th St",
+        ""
+      ],
+      "locality": "Stroudsburg",
+      "region": "PA",
+      "country": "US",
+      "postal_code": "18360",
+      "location": {
+        "latitude": 40.9865079,
+        "longitude": -75.1943409
+      },
+      "congressional_district": "8",
+      "state_leg_district": "189",
+      "state_senate_district": "40"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1747051569,
+    "modified_date": 1747057667,
+    "browser_url": "https://www.mobilize.us/monroecountydemocraticparty/event/788692/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788692,
+    "description": "Help the Monroe County Democratic Committee with our booth at the Pocono Pride Festival.\n\nRegister voters and encourage voters to vote for our Democratic candidates.\n\n8:30 AM -10:00 AM Set-up and transportation - 4 volunteers\n\n10:00 AM - 12:00 PM - Booth watcher until event start - 1 volunteer\n\n12:00 PM - 2:30 PM- 3 volunteers - Staffing\n\n2:30 PM - 5:00 PM - 3 volunteers - Staffing\n\n5:00 PM - 6:30 PM - 4 volunteers take down and transport",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "OSOS Community Listening Session: San Antonio",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/texasaft/",
+      "created_date": 1600718838,
+      "modified_date": 1744693549,
+      "org_type": "UNION",
+      "id": 4966,
+      "name": "Texas AFT",
+      "slug": "texasaft",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "TX",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Email_Web%20Banner_20230912154631492437.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/npr.brightspotcdn_20250512121831621671.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747868400,
+        "end_date": 1747872000,
+        "instructions": null,
+        "id": 5318075,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "",
+      "region": "",
+      "country": "US",
+      "postal_code": "",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "TOWN_HALL",
+    "created_date": 1747052323,
+    "modified_date": 1747052327,
+    "browser_url": "https://www.mobilize.us/texasaft/event/788695/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788695,
+    "description": "✊🏽 The fight didn’t end with the voucher vote. It’s just beginning.\n\nJoin Our Students, Our Schools x San Antonio Alliance for a powerful community listening session about the future of public education in San Antonio.\n\nThis isn't just a space to vent—it's a space to vision, build, and organize. Together, we’ll name the harms, share our stories, and build a path forward to protect and invest in public schools.\n\nHear directly from local educators, parents, and students. Learn how recent voucher laws and school closures are impacting our communities. And find out how you can get involved in local organizing, board meetings, and advocacy efforts.\n\nLet’s show up for each other—and build something bold, together.\n\n🗣️ This session includes:\n\nLived experiences from SAISD students, educators, and parents\n\nA deeper look at what voucher laws mean for San Antonio\n\nTools for community action and organizing\n\nA call to action rooted in justice and collective power",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": true
+  },
+  {
+    "title": "St. Pete Pride Parade",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/democratichispaniccaucusofpinellascounty/",
+      "created_date": 1744061866,
+      "modified_date": 1744409864,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 41713,
+      "name": "Democratic Hispanic Caucus of Pinellas County",
+      "slug": "democratichispaniccaucusofpinellascounty",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "FL",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/dhcfpc-final_20250411221615784456.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/image000000_20250512123221311433.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1751126400,
+        "end_date": 1751151600,
+        "instructions": null,
+        "id": 5318089,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 21187,
+        "name": "Pride Parade"
+      },
+      {
+        "id": 26337,
+        "name": "Pride 2025"
+      },
+      {
+        "id": 20160,
+        "name": "Pride Month"
+      }
+    ],
+    "location": {
+      "venue": "North Straub Park",
+      "address_lines": [
+        "400 Bayshore Dr NE",
+        ""
+      ],
+      "locality": "St. Petersburg",
+      "region": "FL",
+      "country": "US",
+      "postal_code": "33701",
+      "location": {
+        "latitude": 27.7759766,
+        "longitude": -82.6312918
+      },
+      "congressional_district": "14",
+      "state_leg_district": null,
+      "state_senate_district": "16"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1747053273,
+    "modified_date": 1747053278,
+    "browser_url": "https://www.mobilize.us/democratichispaniccaucusofpinellascounty/event/788700/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788700,
+    "description": "Walk with the Hispanic caucus and other Pinellas Dems in the 2025 St. Pete Pride Parade, organized by the Stonewall Democrats! As one of the largest Pride events in the country, you won't find a better opportunity to celebrate the LGBTQ+ community in Pinellas.\n\nLine up starts at 12pm, with more details to follow as information becomes available. The route is approximately 1.5 miles, with a period of waiting before. Please take precautions with hydration and sun management.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "MCDC Booth at Juneteenth ESU",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/monroecountydemocraticparty/",
+      "created_date": 1663019186,
+      "modified_date": 1744696036,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 34198,
+      "name": "Monroe County PA Democratic Party",
+      "slug": "monroecountydemocraticparty",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "PA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/monroe_county_PA_20220912214945391174.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Juneteenth_20250512122556914755.png",
+    "timeslots": [
+      {
+        "start_date": 1750600800,
+        "end_date": 1750608000,
+        "instructions": null,
+        "id": 5318091,
+        "is_full": false
+      },
+      {
+        "start_date": 1750608000,
+        "end_date": 1750617000,
+        "instructions": null,
+        "id": 5318092,
+        "is_full": false
+      },
+      {
+        "start_date": 1750617000,
+        "end_date": 1750626000,
+        "instructions": null,
+        "id": 5318093,
+        "is_full": false
+      },
+      {
+        "start_date": 1750626000,
+        "end_date": 1750631400,
+        "instructions": null,
+        "id": 5318094,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "200 Prospect St",
+        ""
+      ],
+      "locality": "East Stroudsburg",
+      "region": "PA",
+      "country": "US",
+      "postal_code": "18301",
+      "location": {
+        "latitude": 40.9938612,
+        "longitude": -75.176266
+      },
+      "congressional_district": "8",
+      "state_leg_district": "189",
+      "state_senate_district": "40"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1747053853,
+    "modified_date": 1747058173,
+    "browser_url": "https://www.mobilize.us/monroecountydemocraticparty/event/788701/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788701,
+    "description": "Help the Monroe County Democratic Committee with our booth at Juneteenth at ESU.\n\n10:00 AM - 12:00 PM - Set-up and transportation - 4 volunteers\n\n12:00 PM - 2:30 PM - Staff Tent - 3 volunteers\n\n2:30 PM - 5:00 PM - Staff Tent - 3 volunteers\n\n5:00 PM - 6:30 PM - Take-down and transport - 4 volunteers\n\nRegister voters and encourage voters to vote for our Democratic candidates.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Pop-up rally",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisibleonondagacounty/",
+      "created_date": 1657034608,
+      "modified_date": 1744695050,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 33323,
+      "name": "Indivisible Onondaga County",
+      "slug": "indivisibleonondagacounty",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "NY",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/branding/indivisible_logo.png"
+    },
+    "featured_image_url": "",
+    "timeslots": [
+      {
+        "start_date": 1747429200,
+        "end_date": 1747432800,
+        "instructions": null,
+        "id": 5318096,
+        "is_full": false
+      },
+      {
+        "start_date": 1748034000,
+        "end_date": 1748037600,
+        "instructions": null,
+        "id": 5318097,
+        "is_full": false
+      },
+      {
+        "start_date": 1748638800,
+        "end_date": 1748642400,
+        "instructions": null,
+        "id": 5318098,
+        "is_full": false
+      },
+      {
+        "start_date": 1749243600,
+        "end_date": 1749247200,
+        "instructions": null,
+        "id": 5318099,
+        "is_full": false
+      },
+      {
+        "start_date": 1749848400,
+        "end_date": 1749852000,
+        "instructions": null,
+        "id": 5318100,
+        "is_full": false
+      },
+      {
+        "start_date": 1750453200,
+        "end_date": 1750456800,
+        "instructions": null,
+        "id": 5318101,
+        "is_full": false
+      },
+      {
+        "start_date": 1751058000,
+        "end_date": 1751061600,
+        "instructions": null,
+        "id": 5318102,
+        "is_full": false
+      },
+      {
+        "start_date": 1751662800,
+        "end_date": 1751666400,
+        "instructions": null,
+        "id": 5318103,
+        "is_full": false
+      },
+      {
+        "start_date": 1752267600,
+        "end_date": 1752271200,
+        "instructions": null,
+        "id": 5318104,
+        "is_full": false
+      },
+      {
+        "start_date": 1752872400,
+        "end_date": 1752876000,
+        "instructions": null,
+        "id": 5318105,
+        "is_full": false
+      },
+      {
+        "start_date": 1753477200,
+        "end_date": 1753480800,
+        "instructions": null,
+        "id": 5318106,
+        "is_full": false
+      },
+      {
+        "start_date": 1754082000,
+        "end_date": 1754085600,
+        "instructions": null,
+        "id": 5318107,
+        "is_full": false
+      },
+      {
+        "start_date": 1754686800,
+        "end_date": 1754690400,
+        "instructions": null,
+        "id": 5318108,
+        "is_full": false
+      },
+      {
+        "start_date": 1755291600,
+        "end_date": 1755295200,
+        "instructions": null,
+        "id": 5318109,
+        "is_full": false
+      },
+      {
+        "start_date": 1755896400,
+        "end_date": 1755900000,
+        "instructions": null,
+        "id": 5318110,
+        "is_full": false
+      },
+      {
+        "start_date": 1756501200,
+        "end_date": 1756504800,
+        "instructions": null,
+        "id": 5318111,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Fayetteville",
+      "address_lines": [
+        "6789 East Genesee Street",
+        "Assemble on public sidewalk outside Wegmans on Genesee St"
+      ],
+      "locality": "Fayetteville",
+      "region": "NY",
+      "country": "US",
+      "postal_code": "13066",
+      "location": {
+        "latitude": 43.0333196,
+        "longitude": -76.0535564
+      },
+      "congressional_district": "22",
+      "state_leg_district": "128",
+      "state_senate_district": "50"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747053983,
+    "modified_date": 1747053988,
+    "browser_url": "https://www.mobilize.us/indivisibleonondagacounty/event/788703/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788703,
+    "description": "This rally is part of a campaign of recurrent “pop-up” actions at strategic locations throughout Onondaga County on Fridays from 5-6pm. New weekly location will be announced every Monday for that Friday. Raise your voice with a community of protectors of the Constitution and human rights by peacefully assembling together to exercise our First Amendment rights!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Jeanne Keller",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/resistersisters/",
+      "created_date": 1746543847,
+      "modified_date": 1746551196,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42330,
+      "name": "Resister Sisters",
+      "slug": "resistersisters",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/RuleofLaw_20250512124941925534.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747490400,
+        "end_date": 1747497600,
+        "instructions": null,
+        "id": 5318112,
+        "is_full": false
+      },
+      {
+        "start_date": 1748095200,
+        "end_date": 1748102400,
+        "instructions": null,
+        "id": 5318113,
+        "is_full": false
+      },
+      {
+        "start_date": 1748700000,
+        "end_date": 1748707200,
+        "instructions": null,
+        "id": 5318114,
+        "is_full": false
+      },
+      {
+        "start_date": 1749304800,
+        "end_date": 1749312000,
+        "instructions": null,
+        "id": 5318115,
+        "is_full": false
+      },
+      {
+        "start_date": 1750514400,
+        "end_date": 1750521600,
+        "instructions": null,
+        "id": 5318116,
+        "is_full": false
+      },
+      {
+        "start_date": 1751119200,
+        "end_date": 1751126400,
+        "instructions": null,
+        "id": 5318117,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Burlington Farmers Market",
+      "address_lines": [
+        "345 Pine St",
+        ""
+      ],
+      "locality": "Burlington",
+      "region": "VT",
+      "country": "US",
+      "postal_code": "05401",
+      "location": {
+        "latitude": 44.469466,
+        "longitude": -73.2154592
+      },
+      "congressional_district": "1",
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "RALLY",
+    "created_date": 1747054521,
+    "modified_date": 1747054595,
+    "browser_url": "https://www.mobilize.us/resistersisters/event/788704/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788704,
+    "description": "Join the Resister Sisters at Burlington Farmers Market as we express our support for Democracy, the Constitution, and the Rule of Law, and let people know about the upcoming 50501 event on June 14th  at Burlington's Waterfront Park.\n\nPlenty of foot traffic and cars on Pine St to engage the public. Bring a sign and good cheer.  Rain or shine!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "DMV Citizen Action Team Organizing Meeting",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/ourrevolutionprincegeorgescounty/",
+      "created_date": 1747052662,
+      "modified_date": 1747052662,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42717,
+      "name": "Our Revolution - Prince George's County",
+      "slug": "ourrevolutionprincegeorgescounty",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/May%2014%20flyer1_20250512130306263415.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747260000,
+        "end_date": 1747267200,
+        "instructions": null,
+        "id": 5318118,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 68,
+        "name": "Healthcare"
+      },
+      {
+        "id": 75,
+        "name": "Jobs and the economy"
+      },
+      {
+        "id": 73,
+        "name": "Voting rights"
+      }
+    ],
+    "location": {
+      "venue": "Busboys and Poets",
+      "address_lines": [
+        "5331 Baltimore Ave",
+        ""
+      ],
+      "locality": "Hyattsville",
+      "region": "MD",
+      "country": "US",
+      "postal_code": "20781",
+      "location": {
+        "latitude": 38.9551506,
+        "longitude": -76.9397506
+      },
+      "congressional_district": "4",
+      "state_leg_district": "22",
+      "state_senate_district": "22"
+    },
+    "event_type": "MEET_GREET",
+    "created_date": 1747055053,
+    "modified_date": 1747055359,
+    "browser_url": "https://www.mobilize.us/ourrevolutionprincegeorgescounty/event/788705/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788705,
+    "description": "Are you ready to stand up to the billionaires and corrupt politicians who are threatening our democracy?\n \nJoin Our Revolution DMV Citizen Action Team’s Fight Oligarchy campaign—a bold new effort to build organizing power in the fight against oligarchy, the Trump agenda, and the dangerous alliance between wealth and political influence. \n \nWe’re calling on activists, organizers, and everyday people who are ready to take action to expose and oppose the unholy alliance of billionaires and the politicians they’ve bought. \n\nKickoff Meeting\n\nWhen: Wednesday, May 14th at 6:00 PM\n\nWhere: Busboys and Poets, Hyattsville; 5331 Baltimore Ave, Hyattsville, MD 20781\n\nFREE FOOD & REFRESHMENTS\n \nThis is the launch of our Fight Oligarchy campaign—a grassroots movement to protect our democracy from corporate capture and authoritarianism. If you’re ready to organize, mobilize, and resist, this is your moment.\n \nRSVP now and bring a friend—democracy won’t defend itself.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Rancocas Valley Day of Action",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/sjdems8/",
+      "created_date": 1746727349,
+      "modified_date": 1746834266,
+      "org_type": "CAMPAIGN",
+      "id": 42614,
+      "name": "Katz and Angelozzi",
+      "slug": "sjdems8",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "NJ",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/SJDemsd8Mobilizelogo%283%29_20250509035629965203.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/LD8Mobilize_20250512133813955710.png",
+    "timeslots": [
+      {
+        "start_date": 1747501200,
+        "end_date": 1747512000,
+        "instructions": null,
+        "id": 5318122,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "locality": "Mount Holly",
+      "region": "NJ",
+      "country": "US",
+      "postal_code": "08060",
+      "congressional_district": "3",
+      "state_leg_district": "8",
+      "state_senate_district": null,
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "CANVASS",
+    "created_date": 1747056645,
+    "modified_date": 1747057099,
+    "browser_url": "https://www.mobilize.us/sjdems8/event/788708/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788708,
+    "description": "Join us for a Day of Action in Mount Holly on Saturday, May 17th @1 PM to doorknock in Lumberton, Mount Holly, and the surrounding area! Our team will reach out with an address and additional information a couple of days before the canvass.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Medford Day of Action",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/sjdems8/",
+      "created_date": 1746727349,
+      "modified_date": 1746834266,
+      "org_type": "CAMPAIGN",
+      "id": 42614,
+      "name": "Katz and Angelozzi",
+      "slug": "sjdems8",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "NJ",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/SJDemsd8Mobilizelogo%283%29_20250509035629965203.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/LD8Mobilize_20250512133902837780.png",
+    "timeslots": [
+      {
+        "start_date": 1747501200,
+        "end_date": 1747512000,
+        "instructions": null,
+        "id": 5318124,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "locality": "Medford",
+      "region": "NJ",
+      "country": "US",
+      "postal_code": "08055",
+      "congressional_district": "3",
+      "state_leg_district": "8",
+      "state_senate_district": null,
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "CANVASS",
+    "created_date": 1747056861,
+    "modified_date": 1747057147,
+    "browser_url": "https://www.mobilize.us/sjdems8/event/788710/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788710,
+    "description": "Join us for a Day of Action in Medford on Sunday, May 18th @12 PM to doorknock in the surrounding area! Our team will reach out with an address and additional information a couple of days before the canvass.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "FiDEMS Breakfast Club",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/hamcodemsin/",
+      "created_date": 1630090413,
+      "modified_date": 1745940690,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 17269,
+      "name": "Hamilton County Democratic Party (IN)",
+      "slug": "hamcodemsin",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "IN",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/HCDP%20Logo_20230428021318885592.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/FISHERS%20DEMS%20MOBILIZE_20250512133139021047.png",
+    "timeslots": [
+      {
+        "start_date": 1749042000,
+        "end_date": 1749049200,
+        "instructions": null,
+        "id": 5318125,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "locality": "Fishers",
+      "region": "IN",
+      "country": "US",
+      "postal_code": "46038",
+      "congressional_district": "5",
+      "state_leg_district": null,
+      "state_senate_district": "31",
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "OTHER",
+    "created_date": 1747056889,
+    "modified_date": 1747056893,
+    "browser_url": "https://www.mobilize.us/hamcodemsin/event/788711/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788711,
+    "description": "Join us for breakfast the first Wednesday of every month.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "New Tampa Dems - Partisan Voter Registration and Postcarding",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/hillsboroughcountydec/",
+      "created_date": 1526398647,
+      "modified_date": 1746567577,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 305,
+      "name": "Hillsborough County DEC",
+      "slug": "hillsboroughcountydec",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "FL",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/New%20Logo%20-small_20200319171428121100.jpeg"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/logo-fullcolor-redstars-vector_20250512134152087048.png",
+    "timeslots": [
+      {
+        "start_date": 1748903400,
+        "end_date": 1748910600,
+        "instructions": null,
+        "id": 5318129,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "locality": "Tampa",
+      "region": "FL",
+      "country": "US",
+      "postal_code": "33647",
+      "congressional_district": "15",
+      "state_leg_district": "67",
+      "state_senate_district": "23",
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "VOTER_REG",
+    "created_date": 1747057683,
+    "modified_date": 1747057689,
+    "browser_url": "https://www.mobilize.us/hillsboroughcountydec/event/788715/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788715,
+    "description": "Come join us at the New Tampa Regional Library for PARTISAN voter registration (via text message) and postcarding, in coordination with Field Team 6. \n\nWe are ONLY registering Democrats and left-leaning independents/NPA. We'll show you how this is done when you come to the event.\n\nField Team 6 is the national leader in partisan voter registration, using a first-of-its-kind database to reach out via email, text, and postcard to register Democrats in the most flippable states and districts nationwide, where Democrats are needed most. \n\nWe'll provide training on how to conduct the voter registration efforts via text (bring your own phone) and postcarding. If you've used the virtual phone bank (VPB) before, you will be using the same interface. An ActionID will be required (we can show you how to get this), and a Google Voice number is recommended (but not required).",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "100% Clean Electricity Lobby Day",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/njlcv/",
+      "created_date": 1640212399,
+      "modified_date": 1745006775,
+      "org_type": "C3",
+      "id": 29504,
+      "name": "New Jersey League of Conservation Voters",
+      "slug": "njlcv",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "NJ",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/NJLCV_notag_horiz_color_20250418200611248031.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/100%25%20lobby%20day%206.12.25%20%28mobilize%29_20250512142102065939.jpg",
+    "timeslots": [
+      {
+        "start_date": 1749733200,
+        "end_date": 1749740400,
+        "instructions": null,
+        "id": 5318130,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 1038,
+        "name": "Environmental Action"
+      },
+      {
+        "id": 2650,
+        "name": "Climate Action"
+      }
+    ],
+    "location": {
+      "venue": "State House Annex",
+      "address_lines": [
+        "145 W State St",
+        ""
+      ],
+      "locality": "Trenton",
+      "region": "NJ",
+      "country": "US",
+      "postal_code": "08608",
+      "location": {
+        "latitude": 40.2211156,
+        "longitude": -74.7714343
+      },
+      "congressional_district": "12",
+      "state_leg_district": "15",
+      "state_senate_district": null
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1747057720,
+    "modified_date": 1747059666,
+    "browser_url": "https://www.mobilize.us/njlcv/event/788716/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788716,
+    "description": "Governor Murphy has committed to a 100% clean electricity future by 2035 through executive order. But unless this goal is passed by legislation, it could be delayed or eliminated entirely. \n\nBecause the federal administration is moving full speed towards a grid powered by dirty energy, it is up to states to take action on climate change while we still can. And for this bill, we are running out of time. \n\nJoin us at 9am on June 12th at the Trenton State House Annex Building front steps to urge our leaders to pass this crucial legislation. If you want a cleaner and cheaper energy future for New Jersey that is free of dirty fossil fuels, we need your voice! Following this rally and media moment, join us for a day of action lobbying your own legislators - now is the time to make your voice heard. \n\nSign up for more details.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "48.1 Drinks with Dems",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/buncombedems/",
+      "created_date": 1534519559,
+      "modified_date": 1746053648,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 686,
+      "name": "Buncombe Democratic Party",
+      "slug": "buncombedems",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "NC",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/BDemsLogo-5_20220704005030329121.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/48.1%20Drinks%20with%20Dems_20250512134731098343.png",
+    "timeslots": [
+      {
+        "start_date": 1749074400,
+        "end_date": 1749079800,
+        "instructions": null,
+        "id": 5318132,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Diatribe Brewing Co.",
+      "address_lines": [
+        "1042 Haywood Rd",
+        ""
+      ],
+      "locality": "Asheville",
+      "region": "NC",
+      "country": "US",
+      "postal_code": "28806",
+      "location": {
+        "latitude": 35.5815453,
+        "longitude": -82.6043182
+      },
+      "congressional_district": "11",
+      "state_leg_district": "116",
+      "state_senate_district": "49"
+    },
+    "event_type": "MEETING",
+    "created_date": 1747057800,
+    "modified_date": 1747057906,
+    "browser_url": "https://www.mobilize.us/buncombedems/event/788718/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788718,
+    "description": "Come and join your fellow Democrats and lift a glass (or two) at this informal get-together with like-minded Dems! Diatribe Brewing is a very casual place and is great for de-stressing after yelling at the TV! (Ha!)\n\nWho should attend:  All Asheville Democrats",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Weekly Phonebank",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/sjdems8/",
+      "created_date": 1746727349,
+      "modified_date": 1746834266,
+      "org_type": "CAMPAIGN",
+      "id": 42614,
+      "name": "Katz and Angelozzi",
+      "slug": "sjdems8",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "NJ",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/SJDemsd8Mobilizelogo%283%29_20250509035629965203.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/LD8Mobilize_20250512133902837780.png",
+    "timeslots": [
+      {
+        "start_date": 1747173600,
+        "end_date": 1747180800,
+        "instructions": null,
+        "id": 5318133,
+        "is_full": false
+      },
+      {
+        "start_date": 1747348200,
+        "end_date": 1747353600,
+        "instructions": null,
+        "id": 5318137,
+        "is_full": false
+      },
+      {
+        "start_date": 1747778400,
+        "end_date": 1747785600,
+        "instructions": null,
+        "id": 5318134,
+        "is_full": false
+      },
+      {
+        "start_date": 1747953000,
+        "end_date": 1747958400,
+        "instructions": null,
+        "id": 5318138,
+        "is_full": false
+      },
+      {
+        "start_date": 1748383200,
+        "end_date": 1748390400,
+        "instructions": null,
+        "id": 5318135,
+        "is_full": false
+      },
+      {
+        "start_date": 1748557800,
+        "end_date": 1748563200,
+        "instructions": null,
+        "id": 5318139,
+        "is_full": false
+      },
+      {
+        "start_date": 1748988000,
+        "end_date": 1748995200,
+        "instructions": null,
+        "id": 5318136,
+        "is_full": false
+      },
+      {
+        "start_date": 1749162600,
+        "end_date": 1749168000,
+        "instructions": null,
+        "id": 5318140,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "locality": "Medford Lakes",
+      "region": "NJ",
+      "country": "US",
+      "postal_code": "08055",
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null,
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "PHONE_BANK",
+    "created_date": 1747057862,
+    "modified_date": 1747058021,
+    "browser_url": "https://www.mobilize.us/sjdems8/event/788719/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788719,
+    "description": "Join us for to phonebank every Tuesday and Thursday at 6 PM to talk to voters about their plans to vote!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": true
+  },
+  {
+    "title": "3:15Resist Science Saves Lives!!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1747250100,
+        "end_date": 1747252800,
+        "instructions": null,
+        "id": 5318144,
+        "is_full": false
+      },
+      {
+        "start_date": 1747854900,
+        "end_date": 1747857600,
+        "instructions": null,
+        "id": 5318145,
+        "is_full": false
+      },
+      {
+        "start_date": 1748459700,
+        "end_date": 1748462400,
+        "instructions": null,
+        "id": 5318146,
+        "is_full": false
+      },
+      {
+        "start_date": 1749064500,
+        "end_date": 1749067200,
+        "instructions": null,
+        "id": 5318147,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "777 Gloucester St",
+        ""
+      ],
+      "locality": "Brunswick",
+      "region": "GA",
+      "country": "US",
+      "postal_code": "31520",
+      "location": {
+        "latitude": 31.15005,
+        "longitude": -81.4930702
+      },
+      "congressional_district": "1",
+      "state_leg_district": "179",
+      "state_senate_district": "3"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747058167,
+    "modified_date": 1747058174,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788723/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788723,
+    "description": "This a local Indivisible event!\nBuddy Not Our Buddy!! Science Saves Lives, we are protesting cuts to the CDC.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false
+  },
+  {
+    "title": "Glen Cove, NY: Tell Assemblymember Lavine: Pass NY HEAT!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/fww/",
+      "created_date": 1619469700,
+      "modified_date": 1744694993,
+      "org_type": "C3",
+      "id": 9147,
+      "name": "Food & Water Watch",
+      "slug": "fww",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/FWA_RGB_FWW_Stacked-Logo_FC%20%282%29_20210429174126664314.jpg"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/NY%20HEAT%20Act%20rally%2C%20City%20Hall%2C%20April%2022%2C%202025%2C%20%236_20250512144233022658.jpg",
+    "timeslots": [
+      {
+        "start_date": 1748448000,
+        "end_date": 1748451600,
+        "instructions": null,
+        "id": 5318148,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 950,
+        "name": "Volunteer Opportunity"
+      },
+      {
+        "id": 1389,
+        "name": "Long Island"
+      },
+      {
+        "id": 256,
+        "name": "Climate Justice"
+      }
+    ],
+    "location": {
+      "venue": "Office of Assemblymember Chuck Lavine",
+      "address_lines": [
+        "1 School St",
+        ""
+      ],
+      "locality": "Glen Cove",
+      "region": "NY",
+      "country": "US",
+      "postal_code": "11542",
+      "location": {
+        "latitude": 40.8646732,
+        "longitude": -73.631903
+      },
+      "congressional_district": "3",
+      "state_leg_district": "13",
+      "state_senate_district": "7"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747058370,
+    "modified_date": 1747060957,
+    "browser_url": "https://www.mobilize.us/fww/event/788724/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788724,
+    "description": "Join us for a rally outside Assemblymember Chuck Lavine's office to urge him to fight for clean and affordable energy by co-sponsoring and helping pass the NY HEAT Act.\n\n**With the state budget finally done, Albany lawmakers must prioritize passing the NY HEAT Act in the waning weeks of the legislative session.**\n\nNew Yorkers are being crushed by unaffordable utility bills, and the NY HEAT Act is the solution we need — but Assembly Speaker Carl Heastie and legislative leadership are dragging their feet to put it to a vote.\n\nThe Senate has passed NY HEAT two years in a row. The Assembly must stop siding with fossil fuel interests and get it done this year!\n\nThe NY HEAT Act is our top climate priority, with its promise of lower energy bills while eliminating massive subsidies to the fracked gas industry.\n\nAs New Yorkers face the threats of climate change and rising costs of living, the NY HEAT Act will make energy more affordable while moving off fossil fuels.\n\n_Rally co-sponsors: All Our Energy, Food & Water Watch, Long Island Progressive Coalition (list in formation)_",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Monthly Indiana Call",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/progressivedemocratsofamerica/",
+      "created_date": 1742872397,
+      "modified_date": 1744699529,
+      "org_type": "PAC",
+      "id": 41481,
+      "name": "Progressive Democrats of America",
+      "slug": "progressivedemocratsofamerica",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "",
+    "timeslots": [
+      {
+        "start_date": 1749081600,
+        "end_date": 1749085200,
+        "instructions": null,
+        "id": 5318150,
+        "is_full": false
+      },
+      {
+        "start_date": 1751500800,
+        "end_date": 1751504400,
+        "instructions": null,
+        "id": 5318151,
+        "is_full": false
+      },
+      {
+        "start_date": 1754524800,
+        "end_date": 1754528400,
+        "instructions": null,
+        "id": 5318152,
+        "is_full": false
+      },
+      {
+        "start_date": 1756944000,
+        "end_date": 1756947600,
+        "instructions": null,
+        "id": 5318153,
+        "is_full": false
+      },
+      {
+        "start_date": 1759363200,
+        "end_date": 1759366800,
+        "instructions": null,
+        "id": 5318154,
+        "is_full": false
+      },
+      {
+        "start_date": 1762390800,
+        "end_date": 1762394400,
+        "instructions": null,
+        "id": 5318155,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Indiana",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "",
+      "region": "IN",
+      "country": "US",
+      "postal_code": "46220",
+      "location": {
+        "latitude": 39.8686629,
+        "longitude": -86.1220966
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "MEETING",
+    "created_date": 1747058529,
+    "modified_date": 1747058536,
+    "browser_url": "https://www.mobilize.us/progressivedemocratsofamerica/event/788726/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788726,
+    "description": "test",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": true
+  },
+  {
+    "title": "Jefferson County Public School Strong Meeting",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/kftc/",
+      "created_date": 1617742936,
+      "modified_date": 1744696858,
+      "org_type": "C3",
+      "id": 7957,
+      "name": "Kentuckians For The Commonwealth",
+      "slug": "kftc",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "KY",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/Bright%20Colors%20Logo-horizontal_20210407204504262621.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/KFTC%20Ed%20Policy%20WkTm_square%20%281200%20x%20630%20px%29_20250512141635353262.png",
+    "timeslots": [
+      {
+        "start_date": 1749767400,
+        "end_date": 1749772800,
+        "instructions": null,
+        "id": 5318157,
+        "is_full": false
+      },
+      {
+        "start_date": 1752186600,
+        "end_date": 1752192000,
+        "instructions": null,
+        "id": 5318158,
+        "is_full": false
+      },
+      {
+        "start_date": 1755210600,
+        "end_date": 1755216000,
+        "instructions": null,
+        "id": 5318159,
+        "is_full": false
+      },
+      {
+        "start_date": 1757629800,
+        "end_date": 1757635200,
+        "instructions": null,
+        "id": 5318160,
+        "is_full": false
+      },
+      {
+        "start_date": 1760049000,
+        "end_date": 1760054400,
+        "instructions": null,
+        "id": 5318161,
+        "is_full": false
+      },
+      {
+        "start_date": 1763076600,
+        "end_date": 1763082000,
+        "instructions": null,
+        "id": 5318162,
+        "is_full": false
+      },
+      {
+        "start_date": 1765495800,
+        "end_date": 1765501200,
+        "instructions": null,
+        "id": 5318163,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 23623,
+        "name": "Education Justice"
+      },
+      {
+        "id": 26637,
+        "name": "Public School Strong"
+      },
+      {
+        "id": 21881,
+        "name": "Jefferson County"
+      }
+    ],
+    "location": {
+      "venue": "Jefferson County KFTC Office",
+      "address_lines": [
+        "786 S Shelby St",
+        ""
+      ],
+      "locality": "Louisville",
+      "region": "KY",
+      "country": "US",
+      "postal_code": "40203",
+      "location": {
+        "latitude": 38.2415292,
+        "longitude": -85.7403233
+      },
+      "congressional_district": "3",
+      "state_leg_district": "43",
+      "state_senate_district": "26"
+    },
+    "event_type": "MEETING",
+    "created_date": 1747058633,
+    "modified_date": 1747059400,
+    "browser_url": "https://www.mobilize.us/kftc/event/788728/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788728,
+    "description": "Join us for the monthly meeting of the KFTC Jefferson County Public School Strong team. \n\nThe Public School Strong Kentucky team is made up of parents, students, educators and community members who are committed to honest, equitable and fully funded public schools. We support each other in turning out to local school board meetings to observe, make our Public School Strong movement visible, and speak up to promote, protect and strengthen our public education system. Anyone who is committed to those principles can join a Public School Strong team.\n\nTo get a PSS t-shirt, join the next virtual Public School Strong Orientation. Sign up at https://bit.ly/psstraining\n\nWe will gather in-person at the Jefferson County KFTC office.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Ukraine - Past, Present, and Future",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/buncombedems/",
+      "created_date": 1534519559,
+      "modified_date": 1746053648,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 686,
+      "name": "Buncombe Democratic Party",
+      "slug": "buncombedems",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "NC",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/BDemsLogo-5_20220704005030329121.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Ukraine_20250512141028786108.png",
+    "timeslots": [
+      {
+        "start_date": 1753642800,
+        "end_date": 1753650000,
+        "instructions": null,
+        "id": 5318164,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "6 Rhododendron Way",
+        ""
+      ],
+      "locality": "Candler",
+      "region": "NC",
+      "country": "US",
+      "postal_code": "28715",
+      "location": {
+        "latitude": 35.5696677,
+        "longitude": -82.6744659
+      },
+      "congressional_district": "11",
+      "state_leg_district": "115",
+      "state_senate_district": "49"
+    },
+    "event_type": "MEETING",
+    "created_date": 1747059173,
+    "modified_date": 1747059179,
+    "browser_url": "https://www.mobilize.us/buncombedems/event/788729/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788729,
+    "description": "Please join us as we discuss past, current, and likely future events in Ukraine, and ways we may be able to help them through the current crisis.\n\nWe have many Ukrainian neighbors, with relatives who still experience the horror of the current war. I feel an obligation to learn all I can and how best I can help.  I hope you do, too! State Representative Eric Ager, a former diplomat, will be our guest speaker. Eric has served as a Democratic member of the North Carolina House of Representatives from the 114th district since 2023. He is well acquainted with the political turmoil in that region. \nWe hope to also have attendance from AVL4Ukraine, a local support group.\n\nWho should attend:  Everyone concerned about the war in Ukraine are invited to attend.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Cranford Meet & Greet with Ras Baraka",
+    "summary": "",
+    "sponsor": {
+      "race_type": "GOVERNOR",
+      "event_feed_url": "https://www.mobilize.us/rasbarakaforgovernor/",
+      "created_date": 1741722143,
+      "modified_date": 1744698005,
+      "org_type": "CAMPAIGN",
+      "id": 41286,
+      "name": "Ras Baraka for Governor",
+      "slug": "rasbarakaforgovernor",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "NJ",
+      "district": "",
+      "candidate_name": "Ras Baraka",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/COMMUNITY%20M%26G_20250512143114025684.png",
+    "timeslots": [
+      {
+        "start_date": 1747697400,
+        "end_date": 1747702800,
+        "instructions": null,
+        "id": 5318177,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Home of David Pringle",
+      "address_lines": [
+        "333 Walnut Ave",
+        ""
+      ],
+      "locality": "Cranford",
+      "region": "NJ",
+      "country": "US",
+      "postal_code": "07016",
+      "location": {
+        "latitude": 40.6477376,
+        "longitude": -74.3038233
+      },
+      "congressional_district": "10",
+      "state_leg_district": "22",
+      "state_senate_district": null
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1747060392,
+    "modified_date": 1747060396,
+    "browser_url": "https://www.mobilize.us/rasbarakaforgovernor/event/788734/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788734,
+    "description": "Join Team Baraka in Cranford, NJ to meet Ras and learn more about how we are reimagining NJ.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Resist! North Suffolk Sidewalk Protest",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/suffolkdemocraticcommittee/",
+      "created_date": 1588608700,
+      "modified_date": 1744824591,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 2773,
+      "name": "Suffolk Democratic Committee",
+      "slug": "suffolkdemocraticcommittee",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "VA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/cropped-sdc-icon%5B3%5D_20221003231303715929.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Logo%20pic%20IMG_6428_20250512142027384707.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747425600,
+        "end_date": 1747431000,
+        "instructions": null,
+        "id": 5318179,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 86,
+        "name": "Veterans and military community"
+      },
+      {
+        "id": 67,
+        "name": "Education"
+      },
+      {
+        "id": 73,
+        "name": "Voting rights"
+      }
+    ],
+    "location": {
+      "venue": "Intersection of College Dr. & Hampton Road Pkwy.",
+      "address_lines": [
+        "6130 College Dr",
+        ""
+      ],
+      "locality": "Suffolk",
+      "region": "VA",
+      "country": "US",
+      "postal_code": "23435",
+      "location": {
+        "latitude": 36.8762626,
+        "longitude": -76.4222994
+      },
+      "congressional_district": "2",
+      "state_leg_district": null,
+      "state_senate_district": "17"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747060677,
+    "modified_date": 1747060682,
+    "browser_url": "https://www.mobilize.us/suffolkdemocraticcommittee/event/788736/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788736,
+    "description": "Resist the Trump Regime by protesting with us in N. Suffolk! Park at Texas Roadhouse at 4pm & meet us at the corner of College & Hampton Roads Blvd. (in front of Rite Aid). Bring a poster & American flags. Let's make it known that we will not be silent as we lose our Constitutional rights!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Primary Election Day",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/seiuhcpa/",
+      "created_date": 1535036296,
+      "modified_date": 1744697501,
+      "org_type": "UNION",
+      "id": 772,
+      "name": "SEIU HCPA",
+      "slug": "seiuhcpa",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "PA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/seiu%20hcpa%20-%20purple%20box_20180828163006469800.jpg"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/186544371_10159313456314031_5898653880898210991_n_20250512143859559990.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747746000,
+        "end_date": 1747756800,
+        "instructions": null,
+        "id": 5318181,
+        "is_full": false
+      },
+      {
+        "start_date": 1747760400,
+        "end_date": 1747771200,
+        "instructions": null,
+        "id": 5318182,
+        "is_full": false
+      },
+      {
+        "start_date": 1747774800,
+        "end_date": 1747785600,
+        "instructions": null,
+        "id": 5318183,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "",
+      "region": "",
+      "country": "US",
+      "postal_code": "",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "PHONE_BANK",
+    "created_date": 1747060908,
+    "modified_date": 1747060912,
+    "browser_url": "https://www.mobilize.us/seiuhcpa/event/788738/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788738,
+    "description": "Join us to call healthcare workers and union members to get out and vote for our endorsed champions!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": true
+  }
+]

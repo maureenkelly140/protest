@@ -51,7 +51,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1744130022,
-    "modified_date": 1744130026,
+    "modified_date": 1747036804,
     "browser_url": "https://www.mobilize.us/transalt/event/774216/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -98,13 +98,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/SDC%20Logo%20WHITE%20in%20OVAL%20%26%20Transparent%20Background%20%281%29_20250408185737876022.png",
     "timeslots": [
-      {
-        "start_date": 1747054800,
-        "end_date": 1747065600,
-        "instructions": null,
-        "id": 5267398,
-        "is_full": false
-      },
       {
         "start_date": 1747065600,
         "end_date": 1747076400,
@@ -498,7 +491,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1744139433,
-    "modified_date": 1746968450,
+    "modified_date": 1747054829,
     "browser_url": "https://www.mobilize.us/stafforddems/event/774322/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -518,7 +511,7 @@
     "city": "Stafford",
     "latitude": 38.4089836,
     "longitude": -77.4081591,
-    "date": "2025-05-12T13:00:00.000Z",
+    "date": "2025-05-12T16:00:00.000Z",
     "url": "https://www.mobilize.us/stafforddems/event/774322/",
     "action": "included"
   },
@@ -1158,7 +1151,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1744157065,
-    "modified_date": 1746968416,
+    "modified_date": 1747044012,
     "browser_url": "https://www.mobilize.us/indivisible/event/774454/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -1594,7 +1587,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1744316153,
-    "modified_date": 1746666151,
+    "modified_date": 1747006224,
     "browser_url": "https://www.mobilize.us/indivisible/event/775249/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -4942,7 +4935,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1745012812,
-    "modified_date": 1746982802,
+    "modified_date": 1747058412,
     "browser_url": "https://www.mobilize.us/indivisible/event/778517/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -5732,7 +5725,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1745097746,
-    "modified_date": 1746964822,
+    "modified_date": 1747040415,
     "browser_url": "https://www.mobilize.us/baltimoresignwaves/event/778718/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -5857,7 +5850,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1745154716,
-    "modified_date": 1746979272,
+    "modified_date": 1747051360,
     "browser_url": "https://www.mobilize.us/indivisible/event/778806/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -6616,13 +6609,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
     "timeslots": [
       {
-        "start_date": 1746996300,
-        "end_date": 1747004400,
-        "instructions": null,
-        "id": 5285628,
-        "is_full": false
-      },
-      {
         "start_date": 1748205900,
         "end_date": 1748214000,
         "instructions": null,
@@ -6651,7 +6637,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1745188392,
-    "modified_date": 1746982822,
+    "modified_date": 1747003825,
     "browser_url": "https://www.mobilize.us/indivisible/event/778939/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -6671,7 +6657,7 @@
     "city": "Portland",
     "latitude": 45.5253557,
     "longitude": -122.6975673,
-    "date": "2025-05-11T20:45:00.000Z",
+    "date": "2025-05-25T20:45:00.000Z",
     "url": "https://www.mobilize.us/indivisible/event/778939/",
     "action": "included"
   },
@@ -7072,7 +7058,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1745265573,
-    "modified_date": 1746641127,
+    "modified_date": 1747058411,
     "browser_url": "https://www.mobilize.us/indivisible/event/779322/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -7592,7 +7578,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1745297443,
-    "modified_date": 1746972013,
+    "modified_date": 1746996613,
     "browser_url": "https://www.mobilize.us/indivisiblesonomacounty/event/779651/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -9466,7 +9452,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1745429185,
-    "modified_date": 1746917403,
+    "modified_date": 1747004436,
     "browser_url": "https://www.mobilize.us/indivisible/event/780418/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -9646,7 +9632,7 @@
     },
     "event_type": "SOLIDARITY_EVENT",
     "created_date": 1745441475,
-    "modified_date": 1746804247,
+    "modified_date": 1747055229,
     "browser_url": "https://www.mobilize.us/mnaflcio/event/780549/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -9657,7 +9643,7 @@
     "event_campaign": null,
     "instructions": null,
     "id": 780549,
-    "description": "Minnesotans are standing up in inspiring numbers against Donald Trump's and Elon Musk's radical attacks on workers & our collective bargaining rights, public services and our communities. On May 13, working people from across the state are saying \"'Hands Off!' our critical services from Medicaid to our environment to public schools. We are standing up to stop attacks on workers and to protect ALL our communities, including our immigrant neighbors.\n\nJoin us at the State Capitol!\n\nCo-Hosts:\nMinnesota AFL-CIO, Minneapolis Regional Labor Federation, West Area Labor Council, Saint Paul Regional Labor Federation,  AFSCME Council 5, AFSCME Council 65, SEIU Minnesota (Locals 26, 284, Healthcare), NALC Branch 9, UFCW 1189, Saint Paul Federation of Educators, LIUNA Minnesota, CWA Minnesota State Council, AFGE, IAM District 77, Education Minnesota, BCTGM Local 22, MAPE, Minnesota State Retirees Council, Minnesota 50501, The New Justice Project, Jewish Community Action, Inquilinxs Unidxs, Planned Parenthood Minnesota, North Dakota, South Dakota Action Fund, Indivisible Twin Cities, and more to come!\n\nInterested in co-hosting? Please contact Todd Dahlstrom, tdahlstrom@mnaflcio.org or Kevin Whelan,  kevin.whelan@seiu.org",
+    "description": "Minnesotans are standing up in inspiring numbers against Donald Trump's and Elon Musk's radical attacks on workers & our collective bargaining rights, public services and our communities. On May 13, working people from across the state are saying \"'Hands Off!' our critical services from Medicaid to our environment to public schools. We are standing up to stop attacks on workers and to protect ALL our communities, including our immigrant neighbors.\n\nJoin us at the State Capitol!\n\nCo-Hosts:\nMinnesota AFL-CIO, Minneapolis Regional Labor Federation, West Area Labor Council, Saint Paul Regional Labor Federation,  AFSCME Council 5, AFSCME Council 65, SEIU Minnesota (Locals 26, 284, Healthcare), NALC Branch 9, UFCW 1189, Saint Paul Federation of Educators, LIUNA Minnesota, CWA Minnesota State Council, AFGE, IAM District 77, Education Minnesota, BCTGM Local 22, IATSE Local 13, MAPE, Minnesota State Retirees Council, Minnesota 50501, The New Justice Project, Jewish Community Action, Inquilinxs Unidxs, Women’s March Minnesota,Planned Parenthood Minnesota, North Dakota, South Dakota Action Fund, Unidos MN, Indivisible Twin Cities, Twin Cities DSA, American Association of University Professors - University of Minnesota and more to come!\n\nInterested in co-hosting? Please contact Todd Dahlstrom, tdahlstrom@mnaflcio.org or Kevin Whelan,  kevin.whelan@seiu.org",
     "timezone": "America/Chicago",
     "high_priority": null,
     "virtual_action_url": null,
@@ -9722,7 +9708,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1745465779,
-    "modified_date": 1746975634,
+    "modified_date": 1746996615,
     "browser_url": "https://www.mobilize.us/indivisible/event/780804/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10195,7 +10181,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1745507347,
-    "modified_date": 1746910238,
+    "modified_date": 1746997212,
     "browser_url": "https://www.mobilize.us/teslatakedownseaside/event/780930/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10789,7 +10775,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1745523393,
-    "modified_date": 1746465727,
+    "modified_date": 1747051507,
     "browser_url": "https://www.mobilize.us/husky4immigrants/event/781121/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -11934,7 +11920,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1745597285,
-    "modified_date": 1746921008,
+    "modified_date": 1747008150,
     "browser_url": "https://www.mobilize.us/indivisible/event/781546/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -12564,7 +12550,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1745641822,
-    "modified_date": 1746990017,
+    "modified_date": 1747054806,
     "browser_url": "https://www.mobilize.us/indivisible/event/781947/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -13275,13 +13261,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%202_20231214173755488494.png",
     "timeslots": [
       {
-        "start_date": 1747004400,
-        "end_date": 1747011600,
-        "instructions": null,
-        "id": 5294315,
-        "is_full": false
-      },
-      {
         "start_date": 1747609200,
         "end_date": 1747616400,
         "instructions": null,
@@ -13317,7 +13296,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1745704124,
-    "modified_date": 1746990005,
+    "modified_date": 1747060816,
     "browser_url": "https://www.mobilize.us/indivisible/event/782140/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -13332,12 +13311,12 @@
     "timezone": "America/Los_Angeles",
     "high_priority": null,
     "virtual_action_url": null,
-    "accessibility_notes": "You may want to carpool with friends and fellow travelers. We all know about parking challenges in Los Angeles!",
+    "accessibility_notes": "Stay safety minded FIRST:  Please DO NOT interact directly with drivers or passengers in their cars.",
     "is_virtual": false,
     "city": "Burbank",
     "latitude": 34.1983122,
     "longitude": -118.3574036,
-    "date": "2025-05-11T23:00:00.000Z",
+    "date": "2025-05-18T23:00:00.000Z",
     "url": "https://www.mobilize.us/indivisible/event/782140/",
     "action": "included"
   },
@@ -13746,7 +13725,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1745766308,
-    "modified_date": 1746973864,
+    "modified_date": 1747054828,
     "browser_url": "https://www.mobilize.us/indivisible/event/782259/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -13861,7 +13840,7 @@
     "action": "included"
   },
   {
-    "title": "Fed-day Fridays",
+    "title": "FED-UP! Fed-day Fridays",
     "summary": "",
     "sponsor": {
       "race_type": null,
@@ -13919,7 +13898,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1745773519,
-    "modified_date": 1746911001,
+    "modified_date": 1747015662,
     "browser_url": "https://www.mobilize.us/indivisible/event/782296/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -13930,7 +13909,7 @@
     "event_campaign": null,
     "instructions": null,
     "id": 782296,
-    "description": "We are FED-UP!!! \n\nOur elected representation needs to hear from us CONSISTENTLY. We Can't let them off the hook. It is our civic duty to stay engaged, no matter what they do, we show up for people.\n\nYes, we continue to call and send emails, AND we show up in person to their offices. EVERY FRIDAY!\n\nPlease bring your signs!!! \n\nPlease bring your letters and comments with your contact information, to be delivered to Ernst and Grassley staffers.(Include your contact information so your concerns are registered and you receive a response.)\n\nWe rally on the northeast side of the Federal Building as a visibility event. So please bring your signs.\n\nPress is invited to these events. (We have already had coverage from Channel 13)\n\nAfter that we will head over to Nunn's office and speak with them as well. Because we aren't letting him off the hook either!\n\nConsistent visibility, contact with those elected to represent us, and outreach in our communities is how we grow resistance and how we win.\n\nTogether we can do this.\n\nIndivisible 515 Team",
+    "description": "We are FED-UP!!! \n\nOur elected representation needs to hear from us CONSISTENTLY. We can't let them off the hook! We show up for people, no matter what.\n\nWe call, send emails, AND we show up in person to their offices. EVERY FRIDAY!\n\nPlease bring your signs, letters and comments with your contact information, to be delivered to Ernst and Grassley staffers.(Include your contact information so your concerns are registered and you receive a response.)\n\nWe begin by rallying on the northeast side of the Federal Building as a visibility event. \n\nPress is invited to these events. (We have already had coverage from Channel 13)\n\nAfter that we will head over to Nunn's office and speak with them as well. Because we aren't letting him off the hook either!\n\nConsistent visibility, contact with those elected to represent us, and outreach in our communities is how we grow resistance and how we win.\n\nTogether we can do this.\n\nIndivisible 515 Team",
     "timezone": "America/Chicago",
     "high_priority": null,
     "virtual_action_url": null,
@@ -15427,18 +15406,18 @@
     ],
     "tags": [],
     "location": {
-      "venue": "Just NORTH of 1400 Jefferson on National Mall grounds",
+      "venue": "Columbus Circle Plaza outside of DC Union Train Station",
       "address_lines": [
-        "1400 Jefferson Dr SW",
+        "35 Columbus Monument Drive Northeast",
         ""
       ],
       "locality": "Washington",
       "region": "DC",
       "country": "US",
-      "postal_code": "20004",
+      "postal_code": "20002",
       "location": {
-        "latitude": 38.8880372,
-        "longitude": -77.0299926
+        "latitude": 38.8965944,
+        "longitude": -77.0058971
       },
       "congressional_district": "1",
       "state_leg_district": null,
@@ -15446,7 +15425,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1745787096,
-    "modified_date": 1746968449,
+    "modified_date": 1747054829,
     "browser_url": "https://www.mobilize.us/mayday-1/event/782371/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -15464,8 +15443,8 @@
     "accessibility_notes": "",
     "is_virtual": false,
     "city": "Washington",
-    "latitude": 38.8880372,
-    "longitude": -77.0299926,
+    "latitude": 38.8965944,
+    "longitude": -77.0058971,
     "date": "2025-05-12T16:00:00.000Z",
     "url": "https://www.mobilize.us/mayday-1/event/782371/",
     "action": "included"
@@ -16487,7 +16466,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1745906460,
-    "modified_date": 1746583286,
+    "modified_date": 1746997217,
     "browser_url": "https://www.mobilize.us/indivisible/event/783162/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -16894,7 +16873,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1745948744,
-    "modified_date": 1746655296,
+    "modified_date": 1746997206,
     "browser_url": "https://www.mobilize.us/indivisible/event/783421/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -18176,7 +18155,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1745964907,
-    "modified_date": 1746972016,
+    "modified_date": 1747054806,
     "browser_url": "https://www.mobilize.us/indivisible/event/783605/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -26681,7 +26660,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746221284,
-    "modified_date": 1746964815,
+    "modified_date": 1747047624,
     "browser_url": "https://www.mobilize.us/indivisible/event/784951/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -27144,7 +27123,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1746236893,
-    "modified_date": 1746910240,
+    "modified_date": 1746997212,
     "browser_url": "https://www.mobilize.us/indivisible/event/785013/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -28980,7 +28959,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746291212,
-    "modified_date": 1746910238,
+    "modified_date": 1746997212,
     "browser_url": "https://www.mobilize.us/indivisible/event/785104/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -29876,7 +29855,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746304240,
-    "modified_date": 1746975631,
+    "modified_date": 1747058407,
     "browser_url": "https://www.mobilize.us/indivisible/event/785162/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -31397,7 +31376,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746338179,
-    "modified_date": 1746910239,
+    "modified_date": 1746997212,
     "browser_url": "https://www.mobilize.us/thewolves/event/785233/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -34625,7 +34604,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746448857,
-    "modified_date": 1746448862,
+    "modified_date": 1747058412,
     "browser_url": "https://www.mobilize.us/nysaflcio/event/785454/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -35413,7 +35392,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746463557,
-    "modified_date": 1746913843,
+    "modified_date": 1747000859,
     "browser_url": "https://www.mobilize.us/cadems/event/785543/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -37671,7 +37650,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746487996,
-    "modified_date": 1746730620,
+    "modified_date": 1747054829,
     "browser_url": "https://www.mobilize.us/indivisible/event/785755/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -39062,7 +39041,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1746505978,
-    "modified_date": 1746913842,
+    "modified_date": 1747000859,
     "browser_url": "https://www.mobilize.us/indivisible/event/785872/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -39643,7 +39622,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1746513839,
-    "modified_date": 1746729596,
+    "modified_date": 1746997216,
     "browser_url": "https://www.mobilize.us/indivisible/event/785890/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -40403,7 +40382,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746534527,
-    "modified_date": 1746729106,
+    "modified_date": 1747051377,
     "browser_url": "https://www.mobilize.us/nokings/event/785913/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -43855,7 +43834,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746550247,
-    "modified_date": 1746729523,
+    "modified_date": 1747059819,
     "browser_url": "https://www.mobilize.us/nokings/event/786116/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -44287,7 +44266,7 @@
     "action": "included"
   },
   {
-    "title": "NO KINGS Rapid City, South Dakota",
+    "title": "NO KINGS: Hosted by Indivisible Rapid City",
     "summary": "",
     "sponsor": {
       "race_type": null,
@@ -44338,7 +44317,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746552662,
-    "modified_date": 1746637916,
+    "modified_date": 1747004197,
     "browser_url": "https://www.mobilize.us/nokings/event/786145/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -45084,8 +45063,8 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/1280x630%20Mobilize%20Promo_NoKings_v1_20250501194748666145.png",
     "timeslots": [
       {
-        "start_date": 1749931200,
-        "end_date": 1749934800,
+        "start_date": 1749924000,
+        "end_date": 1749927600,
         "instructions": null,
         "id": 5310211,
         "is_full": false
@@ -45112,7 +45091,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746556367,
-    "modified_date": 1746556663,
+    "modified_date": 1747005997,
     "browser_url": "https://www.mobilize.us/nokings/event/786208/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -45132,7 +45111,7 @@
     "city": "Cloverdale",
     "latitude": 38.8061706,
     "longitude": -123.0174648,
-    "date": "2025-06-14T20:00:00.000Z",
+    "date": "2025-06-14T18:00:00.000Z",
     "url": "https://www.mobilize.us/nokings/event/786208/",
     "action": "included"
   },
@@ -46493,7 +46472,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746561819,
-    "modified_date": 1746561833,
+    "modified_date": 1747047625,
     "browser_url": "https://www.mobilize.us/indivisible/event/786292/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -47507,7 +47486,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746568716,
-    "modified_date": 1746568720,
+    "modified_date": 1747058411,
     "browser_url": "https://www.mobilize.us/afscmelocal34/event/786381/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -52975,7 +52954,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1746637125,
-    "modified_date": 1746972013,
+    "modified_date": 1746996615,
     "browser_url": "https://www.mobilize.us/indivisible/event/786737/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -53374,7 +53353,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1746640594,
-    "modified_date": 1746804955,
+    "modified_date": 1747058411,
     "browser_url": "https://www.mobilize.us/nebdems/event/786776/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -55063,7 +55042,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1746651950,
-    "modified_date": 1746804809,
+    "modified_date": 1747058411,
     "browser_url": "https://www.mobilize.us/nebdems/event/786911/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -55158,7 +55137,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1746652281,
-    "modified_date": 1746804844,
+    "modified_date": 1747058411,
     "browser_url": "https://www.mobilize.us/nebdems/event/786913/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -55984,7 +55963,7 @@
       "candidate_name": "",
       "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/naperville%20logo_20250320151340082651.png"
     },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/june%2014_20250507224319348042.jpg",
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/NO%20KINGS%20JUNE%20PROTEST.zip%20-%201_20250512141557068152.png",
     "timeslots": [
       {
         "start_date": 1749916800,
@@ -56028,7 +56007,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746657880,
-    "modified_date": 1746657885,
+    "modified_date": 1747059367,
     "browser_url": "https://www.mobilize.us/indivisiblenaperville/event/786974/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -59041,7 +59020,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746684282,
-    "modified_date": 1746910239,
+    "modified_date": 1746997212,
     "browser_url": "https://www.mobilize.us/indivisible/event/787091/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -59539,7 +59518,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746710846,
-    "modified_date": 1746968416,
+    "modified_date": 1747044012,
     "browser_url": "https://www.mobilize.us/indivisible/event/787128/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -62714,6 +62693,82 @@
     "longitude": -84.1759761,
     "date": "2025-06-14T15:00:00.000Z",
     "url": "https://www.mobilize.us/nokings/event/787339/",
+    "action": "included"
+  },
+  {
+    "title": "NO KINGS PASADENA",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/nokings/",
+      "created_date": 1745974188,
+      "modified_date": 1746214536,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42198,
+      "name": "No Kings",
+      "slug": "nokings",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/56x322%20No%20Kings%20Logo_Horizontal_Mobilize_20250501150510693600.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/1280x630%20Mobilize%20Promo_NoKings_v2_20250501194739385252.png",
+    "timeslots": [
+      {
+        "start_date": 1749934800,
+        "end_date": 1749942000,
+        "instructions": null,
+        "id": 5313698,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Lake & Colorado intersection in Pasadena",
+      "address_lines": [
+        "860 E Colorado Blvd",
+        ""
+      ],
+      "locality": "Pasadena",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "91101",
+      "location": {
+        "latitude": 34.1455441,
+        "longitude": -118.1327706
+      },
+      "congressional_district": "28",
+      "state_leg_district": "41",
+      "state_senate_district": "25"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1746733120,
+    "modified_date": 1747059631,
+    "browser_url": "https://www.mobilize.us/nokings/event/787341/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 787341,
+    "description": "**In America, we don’t put up with would-be kings.**\nNO KINGS is a national day of action and mass mobilization in response to increasing authoritarian excesses and corruption from Trump and his allies. We’ve watched as they’ve cracked down on free speech, detained people for their political views, threatened to deport American citizens, and defied the courts. They’ve done this all while continuing to serve and enrich their billionaire allies.\n\n\n🚨**On Saturday, June 14, we’re taking to the streets nationwide. We’re not gathering to feed his ego. We’re building a movement that leaves him behind.**🚨\n\n\nThe flag doesn’t belong to Donald Trump. It belongs to us. We’re not watching history happen. We’re making it.\n\n\n**On June 14th, we’re showing up everywhere he isn’t—to say no thrones, no crowns, no kings.**\nCheck out nokings.org for more information.\n\n*A core principle behind all No Kings events is a commitment to nonviolent action. We expect all participants to seek to de-escalate any potential confrontation with those who disagree with our values.*",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Pasadena",
+    "latitude": 34.1455441,
+    "longitude": -118.1327706,
+    "date": "2025-06-14T21:00:00.000Z",
+    "url": "https://www.mobilize.us/nokings/event/787341/",
     "action": "included"
   },
   {
@@ -68564,9 +68619,9 @@
     ],
     "tags": [],
     "location": {
-      "venue": "Gateway Center Plaza 2",
+      "venue": "Two Gateway Center",
       "address_lines": [
-        "283 Market St",
+        "299 Market St",
         ""
       ],
       "locality": "Newark",
@@ -68574,8 +68629,8 @@
       "country": "US",
       "postal_code": "07102",
       "location": {
-        "latitude": 40.7345154,
-        "longitude": -74.1667272
+        "latitude": 40.7346253,
+        "longitude": -74.1668421
       },
       "congressional_district": null,
       "state_leg_district": "29",
@@ -68583,7 +68638,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1746802203,
-    "modified_date": 1746986427,
+    "modified_date": 1747059491,
     "browser_url": "https://www.mobilize.us/mikiesherrillforgovernor/event/787642/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -68601,8 +68656,8 @@
     "accessibility_notes": "",
     "is_virtual": false,
     "city": "Newark",
-    "latitude": 40.7345154,
-    "longitude": -74.1667272,
+    "latitude": 40.7346253,
+    "longitude": -74.1668421,
     "date": "2025-05-12T21:00:00.000Z",
     "url": "https://www.mobilize.us/mikiesherrillforgovernor/event/787642/",
     "action": "included"
@@ -69381,7 +69436,7 @@
     "action": "included"
   },
   {
-    "title": "Unite For Veterans, Unite for America",
+    "title": "Unite For Veterans, Unite for America Pedestrian Bridge Rally",
     "summary": "",
     "sponsor": {
       "race_type": null,
@@ -69411,12 +69466,7 @@
         "is_full": false
       }
     ],
-    "tags": [
-      {
-        "id": 86,
-        "name": "Veterans and military community"
-      }
-    ],
+    "tags": [],
     "location": {
       "venue": "Cole Park",
       "address_lines": [
@@ -69437,7 +69487,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746804705,
-    "modified_date": 1746812632,
+    "modified_date": 1747028080,
     "browser_url": "https://www.mobilize.us/temperisingindivisible/event/787670/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -69520,7 +69570,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746805321,
-    "modified_date": 1746806379,
+    "modified_date": 1747005716,
     "browser_url": "https://www.mobilize.us/indivisiblehighlandsandbeyond/event/787678/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -69531,7 +69581,7 @@
     "event_campaign": null,
     "instructions": null,
     "id": 787678,
-    "description": "Hosted by Indivisible Highlands and Beyond (IHB). Co-hosted by 302 United and Indivisible Newark First State.\n\nAvelo Airlines signed a contract with ICE to begin illegal \"deportation\" (aka kidnapping) flights from AZ beginning on May 12. The US Government has detained and deported people without due process or legal justification. \n\nIndivisible Highlands and Beyond, 302 United, and Indivisible Newark First State demand that Avelo Airlines changes course immediately!! Come out and help us keep up the pressure!\n\nBring signs! We will have some to share, but we urge you to continue making your own great/creative signs! (Given often fast-moving traffic, a reminder about signs: \nKeep the message simple;\nuse large letters;\nand make the letters thick and bold.)\n\nWe'll rally on both sides of Rt. 13, so stay on whichever side of the highway you park on. Please do NOT cross the busy highway!\n\nParking Options:\n\nGo to Lot D, $7.00 per car, then walk to the nearby sidewalk along the DuPont Hwy. (The first section of Lot D is a quick right turn after passing the ChristianaCare-GoHealth Urgent Care, right next to the Wilmington Airport.The second section of Lot D is a right turn immediately after you past this first turn for lot D.  There is a sign for Lot D at this turn.)\n\nYou can create an account online ahead of time so you can complete your payment from home in advance.  We recommend taking this step ahead of time, so you can just park and join us. Go to this link to set up your parking account: https://p-123.com/. Click on the ‘create your account now’ button. You will be asked for the zone ID which is 10500. You will add your license plate number, then pay with a credit card. \nYou could also use this same link or a QR code once you arrive to pay.  The signs in the parking lot have this info.\nAt this link below you can see where Lot D (or Remote lot) is located:\nhttps://www.flyilg.com/parking-wilmington-airport-ilg\n\nParking is also available behind the IHOP across the street: specifically, try the large shopping area lot between IHOP and Planet Fitness. (Again, if you park there, stay on that side of the road to rally along DuPont Hwy in front of the IHOP. Do NOT cross DuPont Hwy.)",
+    "description": "Hosted by Indivisible Highlands and Beyond (IHB). Co-hosted by 302 United and Indivisible Newark First State.\n\nAvelo Airlines signed a contract with ICE to begin illegal \"deportation\" (aka kidnapping) flights from AZ beginning on May 12. The US Government has detained and deported people without due process or legal justification. \n\nIndivisible Highlands and Beyond, 302 United, and Indivisible Newark First State demand that Avelo Airlines changes course immediately!! Come out and help us keep up the pressure!\n\nBring signs! We will have some to share, but we urge you to continue making your own great/creative signs! (Given often fast-moving traffic, a reminder about signs: \nKeep the message simple;\nuse large letters;\nand make the letters thick and bold.)\n\nWe'll rally on both sides of Rt. 13, so stay on whichever side of the highway you park on. Please do NOT cross the busy highway!\n\nAfter the Honk & Wave, all are welcome to gather at the IHOP across the street for \"Protest and Pancakes!\" (You don't have to get pancakes; they have avocado toast and veggie sausage, too!) Join us to connect and converse!!\n\nParking Options:\n\nGo to Lot D, $7.00 per car, then walk to the nearby sidewalk along the DuPont Hwy. (The first section of Lot D is a quick right turn after passing the ChristianaCare-GoHealth Urgent Care, right next to the Wilmington Airport.The second section of Lot D is a right turn immediately after you past this first turn for lot D.  There is a sign for Lot D at this turn.)\n\nYou can create an account online ahead of time so you can complete your payment from home in advance.  We recommend taking this step ahead of time, so you can just park and join us. Go to this link to set up your parking account: https://p-123.com/. Click on the ‘create your account now’ button. You will be asked for the zone ID which is 10500. You will add your license plate number, then pay with a credit card. \nYou could also use this same link or a QR code once you arrive to pay.  The signs in the parking lot have this info.\nAt this link below you can see where Lot D (or Remote lot) is located:\nhttps://www.flyilg.com/parking-wilmington-airport-ilg\n\nParking is also available behind the IHOP across the street: specifically, try the large shopping area lot between IHOP and Planet Fitness. (Again, if you park there, stay on that side of the road to rally along DuPont Hwy in front of the IHOP. Do NOT cross DuPont Hwy.)",
     "timezone": "America/New_York",
     "high_priority": null,
     "virtual_action_url": null,
@@ -70688,13 +70738,6 @@
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%202_20231214173755488494.png",
     "timeslots": [
       {
-        "start_date": 1747008000,
-        "end_date": 1747013400,
-        "instructions": null,
-        "id": 5315047,
-        "is_full": false
-      },
-      {
         "start_date": 1747612800,
         "end_date": 1747618200,
         "instructions": null,
@@ -70758,7 +70801,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746815238,
-    "modified_date": 1746993651,
+    "modified_date": 1747012803,
     "browser_url": "https://www.mobilize.us/indivisible/event/787796/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -70778,7 +70821,7 @@
     "city": "Fresno",
     "latitude": 36.7576708,
     "longitude": -119.8010366,
-    "date": "2025-05-12T00:00:00.000Z",
+    "date": "2025-05-19T00:00:00.000Z",
     "url": "https://www.mobilize.us/indivisible/event/787796/",
     "action": "included"
   },
@@ -71827,7 +71870,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746823154,
-    "modified_date": 1746865284,
+    "modified_date": 1747058411,
     "browser_url": "https://www.mobilize.us/indivisiblenorthernnevada/event/787874/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -73144,7 +73187,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746833281,
-    "modified_date": 1746921008,
+    "modified_date": 1747008150,
     "browser_url": "https://www.mobilize.us/progressivesofthecoastalbend/event/787951/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -73421,7 +73464,7 @@
     "timeslots": [
       {
         "start_date": 1747501200,
-        "end_date": 1747512000,
+        "end_date": 1747508400,
         "instructions": null,
         "id": 5315668,
         "is_full": false
@@ -73448,7 +73491,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746837081,
-    "modified_date": 1746837560,
+    "modified_date": 1747060004,
     "browser_url": "https://www.mobilize.us/respectmovoters/event/787981/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -74106,7 +74149,7 @@
     "timeslots": [
       {
         "start_date": 1749924000,
-        "end_date": 1749931200,
+        "end_date": 1749933000,
         "instructions": null,
         "id": 5315796,
         "is_full": false
@@ -74116,7 +74159,7 @@
     "location": {
       "venue": "",
       "address_lines": [
-        "Broadway",
+        "3 locations - Broadway, Maxwell Park, Springs Plaza",
         ""
       ],
       "locality": "Sonoma",
@@ -74124,8 +74167,8 @@
       "country": "US",
       "postal_code": "95476",
       "location": {
-        "latitude": 38.2829832,
-        "longitude": -122.4592605
+        "latitude": 38.3008493,
+        "longitude": -122.4802422
       },
       "congressional_district": "4",
       "state_leg_district": null,
@@ -74133,7 +74176,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1746848142,
-    "modified_date": 1746975588,
+    "modified_date": 1747028117,
     "browser_url": "https://www.mobilize.us/indivisiblesonomacounty/event/788025/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -74144,15 +74187,15 @@
     "event_campaign": null,
     "instructions": null,
     "id": 788025,
-    "description": "This is a NO KINGS event organized by [Wake Up Sonoma](https://www.wakeupsonoma.com) and Indivisible\n\n3 LOCATIONS!  SONOMA VALLEY IS IN PROTEST!\n1. Line the street on Broadway both sides (PLAZA not available)\nNo tabling point - stay on sidewalks - no blocking access\n2. Springs Plaza tabling point - line Hwy 12 North and South\n3. Maxwell Park tabling point - Line Hwy 12 North and South\n\nIn America, we don’t put up with would-be kings. \n\nNO KINGS is a national day of action and mass mobilization in response to increasing authoritarian excesses and corruption from Trump and his allies. We’ve watched as they’ve cracked down on free speech, detained people for their political views, threatened to deport American citizens, and defied the courts. They’ve done this all while continuing to serve and enrich their billionaire allies.\n\n🚨On Saturday, June 14, we’re taking to the streets nationwide. We’re not gathering to feed his ego. We’re building a movement that leaves him behind.🚨\n\nThe flag doesn’t belong to Donald Trump. It belongs to us. We’re not watching history happen. We’re making it.\n\nOn June 14th, we’re showing up everywhere he isn’t—to say no thrones, no crowns, no kings.\n\nA core principle behind all No Kings events is a commitment to nonviolent action. We expect all participants to seek to de-escalate any potential confrontation with those who disagree with our values.\n\n**We will be collecting Mutual Aid for Homeless Action Services in the form of Toiletries and towels - and collecting donations for the Redwood Empire Food Bank.",
+    "description": "This is a NO KINGS event organized by [Wake Up Sonoma](https://www.wakeupsonoma.com) and Indivisible\n\n**3 LOCATIONS!! SEE BELOW\nProtest:  11:00 - 12:15\nCommunity gathering:  12:30 - 1:30\n\n1. Broadway - Line the street on Broadway both sides (PLAZA not available) stay on sidewalks - no blocking access\n2. Springs Plaza - line Hwy 12 North and South\n3. Maxwell Park  -  Line Hwy 12 North and South \n\nProtest followed by a community gathering at Maxwell Park.  Bring your own chairs and, picnic lunches. Come together in solidarity to enjoy community with possible music and speakers being arranged.   \n\nIn America, we don’t put up with would-be kings. \n\nNO KINGS is a national day of action and mass mobilization in response to increasing authoritarian excesses and corruption from Trump and his allies. We’ve watched as they’ve cracked down on free speech, detained people for their political views, threatened to deport American citizens, and defied the courts. They’ve done this all while continuing to serve and enrich their billionaire allies.\n\n🚨On Saturday, June 14, we’re taking to the streets nationwide. We’re not gathering to feed his ego. We’re building a movement that leaves him behind.🚨\n\nThe flag doesn’t belong to Donald Trump. It belongs to us. We’re not watching history happen. We’re making it.\n\nOn June 14th, we’re showing up everywhere he isn’t—to say no thrones, no crowns, no kings.\n\nA core principle behind all No Kings events is a commitment to nonviolent action. We expect all participants to seek to de-escalate any potential confrontation with those who disagree with our values.\n\n**We will be collecting Mutual Aid for Homeless Action Services in the form of Toiletries and towels - and collecting donations for the Redwood Empire Food Bank.",
     "timezone": "America/Los_Angeles",
     "high_priority": null,
     "virtual_action_url": null,
     "accessibility_notes": "",
     "is_virtual": false,
     "city": "Sonoma",
-    "latitude": 38.2829832,
-    "longitude": -122.4592605,
+    "latitude": 38.3008493,
+    "longitude": -122.4802422,
     "date": "2025-06-14T18:00:00.000Z",
     "url": "https://www.mobilize.us/indivisiblesonomacounty/event/788025/",
     "action": "included"
@@ -75030,7 +75073,7 @@
       "candidate_name": "",
       "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/CT%20Dems%20Logo%20W%3AO%20Background_20180917152332595888.png"
     },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/IMG_0646_20250511143819850641.jpeg",
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/hartford-no-kings_20250512140045620023.jpg",
     "timeslots": [
       {
         "start_date": 1749913200,
@@ -75061,7 +75104,7 @@
     },
     "event_type": "OTHER",
     "created_date": 1746878825,
-    "modified_date": 1746974310,
+    "modified_date": 1747058452,
     "browser_url": "https://www.mobilize.us/ctdems/event/788056/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -76175,7 +76218,7 @@
       "candidate_name": "",
       "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/CT%20Dems%20Logo%20W%3AO%20Background_20180917152332595888.png"
     },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/IMG_0646_20250511143755972123.jpeg",
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/IMG_0688_20250512003303919487.jpeg",
     "timeslots": [
       {
         "start_date": 1747492200,
@@ -76206,7 +76249,7 @@
     },
     "event_type": "OTHER",
     "created_date": 1746902191,
-    "modified_date": 1746974289,
+    "modified_date": 1747009985,
     "browser_url": "https://www.mobilize.us/ctdems/event/788161/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -76429,6 +76472,82 @@
     "longitude": -114.1815188,
     "date": "2025-05-19T23:00:00.000Z",
     "url": "https://www.mobilize.us/indivisible/event/788181/",
+    "action": "included"
+  },
+  {
+    "title": "NO KINGS Bedford, MA",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/nokings/",
+      "created_date": 1745974188,
+      "modified_date": 1746214536,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42198,
+      "name": "No Kings",
+      "slug": "nokings",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/56x322%20No%20Kings%20Logo_Horizontal_Mobilize_20250501150510693600.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/1280x630%20Mobilize%20Promo_NoKings_v1_20250501194748666145.png",
+    "timeslots": [
+      {
+        "start_date": 1749920400,
+        "end_date": 1749924000,
+        "instructions": null,
+        "id": 5316247,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Veterans Memorial Park",
+      "address_lines": [
+        "160 Great Rd",
+        ""
+      ],
+      "locality": "Bedford",
+      "region": "MA",
+      "country": "US",
+      "postal_code": "01730",
+      "location": {
+        "latitude": 42.4900675,
+        "longitude": -71.2756504
+      },
+      "congressional_district": "6",
+      "state_leg_district": "79",
+      "state_senate_district": "15"
+    },
+    "event_type": "RALLY",
+    "created_date": 1746906838,
+    "modified_date": 1747060376,
+    "browser_url": "https://www.mobilize.us/nokings/event/788188/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788188,
+    "description": "**In America, we don’t put up with would-be kings.**\nNO KINGS is a national day of action and mass mobilization in response to increasing authoritarian excesses and corruption from Trump and his allies. We’ve watched as they’ve cracked down on free speech, detained people for their political views, threatened to deport American citizens, and defied the courts. They’ve done this all while continuing to serve and enrich their billionaire allies.\n\n\n🚨**On Saturday, June 14, we’re taking to the streets nationwide. We’re not gathering to feed his ego. We’re building a movement that leaves him behind.**🚨\n\n\nThe flag doesn’t belong to Donald Trump. It belongs to us. We’re not watching history happen. We’re making it.\n\n\n**On June 14th, we’re showing up everywhere he isn’t—to say no thrones, no crowns, no kings.**\nCheck out nokings.org for more information.\n\n*A core principle behind all No Kings events is a commitment to nonviolent action. We expect all participants to seek to de-escalate any potential confrontation with those who disagree with our values.*",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Bedford",
+    "latitude": 42.4900675,
+    "longitude": -71.2756504,
+    "date": "2025-06-14T17:00:00.000Z",
+    "url": "https://www.mobilize.us/nokings/event/788188/",
     "action": "included"
   },
   {
@@ -76657,6 +76776,82 @@
     "longitude": -117.2005564,
     "date": "2025-05-23T23:30:00.000Z",
     "url": "https://www.mobilize.us/indivisible/event/788217/",
+    "action": "included"
+  },
+  {
+    "title": "NO KINGS - WALPOLE STANDS UP!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/nokings/",
+      "created_date": 1745974188,
+      "modified_date": 1746214536,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42198,
+      "name": "No Kings",
+      "slug": "nokings",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/56x322%20No%20Kings%20Logo_Horizontal_Mobilize_20250501150510693600.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/1280x630%20Mobilize%20Promo_NoKings_v2_20250501194739385252.png",
+    "timeslots": [
+      {
+        "start_date": 1749913200,
+        "end_date": 1749920400,
+        "instructions": null,
+        "id": 5316325,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Town Common",
+      "address_lines": [
+        "Common St and Route 1-A",
+        ""
+      ],
+      "locality": "Walpole",
+      "region": "MA",
+      "country": "US",
+      "postal_code": "02081",
+      "location": {
+        "latitude": 42.1430052,
+        "longitude": -71.2532062
+      },
+      "congressional_district": "8",
+      "state_leg_district": null,
+      "state_senate_district": "18"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1746912529,
+    "modified_date": 1747060497,
+    "browser_url": "https://www.mobilize.us/nokings/event/788220/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788220,
+    "description": "**In America, we don’t put up with would-be kings.**\nNO KINGS is a national day of action and mass mobilization in response to increasing authoritarian excesses and corruption from Trump and his allies. We’ve watched as they’ve cracked down on free speech, detained people for their political views, threatened to deport American citizens, and defied the courts. They’ve done this all while continuing to serve and enrich their billionaire allies.\n\n\n🚨**On Saturday, June 14, we’re taking to the streets nationwide. We’re not gathering to feed his ego. We’re building a movement that leaves him behind.**🚨\n\n\nThe flag doesn’t belong to Donald Trump. It belongs to us. We’re not watching history happen. We’re making it.\n\n\nOn June 14th, we’re showing up everywhere he isn’t—to say no thrones, no crowns, no kings.\n\n**In Walpole we'll meet up in downtown and take over corners at the town common, corner of Route 1-A and Common Street from 11 a.m. to 1 p.m.. Plenty of free parking in the town lot behind Jalapeno's restaurant. Bring signs, cowbells and a smile! Invite a friend or neighbor to join you, and make new friends as we stand up for our country against corruption!**\n\nCheck out nokings.org for more information and locations of other stand-ups.\n\n*A core principle behind all No Kings events is a commitment to nonviolent action. We expect all participants to seek to de-escalate any potential confrontation with those who disagree with our values.*",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Walpole",
+    "latitude": 42.1430052,
+    "longitude": -71.2532062,
+    "date": "2025-06-14T15:00:00.000Z",
+    "url": "https://www.mobilize.us/nokings/event/788220/",
     "action": "included"
   },
   {
@@ -77335,7 +77530,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1746920165,
-    "modified_date": 1746968447,
+    "modified_date": 1747051509,
     "browser_url": "https://www.mobilize.us/indivisiblewabashvalley/event/788259/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -77394,7 +77589,7 @@
     "location": {
       "venue": "",
       "address_lines": [
-        "1 S Oneida Ave",
+        "South Oneida Avenue & East Kemp Street",
         ""
       ],
       "locality": "Rhinelander",
@@ -77402,8 +77597,8 @@
       "country": "US",
       "postal_code": "54501",
       "location": {
-        "latitude": 45.6377939,
-        "longitude": -89.4075691
+        "latitude": 45.631375,
+        "longitude": -89.4085439
       },
       "congressional_district": "7",
       "state_leg_district": "34",
@@ -77411,7 +77606,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746920212,
-    "modified_date": 1746983260,
+    "modified_date": 1747049675,
     "browser_url": "https://www.mobilize.us/indivisible/event/788260/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -77429,10 +77624,314 @@
     "accessibility_notes": null,
     "is_virtual": false,
     "city": "Rhinelander",
-    "latitude": 45.6377939,
-    "longitude": -89.4075691,
+    "latitude": 45.631375,
+    "longitude": -89.4085439,
     "date": "2025-06-14T17:00:00.000Z",
     "url": "https://www.mobilize.us/indivisible/event/788260/",
+    "action": "included"
+  },
+  {
+    "title": "NO KINGS!  Yolo County",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisibleyolo/",
+      "created_date": 1598398960,
+      "modified_date": 1744696925,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 4362,
+      "name": "Indivisible Yolo",
+      "slug": "indivisibleyolo",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/Logo_Full_Sm_20200908235102917095.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/NoKings_v2_16x9_20250510233205150358.png",
+    "timeslots": [
+      {
+        "start_date": 1749920400,
+        "end_date": 1749927600,
+        "instructions": null,
+        "id": 5316424,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "From the Courthouse to Heritage Plaza",
+      "address_lines": [
+        "701 Main St",
+        ""
+      ],
+      "locality": "Woodland",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "95695",
+      "location": {
+        "latitude": 38.6778564,
+        "longitude": -121.7717093
+      },
+      "congressional_district": "4",
+      "state_leg_district": "4",
+      "state_senate_district": "3"
+    },
+    "event_type": "RALLY",
+    "created_date": 1746920547,
+    "modified_date": 1747016916,
+    "browser_url": "https://www.mobilize.us/indivisibleyolo/event/788262/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788262,
+    "description": "In America, we don’t put up with would-be kings. NO KINGS is a national day of action and mass mobilization in response to increasing authoritarian excesses and corruption from Trump and his allies.\n\n🚨 On June 14th, Yolo County is showing up in Woodland  —to say no thrones, no crowns, no kings! \n\n🚨 The flag doesn’t belong to Donald Trump. It belongs to us. We’re not watching history happen. We’re making it.\n\n🚨We’re not gathering to feed his ego. We’re building a movement that leaves him behind. \n\nJOIN WITH US IN YOLO TO SAY NO TO FASCISM.",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false,
+    "city": "Woodland",
+    "latitude": 38.6778564,
+    "longitude": -121.7717093,
+    "date": "2025-06-14T17:00:00.000Z",
+    "url": "https://www.mobilize.us/indivisibleyolo/event/788262/",
+    "action": "included"
+  },
+  {
+    "title": "No Kings Day Meets Flag Day",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/nokings/",
+      "created_date": 1745974188,
+      "modified_date": 1746214536,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42198,
+      "name": "No Kings",
+      "slug": "nokings",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/56x322%20No%20Kings%20Logo_Horizontal_Mobilize_20250501150510693600.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/1280x630%20Mobilize%20Promo_NoKings_v1_20250501194748666145.png",
+    "timeslots": [
+      {
+        "start_date": 1749909600,
+        "end_date": 1749915000,
+        "instructions": null,
+        "id": 5316438,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Bourne Rotary South",
+      "address_lines": [
+        "Bourne Rotary S",
+        ""
+      ],
+      "locality": "Bourne",
+      "region": "MA",
+      "country": "US",
+      "postal_code": "02532",
+      "location": {
+        "latitude": 41.7427276,
+        "longitude": -70.5862033
+      },
+      "congressional_district": "9",
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "RALLY",
+    "created_date": 1746923446,
+    "modified_date": 1747060595,
+    "browser_url": "https://www.mobilize.us/nokings/event/788274/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788274,
+    "description": "**In America, we don’t put up with would-be kings.**\nNO KINGS is a national day of action and mass mobilization in response to increasing authoritarian excesses and corruption from Trump and his allies. We’ve watched as they’ve cracked down on free speech, detained people for their political views, threatened to deport American citizens, and defied the courts. They’ve done this all while continuing to serve and enrich their billionaire allies.\n\n🚨**On Saturday, June 14, we’re taking to the streets nationwide. We’re not gathering to feed his ego. We’re building a movement that leaves him behind.**🚨\n\n*A core principle behind all No Kings events is a commitment to nonviolent action. We expect all participants to seek to de-escalate any potential confrontation with those who disagree with our values.*\n\nFor more information check www.indivisibleuppercape.org",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Bourne",
+    "latitude": 41.7427276,
+    "longitude": -70.5862033,
+    "date": "2025-06-14T14:00:00.000Z",
+    "url": "https://www.mobilize.us/nokings/event/788274/",
+    "action": "included"
+  },
+  {
+    "title": "No Kings Day Meets Flag Day",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/nokings/",
+      "created_date": 1745974188,
+      "modified_date": 1746214536,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42198,
+      "name": "No Kings",
+      "slug": "nokings",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/56x322%20No%20Kings%20Logo_Horizontal_Mobilize_20250501150510693600.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/1280x630%20Mobilize%20Promo_NoKings_v1_20250501194748666145.png",
+    "timeslots": [
+      {
+        "start_date": 1749916800,
+        "end_date": 1749922200,
+        "instructions": null,
+        "id": 5316439,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Falmouth Village Green",
+      "address_lines": [
+        "000",
+        ""
+      ],
+      "locality": "Falmouth",
+      "region": "MA",
+      "country": "US",
+      "postal_code": "02540",
+      "location": {
+        "latitude": 41.5541088,
+        "longitude": -70.61951
+      },
+      "congressional_district": "9",
+      "state_leg_district": null,
+      "state_senate_district": "39"
+    },
+    "event_type": "RALLY",
+    "created_date": 1746923563,
+    "modified_date": 1747060681,
+    "browser_url": "https://www.mobilize.us/nokings/event/788275/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788275,
+    "description": "**In America, we don’t put up with would-be kings.**\nNO KINGS is a national day of action and mass mobilization in response to increasing authoritarian excesses and corruption from Trump and his allies. We’ve watched as they’ve cracked down on free speech, detained people for their political views, threatened to deport American citizens, and defied the courts. They’ve done this all while continuing to serve and enrich their billionaire allies.\n\n\n🚨**On Saturday, June 14, we’re taking to the streets nationwide. We’re not gathering to feed his ego. We’re building a movement that leaves him behind.**🚨\n\nGrab your stars and stripes, come dressed head-to-toe in red, white and blue. Show up loud and proud, it's time to take the flag back! \n\nLearn more at www.indivisibleuppercape.org\n\n*A core principle behind all No Kings events is a commitment to nonviolent action. We expect all participants to seek to de-escalate any potential confrontation with those who disagree with our values.*",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Falmouth",
+    "latitude": 41.5541088,
+    "longitude": -70.61951,
+    "date": "2025-06-14T16:00:00.000Z",
+    "url": "https://www.mobilize.us/nokings/event/788275/",
+    "action": "included"
+  },
+  {
+    "title": "NO KINGS Mendon, MA",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/nokings/",
+      "created_date": 1745974188,
+      "modified_date": 1746214536,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42198,
+      "name": "No Kings",
+      "slug": "nokings",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/56x322%20No%20Kings%20Logo_Horizontal_Mobilize_20250501150510693600.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/1280x630%20Mobilize%20Promo_NoKings_v2_20250501194739385252.png",
+    "timeslots": [
+      {
+        "start_date": 1749909600,
+        "end_date": 1749916800,
+        "instructions": null,
+        "id": 5316449,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "Massachusetts 16 & North Avenue",
+        ""
+      ],
+      "locality": "Mendon",
+      "region": "MA",
+      "country": "US",
+      "postal_code": "01756",
+      "location": {
+        "latitude": 42.1077502,
+        "longitude": -71.5536529
+      },
+      "congressional_district": "4",
+      "state_leg_district": "151",
+      "state_senate_district": "7"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1746924715,
+    "modified_date": 1747060399,
+    "browser_url": "https://www.mobilize.us/nokings/event/788279/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788279,
+    "description": "**In America, we don’t put up with would-be kings.**\n\nNO KINGS is a national day of action and mass mobilization in response to increasing authoritarian excesses and corruption from Trump and his allies. We’ve watched as they’ve cracked down on free speech, detained people for their political views, threatened to deport American citizens, and defied the courts. They’ve done this all while continuing to serve and enrich their billionaire allies.\n\n\n🚨**On Saturday, June 14, we’re taking to the streets nationwide. We’re not gathering to feed his ego. We’re building a movement that leaves him behind.**🚨\n\n\nThe flag doesn’t belong to Donald Trump. It belongs to us. We’re not watching history happen. We’re making it.\n\n\n**On June 14th, we’re showing up everywhere he isn’t—to say NO thrones, no crowns, no kings.**\nCheck out nokings.org for more information.\n\n*A core principle behind all No Kings events is a commitment to nonviolent action. We expect all participants to seek to de-escalate any potential confrontation with those who disagree with our values.*",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "Parking available 100 feet up North Ave on the right side as well as the Clough School parking lot on North Ave on the left side.",
+    "is_virtual": false,
+    "city": "Mendon",
+    "latitude": 42.1077502,
+    "longitude": -71.5536529,
+    "date": "2025-06-14T14:00:00.000Z",
+    "url": "https://www.mobilize.us/nokings/event/788279/",
     "action": "included"
   },
   {
@@ -77518,6 +78017,82 @@
     "longitude": -78.8948741,
     "date": "2025-06-14T14:00:00.000Z",
     "url": "https://www.mobilize.us/50501scpeedee/event/788280/",
+    "action": "included"
+  },
+  {
+    "title": "No Kings",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1749909600,
+        "end_date": 1749920400,
+        "instructions": null,
+        "id": 5316455,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Littleton",
+      "address_lines": [
+        "Stevens Street and Great Road",
+        "Meetinghouse Road and Great Road"
+      ],
+      "locality": "Littleton",
+      "region": "MA",
+      "country": "US",
+      "postal_code": "01460",
+      "location": {
+        "latitude": 42.5460334,
+        "longitude": -71.4721511
+      },
+      "congressional_district": "3",
+      "state_leg_district": "60",
+      "state_senate_district": "12"
+    },
+    "event_type": "RALLY",
+    "created_date": 1746926091,
+    "modified_date": 1747059718,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788285/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788285,
+    "description": "June 14 we will gather on Littleton (MA) Common and declare America has No Kings! We protect the Constitution and stand up for democracy! This a local Indivisible event!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Littleton",
+    "latitude": 42.5460334,
+    "longitude": -71.4721511,
+    "date": "2025-06-14T14:00:00.000Z",
+    "url": "https://www.mobilize.us/indivisible/event/788285/",
     "action": "included"
   },
   {
@@ -78317,7 +78892,7 @@
       "candidate_name": "",
       "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/NWVI%20Logo%20-%20Banner_20230803162400169569.png"
     },
-    "featured_image_url": "",
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Add%20a%20heading_20250512010531781880.png",
     "timeslots": [
       {
         "start_date": 1748098800,
@@ -78348,7 +78923,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1746939115,
-    "modified_date": 1746940939,
+    "modified_date": 1747011945,
     "browser_url": "https://www.mobilize.us/northwestvalleyindivisible/event/788378/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -78487,7 +79062,7 @@
     "timeslots": [
       {
         "start_date": 1747846800,
-        "end_date": 1747848600,
+        "end_date": 1747850400,
         "instructions": null,
         "id": 5317293,
         "is_full": false
@@ -78527,7 +79102,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1746962745,
-    "modified_date": 1746962897,
+    "modified_date": 1747058104,
     "browser_url": "https://www.mobilize.us/fww/event/788385/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -78538,7 +79113,7 @@
     "event_campaign": null,
     "instructions": null,
     "id": 788385,
-    "description": "**Join us for a press conference to announce legislation banning new factory farms in New York!**\n\nCorporate consolidation of food production is a threat to our water, climate, family farms, rural communities, and consumers.\n \nNew York has a particular problem with mega-dairies that contribute to water pollution while fueling climate change and devastating our family farms.\n\n**The event will feature our bill sponsors, Assembly Member Linda Rosenthal and Senator Jabari Brisport**, along with advocates, discussing the need to ban new factory farms and limit the expansion of existing farms.\n\n** The event will be outside the Senate lobby on the third floor of the Capitol.**\n\n_Event participants include: Food & Water Watch, Third Act Upstate New York (list in formation)_",
+    "description": "**Join us for a press conference to announce legislation banning new factory farms in New York!**\n\nCorporate consolidation of food production is a threat to our water, climate, family farms, rural communities, and consumers.\n \nNew York has a particular problem with mega-dairies that contribute to water pollution while fueling climate change and devastating our family farms.\n\n**The event will feature our bill sponsors, Assembly Member Linda Rosenthal and Senator Jabari Brisport**, along with advocates, discussing the need to ban new factory farms and limit the expansion of existing farms.\n\n** The event will be outside the Senate lobby on the third floor of the Capitol.**\n\n_Event participants include: Food & Water Watch, Woodstock Animal Sanctuary, Third Act Upstate New York (list in formation)_",
     "timezone": "America/New_York",
     "high_priority": null,
     "virtual_action_url": null,
@@ -80387,7 +80962,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1746985483,
-    "modified_date": 1746985774,
+    "modified_date": 1747009678,
     "browser_url": "https://www.mobilize.us/indivisible/event/788502/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -80398,7 +80973,7 @@
     "event_campaign": null,
     "instructions": null,
     "id": 788502,
-    "description": "This a local Indivisible event! Join us to honor those who gave the ultimate sacrifice and those who served and are serving in our military by demanding protections for the services they deserve.",
+    "description": "This a local Indivisible event! Join us to honor those who gave the ultimate sacrifice and those who served and are serving in our military by demanding protections for the services they deserve.\nBring shelf stable items or personal care items (toothbrushes, shampoo etc) to donate.\nStand in solidarity with our Veterans and honor those who gave the ultimate sacrifice.\n\nBring: signs, flag cowbells, drums, and a loud voice for chants! Anyone can feel free to bring instruments, sing, start a chant, this is a movement by the people!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nParking: Please carpool. Free parking: You can park at Staples, the overflow lots at the mall, or The Landing at Hyannis. Staples is only a minute or two walk away while the others are about a 15 minute walk from there. If you need to drop someone off before parking further away, please use the staples parking lot, not the side of a road. Paid parking: the airport, with the total cost $12 or less. (https://flyhya.com/parking-transportation/parking/) Public Transit: There is also the cape cod RTA. There are many lines that can connect you to Hyannis. From there, you get on the “Barnstable Villager” line and can get off at the mall or the landing at hyannis, or you can simply tap to get off when the bus approaches the rotary, they will stop if you tap the yellow line. (https://capecodrta.org/wp-content/uploads/2025/01/Villager.pdf )\n\nSAFETY: If it’s a smaller crowd, we can all park at Staples and stand on the grassy part near Nantucket Sound. If it’s a larger crowd, can spread out at four edges of the rotary (Wendy’s, church, bank, nantucket sound, NOT the airport side), so just stand near where you parked to avoid crossing roads unnecessarily. The rotary is a busy area and most parts do NOT have a crosswalk. If you park at the mall overflow, or The Landing at Hyannis, there is a crosswalk down there by the lights if you want to get to a specific grass area, the mall side will bring you to the church, bank or Nantucket sound, the landing at Hyannis side will bring you to Wendy’s or the airport. Remember, the drivers on the rotary are extremely distracted, so it's up to you to be mindful, cautious, and safe at all times.\n\nMake sure to stay on the grass, a few feet away from the curb. Stay in the designated area. We are allowed to be on public/town land. We can walk the easements in front of the stores to reach the locations. Don’t go in the road and don’t go in the middle of the rotary. Police can shut us down if this happens. Attendees please help remind others to not go in or too near the road. Be mindful not to block cars visibility for entering the rotary. Notice where the “exit” sign is for your area. The police will protect our right to protest, but if there are safety concerns, the police can and will shut us down. It is the responsibility of all attendees to follow all safety guidelines.\n\nIf there are counter protesters, DO NOT ENGAGE AT ALL. If attendees engage, the police can shut us down. We don’t want this to happen!! Notify a safety warden (in a neon vest) in your area of any disturbance immediately before it can escalate. Everyone must act responsibly and obey instructions from organizers and police. Attendees: Do not engage. Step away. Alert a safety warden. Help safety wardens remind others of these guidelines. Your calm response is your power.\n\nIf you feel you need to start videoing for any reason, you are encouraged to do so. It will be good record keeping. Please continue to ignore the agitator(s) and find a safety warden, in a neon vest. We don’t expect any violence. We expect this to be a peaceful, safe, event to show our care, community, and courage.\n\nBefore you leave: Make sure to leave the space better than when you arrived. If anything needs to be cleaned up (signs, trash etc.) please lend a hand. Also, if you’re not already part of an “Indivisible” group, make sure to get a “palm card” before you leave, with a QR card of how to join. There will be donation buckets if you would like to leave a few dollars to support the “Indivisible” groups on Cape Cod.\n\nSign up to receive emails whenever there's a new post on our website: https://capecodwomenforchange.com/subscribe-to-get-latest-posts/",
     "timezone": "America/New_York",
     "high_priority": null,
     "virtual_action_url": null,
@@ -80995,6 +81570,1917 @@
     "longitude": -122.3094976,
     "date": "2025-05-27T22:00:00.000Z",
     "url": "https://www.mobilize.us/seattleindivisible/event/788539/",
+    "action": "included"
+  },
+  {
+    "title": "We the People are NOT the Waste!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%202_20231214173755488494.png",
+    "timeslots": [
+      {
+        "start_date": 1747506600,
+        "end_date": 1747512000,
+        "instructions": null,
+        "id": 5317889,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "On sidewalk in front of Public Health",
+      "address_lines": [
+        "806 S Main St",
+        ""
+      ],
+      "locality": "Yreka",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "96097",
+      "location": {
+        "latitude": 41.7257486,
+        "longitude": -122.6378698
+      },
+      "congressional_district": "1",
+      "state_leg_district": "1",
+      "state_senate_district": "1"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747000158,
+    "modified_date": 1747000511,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788569/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788569,
+    "description": "The Siskiyou Resistance Coalition is sponsoring a Visibility Event in Yreka! (Our friends in Mt Shasta are holding a similar rally  at the same time/day in Mt Shasta).\n\nThe cuts to spending on federal people-programs like Veterans, Schools, Seniors, Libraries, and now NPR & PBS are so deep, we are all going to bleed.\n\nCome be part of the sea-change that we want to see. Come chant with us, hold signs with us, join us!. Stand up and Fight back!\n\n\nPlease bring instruments, drums, signs, cow bells, and your vocal spirit.\n\nAll are welcome and wanted here!\n\nAs always, this is a non-violent event. If we see counter protestors, we ignore, or applaud and cheer them on.",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Yreka",
+    "latitude": 41.7257486,
+    "longitude": -122.6378698,
+    "date": "2025-05-17T18:30:00.000Z",
+    "url": "https://www.mobilize.us/indivisible/event/788569/",
+    "action": "included"
+  },
+  {
+    "title": "No Kings Mass Protest",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/cadems/",
+      "created_date": 1579293615,
+      "modified_date": 1744753536,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 2289,
+      "name": "California Democratic Party",
+      "slug": "cadems",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "CA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/CADEM%20Logo%20%282%29_20250311045655956117.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20CADEM%20logo_20210728174315548937.png",
+    "timeslots": [
+      {
+        "start_date": 1749920400,
+        "end_date": 1749927600,
+        "instructions": null,
+        "id": 5317890,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Park & Ride",
+      "address_lines": [
+        "Amargosa Rd",
+        ""
+      ],
+      "locality": "Victorville",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "92392",
+      "location": {
+        "latitude": 34.4697493,
+        "longitude": -117.3478592
+      },
+      "congressional_district": "23",
+      "state_leg_district": "39",
+      "state_senate_district": "23"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747000371,
+    "modified_date": 1747000377,
+    "browser_url": "https://www.mobilize.us/cadems/event/788570/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788570,
+    "description": "Join members of High Desert Progressive Democrats on June 14th from 10 am to noon as we amplify our voices and declare that America will not be ruled by a would-be king.\n\n\nPlease RSVP, so we can anticipate the number of attendees for this event. And share this with like-minded friends!",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Victorville",
+    "latitude": 34.4697493,
+    "longitude": -117.3478592,
+    "date": "2025-06-14T17:00:00.000Z",
+    "url": "https://www.mobilize.us/cadems/event/788570/",
+    "action": "included"
+  },
+  {
+    "title": "I91 Overpasses for Democracy - Sword Ave. Enfield, CT",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1748030400,
+        "end_date": 1748037600,
+        "instructions": null,
+        "id": 5317891,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Sword Avenue (at the I91 Overpass)",
+      "address_lines": [
+        "Sword Ave",
+        ""
+      ],
+      "locality": "Enfield",
+      "region": "CT",
+      "country": "US",
+      "postal_code": "06082",
+      "location": {
+        "latitude": 42.0238356,
+        "longitude": -72.5900374
+      },
+      "congressional_district": "2",
+      "state_leg_district": null,
+      "state_senate_district": "7"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747000745,
+    "modified_date": 1747000752,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788571/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788571,
+    "description": "Area Indivisibles are once again partnering together for a second grand coordinated standout that will reach the length of I91 from the CT to VT!\n\nWe are attempting to cover as many overpasses as we can on Friday, May 23rd from 4:00PM to 6:00PM.\n\nAs part of this coordinated action, Rise Up Western Mass will be hosting two of the standouts.\n\nThis is the sign up and information for the Sword Ave, Enfield Location! \n\nSword Ave is right off of Rte. 5 just over the border in Enfield. It is in a residential area so the street is quiet and the overpass has sidewalks on both sides. Please park on one of the small side streets, but do not block driveways so we can be courteous of the neighbors.\n\nIf You Bring a Sign, Banner, or Flag For sign and banner lettering, bigger is better, so it can be easily read from the roadway. Flags are great, too. Wouldn't it be amazing to reclaim our flag? \n\nThe DOT does not like things attached to the fence. They may visit, so be prepared to not have anything attached. Never drape anything over the fence, even with ropes, because it would be very dangerous if it accidentally fell onto the highway.\n\nOther Logistics No Port-A-Potties are available but there is a McDonalds nearby if needed. Please take everything you brought away with you and leave the site totally clean.\n\nGeneral I91 Standout Information\n\nCome join like-minded folks to demand that Trump, Musk, and the Republican-led Congress stop their unconstitutional power grab and the cruel destruction of our federal government.\n\nWe will hold banners, signs, and flags, and we'll wave to passing motorists. Many will beep and wave back at us, which feels nice! We'll show people that they're not alone and help give them the courage to join us and take a stand.\n\nPlease come out whether or not you have a sign or banner or flag. More people is better!\n\nCome when you can and leave when you must. You needn't be present for the entire time.\n\nWe may see a counter protester. If so, please DO NOT ENGAGE.  Either ignore them or reply with \"have a nice day\". Let's spend our time and energy waving to motorists. Let's keep things 100% non-confrontational in words and body language. As always all of our events are peaceful and non-violent.\n\nWe're looking forward to meeting everyone. Let's have some fun and make some good trouble!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Enfield",
+    "latitude": 42.0238356,
+    "longitude": -72.5900374,
+    "date": "2025-05-23T20:00:00.000Z",
+    "url": "https://www.mobilize.us/indivisible/event/788571/",
+    "action": "included"
+  },
+  {
+    "title": "No! Downtown Protest",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/suffolkdemocraticcommittee/",
+      "created_date": 1588608700,
+      "modified_date": 1744824591,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 2773,
+      "name": "Suffolk Democratic Committee",
+      "slug": "suffolkdemocraticcommittee",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "VA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/cropped-sdc-icon%5B3%5D_20221003231303715929.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/IMG_4891_20250511215328389891.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1747425600,
+        "end_date": 1747429200,
+        "instructions": null,
+        "id": 5317892,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 67,
+        "name": "Education"
+      }
+    ],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "North Main Street & West Constance Road",
+        ""
+      ],
+      "locality": "Suffolk",
+      "region": "VA",
+      "country": "US",
+      "postal_code": "23434",
+      "location": {
+        "latitude": 36.737627,
+        "longitude": -76.5826383
+      },
+      "congressional_district": "2",
+      "state_leg_district": null,
+      "state_senate_district": "17"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747000954,
+    "modified_date": 1747000964,
+    "browser_url": "https://www.mobilize.us/suffolkdemocraticcommittee/event/788572/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788572,
+    "description": "Park behind the Tourism Office and bring a friend to the downtown Suffolk Protest! Need a poster. Please join us for one hour. Lots of traffic. Corners of Constance and Main.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false,
+    "city": "Suffolk",
+    "latitude": 36.737627,
+    "longitude": -76.5826383,
+    "date": "2025-05-16T20:00:00.000Z",
+    "url": "https://www.mobilize.us/suffolkdemocraticcommittee/event/788572/",
+    "action": "included"
+  },
+  {
+    "title": "I91 Overpasses for Democracy - Bark Haul Rd. Longmeadow, MA",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1748030400,
+        "end_date": 1748037600,
+        "instructions": null,
+        "id": 5317895,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Bark Haul Road (at the I91 overpass)",
+      "address_lines": [
+        "Bark Haul Rd",
+        ""
+      ],
+      "locality": "Longmeadow",
+      "region": "MA",
+      "country": "US",
+      "postal_code": "01106",
+      "location": {
+        "latitude": 42.0362887,
+        "longitude": -72.5923289
+      },
+      "congressional_district": "1",
+      "state_leg_district": "45",
+      "state_senate_district": "4"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747001151,
+    "modified_date": 1747001158,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788575/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788575,
+    "description": "Area Indivisibles are once again partnering together for a second grand coordinated standout that will reach the length of I91 from the CT to VT!\n\nWe are attempting to cover as many overpasses as we can on Friday, May 23rd from 4:00PM to 6:00PM.\n\nAs part of this coordinated action, Rise Up Western Mass will be hosting two of the standouts.\n\nThis is the sign up and information for the Bark Haul Road Location.\n\nThe address Bark Haul Road will get you there if you're using Waze. (Bark Haul Road is off Route 5.) The event is on the I-91 overpass. There's plenty of parking, although you can't park on the overpass. You can park in the turn off on Route 5 at the top of Bark Haul Road or in The Meadows at the bottom of Bark Haul. Both are maybe 1/4 mile walk to the overpass.\n\nIf You Bring a Sign, Banner, or Flag For sign and banner lettering, bigger is better, so it can be easily read from the roadway. Flags are great, too. Wouldn't it be amazing to reclaim our flag?\n\nThe DOT does not like things attached to the fence. They may visit, so be prepared to not have anything attached. Never drape anything over the fence, even with ropes, because it would be very dangerous if it accidentally fell onto the highway.\n\nOther Logistics No Port-A-Potties are available but there is a McDonalds nearby if needed. Please take everything you brought away with you and leave the site totally clean.\n\nGeneral I91 Standout Information\n\nCome join like-minded folks to demand that Trump, Musk, and the Republican-led Congress stop their unconstitutional power grab and the cruel destruction of our federal government.\n\nWe will hold banners, signs, and flags, and we'll wave to passing motorists. Many will beep and wave back at us, which feels nice! We'll show people that they're not alone and help give them the courage to join us and take a stand.\n\nPlease come out whether or not you have a sign or banner or flag. More people is better!\n\nCome when you can and leave when you must. You needn't be present for the entire time.\n\nWe may see a counter protester. If so, please DO NOT ENGAGE. Either ignore them or reply with \"have a nice day\". Let's spend our time and energy waving to motorists. Let's keep things 100% non-confrontational in words and body language. As always all of our events are peaceful and non-violent.\n\nWe're looking forward to meeting everyone. Let's have some fun and make some good trouble!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Longmeadow",
+    "latitude": 42.0362887,
+    "longitude": -72.5923289,
+    "date": "2025-05-23T20:00:00.000Z",
+    "url": "https://www.mobilize.us/indivisible/event/788575/",
+    "action": "included"
+  },
+  {
+    "title": "No Kings! Protest!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1750521600,
+        "end_date": 1750527000,
+        "instructions": null,
+        "id": 5317897,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Riverhead Town Hall (Corner of Roanoke Ave and Railroad Ave)",
+      "address_lines": [
+        "4 W 2nd St",
+        ""
+      ],
+      "locality": "Riverhead",
+      "region": "NY",
+      "country": "US",
+      "postal_code": "11901",
+      "location": {
+        "latitude": 40.918898,
+        "longitude": -72.6639938
+      },
+      "congressional_district": "1",
+      "state_leg_district": "2",
+      "state_senate_district": "1"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747001488,
+    "modified_date": 1747001495,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788577/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788577,
+    "description": "Come join us at the Riverhead Town Hall to protest the rise of fascism in America!\n\nTime: Noon to 1:30 PM on June 21st\nWhere:  Riverhead Town Hall; 4 W 2nd St, Riverhead, NY 11901\nCorner of Roanoke Ave and Railroad Ave\n\nHosted by United Voices for Freedom: Long Island",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Riverhead",
+    "latitude": 40.918898,
+    "longitude": -72.6639938,
+    "date": "2025-06-21T16:00:00.000Z",
+    "url": "https://www.mobilize.us/indivisible/event/788577/",
+    "action": "included"
+  },
+  {
+    "title": "Whittier No Kings Rally and Parade",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/whittierindivisible/",
+      "created_date": 1655308233,
+      "modified_date": 1744699290,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 33140,
+      "name": "WhittierIndivisible",
+      "slug": "whittierindivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "CA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/branding/indivisible_logo.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/No%20Kings%20Trump_20250511221256452876.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1749934800,
+        "end_date": 1749945600,
+        "instructions": null,
+        "id": 5317899,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 9310,
+        "name": "#whittier"
+      },
+      {
+        "id": 24190,
+        "name": "Rally For Democracy!"
+      },
+      {
+        "id": 73,
+        "name": "Voting rights"
+      }
+    ],
+    "location": {
+      "venue": "Whittier City Hall",
+      "address_lines": [
+        "13230 Penn St",
+        ""
+      ],
+      "locality": "Whittier",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "90602",
+      "location": {
+        "latitude": 33.9749701,
+        "longitude": -118.0339141
+      },
+      "congressional_district": "38",
+      "state_leg_district": "56",
+      "state_senate_district": "30"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747001659,
+    "modified_date": 1747001664,
+    "browser_url": "https://www.mobilize.us/whittierindivisible/event/788579/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788579,
+    "description": "In America, we don’t put up with would-be kings. NO KINGS is a National Day of Action and mass mobilization in response to increasing authoritarian excesses and corruption from Trump and his allies. We’ve watched as they’ve cracked down on free speech, detained people for their political views, threatened to deport American citizens, and defied the courts. They’ve done this all while continuing to serve and enrich their billionaire allies.\n\n🚨On Saturday, June 14, we’re taking to the streets nationwide. We’re not gathering to feed his ego. We’re building a movement that leaves him behind.🚨\n\nThe flag doesn’t belong to Donald Trump. It belongs to us. We’re not watching history happen. We’re making it.\n\nOn June 14th, we’re showing up everywhere he isn’t—to say no thrones, no to clowns, and no to kings. Check out nokings.org for more information.\n\nA core principle behind all No Kings events is a commitment to nonviolent action. We expect all participants to seek to de-escalate any potential confrontation with those who disagree with our values.\n\n🚨 We’re fighting for democracy. Let’s make them listen.",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false,
+    "city": "Whittier",
+    "latitude": 33.9749701,
+    "longitude": -118.0339141,
+    "date": "2025-06-14T21:00:00.000Z",
+    "url": "https://www.mobilize.us/whittierindivisible/event/788579/",
+    "action": "included"
+  },
+  {
+    "title": "Hands Off! Stockton Fights Back",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%202_20231214173755488494.png",
+    "timeslots": [
+      {
+        "start_date": 1747501200,
+        "end_date": 1747520100,
+        "instructions": null,
+        "id": 5317934,
+        "is_full": false
+      },
+      {
+        "start_date": 1748106000,
+        "end_date": 1748124000,
+        "instructions": null,
+        "id": 5317935,
+        "is_full": false
+      },
+      {
+        "start_date": 1748710800,
+        "end_date": 1748728800,
+        "instructions": null,
+        "id": 5317936,
+        "is_full": false
+      },
+      {
+        "start_date": 1749315600,
+        "end_date": 1749333600,
+        "instructions": null,
+        "id": 5317937,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "5151 Pacific Ave",
+        ""
+      ],
+      "locality": "Stockton",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "95207",
+      "location": {
+        "latitude": 37.9955332,
+        "longitude": -121.3168113
+      },
+      "congressional_district": "9",
+      "state_leg_district": "13",
+      "state_senate_district": "5"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747007173,
+    "modified_date": 1747007180,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788602/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788602,
+    "description": "This a local Indivisible event!",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Stockton",
+    "latitude": 37.9955332,
+    "longitude": -121.3168113,
+    "date": "2025-05-17T17:00:00.000Z",
+    "url": "https://www.mobilize.us/indivisible/event/788602/",
+    "action": "included"
+  },
+  {
+    "title": "Meet Me on Main",
+    "summary": "",
+    "sponsor": {
+      "race_type": "OTHER_LOCAL",
+      "event_feed_url": "https://www.mobilize.us/danvilledems/",
+      "created_date": 1745618166,
+      "modified_date": 1745618166,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 42129,
+      "name": "Danville Dems",
+      "slug": "danvilledems",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "VA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/IMG_5136_20250511235322197446.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1747494000,
+        "end_date": 1747501200,
+        "instructions": null,
+        "id": 5317939,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "JTI Fountain",
+      "address_lines": [
+        "215 Main St",
+        ""
+      ],
+      "locality": "Danville",
+      "region": "VA",
+      "country": "US",
+      "postal_code": "24541",
+      "location": {
+        "latitude": 36.5882271,
+        "longitude": -79.3897732
+      },
+      "congressional_district": "5",
+      "state_leg_district": "49",
+      "state_senate_district": "9"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747007616,
+    "modified_date": 1747007621,
+    "browser_url": "https://www.mobilize.us/danvilledems/event/788604/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788604,
+    "description": "Meet with others who are not happy with Trump’s policies and join us at the JTI fountain for a honk and wave event from 11am-1pm. Bring your own sign or grab one of ours. Let people in our community know that we will not be silenced.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false,
+    "city": "Danville",
+    "latitude": 36.5882271,
+    "longitude": -79.3897732,
+    "date": "2025-05-17T15:00:00.000Z",
+    "url": "https://www.mobilize.us/danvilledems/event/788604/",
+    "action": "included"
+  },
+  {
+    "title": "TEST EVENT No Kings Day / Kick out the Clowns Day!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1749931200,
+        "end_date": 1749934800,
+        "instructions": null,
+        "id": 5318000,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Haley Park",
+      "address_lines": [
+        "201 S Main St",
+        "Corner of 2nd and Main"
+      ],
+      "locality": "Ottawa",
+      "region": "KS",
+      "country": "US",
+      "postal_code": "66067",
+      "location": {
+        "latitude": 38.6156287,
+        "longitude": -95.2681989
+      },
+      "congressional_district": "3",
+      "state_leg_district": "59",
+      "state_senate_district": "3"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747015886,
+    "modified_date": 1747017270,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788644/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788644,
+    "description": "Come join us for a Rally in Ottawa, KS on Saturday, June 14, 2025 (coincidentally #47's 79th birthday...)  \n\nFCAN (Franklin County Action Network), an affiliate of Indivisible, is sponsoring a rally on June 14 to let the administration know that WE DO NOT HAVE KINGS HERE IN THE US!  And that Trump's clown show has got to go!\n\nThere will also be groups carpooling to Topeka from Ottawa, if you'd prefer to protest in Topeka.\n\nIf you are in need of a ride, or can give a ride, please fill out this google form:\n\nhttps://forms.gle/uj7TmBRUKhfE35TGA\n\nThere are no publicly accessible restrooms.",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "There are curb cuts with truncated pavement highlighted in yellow at 2nd and Main.",
+    "is_virtual": false,
+    "city": "Ottawa",
+    "latitude": 38.6156287,
+    "longitude": -95.2681989,
+    "date": "2025-06-14T20:00:00.000Z",
+    "url": "https://www.mobilize.us/indivisible/event/788644/",
+    "action": "included"
+  },
+  {
+    "title": "L.A. Trump Must Go Now! Protest - Rally and March",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/refusefascismla/",
+      "created_date": 1747018789,
+      "modified_date": 1747018789,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42714,
+      "name": "Refuse Fascism L.A.",
+      "slug": "refusefascismla",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/7e645e4b-db70-4c17-97a3-60872c00365b_20250512032821868320.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747508400,
+        "end_date": 1747519200,
+        "instructions": null,
+        "id": 5318013,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Los Angeles City Hall Steps",
+      "address_lines": [
+        "200 N Spring St",
+        ""
+      ],
+      "locality": "Los Angeles",
+      "region": "CA",
+      "country": "US",
+      "postal_code": "90012",
+      "location": {
+        "latitude": 34.0537136,
+        "longitude": -118.2426533
+      },
+      "congressional_district": "34",
+      "state_leg_district": null,
+      "state_senate_district": "26"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747019596,
+    "modified_date": 1747020512,
+    "browser_url": "https://www.mobilize.us/refusefascismla/event/788655/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788655,
+    "description": "Take to the streets on May 17 in mass protests to make Trump Must Go NOW! known in cities and towns. These protests combined with dramatic banner drops, vigils, and other creative nonviolent actions across the country in the days going into Saturday, on the day itself, and in the days after can make get this demand seen by millions:\n\nWe all feel it – the atrocities are relentless. Another right snatched away. Someone else disappeared. Due process shredded. Law firms targeted. Universities threatened. Books banned. Immigrants shipped to overseas forever-prisons. Trump promises to disappear “home-growns” (US citizens) next. Trans people banned from the military. It feels impossible to keep up.\n\nWe cannot win by chasing each attack as it comes, overwhelmed and outmatched by the vicious speed of Trump's fascist regime. Nor can we wait until 2026 or 2028.\n\nBut there is a way to win – a way to defeat this fascist juggernaut.\n\nIt is time to come together to take the offense against the whole damn thing — infusing “TRUMP MUST GO NOW!” into all the resistance movements forging a mighty force to stop the regime from carrying out its horrific fascist assault on people here and around the world.\n\nThe Refuse Fascism Call to Conscience/Call to Act breaks down the strategy to oust this regime through mass, sustained, nonviolent protest and resistance. Read it. Sign it at RefuseFascism.org/act Spread it to others.\n\nThen, On May 17, join with others across this country to make a big leap in projecting this demand – Trump Must Go Now! – to the tens of millions who are heartsick and furious about all Trump is doing. Let them see there is a movement for them to join with a real strategy to win. Keep raising this demand all summer long, including at the nationwide protests called for June 14,“No Kings Day”!\n\nIf we act with courage and heart, if we unite all who can be united from diverse political perspectives, we have the numbers and the power to reclaim the future.\n\nIn the Name of Humanity, We Refuse to Accept A Fascist America!",
+    "timezone": "America/Los_Angeles",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false,
+    "city": "Los Angeles",
+    "latitude": 34.0537136,
+    "longitude": -118.2426533,
+    "date": "2025-05-17T19:00:00.000Z",
+    "url": "https://www.mobilize.us/refusefascismla/event/788655/",
+    "action": "included"
+  },
+  {
+    "title": "Unite & Resist- National day of Action/ peaceful protest for visibility",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1747497600,
+        "end_date": 1747501200,
+        "instructions": null,
+        "id": 5318019,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Tribou Park",
+      "address_lines": [
+        "10 Central St",
+        ""
+      ],
+      "locality": "Woodstock",
+      "region": "VT",
+      "country": "US",
+      "postal_code": "05091",
+      "location": {
+        "latitude": 43.6267073,
+        "longitude": -72.5148443
+      },
+      "congressional_district": "1",
+      "state_leg_district": "WDR-5",
+      "state_senate_district": "WSR"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747021730,
+    "modified_date": 1747021737,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788661/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788661,
+    "description": "This national call to action coincides with our local 100th consecutive day of protesting in Tribou Park.\n  \nSince Feb 7th, community members have been coming out everyday with signs to wave at passerby’s and make our resistance visible.\n\nWe know it is not the number of days that count- but the number of reasons we have to keep coming out that do.    Bring your reasons, and come join us!\n\nThere will be sign holding, waving, postcard writing, chanting, community spirit building , mass call to congress, group art project and more!!!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "Outside!  Dress for the weather.",
+    "is_virtual": false,
+    "city": "Woodstock",
+    "latitude": 43.6267073,
+    "longitude": -72.5148443,
+    "date": "2025-05-17T16:00:00.000Z",
+    "url": "https://www.mobilize.us/indivisible/event/788661/",
+    "action": "included"
+  },
+  {
+    "title": "100th day of Protest!  Call for community solidarity!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%202_20231214173755488494.png",
+    "timeslots": [
+      {
+        "start_date": 1747495800,
+        "end_date": 1747503000,
+        "instructions": null,
+        "id": 5318022,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Tribou Park",
+      "address_lines": [
+        "10 Central St",
+        ""
+      ],
+      "locality": "Woodstock",
+      "region": "VT",
+      "country": "US",
+      "postal_code": "05091",
+      "location": {
+        "latitude": 43.6267073,
+        "longitude": -72.5148443
+      },
+      "congressional_district": "1",
+      "state_leg_district": "WDR-5",
+      "state_senate_district": "WSR"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747022531,
+    "modified_date": 1747022538,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788664/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788664,
+    "description": "Join us in Woodstock, Vt- where we have been holding an ongoing daily protest from 12-1pm in Tribou Park since Feb 7th.\n\nSat. May 17 will be our 100th day of protesting and we would love for you to stand with us in solidarity!  We know the number of days is not the important thing- but the reasons we all have to stop Trump that are important.  These are the things we care about most, and out of love are committed to standing up for to save.   So many things are at stake.  We need to build our people power and show up for each other during this trying time.\n\nBring a sign or borrow one of ours.  \nWe will have a group art project, postcard writing, sign holding and waving to passerby’s, cookies, and more!  This is a peaceful protest, desiring to make resistance visible- but also desiring to meet new and like minded people, and encourage each other in knowing we are not alone.\n\nOutside- Rain or Shine. \nDress for the weather.\n\nStreet Parking available. Some is metered.  Or free parking in health center lot or east end park.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Woodstock",
+    "latitude": 43.6267073,
+    "longitude": -72.5148443,
+    "date": "2025-05-17T15:30:00.000Z",
+    "url": "https://www.mobilize.us/indivisible/event/788664/",
+    "action": "included"
+  },
+  {
+    "title": "Stand in Solidarity for Immigrants",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/allofus/",
+      "created_date": 1744603946,
+      "modified_date": 1744701774,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 41892,
+      "name": "All Of Us",
+      "slug": "allofus",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/May%2018th_20250512041020013591.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747591200,
+        "end_date": 1747598400,
+        "instructions": null,
+        "id": 5318025,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 87,
+        "name": "LGBTQ+"
+      },
+      {
+        "id": 3,
+        "name": "Student event"
+      },
+      {
+        "id": 98,
+        "name": "Latinx community"
+      }
+    ],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "East State Street & South Mulford Road",
+        ""
+      ],
+      "locality": "Rockford",
+      "region": "IL",
+      "country": "US",
+      "postal_code": "61108",
+      "location": {
+        "latitude": 42.2668042,
+        "longitude": -88.9995642
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": "34"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747023435,
+    "modified_date": 1747023440,
+    "browser_url": "https://www.mobilize.us/allofus/event/788667/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788667,
+    "description": "Join us in standing in solidarity for Immigrants! Silence is complicity. Please join us and be part of the solution.\nPark in old Kmart parking lot.",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false,
+    "city": "Rockford",
+    "latitude": 42.2668042,
+    "longitude": -88.9995642,
+    "date": "2025-05-18T18:00:00.000Z",
+    "url": "https://www.mobilize.us/allofus/event/788667/",
+    "action": "included"
+  },
+  {
+    "title": "Take Action Tuesdays",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/peoplesprogressiveagenda/",
+      "created_date": 1747016238,
+      "modified_date": 1747016238,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42713,
+      "name": "Peoples’Progressive Agenda",
+      "slug": "peoplesprogressiveagenda",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Take_Action_Tuesdays_PPA_400x150_Original_20250512043528576526.png",
+    "timeslots": [
+      {
+        "start_date": 1747166400,
+        "end_date": 1747173600,
+        "instructions": null,
+        "id": 5318032,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "Gainesville Social Security Office4652 NW 13th St",
+        ""
+      ],
+      "locality": "Gainesville",
+      "region": "FL",
+      "country": "US",
+      "postal_code": "32609",
+      "location": {
+        "latitude": 29.698341,
+        "longitude": -82.3397439
+      },
+      "congressional_district": "3",
+      "state_leg_district": "21",
+      "state_senate_district": "6"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747025494,
+    "modified_date": 1747026015,
+    "browser_url": "https://www.mobilize.us/peoplesprogressiveagenda/event/788671/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788671,
+    "description": "Make your voice heard taking a stand against the DOGe assault on Social Security and Federal Workers.  Let’s show up with signs, voices and solidarity.  \nBring your signs, there will also be some extras available.  There is some on site parking and some across the street parking\n\n4653 NW 13th St. Gainesville 32609  4-6pm",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false,
+    "city": "Gainesville",
+    "latitude": 29.698341,
+    "longitude": -82.3397439,
+    "date": "2025-05-13T20:00:00.000Z",
+    "url": "https://www.mobilize.us/peoplesprogressiveagenda/event/788671/",
+    "action": "included"
+  },
+  {
+    "title": "Hands Off Our Democracy Protest",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisibleleft/",
+      "created_date": 1730760376,
+      "modified_date": 1744698522,
+      "org_type": "CAMPAIGN",
+      "id": 40341,
+      "name": "Indivisible LEFT",
+      "slug": "indivisibleleft",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "MN",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Untitled%20design%20%281%29_20250401035542848438.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/cd16602e-4576-4d6f-845d-1587fbe8332b_20250512052913272130.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1748556000,
+        "end_date": 1748559600,
+        "instructions": null,
+        "id": 5318041,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "Dodd Boulevard & Cedar Avenue",
+        ""
+      ],
+      "locality": "Lakeville",
+      "region": "MN",
+      "country": "US",
+      "postal_code": "55044",
+      "location": {
+        "latitude": 44.6948499,
+        "longitude": -93.2176224
+      },
+      "congressional_district": "2",
+      "state_leg_district": null,
+      "state_senate_district": "57"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747028004,
+    "modified_date": 1747028008,
+    "browser_url": "https://www.mobilize.us/indivisibleleft/event/788677/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788677,
+    "description": "5/29 5-6 pm\nMeet at the corner of Cedar and Dodd in Lakeville\nThis will be a peaceful protest.\nBring a sign if you have one.\nBring a friend or more!\n\nWe will collect non-perishable food items for The Open Door pantry the day of the event.",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false,
+    "city": "Lakeville",
+    "latitude": 44.6948499,
+    "longitude": -93.2176224,
+    "date": "2025-05-29T22:00:00.000Z",
+    "url": "https://www.mobilize.us/indivisibleleft/event/788677/",
+    "action": "included"
+  },
+  {
+    "title": "Defend Our Democracy! Rally",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1751130000,
+        "end_date": 1751137200,
+        "instructions": null,
+        "id": 5318064,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Rhinelander",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "Rhinelander",
+      "region": "WI",
+      "country": "US",
+      "postal_code": "54501",
+      "location": {
+        "latitude": 45.6366228,
+        "longitude": -89.4120753
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "RALLY",
+    "created_date": 1747050616,
+    "modified_date": 1747050715,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788688/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788688,
+    "description": "This a local Indivisible event!",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Rhinelander",
+    "latitude": 45.6366228,
+    "longitude": -89.4120753,
+    "date": "2025-06-28T17:00:00.000Z",
+    "url": "https://www.mobilize.us/indivisible/event/788688/",
+    "action": "included"
+  },
+  {
+    "title": "Pop-up rally",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisibleonondagacounty/",
+      "created_date": 1657034608,
+      "modified_date": 1744695050,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 33323,
+      "name": "Indivisible Onondaga County",
+      "slug": "indivisibleonondagacounty",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "NY",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/branding/indivisible_logo.png"
+    },
+    "featured_image_url": "",
+    "timeslots": [
+      {
+        "start_date": 1747429200,
+        "end_date": 1747432800,
+        "instructions": null,
+        "id": 5318096,
+        "is_full": false
+      },
+      {
+        "start_date": 1748034000,
+        "end_date": 1748037600,
+        "instructions": null,
+        "id": 5318097,
+        "is_full": false
+      },
+      {
+        "start_date": 1748638800,
+        "end_date": 1748642400,
+        "instructions": null,
+        "id": 5318098,
+        "is_full": false
+      },
+      {
+        "start_date": 1749243600,
+        "end_date": 1749247200,
+        "instructions": null,
+        "id": 5318099,
+        "is_full": false
+      },
+      {
+        "start_date": 1749848400,
+        "end_date": 1749852000,
+        "instructions": null,
+        "id": 5318100,
+        "is_full": false
+      },
+      {
+        "start_date": 1750453200,
+        "end_date": 1750456800,
+        "instructions": null,
+        "id": 5318101,
+        "is_full": false
+      },
+      {
+        "start_date": 1751058000,
+        "end_date": 1751061600,
+        "instructions": null,
+        "id": 5318102,
+        "is_full": false
+      },
+      {
+        "start_date": 1751662800,
+        "end_date": 1751666400,
+        "instructions": null,
+        "id": 5318103,
+        "is_full": false
+      },
+      {
+        "start_date": 1752267600,
+        "end_date": 1752271200,
+        "instructions": null,
+        "id": 5318104,
+        "is_full": false
+      },
+      {
+        "start_date": 1752872400,
+        "end_date": 1752876000,
+        "instructions": null,
+        "id": 5318105,
+        "is_full": false
+      },
+      {
+        "start_date": 1753477200,
+        "end_date": 1753480800,
+        "instructions": null,
+        "id": 5318106,
+        "is_full": false
+      },
+      {
+        "start_date": 1754082000,
+        "end_date": 1754085600,
+        "instructions": null,
+        "id": 5318107,
+        "is_full": false
+      },
+      {
+        "start_date": 1754686800,
+        "end_date": 1754690400,
+        "instructions": null,
+        "id": 5318108,
+        "is_full": false
+      },
+      {
+        "start_date": 1755291600,
+        "end_date": 1755295200,
+        "instructions": null,
+        "id": 5318109,
+        "is_full": false
+      },
+      {
+        "start_date": 1755896400,
+        "end_date": 1755900000,
+        "instructions": null,
+        "id": 5318110,
+        "is_full": false
+      },
+      {
+        "start_date": 1756501200,
+        "end_date": 1756504800,
+        "instructions": null,
+        "id": 5318111,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Fayetteville",
+      "address_lines": [
+        "6789 East Genesee Street",
+        "Assemble on public sidewalk outside Wegmans on Genesee St"
+      ],
+      "locality": "Fayetteville",
+      "region": "NY",
+      "country": "US",
+      "postal_code": "13066",
+      "location": {
+        "latitude": 43.0333196,
+        "longitude": -76.0535564
+      },
+      "congressional_district": "22",
+      "state_leg_district": "128",
+      "state_senate_district": "50"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747053983,
+    "modified_date": 1747053988,
+    "browser_url": "https://www.mobilize.us/indivisibleonondagacounty/event/788703/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788703,
+    "description": "This rally is part of a campaign of recurrent “pop-up” actions at strategic locations throughout Onondaga County on Fridays from 5-6pm. New weekly location will be announced every Monday for that Friday. Raise your voice with a community of protectors of the Constitution and human rights by peacefully assembling together to exercise our First Amendment rights!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false,
+    "city": "Fayetteville",
+    "latitude": 43.0333196,
+    "longitude": -76.0535564,
+    "date": "2025-05-16T21:00:00.000Z",
+    "url": "https://www.mobilize.us/indivisibleonondagacounty/event/788703/",
+    "action": "included"
+  },
+  {
+    "title": "Jeanne Keller",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/resistersisters/",
+      "created_date": 1746543847,
+      "modified_date": 1746551196,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42330,
+      "name": "Resister Sisters",
+      "slug": "resistersisters",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/RuleofLaw_20250512124941925534.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747490400,
+        "end_date": 1747497600,
+        "instructions": null,
+        "id": 5318112,
+        "is_full": false
+      },
+      {
+        "start_date": 1748095200,
+        "end_date": 1748102400,
+        "instructions": null,
+        "id": 5318113,
+        "is_full": false
+      },
+      {
+        "start_date": 1748700000,
+        "end_date": 1748707200,
+        "instructions": null,
+        "id": 5318114,
+        "is_full": false
+      },
+      {
+        "start_date": 1749304800,
+        "end_date": 1749312000,
+        "instructions": null,
+        "id": 5318115,
+        "is_full": false
+      },
+      {
+        "start_date": 1750514400,
+        "end_date": 1750521600,
+        "instructions": null,
+        "id": 5318116,
+        "is_full": false
+      },
+      {
+        "start_date": 1751119200,
+        "end_date": 1751126400,
+        "instructions": null,
+        "id": 5318117,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Burlington Farmers Market",
+      "address_lines": [
+        "345 Pine St",
+        ""
+      ],
+      "locality": "Burlington",
+      "region": "VT",
+      "country": "US",
+      "postal_code": "05401",
+      "location": {
+        "latitude": 44.469466,
+        "longitude": -73.2154592
+      },
+      "congressional_district": "1",
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "RALLY",
+    "created_date": 1747054521,
+    "modified_date": 1747054595,
+    "browser_url": "https://www.mobilize.us/resistersisters/event/788704/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788704,
+    "description": "Join the Resister Sisters at Burlington Farmers Market as we express our support for Democracy, the Constitution, and the Rule of Law, and let people know about the upcoming 50501 event on June 14th  at Burlington's Waterfront Park.\n\nPlenty of foot traffic and cars on Pine St to engage the public. Bring a sign and good cheer.  Rain or shine!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false,
+    "city": "Burlington",
+    "latitude": 44.469466,
+    "longitude": -73.2154592,
+    "date": "2025-05-17T14:00:00.000Z",
+    "url": "https://www.mobilize.us/resistersisters/event/788704/",
+    "action": "included"
+  },
+  {
+    "title": "3:15Resist Science Saves Lives!!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1744690422,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1747250100,
+        "end_date": 1747252800,
+        "instructions": null,
+        "id": 5318144,
+        "is_full": false
+      },
+      {
+        "start_date": 1747854900,
+        "end_date": 1747857600,
+        "instructions": null,
+        "id": 5318145,
+        "is_full": false
+      },
+      {
+        "start_date": 1748459700,
+        "end_date": 1748462400,
+        "instructions": null,
+        "id": 5318146,
+        "is_full": false
+      },
+      {
+        "start_date": 1749064500,
+        "end_date": 1749067200,
+        "instructions": null,
+        "id": 5318147,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "777 Gloucester St",
+        ""
+      ],
+      "locality": "Brunswick",
+      "region": "GA",
+      "country": "US",
+      "postal_code": "31520",
+      "location": {
+        "latitude": 31.15005,
+        "longitude": -81.4930702
+      },
+      "congressional_district": "1",
+      "state_leg_district": "179",
+      "state_senate_district": "3"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747058167,
+    "modified_date": 1747058174,
+    "browser_url": "https://www.mobilize.us/indivisible/event/788723/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788723,
+    "description": "This a local Indivisible event!\nBuddy Not Our Buddy!! Science Saves Lives, we are protesting cuts to the CDC.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false,
+    "city": "Brunswick",
+    "latitude": 31.15005,
+    "longitude": -81.4930702,
+    "date": "2025-05-14T19:15:00.000Z",
+    "url": "https://www.mobilize.us/indivisible/event/788723/",
+    "action": "included"
+  },
+  {
+    "title": "Glen Cove, NY: Tell Assemblymember Lavine: Pass NY HEAT!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/fww/",
+      "created_date": 1619469700,
+      "modified_date": 1744694993,
+      "org_type": "C3",
+      "id": 9147,
+      "name": "Food & Water Watch",
+      "slug": "fww",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/FWA_RGB_FWW_Stacked-Logo_FC%20%282%29_20210429174126664314.jpg"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/NY%20HEAT%20Act%20rally%2C%20City%20Hall%2C%20April%2022%2C%202025%2C%20%236_20250512144233022658.jpg",
+    "timeslots": [
+      {
+        "start_date": 1748448000,
+        "end_date": 1748451600,
+        "instructions": null,
+        "id": 5318148,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 950,
+        "name": "Volunteer Opportunity"
+      },
+      {
+        "id": 1389,
+        "name": "Long Island"
+      },
+      {
+        "id": 256,
+        "name": "Climate Justice"
+      }
+    ],
+    "location": {
+      "venue": "Office of Assemblymember Chuck Lavine",
+      "address_lines": [
+        "1 School St",
+        ""
+      ],
+      "locality": "Glen Cove",
+      "region": "NY",
+      "country": "US",
+      "postal_code": "11542",
+      "location": {
+        "latitude": 40.8646732,
+        "longitude": -73.631903
+      },
+      "congressional_district": "3",
+      "state_leg_district": "13",
+      "state_senate_district": "7"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747058370,
+    "modified_date": 1747060957,
+    "browser_url": "https://www.mobilize.us/fww/event/788724/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788724,
+    "description": "Join us for a rally outside Assemblymember Chuck Lavine's office to urge him to fight for clean and affordable energy by co-sponsoring and helping pass the NY HEAT Act.\n\n**With the state budget finally done, Albany lawmakers must prioritize passing the NY HEAT Act in the waning weeks of the legislative session.**\n\nNew Yorkers are being crushed by unaffordable utility bills, and the NY HEAT Act is the solution we need — but Assembly Speaker Carl Heastie and legislative leadership are dragging their feet to put it to a vote.\n\nThe Senate has passed NY HEAT two years in a row. The Assembly must stop siding with fossil fuel interests and get it done this year!\n\nThe NY HEAT Act is our top climate priority, with its promise of lower energy bills while eliminating massive subsidies to the fracked gas industry.\n\nAs New Yorkers face the threats of climate change and rising costs of living, the NY HEAT Act will make energy more affordable while moving off fossil fuels.\n\n_Rally co-sponsors: All Our Energy, Food & Water Watch, Long Island Progressive Coalition (list in formation)_",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false,
+    "city": "Glen Cove",
+    "latitude": 40.8646732,
+    "longitude": -73.631903,
+    "date": "2025-05-28T16:00:00.000Z",
+    "url": "https://www.mobilize.us/fww/event/788724/",
+    "action": "included"
+  },
+  {
+    "title": "Resist! North Suffolk Sidewalk Protest",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/suffolkdemocraticcommittee/",
+      "created_date": 1588608700,
+      "modified_date": 1744824591,
+      "org_type": "PARTY_COMMITTEE",
+      "id": 2773,
+      "name": "Suffolk Democratic Committee",
+      "slug": "suffolkdemocraticcommittee",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "VA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/cropped-sdc-icon%5B3%5D_20221003231303715929.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Logo%20pic%20IMG_6428_20250512142027384707.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747425600,
+        "end_date": 1747431000,
+        "instructions": null,
+        "id": 5318179,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 86,
+        "name": "Veterans and military community"
+      },
+      {
+        "id": 67,
+        "name": "Education"
+      },
+      {
+        "id": 73,
+        "name": "Voting rights"
+      }
+    ],
+    "location": {
+      "venue": "Intersection of College Dr. & Hampton Road Pkwy.",
+      "address_lines": [
+        "6130 College Dr",
+        ""
+      ],
+      "locality": "Suffolk",
+      "region": "VA",
+      "country": "US",
+      "postal_code": "23435",
+      "location": {
+        "latitude": 36.8762626,
+        "longitude": -76.4222994
+      },
+      "congressional_district": "2",
+      "state_leg_district": null,
+      "state_senate_district": "17"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747060677,
+    "modified_date": 1747060682,
+    "browser_url": "https://www.mobilize.us/suffolkdemocraticcommittee/event/788736/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 788736,
+    "description": "Resist the Trump Regime by protesting with us in N. Suffolk! Park at Texas Roadhouse at 4pm & meet us at the corner of College & Hampton Roads Blvd. (in front of Rite Aid). Bring a poster & American flags. Let's make it known that we will not be silent as we lose our Constitutional rights!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false,
+    "city": "Suffolk",
+    "latitude": 36.8762626,
+    "longitude": -76.4222994,
+    "date": "2025-05-16T20:00:00.000Z",
+    "url": "https://www.mobilize.us/suffolkdemocraticcommittee/event/788736/",
     "action": "included"
   },
   {
@@ -81731,7 +84217,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1739041208,
-    "modified_date": 1746968449,
+    "modified_date": 1747051510,
     "browser_url": "https://www.mobilize.us/peacehomecampigns/event/754427/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -82299,7 +84785,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1739999356,
-    "modified_date": 1746910239,
+    "modified_date": 1746997212,
     "browser_url": "https://www.mobilize.us/indivisible/event/757137/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -82346,13 +84832,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
     "timeslots": [
-      {
-        "start_date": 1746997200,
-        "end_date": 1747004400,
-        "instructions": null,
-        "id": 5229960,
-        "is_full": false
-      },
       {
         "start_date": 1747602000,
         "end_date": 1747609200,
@@ -82466,7 +84945,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1740026136,
-    "modified_date": 1746982823,
+    "modified_date": 1747003825,
     "browser_url": "https://www.mobilize.us/indivisible/event/757246/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -82486,7 +84965,7 @@
     "city": "Irvine",
     "latitude": 33.6859969,
     "longitude": -117.8261935,
-    "date": "2025-05-11T21:00:00.000Z",
+    "date": "2025-05-18T21:00:00.000Z",
     "url": "https://www.mobilize.us/indivisible/event/757246/",
     "action": "included"
   },
@@ -82612,7 +85091,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1740332975,
-    "modified_date": 1746637216,
+    "modified_date": 1747054830,
     "browser_url": "https://www.mobilize.us/indivisible/event/757948/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -82829,7 +85308,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1740500298,
-    "modified_date": 1746912003,
+    "modified_date": 1747000859,
     "browser_url": "https://www.mobilize.us/opalmissionvote/event/758463/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -83203,7 +85682,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1740666672,
-    "modified_date": 1746912003,
+    "modified_date": 1747000860,
     "browser_url": "https://www.mobilize.us/ohioaflcio/event/759122/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -83482,7 +85961,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1741235697,
-    "modified_date": 1746924602,
+    "modified_date": 1747011630,
     "browser_url": "https://www.mobilize.us/indivisible-greater-vancouver/event/761483/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -83787,7 +86266,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1741455014,
-    "modified_date": 1746910226,
+    "modified_date": 1746997212,
     "browser_url": "https://www.mobilize.us/ipaplus/event/762213/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -84926,7 +87405,7 @@
       "candidate_name": "Jess Coleman",
       "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Jess%20for%20NY_Final%20%281%29%20%281%29_20250227180056516813.png"
     },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Jess-NYC-03%2C28%2C2025-Best-44_20250509035847693608.jpeg",
+    "featured_image_url": "",
     "timeslots": [
       {
         "start_date": 1747080000,
@@ -85071,26 +87550,26 @@
     ],
     "tags": [],
     "location": {
-      "venue": "Gateway Apartments",
+      "venue": "",
       "address_lines": [
-        "389 S End Ave",
+        "41 Monroe St",
         ""
       ],
       "locality": "New York",
       "region": "NY",
       "country": "US",
-      "postal_code": "10280",
+      "postal_code": "10002",
       "location": {
-        "latitude": 40.7114462,
-        "longitude": -74.0171593
+        "latitude": 40.7116941,
+        "longitude": -73.9944605
       },
       "congressional_district": "10",
-      "state_leg_district": "61",
+      "state_leg_district": "65",
       "state_senate_district": "27"
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1741709888,
-    "modified_date": 1746993624,
+    "modified_date": 1747022847,
     "browser_url": "https://www.mobilize.us/jessfornewyork/event/762918/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -85108,8 +87587,8 @@
     "accessibility_notes": "",
     "is_virtual": false,
     "city": "New York",
-    "latitude": 40.7114462,
-    "longitude": -74.0171593,
+    "latitude": 40.7116941,
+    "longitude": -73.9944605,
     "date": "2025-05-12T20:00:00.000Z",
     "url": "https://www.mobilize.us/jessfornewyork/event/762918/",
     "action": "included"
@@ -88049,7 +90528,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1742419266,
-    "modified_date": 1746720359,
+    "modified_date": 1747060222,
     "browser_url": "https://www.mobilize.us/massdems/event/766377/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -88880,7 +91359,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1743035019,
-    "modified_date": 1746924603,
+    "modified_date": 1747011630,
     "browser_url": "https://www.mobilize.us/indivisible/event/769452/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -88925,7 +91404,7 @@
       "candidate_name": "",
       "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/CVI_Logo_ssm_20250220224200490655.jpeg"
     },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/CFPeaceCircle_20250327184733365718.jpeg",
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/DDCF_20250512123617305967.jpg",
     "timeslots": [
       {
         "start_date": 1747342800,
@@ -88998,7 +91477,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1743101469,
-    "modified_date": 1746828005,
+    "modified_date": 1747053385,
     "browser_url": "https://www.mobilize.us/chippewavalleyindivisible/event/769740/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -89072,6 +91551,27 @@
         "instructions": null,
         "id": 5276652,
         "is_full": false
+      },
+      {
+        "start_date": 1749726000,
+        "end_date": 1749732300,
+        "instructions": null,
+        "id": 5318043,
+        "is_full": false
+      },
+      {
+        "start_date": 1750330800,
+        "end_date": 1750337100,
+        "instructions": null,
+        "id": 5318044,
+        "is_full": false
+      },
+      {
+        "start_date": 1750935600,
+        "end_date": 1750941900,
+        "instructions": null,
+        "id": 5318045,
+        "is_full": false
       }
     ],
     "tags": [],
@@ -89095,7 +91595,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1743190575,
-    "modified_date": 1746795818,
+    "modified_date": 1747029545,
     "browser_url": "https://www.mobilize.us/indivisible/event/770303/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -89705,7 +92205,7 @@
     },
     "event_type": "VISIBILITY_EVENT",
     "created_date": 1743467291,
-    "modified_date": 1746824424,
+    "modified_date": 1747051508,
     "browser_url": "https://www.mobilize.us/husky4immigrants/event/771352/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -90239,7 +92739,7 @@
     },
     "event_type": "RALLY",
     "created_date": 1743691248,
-    "modified_date": 1746912003,
+    "modified_date": 1747000859,
     "browser_url": "https://www.mobilize.us/indivisible/event/772481/",
     "contact": null,
     "visibility": "PUBLIC",
