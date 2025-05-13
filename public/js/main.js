@@ -75,6 +75,14 @@ function formatLocationClient(location) {
   return 'Unknown location';
 }
 
+// TODO: This just grabs the first part of the location string.
+// Once geocoding is standardized on Mapbox, extract city from geocode result instead.
+function extractCity(location) {
+  if (typeof location !== 'string') return '';
+  const parts = location.split(',');
+  return parts.length > 0 ? parts[0].trim() : '';
+}
+
 // === EVENT HANDLING ===
 async function fetchEvents() {
   showSkeletonLoader();
@@ -506,6 +514,7 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
       title,
       date: fullDateTime.toISOString(false),
       location: address,
+      city: extractCity(address),
       latitude,
       longitude,
       url
