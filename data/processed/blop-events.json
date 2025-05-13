@@ -1,16 +1,5 @@
 [
   {
-    "title": "Free Our Moms & Kids",
-    "date": "2025-05-13T16:00:00.000Z",
-    "location": "State Capitol, Albany, NY",
-    "city": "Albany",
-    "latitude": 42.6525913,
-    "longitude": -73.7573712,
-    "url": "bit.ly/FreeOurMoms",
-    "approved": true,
-    "source": "blop"
-  },
-  {
     "title": "Mayday America",
     "date": "2025-05-18T20:00:00.000Z",
     "location": "Security Blvd., Woodlawn, MD, Woodlawn, MD",
@@ -66,6 +55,28 @@
     "source": "blop"
   },
   {
+    "title": "Save Our Trees!",
+    "date": "2025-05-18T19:00:00.000Z",
+    "location": "Utah Capitol Building-South Steps, Salt Lake City, UT",
+    "city": "Salt Lake City",
+    "latitude": 40.634235,
+    "longitude": -111.612265,
+    "url": "https://drive.google.com/uc?export=view&id=1tGJ20Dh-MaJG1i_JjDm8e7r_TSeBDHqT",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Free Palestine Rally & Fundraiser Rave",
+    "date": "2025-05-25T21:00:00.000Z",
+    "location": "Utah State Capitol, and The Pleaidian Altar, Salt Lake City, UT",
+    "city": "Salt Lake City",
+    "latitude": 40.634235,
+    "longitude": -111.612265,
+    "url": "@the.pleaidian.altar",
+    "approved": true,
+    "source": "blop"
+  },
+  {
     "title": "Rally Info",
     "date": "2025-05-25T21:00:00.000Z",
     "location": "350 N State St, Salt Lake City, UT",
@@ -88,12 +99,34 @@
     "source": "blop"
   },
   {
+    "title": "Monroe County Town Hall",
+    "date": "2025-05-20T01:00:00.000Z",
+    "location": "1150 W. Guy McCown Dr., Ellettsville, IN",
+    "city": "Ellettsville",
+    "latitude": 39.240156,
+    "longitude": -86.628645,
+    "url": "https://drive.google.com/uc?export=view&id=1aWV-w5H00VfJ6S1klk8RGYro7zD20lJ0",
+    "approved": true,
+    "source": "blop"
+  },
+  {
     "title": "Musk-Tesla Protest",
     "date": "2025-05-17T19:00:00.000Z",
     "location": "1606 N Lincoln Ave, Loveland, CO",
     "city": "Loveland",
     "latitude": 40.40977,
     "longitude": -105.0725499,
+    "url": "www.indivisiblenoco.com",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Protest Outside Gabe Evans' Office",
+    "date": "2025-05-16T18:00:00.000Z",
+    "location": "10701 Melody Dr suite 500, Northglenn, CO",
+    "city": "Northglenn",
+    "latitude": 39.891826,
+    "longitude": -104.994245,
     "url": "www.indivisiblenoco.com",
     "approved": true,
     "source": "blop"
@@ -121,6 +154,17 @@
     "source": "blop"
   },
   {
+    "title": "Hands Across Chicagoland",
+    "date": "2025-05-18T19:00:00.000Z",
+    "location": "From Aurora to Douglass Park along Ogden, 26th Street, and California, Chicagoland, IL",
+    "city": "Chicagoland",
+    "latitude": -15.956656,
+    "longitude": -173.79618,
+    "url": "handsacrosschi.com",
+    "approved": true,
+    "source": "blop"
+  },
+  {
     "title": "Protect Public Ed Picnic",
     "date": "2025-05-17T21:00:00.000Z",
     "location": "290 W River Dr, San Angelo, TX",
@@ -128,17 +172,6 @@
     "latitude": 31.4555531,
     "longitude": -100.4468215,
     "url": "https://drive.google.com/uc?export=view&id=1Mbi-SbKQN1m0jYfLFEKld7ee9SVqy3Vy",
-    "approved": true,
-    "source": "blop"
-  },
-  {
-    "title": "Hands Off Medicaid Rally",
-    "date": "2025-05-13T19:00:00.000Z",
-    "location": "212 3rd Ave S, Minneapolis, MN",
-    "city": "Minneapolis",
-    "latitude": 44.9808112,
-    "longitude": -93.2642843,
-    "url": "https://www.facebook.com/afscmelocal34",
     "approved": true,
     "source": "blop"
   },
@@ -154,6 +187,17 @@
     "source": "blop"
   },
   {
+    "title": "Hands Off! Working People’s Rally to Stop the Billionaire Takeover",
+    "date": "2025-05-14T00:00:00.000Z",
+    "location": "13 Rev Dr Martin Luther King Jr Boulevard, Saint Paul, MN",
+    "city": "Saint Paul",
+    "latitude": 44.953447,
+    "longitude": -93.102203,
+    "url": "https://drive.google.com/uc?export=view&id=11ii6lxpUFS3loFHBGePGlZu_F9GyamWB",
+    "approved": true,
+    "source": "blop"
+  },
+  {
     "title": "General Strike U.S.",
     "date": "2025-06-07T20:00:00.000Z",
     "location": "253 E Wood St, Decatur, IL 62526, Decatur, IL",
@@ -161,6 +205,512 @@
     "latitude": 39.8398907,
     "longitude": -88.9537347,
     "url": "https://drive.google.com/uc?export=view&id=1qnu7DZxinyeRq8HftF56E5Yton1yR0Dr",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "NO KINGS",
+    "date": "2025-06-14T21:00:00.000Z",
+    "location": "Sioux Falls, SD",
+    "city": "Sioux Falls",
+    "latitude": 43.545999,
+    "longitude": -96.726776,
+    "url": "linktr.ee/50501sd",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Using Joy to Organize and Change Communities - Rescheduled!",
+    "date": "2025-05-14T01:15:00.000Z",
+    "location": "95 Morris Street, Morristown, NJ",
+    "city": "Morristown",
+    "latitude": 40.796962,
+    "longitude": -74.476733,
+    "url": "https://drive.google.com/uc?export=view&id=1jvWZk9PebZj8WxcBgYCMtVK0eURgt7in",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Visibility Brigade and Operation Activate Letter and Poster Making Event!",
+    "date": "2025-05-17T20:00:00.000Z",
+    "location": "Chester Public Library, 250 West Main Street, Chester, NJ",
+    "city": "Chester",
+    "latitude": 40.786506,
+    "longitude": -74.692393,
+    "url": "https://drive.google.com/uc?export=view&id=1s5upWDNw4Kr-0KClrnKWsJDdC7agmznF",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "March with Garden State Equality",
+    "date": "2025-06-01T17:45:00.000Z",
+    "location": "308 Main St, Asbury Park, NJ",
+    "city": "Asbury Park",
+    "latitude": 40.217006,
+    "longitude": -74.012726,
+    "url": "https://jerseypride.org/",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Central NJ: Hands Off Our Planet! Town Hall",
+    "date": "2025-05-16T02:00:00.000Z",
+    "location": "19 S 2nd Ave, Highland Park, NJ",
+    "city": "Highland Park",
+    "latitude": 40.497879,
+    "longitude": -74.42944,
+    "url": "https://drive.google.com/uc?export=view&id=1g7q3DZ1s52MvEbTrPgUcoLzyi_vuwc5x",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "General Strike U.S. Event",
+    "date": "2025-06-07T20:00:00.000Z",
+    "location": "253 E Wood St, Decatur, IL",
+    "city": "Decatur",
+    "latitude": 39.839662,
+    "longitude": -88.953594,
+    "url": "https://drive.google.com/uc?export=view&id=1G9DzYi3m-hGN_Kooj5uN7-JVebLEVwvQ",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Kick Out the Clowns",
+    "date": "2025-06-14T21:00:00.000Z",
+    "location": "Louisiana Capitol, Baton Rouge, LA",
+    "city": "Baton Rouge",
+    "latitude": 30.552734,
+    "longitude": -91.040569,
+    "url": "action.womensmarch.com",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Corner Protest",
+    "date": "2025-05-13T23:15:00.000Z",
+    "location": "2601 S College Ave, Fort Collins, CO",
+    "city": "Fort Collins",
+    "latitude": 40.549914,
+    "longitude": -105.078755,
+    "url": "https://drive.google.com/uc?export=view&id=1xFQt2j2gU5wP6Y6Jn_oZmzHBCHOu3qmz",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Corner Protest",
+    "date": "2025-05-15T23:15:00.000Z",
+    "location": "2601 S College Ave, Fort Collins, CO, Fort Collins, CO",
+    "city": "Fort Collins",
+    "latitude": 40.549914,
+    "longitude": -105.078755,
+    "url": "https://drive.google.com/uc?export=view&id=16p10RMSPGQeA6nEiymhXqDGgi8W3Dixf",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Stop the Deportations",
+    "date": "2025-05-21T22:30:00.000Z",
+    "location": "4310 S Macadam Ave, Portland, OR",
+    "city": "Portland",
+    "latitude": 45.492589,
+    "longitude": -122.672556,
+    "url": "https://drive.google.com/uc?export=view&id=1fZYZuvsdg6esgWOkx-OAgEDnu0id7y_R",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Make (Good) Trouble!",
+    "date": "2025-05-17T19:00:00.000Z",
+    "location": "600 N. East Street, Bloomington, IL",
+    "city": "Bloomington",
+    "latitude": 40.484071,
+    "longitude": -88.99278,
+    "url": "https://drive.google.com/uc?export=view&id=1MlAUGMs2Z-16T-vHlIgPuC96M29d8Ars",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Bans Off Our Bodies",
+    "date": "2025-05-17T16:00:00.000Z",
+    "location": "401 S. Carson St., Carson City, NV",
+    "city": "Carson City",
+    "latitude": 39.16194,
+    "longitude": -119.76616,
+    "url": "https://drive.google.com/uc?export=view&id=1H2quNrRoX_GFbeByS_0t2YltgK1UmZd7",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "#TeslaTakedown",
+    "date": "2025-05-31T19:00:00.000Z",
+    "location": "2935 N. Orange Blossom Trail, Kissimmee, FL",
+    "city": "Kissimmee",
+    "latitude": 28.33531,
+    "longitude": -81.402955,
+    "url": "https://drive.google.com/uc?export=view&id=1HyQZuBoFeIm4i9WvnLn8Qr1V-rQmeg9O",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Die-In: Day of Mourning",
+    "date": "2025-05-27T23:00:00.000Z",
+    "location": "9200 113th St, Seminole, FL",
+    "city": "Seminole",
+    "latitude": 27.857649,
+    "longitude": -82.79757,
+    "url": "https://www.facebook.com/events/1053936333269348",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Bullrun Banner Drop",
+    "date": "2025-06-14T18:00:00.000Z",
+    "location": "7700 Bull Run Dr, Centreville, VA",
+    "city": "Centreville",
+    "latitude": 38.810641,
+    "longitude": -77.477049,
+    "url": "[https://noacttoosmall.com]",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "The Only Kings Allowed in June Are Trans Kings",
+    "date": "2025-06-15T00:00:00.000Z",
+    "location": "400 South Orange Avenue, Orlando, FL",
+    "city": "Orlando",
+    "latitude": 28.53757,
+    "longitude": -81.379567,
+    "url": "https://drive.google.com/uc?export=view&id=1Uca848UkPhiHTXGtld0xDjwlmuHS_1jf",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Die-In: Day of Mourning",
+    "date": "2025-05-27T23:00:00.000Z",
+    "location": "9200 113th St, Seminole, FL",
+    "city": "Seminole",
+    "latitude": 27.857649,
+    "longitude": -82.79757,
+    "url": "https://www.facebook.com/events/1053936333269348",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Kick Out the Clowns",
+    "date": "2025-06-14T19:00:00.000Z",
+    "location": "1301 E 6th Ave, Helena, MT",
+    "city": "Helena",
+    "latitude": 46.585754,
+    "longitude": -112.018315,
+    "url": "https://drive.google.com/uc?export=view&id=1bJIBSgAF6LRPWZ7NAqHBkKCENl97hwr8",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Bring Back Kilmar Abrego Garcia",
+    "date": "2025-05-17T20:00:00.000Z",
+    "location": "Federal Plaza, Chicago, IL",
+    "city": "Chicago",
+    "latitude": 41.881953,
+    "longitude": -87.632362,
+    "url": "CAARPR.ORG",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Unite for Veterans. Unite for America.",
+    "date": "2025-06-07T17:00:00.000Z",
+    "location": "Corner of Woodland & New York, Deland, FL",
+    "city": "Deland",
+    "latitude": 29.028077,
+    "longitude": -81.303432,
+    "url": "https://drive.google.com/uc?export=view&id=1qrrCJO0oVMEOIxrlG2LyyRQoJhQ9KXer",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "We Are The Bridge: Rise for Racial Justice Rally",
+    "date": "2025-05-24T19:00:00.000Z",
+    "location": "1300 SE Stark St, Portland, OR",
+    "city": "Portland",
+    "latitude": 45.519128,
+    "longitude": -122.652312,
+    "url": "https://drive.google.com/uc?export=view&id=1Yro3QIc2PLwu_pYHnMAd3aLxf-Ot_Wi4",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Hands Off! Elgin Fights for OUR DEMOCRACY!",
+    "date": "2025-05-17T18:00:00.000Z",
+    "location": "Corner of Kimball and Grove, Kimball Street & North Grove Avenue, Elgin, IL",
+    "city": "Elgin",
+    "latitude": 42.548654,
+    "longitude": 1.576766,
+    "url": "https://drive.google.com/uc?export=view&id=1oBSElwcB2dl1U2WfsEs_IXeBMQQaUICj",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "NO KINGS #RESISTANCE ST. PETE",
+    "date": "2025-06-14T17:30:00.000Z",
+    "location": "6901 22nd Ave N, St. Petersburg, FL 33710, St. Petersburg, FL",
+    "city": "St. Petersburg",
+    "latitude": 27.772077,
+    "longitude": -82.638486,
+    "url": "https://tinyurl.com/StPeteJune14",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "No Kings",
+    "date": "2025-06-14T22:00:00.000Z",
+    "location": "2053-2089 John Young Parkway, Kissimmee, FL",
+    "city": "Kissimmee",
+    "latitude": 28.29963,
+    "longitude": -81.417009,
+    "url": "https://drive.google.com/uc?export=view&id=1b8rla2aT-nPqimlaSDACpX8iaib8EJZl",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "National Day of Protest to Declare: The Trump Fascist Regime Must Go Now!",
+    "date": "2025-05-17T19:00:00.000Z",
+    "location": "City Hall Steps, Los Angeles, CA",
+    "city": "Los Angeles",
+    "latitude": 34.048051,
+    "longitude": -118.254187,
+    "url": "https://drive.google.com/uc?export=view&id=1VCatPD_57Swg40us7UPFXmzxhi2tL7Zv",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Fight Like a Mother... Hands Off Healthcare!!",
+    "date": "2025-05-31T18:30:00.000Z",
+    "location": "Kimball St & N. Grove Ave, Elgin, IL",
+    "city": "Elgin",
+    "latitude": 42.041681,
+    "longitude": -88.28686,
+    "url": "wecanleadchange.org/events",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Meet the Candidates Series: Christian Ahmed",
+    "date": "2025-05-14T19:00:00.000Z",
+    "location": "At the corner of La Paz / Marguerite, Mission Viejo, CA",
+    "city": "Mission Viejo",
+    "latitude": 33.596892,
+    "longitude": -117.658313,
+    "url": "https://drive.google.com/uc?export=view&id=1opC_7d-PjB3m_prMf-b2OTs2WUU6fEll",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "I.C.E. Melts Democracy Doesn’t",
+    "date": "2025-05-17T17:00:00.000Z",
+    "location": "1 SE Broadway St., Ocala, FL",
+    "city": "Ocala",
+    "latitude": 29.18662,
+    "longitude": -82.13648,
+    "url": "https://drive.google.com/uc?export=view&id=1ajA-BR6xDPlCmn0OUiJyRql9luC4qrPb",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Olympia Visibility Brigade",
+    "date": "2025-05-19T23:30:00.000Z",
+    "location": "Chehalis Western Trail footbridge over I-5, Lacey, WA",
+    "city": "Lacey",
+    "latitude": 46.66267,
+    "longitude": -122.968994,
+    "url": "theblop.org",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Olympia Visibility Brigade",
+    "date": "2025-05-17T19:00:00.000Z",
+    "location": "Capitol Blvd Bridge over I-5, Olympia, WA",
+    "city": "Olympia",
+    "latitude": -13.280784,
+    "longitude": -176.185644,
+    "url": "theblop.org",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Picnic & Rally",
+    "date": "2025-05-24T19:00:00.000Z",
+    "location": "400 High St., Jackson, MS",
+    "city": "Jackson",
+    "latitude": 32.303449,
+    "longitude": -90.182148,
+    "url": "https://drive.google.com/uc?export=view&id=13GMSbG575vYlF382uoztR1PiQybtdxYB",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Protest the Detestable ICE Abduction in Worcester",
+    "date": "2025-05-14T00:30:00.000Z",
+    "location": "Worcester City Hall, Worcester, MA",
+    "city": "Worcester",
+    "latitude": 42.243588,
+    "longitude": -71.816802,
+    "url": "https://drive.google.com/uc?export=view&id=1ofmvcWldt2RGXys3llVHGSt4UiPCTmkC",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Peaceful Protests",
+    "date": "2025-05-17T19:00:00.000Z",
+    "location": "Douglas & Broadway (NE Corner) and Chester I. Lewis Park, Wichita, KS",
+    "city": "Wichita",
+    "latitude": 40.592494,
+    "longitude": -96.386472,
+    "url": "https://drive.google.com/uc?export=view&id=1CThUYbDBEQQtvda2uxt78xHghr6sEGbq",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "NO KINGS",
+    "date": "2025-06-14T18:00:00.000Z",
+    "location": "510 E Boston St., Covington, LA",
+    "city": "Covington",
+    "latitude": 30.476025,
+    "longitude": -90.095401,
+    "url": "https://drive.google.com/uc?export=view&id=1A0lHyX981Ex2PVgFgkBTYaE9M6yqlpB4",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Community Gathering",
+    "date": "2025-05-17T20:30:00.000Z",
+    "location": "106 NW 8th Ave, Kelso, WA",
+    "city": "Kelso",
+    "latitude": 46.147363,
+    "longitude": -122.922538,
+    "url": "https://drive.google.com/uc?export=view&id=1l3BLLfIlQsFILDzc-AFW91djsKLRuotL",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Tesla Takedown Protest",
+    "date": "2025-05-17T19:00:00.000Z",
+    "location": "1901 Del Monte Blvd, Seaside, CA",
+    "city": "Seaside",
+    "latitude": 36.617107,
+    "longitude": -121.843842,
+    "url": "teslatakedown.com",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Corner Protest",
+    "date": "2025-05-22T23:15:00.000Z",
+    "location": "2601 S College Ave, Fort Collins, CO, Fort Collins, CO",
+    "city": "Fort Collins",
+    "latitude": 40.549914,
+    "longitude": -105.078755,
+    "url": "https://drive.google.com/uc?export=view&id=132AZyPAaMbMzjvAfLcMKUG35EanH4zYH",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Corner Protest",
+    "date": "2025-05-20T23:15:00.000Z",
+    "location": "2601 S College Ave, Fort Collins, CO",
+    "city": "Fort Collins",
+    "latitude": 40.549914,
+    "longitude": -105.078755,
+    "url": "https://drive.google.com/uc?export=view&id=1fheDy-4UBS-JYythr_LUQg979eLXjEmb",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "No Kings Day",
+    "date": "2025-06-14T19:00:00.000Z",
+    "location": "400 High St., Jackson, MS",
+    "city": "Jackson",
+    "latitude": 32.303449,
+    "longitude": -90.182148,
+    "url": "https://drive.google.com/uc?export=view&id=1wphnKpP4BwxWJxN5k5FQfrlrGxINSrlU",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Kansas 50501 Statewide Capitol Protest",
+    "date": "2025-06-14T22:00:00.000Z",
+    "location": "Topeka, KS",
+    "city": "Topeka",
+    "latitude": 39.046307,
+    "longitude": -95.677219,
+    "url": "KS50501.com",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "GOOD TROUBLE",
+    "date": "2025-05-17T18:00:00.000Z",
+    "location": "Intersection of Ambassador Caffery Pkwy & Kaliste Saloom Road, Lafayette, LA",
+    "city": "Lafayette",
+    "latitude": 30.145809,
+    "longitude": -92.03177,
+    "url": "https://drive.google.com/uc?export=view&id=158nwD2Dm-lcXOTP1S023LAP3z9X5RCJe",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Tesla Takedown",
+    "date": "2025-05-17T18:00:00.000Z",
+    "location": "9428 Reisterstown Rd, Owings Mills, MD",
+    "city": "Owings Mills",
+    "latitude": 39.401269,
+    "longitude": -76.754935,
+    "url": "https://drive.google.com/uc?export=view&id=1tW0q6_CxaunXw6qKgfGS285CePEPUTIX",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Emergency Protest Lawn Chair Picnic",
+    "date": "2025-05-14T18:00:00.000Z",
+    "location": "350 North State St, Salt Lake City, UT",
+    "city": "Salt Lake City",
+    "latitude": 40.772127,
+    "longitude": -111.887769,
+    "url": "https://drive.google.com/uc?export=view&id=1EQKsaesHFaoX9E3Gk1Hi6y7bqxc7lPw2",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Emergency Protest Lawn Chair Picnic",
+    "date": "2025-05-14T18:00:00.000Z",
+    "location": "350 North State St, Salt Lake City, UT",
+    "city": "Salt Lake City",
+    "latitude": 40.772127,
+    "longitude": -111.887769,
+    "url": "https://drive.google.com/uc?export=view&id=1Ut0k4HopgBPZd7pX2ZATPcisVxuhhs8l",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Celebration of Science, Learning, and Libraries",
+    "date": "2025-07-12T18:00:00.000Z",
+    "location": "Legislative Building - North Steps, Sylvester Park, Olympia, WA",
+    "city": "Olympia",
+    "latitude": 47.044908,
+    "longitude": -122.90169,
+    "url": "https://drive.google.com/uc?export=view&id=1gJLPdnmVa_qErNX95Ao9ruvadGH5c7qy",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Stand Up to MAGA",
+    "date": "2025-05-15T16:30:00.000Z",
+    "location": "50 Walnut Street, Newark, NJ",
+    "city": "Newark",
+    "latitude": 40.729476,
+    "longitude": -74.173231,
+    "url": "https://drive.google.com/uc?export=view&id=1WoLO7KxHyGn6YmbcLqoSNs_VuVIppYjJ",
     "approved": true,
     "source": "blop"
   }
