@@ -184,6 +184,24 @@ app.post('/add-event', async (req, res) => {
   }
 });
 
+// === Geocoding Route (Mapbox) ===
+app.post('/geocode', async (req, res) => {
+  const { address } = req.body;
+  if (!address) return res.status(400).json({ error: 'Missing address' });
+
+  try {
+    const result = await geocodeAddress(address);
+    if (result) {
+      res.json(result);
+    } else {
+      res.status(404).json({ error: 'No geocoding result' });
+    }
+  } catch (err) {
+    console.error('❌ Geocoding error:', err.message);
+    res.status(500).json({ error: 'Geocoding failed' });
+  }
+});
+
 // === START SERVER ===
 app.use(express.static(path.join(__dirname, '..', 'public')));
 app.listen(PORT, () => {

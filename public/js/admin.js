@@ -3,6 +3,9 @@ const API_BASE_URL = window.location.hostname === 'localhost'
   ? 'http://localhost:3001'
   : 'https://protest-finder.onrender.com';
 
+// ⚠️ This route declaration is invalid in frontend code — belongs in server.js
+// Leaving in place temporarily for future admin UI refactor
+/*
 app.post('/geocode', async (req, res) => {
   const { address } = req.body;
   if (!address) return res.status(400).json({ error: 'Missing address' });
@@ -16,6 +19,7 @@ app.post('/geocode', async (req, res) => {
     res.status(500).json({ error: 'Failed to geocode address' });
   }
 });
+*/
 
 // === MAIN FUNCTIONS ===
 
@@ -169,6 +173,9 @@ document.addEventListener('click', async (e) => {
     }
 
     try {
+
+      // ⚠️ This uses geocodeAddress() directly — will fail unless we rewire to hit backend /geocode
+      // Leave as-is for now; revisit when admin flow is re-enabled
       const geoResult = await geocodeAddress(updatedLocation);
 
       if (!geoResult) {

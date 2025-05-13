@@ -497,18 +497,19 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
   const url = document.getElementById('url').value;
 
   try {
-    const encodedAddress = encodeURIComponent(address);
-    const geocodeUrl = `https://nominatim.openstreetmap.org/search?format=json&q=${encodedAddress}`;
-    const res = await fetch(geocodeUrl);
+    const res = await fetch('/geocode', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ address })
+    });
     const data = await res.json();
-
-    if (data.length === 0) {
+    
+    if (!data || !data.latitude || !data.longitude) {
       alert('Location not found. Please try a more specific address.');
       return;
     }
-
-    const latitude = parseFloat(data[0].lat);
-    const longitude = parseFloat(data[0].lon);
+    
+    const { latitude, longitude } = data;
 
     const newEvent = {
       title,
