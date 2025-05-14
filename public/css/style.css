@@ -645,6 +645,12 @@ select.form-field {
     animation: popOut .3s ease;
   }
 
+  @media (max-width: 768px) {
+    #modal-content {
+      width: 100%;
+    }
+  }
+
   #modal-overlay.active #modal-content {
     animation: popIn .3s ease;
   }

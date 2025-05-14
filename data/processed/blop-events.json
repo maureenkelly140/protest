@@ -187,17 +187,6 @@
     "source": "blop"
   },
   {
-    "title": "Hands Off! Working People’s Rally to Stop the Billionaire Takeover",
-    "date": "2025-05-14T00:00:00.000Z",
-    "location": "13 Rev Dr Martin Luther King Jr Boulevard, Saint Paul, MN",
-    "city": "Saint Paul",
-    "latitude": 44.953447,
-    "longitude": -93.102203,
-    "url": "https://drive.google.com/uc?export=view&id=11ii6lxpUFS3loFHBGePGlZu_F9GyamWB",
-    "approved": true,
-    "source": "blop"
-  },
-  {
     "title": "General Strike U.S.",
     "date": "2025-06-07T20:00:00.000Z",
     "location": "253 E Wood St, Decatur, IL 62526, Decatur, IL",
@@ -216,17 +205,6 @@
     "latitude": 43.545999,
     "longitude": -96.726776,
     "url": "linktr.ee/50501sd",
-    "approved": true,
-    "source": "blop"
-  },
-  {
-    "title": "Using Joy to Organize and Change Communities - Rescheduled!",
-    "date": "2025-05-14T01:15:00.000Z",
-    "location": "95 Morris Street, Morristown, NJ",
-    "city": "Morristown",
-    "latitude": 40.796962,
-    "longitude": -74.476733,
-    "url": "https://drive.google.com/uc?export=view&id=1jvWZk9PebZj8WxcBgYCMtVK0eURgt7in",
     "approved": true,
     "source": "blop"
   },
@@ -282,17 +260,6 @@
     "latitude": 30.552734,
     "longitude": -91.040569,
     "url": "action.womensmarch.com",
-    "approved": true,
-    "source": "blop"
-  },
-  {
-    "title": "Corner Protest",
-    "date": "2025-05-13T23:15:00.000Z",
-    "location": "2601 S College Ave, Fort Collins, CO",
-    "city": "Fort Collins",
-    "latitude": 40.549914,
-    "longitude": -105.078755,
-    "url": "https://drive.google.com/uc?export=view&id=1xFQt2j2gU5wP6Y6Jn_oZmzHBCHOu3qmz",
     "approved": true,
     "source": "blop"
   },
@@ -550,17 +517,6 @@
     "source": "blop"
   },
   {
-    "title": "Protest the Detestable ICE Abduction in Worcester",
-    "date": "2025-05-14T00:30:00.000Z",
-    "location": "Worcester City Hall, Worcester, MA",
-    "city": "Worcester",
-    "latitude": 42.243588,
-    "longitude": -71.816802,
-    "url": "https://drive.google.com/uc?export=view&id=1ofmvcWldt2RGXys3llVHGSt4UiPCTmkC",
-    "approved": true,
-    "source": "blop"
-  },
-  {
     "title": "Peaceful Protests",
     "date": "2025-05-17T19:00:00.000Z",
     "location": "Douglas & Broadway (NE Corner) and Chester I. Lewis Park, Wichita, KS",
@@ -711,6 +667,105 @@
     "latitude": 40.729476,
     "longitude": -74.173231,
     "url": "https://drive.google.com/uc?export=view&id=1WoLO7KxHyGn6YmbcLqoSNs_VuVIppYjJ",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Veteran’s Vigil",
+    "date": "2025-06-07T02:30:00.000Z",
+    "location": "Newton Green, Newton, NJ",
+    "city": "Newton",
+    "latitude": 41.058466,
+    "longitude": -74.75303,
+    "url": "https://drive.google.com/uc?export=view&id=1_15Adgy2NFiFPXbW9HTcdRpp_afbiVrG",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Olympia Visibility Brigade",
+    "date": "2025-05-31T19:00:00.000Z",
+    "location": "Footbridge over I-5, Tumwater, WA",
+    "city": "Tumwater",
+    "latitude": 46.541692,
+    "longitude": -122.876499,
+    "url": "theblog.org",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Olympia Visibility Brigade Protest",
+    "date": "2025-05-24T19:00:00.000Z",
+    "location": "Boulevard Rd SE over I-5, East Olympia, WA",
+    "city": "East Olympia",
+    "latitude": 64.964875,
+    "longitude": 17.675409,
+    "url": "theblob.org",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Supporting Human Rights",
+    "date": "2025-06-06T17:00:00.000Z",
+    "location": "5th Ave & 301 Intersection, Zephyrhills, FL",
+    "city": "Zephyrhills",
+    "latitude": 29.652057,
+    "longitude": -82.339264,
+    "url": "https://mobilize.us/s/olbowa",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Good Trouble",
+    "date": "2025-05-17T18:00:00.000Z",
+    "location": "Lafayette, LA",
+    "city": "Lafayette",
+    "latitude": 30.222907,
+    "longitude": -92.018777,
+    "url": "https://drive.google.com/uc?export=view&id=1Tr4XDtEQiHSEOn6yDxVCaqO4bfbrGeRD",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Give Me Liberty",
+    "date": "2025-06-14T21:30:00.000Z",
+    "location": "201 S Austin St, Seguin, TX",
+    "city": "Seguin",
+    "latitude": 29.567836,
+    "longitude": -97.964217,
+    "url": "https://drive.google.com/uc?export=view&id=180doYCV90i1BhfbilYWY6aRgG3ePnv8E",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Vigil for the Voiceless",
+    "date": "2025-05-25T02:45:00.000Z",
+    "location": "Corner of Krome Ave & SW 12th St, Miami, FL",
+    "city": "Miami",
+    "latitude": 25.773357,
+    "longitude": -80.1919,
+    "url": "https://drive.google.com/uc?export=view&id=1DeoFkokbZzm6nGl7dL1L8b971FuWidGE",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "No Kings Mass Protest",
+    "date": "2025-06-14T21:30:00.000Z",
+    "location": "Warren, OH",
+    "city": "Warren",
+    "latitude": 41.236095,
+    "longitude": -80.817963,
+    "url": "https://drive.google.com/uc?export=view&id=1UpOdmNob9dgmcquOD8g3WflcPHWfIZRe",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "AL-NAKBA DAY RALLY & COMMUNITY PICNIC",
+    "date": "2025-05-18T19:00:00.000Z",
+    "location": "Laurelhurst Park, SE Cesar E Chavez & Stark, Portland, OR",
+    "city": "Portland",
+    "latitude": 43.024593,
+    "longitude": 44.68211,
+    "url": "https://drive.google.com/uc?export=view&id=1TqBkGfclNOQ7oJAfza2fAk52zrWREP6t",
     "approved": true,
     "source": "blop"
   }
