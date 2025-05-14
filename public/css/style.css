@@ -228,7 +228,7 @@ input#search-box:focus {
 #panel-list {
     flex: 0 0 500px;
     height: 100vh;
-    padding-top: 138px; /* leave room for fixed header */
+    padding-top: 146px; /* leave room for fixed header */
     background-color: white;
     display: flex;
     flex-direction: column;
