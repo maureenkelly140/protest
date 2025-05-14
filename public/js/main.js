@@ -524,7 +524,7 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
     console.log("New event added:", newEvent);
 
     try {
-        const saveRes = await fetch('http://localhost:3001/add-event', {
+        const saveRes = await fetch(`${API_BASE_URL}/add-event`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(newEvent)
