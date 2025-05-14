@@ -49,6 +49,19 @@ function shouldIncludeEvent(eventDateStr) {
 }
 
 // === ROUTES ===
+
+// === TEMP: Debug manual event JSON file ===
+app.get('/manual-debug', async (req, res) => {
+  try {
+    const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
+    const data = await fs.readFile(manualFilePath, 'utf-8');
+    res.type('application/json').send(data);
+  } catch (err) {
+    console.error('❌ Failed to read manual protests:', err);
+    res.status(500).json({ error: 'Failed to read manual protests' });
+  }
+});
+
 app.get('/events', async (req, res) => {
   console.log('Start date filter:', CONFIG.startDate || 'today');
   console.log('Cutoff timestamp:', new Date(CONFIG.startDate || Date.now()).toISOString());
