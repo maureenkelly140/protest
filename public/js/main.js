@@ -497,7 +497,7 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
   const url = document.getElementById('url').value;
 
   try {
-    const res = await fetch('/geocode', {
+    const res = await fetch(`${API_BASE_URL}/geocode`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ address })
