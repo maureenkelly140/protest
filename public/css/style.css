@@ -361,6 +361,14 @@ h1 {
     font-size: 24px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .filter-btn input {
     border: 0px;
 }
@@ -889,21 +897,47 @@ background: #f0f0f0;
     100% { opacity: 1; }
   }
 
+  .popup-container {
+    height: calc(100vh);
+    width: calc(100vw);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    display: none;
+    z-index: 1001;
+  }
   .popup {
     padding: 14px 30px 14px 20px ;
-    position: absolute;
-    width: 240px;
-    left: 160px;
-    top: 38px;
+    width: 500px;
+    height: auto;
+    margin-top: 70px;
+    position: relative;
     background: white;
-    border: 1px solid #ccc;
     border-radius: 6px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,.2);
     z-index: 100;
     background-color: #fff;
     color: #333;
-    font-size: .85rem;
-    display: none;
+    font-size: 1rem;
+  }
+
+  .popup ul li {
+    margin-bottom: 4px;
+  }
+
+  #info-popup.active {
+    display: flex;
+  }
+
+  #info-popup.active .backdrop {
+    animation: fadeIn .6s ease;
+  }
+
+  #info-popup.hidden .backdrop {
+    animation: fadeOut 3.6s ease;
   }
 
   .close-popup {

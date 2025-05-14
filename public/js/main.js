@@ -418,11 +418,22 @@ document.getElementById('btn-copy').addEventListener('click', async () => {
 // Info popup
 
 document.getElementById('show-info-popup').addEventListener('click', () => {
-  document.getElementById('info-popup').style.display = "block";
+  document.getElementById('info-popup').classList.add('active');
+  document.getElementById('info-popup').classList.remove('hidden');
 });
 
 document.getElementById('close-info-popup').addEventListener('click', () => {
-  document.getElementById('info-popup').style.display = "none";
+  document.getElementById('info-popup').classList.add('hidden');
+  document.getElementById('info-popup').classList.remove('active');
+});
+
+document.getElementById('info-popup').addEventListener('click', (e) => {
+  if (e.target.className === 'backdrop') {
+    document.getElementById('info-popup').classList.remove('active');
+    setTimeout(() => {
+      document.getElementById('info-popup').classList.add('hidden');
+    }, 300);
+  }
 });
 
 // Modal open/close
