@@ -131,6 +131,23 @@ app.get('/events', async (req, res) => {
   }
 });
 
+// === Pending Events Route (for approving manual events) ===
+app.get('/pending-events', async (req, res) => {
+  try {
+    const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
+    const manualEventsRaw = await fs.readFile(manualFilePath, 'utf-8');
+    const manualEvents = JSON.parse(manualEventsRaw);
+
+    const pending = manualEvents.filter(ev => ev.approved === false);
+
+    res.json(pending);
+  } catch (err) {
+    console.error('❌ Failed to load pending events:', err);
+    res.status(500).json({ error: 'Failed to load pending events' });
+  }
+});
+
+
 // === Diagnostics Route ===
 app.get('/mobilize-diagnostics', async (req, res) => {
   try {
@@ -174,13 +191,62 @@ app.post('/add-event', async (req, res) => {
     const manualEventsRaw = await fs.readFile(manualFilePath, 'utf-8');
     const manualEvents = JSON.parse(manualEventsRaw);
 
-    manualEvents.push(req.body);
+    const { title, date, location, city, latitude, longitude, url } = req.body;
+
+    const newEvent = {
+      id: Date.now().toString(), // quick unique ID
+      title,
+      date,
+      location,
+      city,
+      latitude,
+      longitude,
+      url,
+      visible: true, // Automatically show submitted events
+      approved: false, // Flag them for review
+      addedAt: new Date().toISOString(),
+      addedBy: req.ip || req.headers['x-forwarded-for'] || 'unknown'
+    };
+
+    manualEvents.push(newEvent);
 
     await fs.writeFile(manualFilePath, JSON.stringify(manualEvents, null, 2));
     res.json({ message: 'Event saved!' });
   } catch (err) {
     console.error('❌ Failed to save event:', err);
     res.status(500).json({ error: 'Failed to save event' });
+  }
+});
+
+// === Approve Event Route ===
+app.post('/approve-event', async (req, res) => {
+  try {
+    const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
+    const manualEventsRaw = await fs.readFile(manualFilePath, 'utf-8');
+    const manualEvents = JSON.parse(manualEventsRaw);
+
+    const { id, title, date, location, latitude, longitude } = req.body;
+
+    const index = manualEvents.findIndex(ev => ev.id === id);
+    if (index === -1) {
+      return res.status(404).json({ message: 'Event not found' });
+    }
+
+    manualEvents[index] = {
+      ...manualEvents[index],
+      title,
+      date,
+      location,
+      latitude,
+      longitude,
+      approved: true
+    };
+
+    await fs.writeFile(manualFilePath, JSON.stringify(manualEvents, null, 2));
+    res.json({ message: 'Event approved!' });
+  } catch (err) {
+    console.error('❌ Failed to approve event:', err);
+    res.status(500).json({ error: 'Failed to approve event' });
   }
 });
 
@@ -201,6 +267,31 @@ app.post('/geocode', async (req, res) => {
     res.status(500).json({ error: 'Geocoding failed' });
   }
 });
+
+// === Delete Event Route ===
+app.post('/delete-event', async (req, res) => {
+  try {
+    const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
+    const manualEventsRaw = await fs.readFile(manualFilePath, 'utf-8');
+    let manualEvents = JSON.parse(manualEventsRaw);
+
+    const { id } = req.body;
+
+    const originalLength = manualEvents.length;
+    manualEvents = manualEvents.filter(ev => ev.id !== id);
+
+    if (manualEvents.length === originalLength) {
+      return res.status(404).json({ message: 'Event not found' });
+    }
+
+    await fs.writeFile(manualFilePath, JSON.stringify(manualEvents, null, 2));
+    res.json({ message: 'Event deleted!' });
+  } catch (err) {
+    console.error('❌ Failed to delete event:', err);
+    res.status(500).json({ error: 'Failed to delete event' });
+  }
+});
+
 
 // === START SERVER ===
 app.use(express.static(path.join(__dirname, '..', 'public')));

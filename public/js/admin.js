@@ -42,7 +42,10 @@ async function loadPendingEvents() {
         <td class="align-center"><a href="${event.url}" target="_blank" class="btn admin-btn" style="text-decoration: none;"><span class="material-symbols-outlined" >link</span></a></td>
         <td class="align-center"><button class="btn admin-btn view-map-btn" data-lat="${event.latitude}" data-lon="${event.longitude}">
               <span class="material-symbols-outlined">location_on</span>
-            </button></td>
+            </button>
+        </td>
+        <td>${event.addedAt ? new Date(event.addedAt).toLocaleString() : '—'}</td>
+        <td>${event.addedBy || '—'}</td>
         <td class="align-center"><button class="btn admin-btn approve-btn">
               <span class="material-symbols-outlined">check_circle</span>
             </button></td>
@@ -68,6 +71,7 @@ async function loadPendingEvents() {
 async function approveEvent(event, row) {
   const updatedTitle = row.querySelector('td:nth-child(1) input').value.trim();
   const updatedLocation = row.querySelector('td:nth-child(2) input').value.trim();
+  
   const updatedDateRaw = row.querySelector('td:nth-child(3) input').value.trim();
   const updatedDate = new Date(updatedDateRaw);
 
@@ -83,7 +87,9 @@ async function approveEvent(event, row) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ address: updatedLocation })
     });
-    const geoResult = geoRes.ok ? await geoRes.json() : null;    
+    const geoResult = geoRes.ok ? await geoRes.json() : null;  
+    
+    const { latitude, longitude } = geoResult || {};
 
     const res = await fetch(`${API_BASE_URL}/approve-event`, {
       method: 'POST',
@@ -110,7 +116,6 @@ async function approveEvent(event, row) {
     alert('Failed to approve event.');
   }
 }
-
 
 // Delete an event
 async function deleteEvent(event, row) {
@@ -176,7 +181,12 @@ document.addEventListener('click', async (e) => {
 
       // ⚠️ This uses geocodeAddress() directly — will fail unless we rewire to hit backend /geocode
       // Leave as-is for now; revisit when admin flow is re-enabled
-      const geoResult = await geocodeAddress(updatedLocation);
+      const geoRes = await fetch(`${API_BASE_URL}/geocode`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ address: updatedLocation })
+      });
+      const geoResult = geoRes.ok ? await geoRes.json() : null;
 
       if (!geoResult) {
         alert('Could not geocode the updated address. Please check the location.');

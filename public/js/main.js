@@ -90,7 +90,7 @@ async function fetchEvents() {
     const res = await fetch(`${API_BASE_URL}/events`);
     const responseJson = await res.json();
     const rawEvents = Array.isArray(responseJson) ? responseJson : responseJson.events || [];
-    fetchedEvents = rawEvents.filter(ev => ev.approved !== false);
+    fetchedEvents = rawEvents.filter(ev => ev.visible !== false);
 
     // Only call updateVisibleEvents after data is ready
     updateVisibleEvents();
