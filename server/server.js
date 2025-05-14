@@ -218,6 +218,12 @@ app.post('/add-event', async (req, res) => {
   }
 });
 
+// === TEMP: Troubleshooting. Find where events are being saved ===
+app.get('/manual-debug-path', async (req, res) => {
+  const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
+  res.send(`Manual protests are being saved to: ${manualFilePath}`);
+});
+
 // === Approve Event Route ===
 app.post('/approve-event', async (req, res) => {
   try {
