@@ -188,6 +188,9 @@ app.get('/mobilize-diagnostics', async (req, res) => {
 app.post('/add-event', async (req, res) => {
   try {
     const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
+    console.log(`📝 Writing to: ${manualFilePath}`); // TEMP: Troubleshooting
+    console.log('🆕 New event submitted:', req.body); // TEMP: Troubleshooting
+
     const manualEventsRaw = await fs.readFile(manualFilePath, 'utf-8');
     const manualEvents = JSON.parse(manualEventsRaw);
 
