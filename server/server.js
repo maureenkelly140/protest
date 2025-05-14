@@ -188,8 +188,6 @@ app.get('/mobilize-diagnostics', async (req, res) => {
 app.post('/add-event', async (req, res) => {
   try {
     const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
-    console.log(`📝 Writing to: ${manualFilePath}`); // TEMP: Troubleshooting
-    console.log('🆕 New event submitted:', req.body); // TEMP: Troubleshooting
 
     const manualEventsRaw = await fs.readFile(manualFilePath, 'utf-8');
     const manualEvents = JSON.parse(manualEventsRaw);
@@ -218,23 +216,6 @@ app.post('/add-event', async (req, res) => {
   } catch (err) {
     console.error('❌ Failed to save event:', err);
     res.status(500).json({ error: 'Failed to save event' });
-  }
-});
-
-// === TEMP: Troubleshooting. Find where events are being saved ===
-app.get('/manual-debug-path', async (req, res) => {
-  const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
-  res.send(`Manual protests are being saved to: ${manualFilePath}`);
-});
-
-app.get('/manual-debug', async (req, res) => {
-  try {
-    const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
-    const data = await fs.readFile(manualFilePath, 'utf-8');
-    res.type('application/json').send(data);
-  } catch (err) {
-    console.error('❌ Failed to read manual protests:', err);
-    res.status(500).json({ error: 'Failed to read manual protests' });
   }
 });
 
