@@ -224,6 +224,17 @@ app.get('/manual-debug-path', async (req, res) => {
   res.send(`Manual protests are being saved to: ${manualFilePath}`);
 });
 
+app.get('/manual-debug', async (req, res) => {
+  try {
+    const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
+    const data = await fs.readFile(manualFilePath, 'utf-8');
+    res.type('application/json').send(data);
+  } catch (err) {
+    console.error('❌ Failed to read manual protests:', err);
+    res.status(500).json({ error: 'Failed to read manual protests' });
+  }
+});
+
 // === Approve Event Route ===
 app.post('/approve-event', async (req, res) => {
   try {
