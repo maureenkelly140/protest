@@ -241,7 +241,12 @@ function renderVisibleEvents(list) {
   });
 
   // Tooltip setup
-  $('.tooltip').tooltipster({ animation: 'fade', side: 'right' });
+  $('.tooltip').tooltipster({ 
+    animation: 'fade',
+    theme: 'tooltipster-borderless',
+    side: 'bottom',
+    plugins: ['sideTip']
+  });
 }
 
 function updateVisibleEvents(preservePopup = false) {
@@ -256,7 +261,7 @@ document.getElementById('search-box').addEventListener('input', (e) => {
   updateVisibleEvents();
 });
 
-document.getElementById('selected-filter').addEventListener('click', () => {
+document.getElementById('date-filter').addEventListener('click', () => {
   document.getElementById('filter-options').classList.toggle('hidden');
 });
 

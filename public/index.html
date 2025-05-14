@@ -34,19 +34,6 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
 
-  <!-- Tooltipster -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/css/tooltipster.bundle.min.css" />
-
-  <style>
-    .event:hover {
-        box-shadow: none;
-        border-radius: 0px;
-        background-color: #fafafa;
-        border-bottom: 1px solid #eaeaea;
-    }
-  </style>
-
-
 </head>
 <body>
   <!-- Modal Overlay (Hidden Initially) -->
@@ -146,57 +133,50 @@
     <div id="header">
       
 
-      <div class="main-header">
-        <div class="row title-row" >
-          <div id="logo-plus-name" style="width: 100%;" >
-            <img src="images/icon-raised-fist.avif" style="width: 60px; display: none;">
-            <div style="font-size: 20px; font-weight: 500;">Protest Finder</div>
-            <span id="show-info-popup" class="material-symbols-outlined icon icon-sm icon-light icon-interactive">info</span>
+      
 
-            <button id="add-event-btn" class="btn icon-btn" style="margin-left: auto;">
-              <span class="material-symbols-outlined icon icon-sm icon-light">add</span>
-              Add Event
-            </button>
-          </div>
-          
+      <div class="row title-row" >
+        <div class="title">Protest Finder</div>
+        <span id="show-info-popup" class="material-symbols-outlined interactive">info</span>
+        <span id="add-event-btn" class="icon-btn float-right tooltip" title="Add Event" >
+          <span class="material-symbols-outlined interactive" >add</span>
+        </span>
+        <div id="mobile-toggle" class="toggle-buttons">
+          <button id="btn-show-map" class="toggle active" title="Map view">
+            <span class="material-symbols-outlined icon">map</span>
+          </button>
+          <button id="btn-show-list" class="toggle" title="List view">
+            <span class="material-symbols-outlined icon">list</span>
+          </button>
         </div>
-        <div class="row filter-row" >
-          <div class="filter-btn">
-            <div id="date-filter" class="filter-item dropdown" style="color: #fff;">
-              <span class="material-symbols-outlined icon">calendar_today</span>
-              <div id="selected-filter" style="width: 100%; padding-right: 24px;">All Dates</div>
-              <div id="filter-options" class="dropdown-options hidden" style="color: #000;">
-                <div class="dropdown-option" data-filter="today">Today</div>
-                <div class="dropdown-option" data-filter="week">This Week</div>
-                <div class="dropdown-option" data-filter="june14">June 14</div>
-                <div class="dropdown-option" data-filter="all">All Dates</div>
-              </div>
+      </div>
+      <div class="row filter-row" >
+        <div class="filter-btn">
+          <div id="date-filter" class="filter-item dropdown">
+            <span class="material-symbols-outlined icon">calendar_today</span>
+            <div id="selected-filter">All Dates</div>
+            <div id="filter-options" class="dropdown-options hidden">
+              <div class="dropdown-option" data-filter="today">Today</div>
+              <div class="dropdown-option" data-filter="week">This Week</div>
+              <div class="dropdown-option" data-filter="june14">June 14</div>
+              <div class="dropdown-option" data-filter="all">All Dates</div>
             </div>
           </div>
-          <div class="filter-btn" style="display: none;">
-            <span class="material-symbols-outlined icon">location_on</span>
-            City/ZIP
-          </div>
-          <div class="search-wrapper filter-btn">
-            <span class="material-symbols-outlined icon">search</span>
-            <input type="text" id="search-box" placeholder="Search" />
-          </div>
-
-          <div id="mobile-toggle" class="toggle-buttons" style="margin-left: auto;">
-            <button id="btn-show-map" class="toggle active" title="Map view">
-              <span class="material-symbols-outlined icon">map</span>
-            </button>
-            <button id="btn-show-list" class="toggle" title="List view">
-              <span class="material-symbols-outlined icon">list</span>
-            </button>
-          </div>
         </div>
-
+        <div class="filter-btn" style="display: none;">
+          <span class="material-symbols-outlined icon">location_on</span>
+          City/ZIP
+        </div>
+        <div class="divider"></div>
+        <div class="search-wrapper filter-btn">
+          <span class="material-symbols-outlined icon">search</span>
+          <input type="text" id="search-box" placeholder="Search" />
+        </div>
       </div>
       
       <div class="row count-row">
           <div id="event-counter"></div>
-          <button id="btn-copy" class="btn btn-sm" title="Copy">
+          <button id="btn-copy" class="btn btn-sm float-right" title="Copy">
             <span class="material-symbols-outlined icon">content_copy</span>
             <span class="text">Copy</span>
           </button>
@@ -217,6 +197,9 @@
    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 
+  <!-- Tooltipster -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/css/tooltipster.bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css" />
   
   <!-- Load Tooltipster JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/js/tooltipster.bundle.min.js"></script>

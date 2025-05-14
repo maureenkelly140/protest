@@ -16,100 +16,157 @@ body {
   box-sizing: border-box;
 }
 
+.float-right {
+  margin-left: auto;
+}
+
 /* Page Framework */
 
 /* HEADER — Fixed width in desktop, full-width in mobile */
 #header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 500px;
-    color: white;
-    z-index: 1000;
-    padding:0px;
-    padding: 0;
-  }  
-  
-  .main-header {
-    background-color: #346ea4;
-    padding: 16px 20px;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 500px;
+  color: white;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 0 20px;
+  background-color: #346ea4;
+  color: #fff;
+}  
 
-  #header .row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+#header .material-symbols-outlined {
+  color: rgba(255,255,255,.7);
+  transition: all .2s ease;
+}
 
-  .title-row {
-    padding-bottom: 20px;
-  }
+#header .material-symbols-outlined.interactive:hover {
+  color: rgba(255,255,255,1);
+  cursor: pointer;
+}
 
-  .filter-row {
-  }
+#header .icon-btn:hover .btn-background {
+  background-color: rgba(255,255,255,.2);
+  border-radius: 100px;
+}
 
-  input#search-box {
-    background-color: transparent;
-    color: #fff;
-    padding: 0;
-    width: 100px;
-  }
+#header .icon-btn {
+  position: relative;
+}
 
-  input#search-box::placeholder {
-    color: rgba(255,255,255,.7);
-  }
+#header .icon-btn:before {
+  content:"";
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  border-radius: 50%;
+  transition: all .25s ease;
+  background-color: rgba(255,255,255,.2);
+  z-index: 1;
+  opacity: 0;
+}
 
-  input#search-box:focus {
-    border: 0;
-    outline: 0;
-  }
+#header .icon-btn:hover:before {
+  opacity: 1;
+  transform: scale(3.6);
+}
 
-  .count-row {
-    background-color: #e2e8ef;
-    color: #333;
-    font-size: .75rem;
-    padding: 0 10px 0 20px;
-    height: 40px;
-    flex: 0 0 40px;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #dadada;
-  }
+#header .filter-row .material-symbols-outlined {
+  color: rgba(0,0,0,.4);
+}
+
+#header .icon-btn:hover .material-symbols-outlined {
+  color: #fff;
+}
+
+#header .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  height: 44px;
+}
+
+.title-row {
+  margin-bottom: 4px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+#add-event-btn {
+  margin-right: -5px;
+}
+
+.filter-row {
+  background-color: rgba(255,255,255,1);
+  border-radius: 6px;
+  box-shadow: 0 0 3px rgba(0,0,0,.4);
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.filter-row .divider {
+  width: 1px;
+  height: 20px;
+  background-color: #999;
+}
+
+#filter-options {
+  margin-left: -2px;
+}
+
+input#search-box {
+  background-color: transparent;
+  color: #333;
+  padding: 0;
+  width: 100px;
+  height: 100%;
+  width: 100%;
+}
+
+input#search-box::placeholder {
+}
+
+input#search-box:focus {
+  border: 0;
+  outline: 0;
+}
+
+
+.count-row {
+  font-size: .75rem;
+}
 
 
 #btn-copy {
     background-color: transparent;
-    color: #666;
-    margin-left: -4px;
-    border-radius: 0;
+    padding-right: 0;
 }
 
 #btn-copy:hover {
     background-color: transparent;
 }
 
+#btn-copy:hover .material-symbols-outlined {
+  color: rgba(255,255,255,1);
+}
+
 #btn-copy:hover .text {
-    text-decoration: underline;
 }
 
 #btn-copy .material-symbols-outlined {
     font-size: 18px;
-    color: #666;
 }
-  
-  
-  #logo-plus-name {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex: 0 0 auto;
-  }
   
   /* Toggle buttons (mobile only) */
   #mobile-toggle {
     display: none;
     justify-content: center;
-    margin-left: auto;
   }
 
   @media (max-width: 768px) {
@@ -120,7 +177,11 @@ body {
 
   .toggle-buttons {
     border-radius: 100px;
-    background-color: rgba(255, 255, 255, .2);
+    transition: all .2s ease;
+  }
+
+  .toggle-buttons:hover {
+    background-color: rgba(255, 255, 255, .1);
   }
   
   .toggle {
@@ -135,12 +196,12 @@ body {
     height: 32px;
     border: 1px solid transparent;
     border-radius: 100px;
-    padding: 10px;
+    padding: 8px;
   }
   
   .toggle.active {
     background-color: #fff;
-    background-color: rgba(255,255,255,.7);
+    background-color: rgba(255,255,255,.3);
   }
   
   .toggle .icon {
@@ -148,8 +209,9 @@ body {
     color: #fff;
   }
 
-  .toggle.active .icon {
+  #header .toggle.active .material-symbols-outlined {
     color: #1e6dc7;
+    color: #fff;
   }
   
   #content-container {
@@ -259,19 +321,23 @@ input {
 .filter-btn {
     background-color: transparent;
     color: white;
-    height: 34px; 
+    height: 42px; 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: .85rem;
     cursor: pointer;
     transition: all 0.3s ease;
     white-space: nowrap;
-    margin-right: 10px;
     background-color: rgba(255,255,255, .2);
-    border-radius: 100px;
-    margin-right: 6px;
-    padding: 0 12px;
+    background-color: transparent;
+    color: #333;
+    padding: 0 10px;
+    flex: 0 0 auto;
+}
+
+.filter-btn:last-of-type {
+  flex: 1 1 100%;
 }
 
 .filter-btn:hover {
@@ -282,7 +348,7 @@ input {
     color: #fff;
     margin-right: 8px;
     font-size: 20px;
-    color: rgba(255,255,255,.8);
+    color: #999;
 }
 
 .search-wrapper .icon {
@@ -294,6 +360,10 @@ input {
     height:38px;
     width: 38px;
     padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .admin-btn {
@@ -311,25 +381,6 @@ input {
     background-color: #eaeaea;
 }
 
-/* For now, hide Add Event button */
-
-#add-event-btn {
-    background-color:rgba(255,255,255,.2); 
-    background-color: transparent;
-    height: 28px;
-    width: auto;
-    padding: 0 15px 0 10px;
-    margin-right: -10px;
-}
-
-#add-event-btn.hidden {
-    display: none;
-}
-
-#add-event-btn:hover {
-    background-color:rgba(255,255,255,.15); 
-}
-
 .btn:active {
     transform: translateY(0); /* Press down */
 }
@@ -342,9 +393,7 @@ input {
 
 .tooltipster-sidetip .tooltipster-box {
 	border-radius: 6px;
-    font-size: .85rem;
-    border: 0 !important;
-    padding: 0 !important;
+  font-size: .85rem;
 }
 
 .tooltipster-sidetip .tooltipster-content {
@@ -732,6 +781,8 @@ select.form-field {
   vertical-align: middle;
   font-size: 16px;
   opacity: .8;
+  margin-left: 8px;
+  color: #999;
 }
 
 /* Selected item */
@@ -753,12 +804,10 @@ select.form-field {
     position: absolute;
     top: 0px;
     left: 0;
-    background: white;
-    border: 1px solid #ccc;
+    color: 333;
     border-radius: 6px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 0 2px rgba(0,0,0,0.2), 0 4px 8px rgba(0,0,0,0.1);
     z-index: 100;
-
     background-color: #fff;
 }
 
