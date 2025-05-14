@@ -224,6 +224,7 @@ function renderVisibleEvents(list) {
 
           markerClusterGroup.zoomToShowLayer(marker, () => {
             marker.openPopup();
+            updateVisibleEvents(true);
           });
         }
       }
