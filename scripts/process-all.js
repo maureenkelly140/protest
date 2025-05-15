@@ -10,8 +10,9 @@
  *    - Mobilize (via process-mobilize.js → local + S3)
  *    - Blop (via process-blop.js → local + S3)
  *
- * Manual events are assumed to already exist as:
- *   data/processed/manual-protests.json
+ * Manual events are **not processed locally**.
+ * They are now managed entirely via the server UI and stored directly in S3:
+ *   processed/manual-protests.json
  *
  * To run manually:
  *   node scripts/process-all.js

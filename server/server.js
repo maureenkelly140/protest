@@ -13,7 +13,6 @@ const { processMobilizeEvents } = require('./utils/processMobilizeEvents');
 const { formatLocation } = require('./utils/format');
 
 const Papa = require('papaparse');
-const MANUAL_PROTESTS_PATH = path.join(__dirname, '../data/processed/manual-protests.json');
 const GEOCACHE_PATH = path.join(__dirname, '../data/cache/blop-geocache.json');
 
 const { geocodeAddress } = require('./utils/geocode');
@@ -50,18 +49,6 @@ function shouldIncludeEvent(eventDateStr) {
 
 // === ROUTES ===
 
-// === TEMP: Debug manual event JSON file ===
-app.get('/manual-debug', async (req, res) => {
-  try {
-    const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
-    const data = await fs.readFile(manualFilePath, 'utf-8');
-    res.type('application/json').send(data);
-  } catch (err) {
-    console.error('❌ Failed to read manual protests:', err);
-    res.status(500).json({ error: 'Failed to read manual protests' });
-  }
-});
-
 app.get('/events', async (req, res) => {
   console.log('Start date filter:', CONFIG.startDate || 'today');
   console.log('Cutoff timestamp:', new Date(CONFIG.startDate || Date.now()).toISOString());
@@ -94,24 +81,22 @@ app.get('/events', async (req, res) => {
     // --- Manual ---
     if (CONFIG.includeManual) {
       try {
-        const raw = await fs.readFile(MANUAL_PROTESTS_PATH, 'utf-8');
-        const parsed = JSON.parse(raw);
-
-        const cutoff = new Date(CONFIG.startDate || Date.now());
-        cutoff.setHours(0, 0, 0, 0);
-
-        const filtered = parsed.filter(e => {
+        const manualData = await loadJSONFromS3('processed/manual-protests.json');
+    
+        const filtered = manualData.filter(e => {
           const eventDate = new Date(e.date);
           eventDate.setHours(0, 0, 0, 0);
           if (isNaN(eventDate)) return false;
           return shouldIncludeEvent(e.date);
         });
-
+    
+        console.log(`✅ Loaded ${filtered.length} manual events from S3`);
         combinedEvents.push(...filtered);
       } catch (err) {
-        console.warn('⚠️ Could not load manual protests:', err.message);
+        console.warn('⚠️ Could not load manual protests from S3:', err.message);
       }
     }
+    
 
     // --- BLOP (from S3) ---
     if (CONFIG.includeBlop) {
@@ -147,10 +132,7 @@ app.get('/events', async (req, res) => {
 // === Pending Events Route (for approving manual events) ===
 app.get('/pending-events', async (req, res) => {
   try {
-    const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
-    const manualEventsRaw = await fs.readFile(manualFilePath, 'utf-8');
-    const manualEvents = JSON.parse(manualEventsRaw);
-
+    const manualEvents = await loadJSONFromS3('processed/manual-protests.json')
     const pending = manualEvents.filter(ev => ev.approved === false);
 
     res.json(pending);
@@ -197,18 +179,17 @@ app.get('/mobilize-diagnostics', async (req, res) => {
   }
 });
 
+const { loadJSONFromS3, saveJSONToS3 } = require('./utils/s3');
+
 // === Add Event Form ===
 app.post('/add-event', async (req, res) => {
   try {
-    const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
-
-    const manualEventsRaw = await fs.readFile(manualFilePath, 'utf-8');
-    const manualEvents = JSON.parse(manualEventsRaw);
+    const manualEvents = await loadJSONFromS3('processed/manual-protests.json');
 
     const { title, date, location, city, latitude, longitude, url } = req.body;
 
     const newEvent = {
-      id: Date.now().toString(), // quick unique ID
+      id: Date.now().toString(),
       title,
       date,
       location,
@@ -216,15 +197,15 @@ app.post('/add-event', async (req, res) => {
       latitude,
       longitude,
       url,
-      visible: true, // Automatically show submitted events
-      approved: false, // Flag them for review
+      visible: true,
+      approved: false,
       addedAt: new Date().toISOString(),
       addedBy: req.ip || req.headers['x-forwarded-for'] || 'unknown'
     };
 
     manualEvents.push(newEvent);
+    await saveJSONToS3('processed/manual-protests.json', manualEvents);
 
-    await fs.writeFile(manualFilePath, JSON.stringify(manualEvents, null, 2));
     res.json({ message: 'Event saved!' });
   } catch (err) {
     console.error('❌ Failed to save event:', err);
@@ -235,10 +216,7 @@ app.post('/add-event', async (req, res) => {
 // === Approve Event Route ===
 app.post('/approve-event', async (req, res) => {
   try {
-    const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
-    const manualEventsRaw = await fs.readFile(manualFilePath, 'utf-8');
-    const manualEvents = JSON.parse(manualEventsRaw);
-
+    const manualEvents = await loadJSONFromS3('processed/manual-protests.json');
     const { id, title, date, location, latitude, longitude } = req.body;
 
     const index = manualEvents.findIndex(ev => ev.id === id);
@@ -256,7 +234,7 @@ app.post('/approve-event', async (req, res) => {
       approved: true
     };
 
-    await fs.writeFile(manualFilePath, JSON.stringify(manualEvents, null, 2));
+    await saveJSONToS3('processed/manual-protests.json', manualEvents);
     res.json({ message: 'Event approved!' });
   } catch (err) {
     console.error('❌ Failed to approve event:', err);
@@ -285,27 +263,23 @@ app.post('/geocode', async (req, res) => {
 // === Delete Event Route ===
 app.post('/delete-event', async (req, res) => {
   try {
-    const manualFilePath = path.join(__dirname, '../data/processed/manual-protests.json');
-    const manualEventsRaw = await fs.readFile(manualFilePath, 'utf-8');
-    let manualEvents = JSON.parse(manualEventsRaw);
-
+    const manualEvents = await loadJSONFromS3('processed/manual-protests.json');
     const { id } = req.body;
 
     const originalLength = manualEvents.length;
-    manualEvents = manualEvents.filter(ev => ev.id !== id);
+    const updatedEvents = manualEvents.filter(ev => ev.id !== id);
 
-    if (manualEvents.length === originalLength) {
+    if (updatedEvents.length === originalLength) {
       return res.status(404).json({ message: 'Event not found' });
     }
 
-    await fs.writeFile(manualFilePath, JSON.stringify(manualEvents, null, 2));
+    await saveJSONToS3('processed/manual-protests.json', updatedEvents);
     res.json({ message: 'Event deleted!' });
   } catch (err) {
     console.error('❌ Failed to delete event:', err);
     res.status(500).json({ error: 'Failed to delete event' });
   }
 });
-
 
 // === START SERVER ===
 app.use(express.static(path.join(__dirname, '..', 'public')));
