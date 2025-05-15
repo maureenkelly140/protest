@@ -94,7 +94,8 @@ async function processMobilizeEvents(rawEvents, cutoffTime) {
       longitude,
       date: new Date(nextTimeslot.start_date * 1000).toISOString(),
       url: event.browser_url || event.url || '',
-      action: 'included'
+      action: 'included',
+      source: 'mobilize'
     });
   }
 

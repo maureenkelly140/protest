@@ -200,7 +200,8 @@ app.post('/add-event', async (req, res) => {
       visible: true,
       approved: false,
       addedAt: new Date().toISOString(),
-      addedBy: req.ip || req.headers['x-forwarded-for'] || 'unknown'
+      addedBy: req.ip || req.headers['x-forwarded-for'] || 'unknown',
+      source: 'manual'
     };
 
     manualEvents.push(newEvent);

@@ -86,6 +86,7 @@ async function processBlopEvents() {
       const finalUrl = url || imageUrl;
 
       futureEvents.push({
+        id: uuid.toString(),
         title,
         date: date.toISOString(),
         location,
