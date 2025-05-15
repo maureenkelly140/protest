@@ -462,17 +462,6 @@
     "source": "blop"
   },
   {
-    "title": "Meet the Candidates Series: Christian Ahmed",
-    "date": "2025-05-14T19:00:00.000Z",
-    "location": "At the corner of La Paz / Marguerite, Mission Viejo, CA",
-    "city": "Mission Viejo",
-    "latitude": 33.596892,
-    "longitude": -117.658313,
-    "url": "https://drive.google.com/uc?export=view&id=1opC_7d-PjB3m_prMf-b2OTs2WUU6fEll",
-    "approved": true,
-    "source": "blop"
-  },
-  {
     "title": "I.C.E. Melts Democracy Doesn’t",
     "date": "2025-05-17T17:00:00.000Z",
     "location": "1 SE Broadway St., Ocala, FL",
@@ -627,28 +616,6 @@
     "source": "blop"
   },
   {
-    "title": "Emergency Protest Lawn Chair Picnic",
-    "date": "2025-05-14T18:00:00.000Z",
-    "location": "350 North State St, Salt Lake City, UT",
-    "city": "Salt Lake City",
-    "latitude": 40.772127,
-    "longitude": -111.887769,
-    "url": "https://drive.google.com/uc?export=view&id=1EQKsaesHFaoX9E3Gk1Hi6y7bqxc7lPw2",
-    "approved": true,
-    "source": "blop"
-  },
-  {
-    "title": "Emergency Protest Lawn Chair Picnic",
-    "date": "2025-05-14T18:00:00.000Z",
-    "location": "350 North State St, Salt Lake City, UT",
-    "city": "Salt Lake City",
-    "latitude": 40.772127,
-    "longitude": -111.887769,
-    "url": "https://drive.google.com/uc?export=view&id=1Ut0k4HopgBPZd7pX2ZATPcisVxuhhs8l",
-    "approved": true,
-    "source": "blop"
-  },
-  {
     "title": "Celebration of Science, Learning, and Libraries",
     "date": "2025-07-12T18:00:00.000Z",
     "location": "Legislative Building - North Steps, Sylvester Park, Olympia, WA",
@@ -766,6 +733,94 @@
     "latitude": 43.024593,
     "longitude": 44.68211,
     "url": "https://drive.google.com/uc?export=view&id=1TqBkGfclNOQ7oJAfza2fAk52zrWREP6t",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Armed Forces Day",
+    "date": "2025-05-17T17:00:00.000Z",
+    "location": "Corner of Woodland & New York, DeLand, FL",
+    "city": "DeLand",
+    "latitude": 29.028077,
+    "longitude": -81.303432,
+    "url": "https://drive.google.com/uc?export=view&id=1DifQImuT7wLk6_Ro2NY8xAraQ4PE0WBR",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Due Process Is A Right of Every Person!!",
+    "date": "2025-05-17T17:30:00.000Z",
+    "location": "5050 Clark Ave, Lakewood, CA",
+    "city": "Lakewood",
+    "latitude": 33.85034,
+    "longitude": -118.13287,
+    "url": "https://drive.google.com/uc?export=view&id=1Tf0j55-hKUx8Ef2kvD_-TgXRFynynoev",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "No Kings Mass Protest",
+    "date": "2025-06-15T00:00:00.000Z",
+    "location": "333 S Las Vegas Blvd, Las Vegas, NV",
+    "city": "Las Vegas",
+    "latitude": 36.163407,
+    "longitude": -115.14487,
+    "url": "www.indivisible.org",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Candlelight Vigil for the Disappeared",
+    "date": "2025-06-01T03:30:00.000Z",
+    "location": "100 W. Kirkwood Ave., Bloomington, IN",
+    "city": "Bloomington",
+    "latitude": 39.167058,
+    "longitude": -86.534229,
+    "url": "https://drive.google.com/uc?export=view&id=1UwYTur2C0Zw9KfSJeSf6bxmfOzgLDvXd",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "National Day of Protest to Declare: The Trump Fascist Regime Must Go Now!",
+    "date": "2025-05-17T21:00:00.000Z",
+    "location": "Federal Plaza, Chicago, IL",
+    "city": "Chicago",
+    "latitude": 41.881953,
+    "longitude": -87.632362,
+    "url": "https://drive.google.com/uc?export=view&id=11JEq1yTlUp2TXltk4HjgaI0wdm53cms4",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "All Out for Mahmoud",
+    "date": "2025-05-23T00:30:00.000Z",
+    "location": "New York, NY",
+    "city": "New York",
+    "latitude": 40.712749,
+    "longitude": -74.005994,
+    "url": "https://drive.google.com/uc?export=view&id=1mHl8RHhTYSoO49yY_SrpvBo-JyuvA794",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "Support for All Federal Workers",
+    "date": "2025-05-15T20:00:00.000Z",
+    "location": "301 S. Howes Street, Fort Collins, CO",
+    "city": "Fort Collins",
+    "latitude": 40.5837,
+    "longitude": -105.076964,
+    "url": "https://drive.google.com/uc?export=view&id=1dTrlB8m_jdBCBTjGzVR5rhC08Tfw6NTh",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "title": "NO KINGS MASS PROTEST",
+    "date": "2025-06-14T19:00:00.000Z",
+    "location": "Maine State House, Augusta, ME",
+    "city": "Augusta",
+    "latitude": 44.314786,
+    "longitude": -69.774393,
+    "url": "https://www.mobilize.us/nokings/event/787039/",
     "approved": true,
     "source": "blop"
   }

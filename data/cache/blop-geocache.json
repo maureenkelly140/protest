@@ -338,5 +338,37 @@
   "e4c70ad8-1292-4428-875d-041775f08f28": {
     "latitude": 43.024593,
     "longitude": 44.68211
+  },
+  "4c207ad1-c23c-4948-aa05-3185d6183612": {
+    "latitude": 29.028077,
+    "longitude": -81.303432
+  },
+  "ab49c572-3a69-4772-bebc-20ce6d35be06": {
+    "latitude": 33.85034,
+    "longitude": -118.13287
+  },
+  "c531889b-007a-46d8-b856-1a79d145bec1": {
+    "latitude": 36.163407,
+    "longitude": -115.14487
+  },
+  "2c31a8db-d34f-49cf-9180-4777d35f40ef": {
+    "latitude": 39.167058,
+    "longitude": -86.534229
+  },
+  "17edb963-38ed-4fd4-8d7c-a3555b7712d6": {
+    "latitude": 41.881953,
+    "longitude": -87.632362
+  },
+  "2f7de020-2e72-4ebb-b065-708e76ea1e1f": {
+    "latitude": 40.712749,
+    "longitude": -74.005994
+  },
+  "37157e1f-2b04-4a75-bce6-f06281e0f088": {
+    "latitude": 40.5837,
+    "longitude": -105.076964
+  },
+  "207f58e3-72dc-41fe-b195-23081d54af8f": {
+    "latitude": 44.314786,
+    "longitude": -69.774393
   }
 }
