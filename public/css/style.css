@@ -418,7 +418,7 @@ a:hover {
   text-decoration: underline;
 }
 
-a.btn:hover, a.leaflet-control-zoom-in:hover {
+a.btn:hover, a.leaflet-control-zoom-in:hover, a.leaflet-control-zoom-out:hover {
   text-decoration: none;
 }
 
