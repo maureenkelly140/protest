@@ -418,6 +418,10 @@ a:hover {
   text-decoration: underline;
 }
 
+a.btn:hover, a.leaflet-control-zoom-in:hover {
+  text-decoration: none;
+}
+
 .filter-btn input {
     border: 0px;
 }
@@ -995,4 +999,76 @@ background: #f0f0f0;
     right: 12px;
     top: 12px;
     cursor: pointer;
+  }
+
+  .filter-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #eaeaea;
+    padding: 10px;
+  }
+
+  .filter-bar label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+
+  .admin-table th, .admin-table td {
+    border: 1px solid #ccc;
+    padding: 0.25rem;
+    text-align: left;
+    font-size: .85rem;
+  }
+
+  .admin-col-id {
+    width: 50px;
+  }
+
+  .admin-table .id {
+    width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .admin-col-title input {
+    min-width: 100px;
+  }
+
+  .admin-col-map {
+    width: 200px;
+  }
+
+  .admin-col-map .field-plus-icon {
+    display: flex;
+  }
+
+  .admin-col-map input {
+    flex: 1 1 auto;
+  }
+
+  .admin-col-url, th.admin-col-url {
+    text-align: center;
+    width: 60px;
+  }
+
+  .admin-col-needs-review {
+    width: 120px;
+  }
+    
+  .admin-col-source {
+    width: 80px;
+  }
+
+  .admin-col-save, .admin-col-delete {
+    width: 50px;
   }

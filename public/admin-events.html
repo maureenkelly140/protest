@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Events</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body { padding: 1rem; }
+    .map-preview { width: 200px; height: 150px; }
+    .action-btn { margin-right: 0.5rem; cursor: pointer; color: blue; }
+  </style>
+</head>
+<body>
+  <h1>All Events (Admin View)</h1>
+
+  <div class="filter-bar">
+    <label>
+      <select id="sourceFilter" class="form-field">
+        <option value="all">All Sources</option>
+        <option value="manual">Manual</option>
+        <option value="mobilize">Mobilize</option>
+        <option value="blop">Blop</option>
+      </select>
+    </label>
+    <label>
+      <input type="text" id="searchBox" class="form-field" placeholder="Search title or location" />
+    </label>
+    <label>
+      <input type="checkbox" id="filter-unapproved" />
+      Needs review
+    </label>
+  </div>
+
+  <table id="event-table" class="admin-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Location</th>
+        <th>URL</th>
+        <th>Source</th>
+        <th>Needs Review</th>
+        <th>Save</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="js/admin.js"></script>
+  <script>
+    async function renderEvents() {
+      const res = await fetch('/events');
+      const allEvents = await res.json();
+  
+      const sourceFilter = document.getElementById('sourceFilter').value;
+      const search = document.getElementById('searchBox').value.toLowerCase();
+      const filterUnapproved = document.getElementById('filter-unapproved').checked;
+  
+      const filtered = allEvents.filter(ev => {
+        const matchesSource = sourceFilter === 'all' || ev.source === sourceFilter;
+        const matchesSearch = (ev.title + ev.location).toLowerCase().includes(search);
+        const matchesApproval = !filterUnapproved || (ev.source === 'manual' && ev.approved === false);
+  
+        return matchesSource && matchesSearch && matchesApproval;
+      });
+  
+      renderAdminTable({
+        tableId: 'event-table',
+        events: filtered,
+        options: {
+          showSource: true,
+          showDelete: true
+        }
+      });
+    }
+  
+    document.getElementById('sourceFilter').addEventListener('change', renderEvents);
+    document.getElementById('searchBox').addEventListener('input', renderEvents);
+    document.getElementById('filter-unapproved').addEventListener('change', renderEvents);
+  
+    // Initial load
+    renderEvents();
+  </script>
+  
+  
+</body>
+</html>

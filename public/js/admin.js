@@ -21,99 +21,151 @@ app.post('/geocode', async (req, res) => {
 });
 */
 
+// === HELPER FUNCTIONS ===
+
+function getReadableLocation(loc) {
+  if (typeof loc === 'string') return loc;
+  if (typeof loc === 'object' && loc !== null) {
+    const parts = [
+      loc.venue,
+      ...(loc.address_lines || []),
+      loc.locality,
+      loc.region
+    ];
+    return parts.filter(Boolean).join(', ');
+  }
+  return 'Unknown location';
+}
+
 // === MAIN FUNCTIONS ===
 
-// Load all pending events into the table
-async function loadPendingEvents() {
-  try {
-    const res = await fetch(`${API_BASE_URL}/pending-events`);
-    const events = await res.json();
+// Create admin table
+function renderAdminTable({ tableId, events, options = {} }) {
+  const { filterUnapproved = false } = options;
 
-    const tbody = document.querySelector('#pending-events-table tbody');
-    tbody.innerHTML = '';
+  const tbody = document.querySelector(`#${tableId} tbody`);
+  tbody.innerHTML = '';
 
-    events.forEach(event => {
-      const tr = document.createElement('tr');
+  for (const ev of events) {
+    const location =
+      typeof ev.location === 'string'
+        ? ev.location
+        : (ev.location?.formatted_address || ev.location?.address || '');
+    const tr = document.createElement('tr');
 
-      tr.innerHTML = `
-        <td><input class="form-field" type="text" value="${event.title || ''}"></td>
-        <td><input class="form-field" type="text" value="${event.location || ''}"></td>
-        <td><input class="form-field" type="text" value="${formatLocalDate(event.date)}"></td>
-        <td class="align-center"><a href="${event.url}" target="_blank" class="btn admin-btn" style="text-decoration: none;"><span class="material-symbols-outlined" >link</span></a></td>
-        <td class="align-center"><button class="btn admin-btn view-map-btn" data-lat="${event.latitude}" data-lon="${event.longitude}">
-              <span class="material-symbols-outlined">location_on</span>
-            </button>
-        </td>
-        <td>${event.addedAt ? new Date(event.addedAt).toLocaleString() : '—'}</td>
-        <td>${event.addedBy || '—'}</td>
-        <td class="align-center"><button class="btn admin-btn approve-btn">
-              <span class="material-symbols-outlined">check_circle</span>
-            </button></td>
-        <td class="align-center"><button class="btn admin-btn delete-btn">
-              <span class="material-symbols-outlined">delete</span>
-            </button></td>
-      `;
+    tr.innerHTML = `
+      <td class="admin-col-id">
+        <div class="id">${ev.id}</div>
+      </td>
+      <td class="admin-col-title">
+        <input class="form-field title-input" type="text" value="${ev.title || ''}">
+      </td>
+      <td class="admin-col-map">
+        <div class="field-plus-icon">
+          <input class="form-field location-input" type="text" value="${getReadableLocation(ev.location)}">
+          <button class="btn admin-btn view-map-btn" data-id="${ev.id}" data-source="${ev.source || 'manual'}">
+            <span class="material-symbols-outlined">location_on</span>
+          </button>
+        </div>
+      </td>
+      <td class="admin-col-url">
+        ${ev.url ? `
+          <a href="${ev.url}" target="_blank" class="btn admin-btn" title="Open link">
+            <span class="material-symbols-outlined">link</span>
+          </a>` : ''}
+      </td>
+      <td class="admin-col-source">
+        ${ev.source || 'manual'}${ev.source === 'manual' && ev.addedBy ? ` (${ev.addedBy})` : ''}
+      </td>
+      <td class="admin-col-needs-review">
+        ${ev.source === 'manual' && !ev.approved ? 'Needs review' : ''}
+      </td>
+      <td class="align-center admin-col-save">
+        <button class="btn admin-btn save-btn">
+          <span class="material-symbols-outlined">check</span>
+        </button>
+      </td>
+      <td class="align-center admin-col-delete">
+        <button class="btn admin-btn delete-btn">
+          <span class="material-symbols-outlined">delete</span>
+        </button>
+      </td>
+    `;
 
-      // Attach event handlers
-      tr.querySelector('.approve-btn').addEventListener('click', () => approveEvent(event, tr));
-      tr.querySelector('.delete-btn').addEventListener('click', () => deleteEvent(event, tr));
+    tbody.appendChild(tr);
 
-      tbody.appendChild(tr);
-    });
+    tr.querySelector('.save-btn').addEventListener('click', () => saveEvent(ev, tr));
+    tr.querySelector('.delete-btn').addEventListener('click', () => deleteEvent(ev, tr));
 
-  } catch (error) {
-    console.error('Error loading pending events:', error);
-    alert('Failed to load pending events. Check console.');
   }
 }
 
-// Approve an event (with optional edits)
-async function approveEvent(event, row) {
-  const updatedTitle = row.querySelector('td:nth-child(1) input').value.trim();
-  const updatedLocation = row.querySelector('td:nth-child(2) input').value.trim();
-  
-  const updatedDateRaw = row.querySelector('td:nth-child(3) input').value.trim();
+// Save event (includes changing status of manual events to "approved")
+async function saveEvent(event, row) {
+  const updatedTitle = row.querySelector('.title-input').value.trim();
+  const updatedLocation = row.querySelector('.location-input').value.trim();
+  const updatedDateRaw = row.querySelector('.date-input')?.value.trim();
   const updatedDate = new Date(updatedDateRaw);
 
   if (!updatedTitle || !updatedLocation || isNaN(updatedDate.getTime())) {
-    alert('Please fill out all fields correctly before approving.');
+    alert('Please fill out all fields correctly before saving.');
     return;
   }
 
   try {
-    // === Geocode the updated location ===
-    const geoRes = await fetch(`${API_BASE_URL}/geocode`, {
+    const geoRes = await fetch('/geocode', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ address: updatedLocation })
     });
-    const geoResult = geoRes.ok ? await geoRes.json() : null;  
-    
+
+    const geoResult = geoRes.ok ? await geoRes.json() : null;
     const { latitude, longitude } = geoResult || {};
 
-    const res = await fetch(`${API_BASE_URL}/approve-event`, {
+    const isManual = event.source === 'manual';
+    const wasUnapproved = !event.approved;
+    const nowApproved = isManual && wasUnapproved;
+
+    const payload = {
+      id: event.id,
+      title: updatedTitle,
+      location: updatedLocation,
+      date: updatedDate.toISOString(),
+      latitude,
+      longitude,
+      approved: nowApproved ? true : event.approved
+    };
+
+    const endpoint = isManual ? '/save-event' : '/override-event';
+    const body = isManual
+      ? payload
+      : {
+          sourceId: event.id,
+          updates: {
+            title: updatedTitle,
+            location: updatedLocation,
+            date: updatedDate.toISOString(),
+            latitude,
+            longitude
+          }
+        };
+
+    const res = await fetch(endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        id: event.id,
-        title: updatedTitle,
-        location: updatedLocation,
-        date: updatedDate.toISOString(),
-        latitude,
-        longitude,
-        approved: true
-      })
+      body: JSON.stringify(body)
     });
 
-    if (res.ok) {
-      row.remove();
-    } else {
+    if (!res.ok) {
       const result = await res.json();
-      alert('Error approving event: ' + result.message);
+      alert('Error saving event: ' + result.message);
+    } else {
+      alert(nowApproved ? 'Event approved and saved!' : 'Event saved.');
+      row.classList.remove('pending-row');
     }
   } catch (error) {
-    console.error('Error approving event:', error);
-    alert('Failed to approve event.');
+    console.error('Error saving event:', error);
+    alert('Failed to save event.');
   }
 }
 
@@ -122,10 +174,16 @@ async function deleteEvent(event, row) {
   if (!confirm('Are you sure you want to delete this event?')) return;
 
   try {
-    const res = await fetch(`${API_BASE_URL}/delete-event`, {
+    const isManual = event.source === 'manual';
+    const endpoint = isManual ? '/delete-event' : '/suppress-event';
+    const body = isManual
+      ? { id: event.id }
+      : { sourceId: event.id };
+
+    const res = await fetch(endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: event.id })
+      body: JSON.stringify(body)
     });
 
     if (res.ok) {
@@ -169,8 +227,10 @@ document.addEventListener('click', async (e) => {
   const button = e.target.closest('.view-map-btn');
   if (button) {
     const row = button.closest('tr');
-    const locationInput = row.querySelector('td:nth-child(2) input');
+    const locationInput = row.querySelector('.location-input');
     const updatedLocation = locationInput.value.trim();
+    console.log('🧭 Map button clicked. Using updated location:', updatedLocation);
+
 
     if (!updatedLocation) {
       alert('Location field is empty.');
@@ -203,7 +263,3 @@ document.addEventListener('click', async (e) => {
     }
   }
 });
-
-
-// === INITIALIZATION ===
-loadPendingEvents();

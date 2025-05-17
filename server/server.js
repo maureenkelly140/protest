@@ -17,6 +17,10 @@ const GEOCACHE_PATH = path.join(__dirname, '../data/cache/blop-geocache.json');
 
 const { geocodeAddress } = require('./utils/geocode');
 
+const OVERRIDE_KEY = 'data/overrides/event-overrides.json';
+const SUPPRESSION_KEY = 'data/overrides/suppressed-events.json';
+
+
 // === CONFIG TOGGLE BLOCK ===
 const CONFIG = {
   includeMobilize: true,
@@ -214,11 +218,24 @@ app.post('/add-event', async (req, res) => {
   }
 });
 
-// === Approve Event Route ===
-app.post('/approve-event', async (req, res) => {
+// === Save Event Route ===
+app.post('/save-event', async (req, res) => {
+  const {
+    id,
+    title,
+    location,
+    date,
+    latitude,
+    longitude,
+    approved
+  } = req.body;
+
+  if (!id || !title || !location || !date) {
+    return res.status(400).json({ message: 'Missing required fields' });
+  }
+
   try {
     const manualEvents = await loadJSONFromS3('processed/manual-protests.json');
-    const { id, title, date, location, latitude, longitude } = req.body;
 
     const index = manualEvents.findIndex(ev => ev.id === id);
     if (index === -1) {
@@ -228,18 +245,19 @@ app.post('/approve-event', async (req, res) => {
     manualEvents[index] = {
       ...manualEvents[index],
       title,
-      date,
       location,
+      date,
       latitude,
       longitude,
-      approved: true
+      approved: !!approved
     };
 
     await saveJSONToS3('processed/manual-protests.json', manualEvents);
-    res.json({ message: 'Event approved!' });
+    res.json({ message: 'Event saved.' });
+
   } catch (err) {
-    console.error('❌ Failed to approve event:', err);
-    res.status(500).json({ error: 'Failed to approve event' });
+    console.error('❌ Failed to save event:', err);
+    res.status(500).json({ message: 'Failed to save event' });
   }
 });
 
@@ -279,6 +297,47 @@ app.post('/delete-event', async (req, res) => {
   } catch (err) {
     console.error('❌ Failed to delete event:', err);
     res.status(500).json({ error: 'Failed to delete event' });
+  }
+});
+
+app.post('/override-event', async (req, res) => {
+  try {
+    const { sourceId, updates } = req.body;
+    if (!sourceId || !updates || typeof updates !== 'object') {
+      return res.status(400).json({ error: 'Missing or invalid sourceId/updates' });
+    }
+
+    const overrides = await loadJSONFromS3(OVERRIDE_KEY);
+    overrides[sourceId] = {
+      ...(overrides[sourceId] || {}),
+      ...updates
+    };
+
+    await saveJSONToS3(OVERRIDE_KEY, overrides);
+    res.json({ message: 'Override saved' });
+  } catch (err) {
+    console.error('❌ Failed to save override:', err);
+    res.status(500).json({ error: 'Failed to save override' });
+  }
+});
+
+app.post('/suppress-event', async (req, res) => {
+  try {
+    const { sourceId } = req.body;
+    if (!sourceId) return res.status(400).json({ error: 'Missing sourceId' });
+
+    let suppressed = await loadJSONFromS3(SUPPRESSION_KEY);
+    if (!Array.isArray(suppressed)) suppressed = [];
+
+    if (!suppressed.includes(sourceId)) {
+      suppressed.push(sourceId);
+      await saveJSONToS3(SUPPRESSION_KEY, suppressed);
+    }
+
+    res.json({ message: 'Event suppressed' });
+  } catch (err) {
+    console.error('❌ Failed to suppress event:', err);
+    res.status(500).json({ error: 'Failed to suppress event' });
   }
 });
 
