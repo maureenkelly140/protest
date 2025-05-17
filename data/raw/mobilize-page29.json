@@ -1,802 +1,5 @@
 [
   {
-    "title": "Copy of: Petition Collection at Rally Against Tyranny-Port Charlotte",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/fldh/",
-      "created_date": 1743520470,
-      "modified_date": 1747290110,
-      "org_type": "C4",
-      "id": 41610,
-      "name": "FL Decides Healthcare",
-      "slug": "fldh",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Black%20Gold%20Professional%20Data%20Protection%20Class%20Google%20Classroom%20Header%20%28730%20x%20183%20px%29%20%28168%20x%20280%20px%29_20250509221859471008.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Charlotte_20250414140129670609.png",
-    "timeslots": [
-      {
-        "start_date": 1747488600,
-        "end_date": 1747492200,
-        "instructions": null,
-        "id": 5320176,
-        "is_full": false
-      }
-    ],
-    "tags": [
-      {
-        "id": 19901,
-        "name": "Medicaid Expansion"
-      }
-    ],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "U.S. 41 & Murdock Circle",
-        ""
-      ],
-      "locality": "Port Charlotte",
-      "region": "FL",
-      "country": "US",
-      "postal_code": "33948",
-      "location": {
-        "latitude": 27.0104057,
-        "longitude": -82.1409959
-      },
-      "congressional_district": "17",
-      "state_leg_district": "75",
-      "state_senate_district": "27"
-    },
-    "event_type": "COMMUNITY_CANVASS",
-    "created_date": 1747162038,
-    "modified_date": 1747393216,
-    "browser_url": "https://www.mobilize.us/fldh/event/789395/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 789395,
-    "description": "Help clipboard for Medicaid Expansion petitions at the Rally Against Tyranny. Petitions can be picked up & dropped off at a hub near you: https://floridadecideshealthcare.org/petition-hubs/ \n\n*Please note: You should attend a virtual volunteer training call ( https://www.mobilize.us/fldh/event/772512/ ) or watch the volunteer training on demand ( https://www.mobilize.us/fldh/event/774167/ ) prior to collecting petitions.*",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "NO KINGS Beaumont",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/nokings/",
-      "created_date": 1745974188,
-      "modified_date": 1747419334,
-      "org_type": "GRASSROOTS_GROUP",
-      "id": 42198,
-      "name": "No Kings",
-      "slug": "nokings",
-      "is_coordinated": false,
-      "is_independent": true,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/56x322%20No%20Kings%20Logo_Horizontal_Mobilize_20250501150510693600.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/1280x630%20Mobilize%20Promo_NoKings_v1_20250501194748666145.png",
-    "timeslots": [
-      {
-        "start_date": 1749920400,
-        "end_date": 1749927600,
-        "instructions": null,
-        "id": 5320178,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "Walmart Supercenter",
-      "address_lines": [
-        "1540 E 2nd St",
-        ""
-      ],
-      "locality": "Beaumont",
-      "region": "CA",
-      "country": "US",
-      "postal_code": "92223",
-      "location": {
-        "latitude": 33.9248674,
-        "longitude": -116.9521269
-      },
-      "congressional_district": "25",
-      "state_leg_district": "47",
-      "state_senate_district": "19"
-    },
-    "event_type": "VISIBILITY_EVENT",
-    "created_date": 1747162179,
-    "modified_date": 1747241991,
-    "browser_url": "https://www.mobilize.us/nokings/event/789397/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": true,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 789397,
-    "description": "**In America, we don’t put up with would-be kings.**\nNO KINGS is a national day of action and mass mobilization in response to increasing authoritarian excesses and corruption from Trump and his allies. We’ve watched as they’ve cracked down on free speech, detained people for their political views, threatened to deport American citizens, and defied the courts. They’ve done this all while continuing to serve and enrich their billionaire allies.\n\n\n🚨**On Saturday, June 14, we’re taking to the streets nationwide. We’re not gathering to feed his ego. We’re building a movement that leaves him behind.**🚨\n\n\nThe flag doesn’t belong to Donald Trump. It belongs to us. We’re not watching history happen. We’re making it.\n\n\n**On June 14th, we’re showing up everywhere he isn’t—to say no thrones, no crowns, no kings.**\nCheck out nokings.org for more information.\n\n*A core principle behind all No Kings events is a commitment to nonviolent action. We expect all participants to seek to de-escalate any potential confrontation with those who disagree with our values.*",
-    "timezone": "America/Los_Angeles",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": null,
-    "is_virtual": false
-  },
-  {
-    "title": "Support Trans Youth at the Greenwich Board of Education Meeting",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/gardenstateequality/",
-      "created_date": 1741111471,
-      "modified_date": 1747292786,
-      "org_type": "C3",
-      "id": 41151,
-      "name": "Garden State Equality",
-      "slug": "gardenstateequality",
-      "is_coordinated": false,
-      "is_independent": false,
-      "is_nonelectoral": true,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Garden_State_Equality_logo_20250304182649582910.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Copy%20of%20Copy%20of%20Board%20of%20Education%20Mobilize%20Graphic%20Template_20250513185023856138.png",
-    "timeslots": [
-      {
-        "start_date": 1748471400,
-        "end_date": 1748476800,
-        "instructions": null,
-        "id": 5320179,
-        "is_full": false
-      }
-    ],
-    "tags": [
-      {
-        "id": 87,
-        "name": "LGBTQ+"
-      },
-      {
-        "id": 22629,
-        "name": "Board Of Ed"
-      },
-      {
-        "id": 21944,
-        "name": "Protect Trans Kids"
-      }
-    ],
-    "location": {
-      "venue": "Greenwich Elementary School",
-      "address_lines": [
-        "101 Wyndham Farm Blvd",
-        ""
-      ],
-      "locality": "Greenwich Township",
-      "region": "NJ",
-      "country": "US",
-      "postal_code": "08886",
-      "location": {
-        "latitude": 40.6816192,
-        "longitude": -75.1243689
-      },
-      "congressional_district": "7",
-      "state_leg_district": "23",
-      "state_senate_district": null
-    },
-    "event_type": "TOWN_HALL",
-    "created_date": 1747162472,
-    "modified_date": 1747162477,
-    "browser_url": "https://www.mobilize.us/gardenstateequality/event/789398/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "ACCESSIBLE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 789398,
-    "description": "The Greenwich Township School District is voting to abolish policy 5756. \nSign up to support Trans youth and preserve this vital student policy. \nWear rainbows and/or bring signs. Public will have a chance to speak to the board for 3 minutes per person. This will occur near the beginning of the meeting at the first public comment section. Volunteers are also needed to read the statements of those who will not be able to attend the meeting in person. GPS Address is: 101 Wyndham Farm Blvd, Stewartsville, NJ 08886",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "Community Standout against the Trump Regime",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/indivisiblepittsfield/",
-      "created_date": 1746557395,
-      "modified_date": 1747294791,
-      "org_type": "GRASSROOTS_GROUP",
-      "id": 42414,
-      "name": "Indivisible Pittsfield",
-      "slug": "indivisiblepittsfield",
-      "is_coordinated": false,
-      "is_independent": false,
-      "is_nonelectoral": true,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": ""
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Community%20Standout%205-17%20with%20link_20250513185434803445.png",
-    "timeslots": [
-      {
-        "start_date": 1747494000,
-        "end_date": 1747499400,
-        "instructions": null,
-        "id": 5320200,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "East Street & Elm Street",
-        ""
-      ],
-      "locality": "Pittsfield",
-      "region": "MA",
-      "country": "US",
-      "postal_code": "01201",
-      "location": {
-        "latitude": 42.4469566,
-        "longitude": -73.2451032
-      },
-      "congressional_district": "1",
-      "state_leg_district": "8",
-      "state_senate_district": "1"
-    },
-    "event_type": "COMMUNITY",
-    "created_date": 1747162703,
-    "modified_date": 1747396857,
-    "browser_url": "https://www.mobilize.us/indivisiblepittsfield/event/789399/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 789399,
-    "description": "Join us as we hit the streets in protest of Trump’s authoritarian regime!! Bring your sign and energy!!",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "I-91 OVERPASSES FOR DEMOCRACY (RT 116/Deerfield)",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/indivisible/",
-      "created_date": 1513974036,
-      "modified_date": 1747282448,
-      "org_type": "OTHER",
-      "id": 93,
-      "name": "Indivisible",
-      "slug": "indivisible",
-      "is_coordinated": false,
-      "is_independent": true,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%202_20231214173755488494.png",
-    "timeslots": [
-      {
-        "start_date": 1748030400,
-        "end_date": 1748037600,
-        "instructions": null,
-        "id": 5320201,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "RT 116 Deerfield 01342",
-      "address_lines": [
-        "MA-116",
-        ""
-      ],
-      "locality": "Deerfield",
-      "region": "MA",
-      "country": "US",
-      "postal_code": "01342",
-      "location": {
-        "latitude": 42.4862251,
-        "longitude": -72.6214093
-      },
-      "congressional_district": "2",
-      "state_leg_district": "42",
-      "state_senate_district": "5"
-    },
-    "event_type": "RALLY",
-    "created_date": 1747162714,
-    "modified_date": 1747264463,
-    "browser_url": "https://www.mobilize.us/indivisible/event/789400/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": true,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 789400,
-    "description": "Stand up for Democracy with Franklin County neighbors and people up and down the Valley! Hundreds of us will stand with banners and signs on seven I-91 overpasses in Franklin County at the same time that people stand out on I-91 overpasses from Connecticut up to Vermont. We’ll be visible to thousands of people driving on I-91 during the Friday evening commute and the beginning of Memorial Day weekend.\n\nFranklin County’s I-91 Overpass Standouts are being organized by Franklin County Continuing the Political Revolution (FCCPR), Gill Indivisible and Indivisible West Quabbin\n.\nWe stand to raise awareness about attacks on our society by the Trump administration. We stand to RESIST!\n\nBring signs and banners with LARGE BOLD messages so they can be read by drivers on I-91.\n\nThis action is legal and nonviolent. Safety is essential… take care with parking and walking to/from the overpass and during the standout. Stand ONLY where there is a sidewalk. Parking is at the beginning of Whately Rd on the sidewalk side of the overpass.",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": null,
-    "is_virtual": false
-  },
-  {
-    "title": "Harrisonburg-Rockingham Latino Caucus Monthly Meeting",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/harrisonburgdemocraticcommittee/",
-      "created_date": 1707502117,
-      "modified_date": 1747294433,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 37385,
-      "name": "Harrisonburg Democratic Committee",
-      "slug": "harrisonburgdemocraticcommittee",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "VA",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/unnamed%20%283%29_20241105194300685445.png"
-    },
-    "featured_image_url": "",
-    "timeslots": [
-      {
-        "start_date": 1748102400,
-        "end_date": 1748107800,
-        "instructions": null,
-        "id": 5320222,
-        "is_full": false
-      },
-      {
-        "start_date": 1751126400,
-        "end_date": 1751131800,
-        "instructions": null,
-        "id": 5320223,
-        "is_full": false
-      },
-      {
-        "start_date": 1753545600,
-        "end_date": 1753551000,
-        "instructions": null,
-        "id": 5320224,
-        "is_full": false
-      },
-      {
-        "start_date": 1755964800,
-        "end_date": 1755970200,
-        "instructions": null,
-        "id": 5320225,
-        "is_full": false
-      },
-      {
-        "start_date": 1758988800,
-        "end_date": 1758994200,
-        "instructions": null,
-        "id": 5320226,
-        "is_full": false
-      },
-      {
-        "start_date": 1761408000,
-        "end_date": 1761413400,
-        "instructions": null,
-        "id": 5320227,
-        "is_full": false
-      },
-      {
-        "start_date": 1763830800,
-        "end_date": 1763836200,
-        "instructions": null,
-        "id": 5320228,
-        "is_full": false
-      },
-      {
-        "start_date": 1766854800,
-        "end_date": 1766860200,
-        "instructions": null,
-        "id": 5320229,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "locality": "Harrisonburg",
-      "region": "VA",
-      "country": "US",
-      "postal_code": "22801",
-      "congressional_district": "6",
-      "state_leg_district": "34",
-      "state_senate_district": "2",
-      "address_lines": [
-        "This event’s address is private. Sign up for more details",
-        ""
-      ],
-      "venue": "This event’s address is private. Sign up for more details"
-    },
-    "event_type": "MEETING",
-    "created_date": 1747162991,
-    "modified_date": 1747162995,
-    "browser_url": "https://www.mobilize.us/harrisonburgdemocraticcommittee/event/789401/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PRIVATE",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 789401,
-    "description": "The Harrisonburg Democratic Committee is excited to invite you to an upcoming interest meeting for the Harrisonburg-Rockingham Democratic Latino Caucus. If you are frustrated by the constant attacks on Latino communities in the United States by Donald Trump, Elon Musk, and their Republican Party, and you want to take a stand, join us! \n\nThe caucus aims to represent the interests of Harrisonburg-Rockingham's Latino communities to our Democratic leaders and to connect those communities with the actions our leaders are already taking. However, we can't succeed without your involvement. Whether you are passionate about protecting immigrant rights, empowering Latino businesses, or advocating for a better education system, there is a place for you here.\n\nAll are welcome! Please share this invitation and bring a friend!\nWe meet every 4th Saturday of the month at 12 noon!",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "Roanoke Meet and Greet with Aaron Rouse!",
-    "summary": "",
-    "sponsor": {
-      "race_type": "STATE_SENATE",
-      "event_feed_url": "https://www.mobilize.us/rouseforvirginia/",
-      "created_date": 1669148456,
-      "modified_date": 1747286039,
-      "org_type": "CAMPAIGN",
-      "id": 34725,
-      "name": "Aaron Rouse for Virginia",
-      "slug": "rouseforvirginia",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "VA",
-      "district": "22",
-      "candidate_name": "Aaron Rouse",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/RouseLG_Logo_cropped_20250128162617396110.jpeg"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/1442460474202985622%282%29_20250513190930327969.jpeg",
-    "timeslots": [
-      {
-        "start_date": 1748107800,
-        "end_date": 1748113200,
-        "instructions": null,
-        "id": 5320231,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "434 Church Ave SW",
-        ""
-      ],
-      "locality": "Roanoke",
-      "region": "VA",
-      "country": "US",
-      "postal_code": "24016",
-      "location": {
-        "latitude": 37.2700847,
-        "longitude": -79.9499553
-      },
-      "congressional_district": "6",
-      "state_leg_district": "38",
-      "state_senate_district": "4"
-    },
-    "event_type": "COMMUNITY",
-    "created_date": 1747163414,
-    "modified_date": 1747163422,
-    "browser_url": "https://www.mobilize.us/rouseforvirginia/event/789403/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 789403,
-    "description": "Aaron Rouse is more than just a former NFL player—he’s a proven leader who’s delivered results on the biggest stages, from the football field to the floor of the Virginia Senate. Now, as a candidate for Lieutenant Governor, Aaron is ready to bring that same drive and commitment to lifting up communities across the Commonwealth—including right here in Loudoun County.\n\nWith a focus on creating more good-paying jobs, protecting our fundamental freedoms, and making life more affordable—especially when it comes to housing—Aaron Rouse is fighting for a Virginia where everyone has a fair shot. His leadership is about more than just policy—it’s about real results for real people.\n\nThis event is your chance to hear directly from Aaron about his vision for Virginia’s future, his priorities as Lieutenant Governor, and how we can work together to build a Commonwealth that reflects the strength, diversity, and resilience of communities like Roanoke. Join us and be part of the movement to create a stronger, more inclusive Virginia for all.",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "Long Island Pride",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/lgbtnetwork/",
-      "created_date": 1746222514,
-      "modified_date": 1747294910,
-      "org_type": "C3",
-      "id": 42282,
-      "name": "LGBT Network",
-      "slug": "lgbtnetwork",
-      "is_coordinated": false,
-      "is_independent": false,
-      "is_nonelectoral": true,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": ""
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Hands%20Off%20-%20LI%20Pride%20%281200%20x%20630%20px%29_20250516211010872927.png",
-    "timeslots": [
-      {
-        "start_date": 1749398400,
-        "end_date": 1749416400,
-        "instructions": null,
-        "id": 5320232,
-        "is_full": false
-      }
-    ],
-    "tags": [
-      {
-        "id": 87,
-        "name": "LGBTQ+"
-      },
-      {
-        "id": 252,
-        "name": "Pride"
-      },
-      {
-        "id": 21032,
-        "name": "Lgbt"
-      }
-    ],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "Prime Ave",
-        ""
-      ],
-      "locality": "Huntington",
-      "region": "NY",
-      "country": "US",
-      "postal_code": "11743",
-      "location": {
-        "latitude": 40.8753746,
-        "longitude": -73.4224399
-      },
-      "congressional_district": null,
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "COMMUNITY",
-    "created_date": 1747163468,
-    "modified_date": 1747430746,
-    "browser_url": "https://www.mobilize.us/lgbtnetwork/event/789404/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "ACCESSIBLE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 789404,
-    "description": "MARCH WITH THE “HANDS OFF” CONTINGENT AT THE 35TH ANNUAL LONG ISLAND PRIDE! 🚨\nHands off our rights. Hands off our bodies. HANDS OFF OUR PRIDE.\n\nThis isn’t just another Pride event. This is the 35th Annual Long Island Pride—the original, historic, and most visible Pride celebration in our region.\n\nBorn out of resistance. Powered by community. Built to last. And this year, we’re expanding the movement.\n\nFor the first time ever, individuals can register to march in a special Hands Off Contingent—a mass mobilization against rising authoritarianism, censorship, and attacks on our freedoms.\n\nFrom LGBTQ+ rights to reproductive justice, education, and democracy, we are drawing the line—and we’re doing it with Defiant Joy.\n🗓️ Sunday, June 8, 2025 – 12n\n📍 Huntington Village\n👥 Organizations, schools, and community groups will march—as they have for decades. And now, individuals can too.\n🔗 Sign up now → lipride.org/march/hands-off\n\nThis is the Pride where history is made.\nThis is the Pride where resistance becomes joy.\nThis is the Pride where everyone needs to be.\n\nBe seen. Be heard. Be there.\n📚 Read our history → lipride.org/about-us/#history",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": true
-  },
-  {
-    "title": "Mckinney Pride Fair & Festival- CCDP Booth-Volunteers Needed!",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/collindemocrats/",
-      "created_date": 1533678003,
-      "modified_date": 1747287274,
-      "org_type": "PARTY_COMMITTEE",
-      "id": 635,
-      "name": "Collin County Democratic Party",
-      "slug": "collindemocrats",
-      "is_coordinated": true,
-      "is_independent": false,
-      "is_nonelectoral": false,
-      "is_primary_campaign": false,
-      "state": "TX",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/collin%20logo%20resized%20for%20NGPVAN-2_20201006193904727537.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Untitled%20design_20250513173342610883.png",
-    "timeslots": [
-      {
-        "start_date": 1748797200,
-        "end_date": 1748806200,
-        "instructions": null,
-        "id": 5320233,
-        "is_full": false
-      },
-      {
-        "start_date": 1748806200,
-        "end_date": 1748813400,
-        "instructions": null,
-        "id": 5320234,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "Dr. Glenn Mitchell Memorial Park",
-      "address_lines": [
-        "300 W Louisiana St",
-        ""
-      ],
-      "locality": "McKinney",
-      "region": "TX",
-      "country": "US",
-      "postal_code": "75069",
-      "location": {
-        "latitude": 33.1976157,
-        "longitude": -96.6178584
-      },
-      "congressional_district": "3",
-      "state_leg_district": null,
-      "state_senate_district": "8"
-    },
-    "event_type": "COMMUNITY",
-    "created_date": 1747163491,
-    "modified_date": 1747281860,
-    "browser_url": "https://www.mobilize.us/collindemocrats/event/789405/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 789405,
-    "description": "🏳️‍🌈 Join CCDP at the McKinney Pride Fair & Festival! 🏳️‍🌈\n\nThe Collin County Democratic Party will be proudly hosting a booth at the McKinney Pride Fair and Festival on Sunday, June 1st — and we need your help! Come celebrate love, equality, and community with us, and help share our values with festival-goers.\n\n📍 Location: McKinney Pride Fair & Festival\nDr . Glenn Mitchell Memorial Park is located at 300 W . Louisiana St., McKinney, TX 75069\n\n🕐 Volunteer Shifts: \n12 PM- 2:30 PM- Set up and Manning the Booth\n\n2:30 PM- 4:30 PM- Manning the Booth & Booth Tear Down\n\nThis is a great opportunity to connect with our neighbors, hand out materials, and show support for our LGBTQ+ community. Let us know if you can join — we’d love to have you with us!",
-    "timezone": "America/Chicago",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": false
-  },
-  {
-    "title": "Transit for All PA! Phonebank",
-    "summary": "",
-    "sponsor": {
-      "race_type": null,
-      "event_feed_url": "https://www.mobilize.us/ppt/",
-      "created_date": 1717711045,
-      "modified_date": 1747286255,
-      "org_type": "C3",
-      "id": 38589,
-      "name": "PPT & T4APA!",
-      "slug": "ppt",
-      "is_coordinated": false,
-      "is_independent": false,
-      "is_nonelectoral": true,
-      "is_primary_campaign": false,
-      "state": "",
-      "district": "",
-      "candidate_name": "",
-      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Untitled%20%284000%20x%20500%20px%29%20%281%29_20250410225148688226.png"
-    },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Copy%20of%20Untitled%20Design_20250513190406614680.png",
-    "timeslots": [
-      {
-        "start_date": 1747863000,
-        "end_date": 1747870200,
-        "instructions": null,
-        "id": 5320235,
-        "is_full": false
-      },
-      {
-        "start_date": 1748381400,
-        "end_date": 1748388600,
-        "instructions": null,
-        "id": 5320469,
-        "is_full": false
-      },
-      {
-        "start_date": 1748446200,
-        "end_date": 1748453400,
-        "instructions": null,
-        "id": 5320236,
-        "is_full": false
-      }
-    ],
-    "tags": [],
-    "location": {
-      "venue": "",
-      "address_lines": [
-        "",
-        ""
-      ],
-      "locality": "",
-      "region": "",
-      "country": "US",
-      "postal_code": "",
-      "location": {
-        "latitude": null,
-        "longitude": null
-      },
-      "congressional_district": null,
-      "state_leg_district": null,
-      "state_senate_district": null
-    },
-    "event_type": "PHONE_BANK",
-    "created_date": 1747163522,
-    "modified_date": 1747341973,
-    "browser_url": "https://www.mobilize.us/ppt/event/789406/",
-    "contact": null,
-    "visibility": "PUBLIC",
-    "created_by_volunteer_host": false,
-    "address_visibility": "PUBLIC",
-    "accessibility_status": "NOT_SURE",
-    "approval_status": "APPROVED",
-    "event_campaign": null,
-    "instructions": null,
-    "id": 789406,
-    "description": "## You can help us spread the word! Can you volunteer to make calls with us?\n\nTransit riders are organizing to expand transit funding across our state. And we've got the momentum to make it happen! \n\nJoin this phonebank to help Transit for All PA! spread the word about our campaign and invite supporters to our Rally and Lobby Day on June 4th in Harrisburg. \n\n### How can you get ready for the event?\n1. Register on this page and the meeting's Zoom link will be emailed to you\n2. Check-out [this short training video](https://help.getthru.io/support/solutions/articles/44002325584-how-to-make-calls-thrutalk-video-) on how to use \"GetThru/ThruTalk\", the tool that we use for phonebanking.\n3. When the meeting starts, *use your computer, not of your phone* to join the meeting. This will be easiest for accessing our phonebank tool.\n\nIf there are any questions or accessibility needs reach out to us!",
-    "timezone": "America/New_York",
-    "high_priority": null,
-    "virtual_action_url": null,
-    "accessibility_notes": "",
-    "is_virtual": true
-  },
-  {
     "title": "EQUAL RGHTS FOR ALL! Protect LGBTQ+ Rights! (Maui)",
     "summary": "",
     "sponsor": {
@@ -2019,13 +1222,6 @@
     },
     "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Women%20for%20Adelita%20canvass%20%281200%20x%20630%20px%29%20%282%29_20250513193213464326.jpg",
     "timeslots": [
-      {
-        "start_date": 1747441800,
-        "end_date": 1747449000,
-        "instructions": null,
-        "id": 5320416,
-        "is_full": false
-      },
       {
         "start_date": 1747701000,
         "end_date": 1747708200,
@@ -7952,7 +7148,7 @@
       "candidate_name": "",
       "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/Logo_Full_Sm_20200908235102917095.png"
     },
-    "featured_image_url": "",
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/2025-05-16%20%286%29_20250516233846692200.png",
     "timeslots": [
       {
         "start_date": 1747791000,
@@ -7988,7 +7184,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1747173804,
-    "modified_date": 1747262036,
+    "modified_date": 1747438732,
     "browser_url": "https://www.mobilize.us/indivisibleyolo/event/789538/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -10950,7 +10146,7 @@
     "is_virtual": true
   },
   {
-    "title": "Brunch with Lily",
+    "title": "Brunch & Mimosas with Lily",
     "summary": "",
     "sponsor": {
       "race_type": null,
@@ -10970,7 +10166,7 @@
       "candidate_name": "",
       "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/South-Bay-SD-Logo_20210205193454143540.png"
     },
-    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/2025%20Event%20banners%20for%20Mobilize%20%2839%29_20250516195737715291.jpg",
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/2025%20Event%20banners%20for%20Mobilize%20%2844%29_20250517013245854237.jpg",
     "timeslots": [
       {
         "start_date": 1749315600,
@@ -11010,7 +10206,7 @@
     },
     "event_type": "FUNDRAISER",
     "created_date": 1747180182,
-    "modified_date": 1747432253,
+    "modified_date": 1747445571,
     "browser_url": "https://www.mobilize.us/sisterdistrictsouthbay/event/789585/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -11021,7 +10217,7 @@
     "event_campaign": null,
     "instructions": null,
     "id": 789585,
-    "description": "Join Sister District South Bay and Together We Will / Indivisible - Los Gatos for brunch and mimosas with [Lily Franklin](https://sisterdistrict.com/candidates/lily-franklin/) who is running for Virginia House of Delegates in person!  You'll dine with Lily at a private home in Los Gatos, featuring delicious brunch dishes (including vegetarian options) and mimosas where we can talk with Lily about her race and what’s at stake in this election in Virginia.\n\n** Suggested Ticket prices:** $50/person or free for those under 30. 100% of your donations will support Lily's campaign. We are grateful for all donations large and small! \n\n-**1.**  [Make Your Donation Here](https://secure.actblue.com/donate/sd023-va-franklin-southbay?refcode=25LgBrunch)   _(Donations can also be made by check at the event)_\n\n-**2.** Sign up on this page in the upper right hand area to RSVP and receive confirmation info.\n\n**WHY THIS RACE**\n\nLily Franklin is running again in 2025 after narrowly losing the 2023 election for Virginia's 41st House District by just 183 votes. A former high school math teacher and chief of staff for Delegate Sam Rasoul, Franklin has been a dedicated advocate for affordable housing, accessible childcare, and quality education. Flipping this seat is crucial for Democrats to strengthen their majority in the House of Delegates and continue advancing progressive policies in Virginia.\n\n**WHY VIRGINIA**\n\nDemocrats must defend our House majority to keep Virginia a firewall against right-wing extremism. With momentum on our side, we can win key swing districts and build power for 2026. We also have a major opportunity to take back the Governor’s office and statewide seats, securing Virginia’s future as a stronghold for democracy.\n\nThank you for your donation & we look forward to seeing you there!\n\n_Please note that this event may be photographed and/or video or audio recorded. By your attendance at this event, you agree that any image, audio or video recording of you may be used by Sister District Project and Sister District South Bay for use in its promotional materials._",
+    "description": "Join us for brunch and mimosas and meet [Lily Franklin](https://sisterdistrict.com/candidates/lily-franklin/) who is running for Virginia House of Delegates in person!  You'll dine with Lily at a private home in Los Gatos, featuring delicious brunch dishes (including vegetarian options) and mimosas where we can talk with Lily about her race and what’s at stake in this election in Virginia.\n\n** Suggested Ticket prices:** $50/person or free for those under 30. 100% of your donations will support Lily's campaign. We are grateful for all donations large and small! \n\n-**1.**  [Make Your Donation Here](https://secure.actblue.com/donate/sd023-va-franklin-southbay?refcode=25LgBrunch)   _(Donations can also be made by check at the event)_\n\n-**2.** Sign up on this page in the upper right hand area to RSVP and receive confirmation info.\n\n**WHY THIS RACE**\n\nLily Franklin is running again in 2025 after narrowly losing the 2023 election for Virginia's 41st House District by just 183 votes. A former high school math teacher and chief of staff for Delegate Sam Rasoul, Franklin has been a dedicated advocate for affordable housing, accessible childcare, and quality education. Flipping this seat is crucial for Democrats to strengthen their majority in the House of Delegates and continue advancing progressive policies in Virginia.\n\n**WHY VIRGINIA**\n\nDemocrats must defend our House majority to keep Virginia a firewall against right-wing extremism. With momentum on our side, we can win key swing districts and build power for 2026. We also have a major opportunity to take back the Governor’s office and statewide seats, securing Virginia’s future as a stronghold for democracy.\n\nThank you for your donation & we look forward to seeing you there!\n\n_Please note that this event may be photographed and/or video or audio recorded. By your attendance at this event, you agree that any image, audio or video recording of you may be used by Sister District Project and Sister District South Bay for use in its promotional materials._",
     "timezone": "America/Los_Angeles",
     "high_priority": null,
     "virtual_action_url": null,
@@ -14743,7 +13939,7 @@
     },
     "event_type": "PHONE_BANK",
     "created_date": 1747191813,
-    "modified_date": 1747421076,
+    "modified_date": 1747445290,
     "browser_url": "https://www.mobilize.us/cuomofornyc/event/789649/",
     "contact": null,
     "visibility": "PUBLIC",
@@ -15941,6 +15137,936 @@
     "instructions": null,
     "id": 789674,
     "description": "Please join us at a Meet & Greet with Steven Fulop for Governor!\n\nBy signing up for this event, I hereby grant permission to the Fulop for Governor campaign and its affiliates to photograph, film, and/or record my likeness, voice, and/or image.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Lexington Democratic Club Canvass for Vanessa Aronson",
+    "summary": "",
+    "sponsor": {
+      "race_type": "OTHER_LOCAL",
+      "event_feed_url": "https://www.mobilize.us/vanessafornyc/",
+      "created_date": 1741199970,
+      "modified_date": 1747294481,
+      "org_type": "CAMPAIGN",
+      "id": 41163,
+      "name": "Vanessa for NYC",
+      "slug": "vanessafornyc",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "NY",
+      "district": "4",
+      "candidate_name": "Vanessa Aronson",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Vanessa%20Mobilize%20Pic_20250306193744326911.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/IMG_4595_20250514121529702410.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1747654200,
+        "end_date": 1747659600,
+        "instructions": null,
+        "id": 5321309,
+        "is_full": false
+      },
+      {
+        "start_date": 1747740600,
+        "end_date": 1747746000,
+        "instructions": null,
+        "id": 5321278,
+        "is_full": false
+      },
+      {
+        "start_date": 1747774800,
+        "end_date": 1747780200,
+        "instructions": null,
+        "id": 5321294,
+        "is_full": false
+      },
+      {
+        "start_date": 1747827000,
+        "end_date": 1747832400,
+        "instructions": null,
+        "id": 5321283,
+        "is_full": false
+      },
+      {
+        "start_date": 1747913400,
+        "end_date": 1747918800,
+        "instructions": null,
+        "id": 5321288,
+        "is_full": false
+      },
+      {
+        "start_date": 1747947600,
+        "end_date": 1747953000,
+        "instructions": null,
+        "id": 5321300,
+        "is_full": false
+      },
+      {
+        "start_date": 1748259000,
+        "end_date": 1748264400,
+        "instructions": null,
+        "id": 5321310,
+        "is_full": false
+      },
+      {
+        "start_date": 1748345400,
+        "end_date": 1748350800,
+        "instructions": null,
+        "id": 5321279,
+        "is_full": false
+      },
+      {
+        "start_date": 1748379600,
+        "end_date": 1748385000,
+        "instructions": null,
+        "id": 5321295,
+        "is_full": false
+      },
+      {
+        "start_date": 1748431800,
+        "end_date": 1748437200,
+        "instructions": null,
+        "id": 5321284,
+        "is_full": false
+      },
+      {
+        "start_date": 1748518200,
+        "end_date": 1748523600,
+        "instructions": null,
+        "id": 5321289,
+        "is_full": false
+      },
+      {
+        "start_date": 1748552400,
+        "end_date": 1748557800,
+        "instructions": null,
+        "id": 5321301,
+        "is_full": false
+      },
+      {
+        "start_date": 1748863800,
+        "end_date": 1748869200,
+        "instructions": null,
+        "id": 5321311,
+        "is_full": false
+      },
+      {
+        "start_date": 1748950200,
+        "end_date": 1748955600,
+        "instructions": null,
+        "id": 5321280,
+        "is_full": false
+      },
+      {
+        "start_date": 1748984400,
+        "end_date": 1748989800,
+        "instructions": null,
+        "id": 5321296,
+        "is_full": false
+      },
+      {
+        "start_date": 1749036600,
+        "end_date": 1749042000,
+        "instructions": null,
+        "id": 5321285,
+        "is_full": false
+      },
+      {
+        "start_date": 1749123000,
+        "end_date": 1749128400,
+        "instructions": null,
+        "id": 5321290,
+        "is_full": false
+      },
+      {
+        "start_date": 1749157200,
+        "end_date": 1749162600,
+        "instructions": null,
+        "id": 5321302,
+        "is_full": false
+      },
+      {
+        "start_date": 1749468600,
+        "end_date": 1749474000,
+        "instructions": null,
+        "id": 5321312,
+        "is_full": false
+      },
+      {
+        "start_date": 1749555000,
+        "end_date": 1749560400,
+        "instructions": null,
+        "id": 5321281,
+        "is_full": false
+      },
+      {
+        "start_date": 1749589200,
+        "end_date": 1749594600,
+        "instructions": null,
+        "id": 5321297,
+        "is_full": false
+      },
+      {
+        "start_date": 1749641400,
+        "end_date": 1749646800,
+        "instructions": null,
+        "id": 5321286,
+        "is_full": false
+      },
+      {
+        "start_date": 1749727800,
+        "end_date": 1749733200,
+        "instructions": null,
+        "id": 5321291,
+        "is_full": false
+      },
+      {
+        "start_date": 1749762000,
+        "end_date": 1749767400,
+        "instructions": null,
+        "id": 5321303,
+        "is_full": false
+      },
+      {
+        "start_date": 1750073400,
+        "end_date": 1750078800,
+        "instructions": null,
+        "id": 5321313,
+        "is_full": false
+      },
+      {
+        "start_date": 1750159800,
+        "end_date": 1750165200,
+        "instructions": null,
+        "id": 5321282,
+        "is_full": false
+      },
+      {
+        "start_date": 1750194000,
+        "end_date": 1750199400,
+        "instructions": null,
+        "id": 5321298,
+        "is_full": false
+      },
+      {
+        "start_date": 1750246200,
+        "end_date": 1750251600,
+        "instructions": null,
+        "id": 5321287,
+        "is_full": false
+      },
+      {
+        "start_date": 1750332600,
+        "end_date": 1750338000,
+        "instructions": null,
+        "id": 5321292,
+        "is_full": false
+      },
+      {
+        "start_date": 1750366800,
+        "end_date": 1750372200,
+        "instructions": null,
+        "id": 5321304,
+        "is_full": false
+      },
+      {
+        "start_date": 1750678200,
+        "end_date": 1750683600,
+        "instructions": null,
+        "id": 5321314,
+        "is_full": false
+      },
+      {
+        "start_date": 1750764600,
+        "end_date": 1750770000,
+        "instructions": null,
+        "id": 5321293,
+        "is_full": false
+      },
+      {
+        "start_date": 1750798800,
+        "end_date": 1750804200,
+        "instructions": null,
+        "id": 5321299,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "locality": "New York",
+      "region": "NY",
+      "country": "US",
+      "postal_code": "10075",
+      "congressional_district": "12",
+      "state_leg_district": null,
+      "state_senate_district": "28",
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "CANVASS",
+    "created_date": 1747226288,
+    "modified_date": 1747227423,
+    "browser_url": "https://www.mobilize.us/vanessafornyc/event/789675/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 789675,
+    "description": "Join the Lexington Democratic Club to canvass for their endorsed City Council candidate in District 4, Vanessa Aronson! Let's meet voters and connect to help elect Vanessa in June. Flexible shifts and timeslots available during morning and evening commute times.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "NO KINGS Hot Springs",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/nokings/",
+      "created_date": 1745974188,
+      "modified_date": 1747419334,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42198,
+      "name": "No Kings",
+      "slug": "nokings",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/56x322%20No%20Kings%20Logo_Horizontal_Mobilize_20250501150510693600.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/1280x630%20Mobilize%20Promo_NoKings_v1_20250501194748666145.png",
+    "timeslots": [
+      {
+        "start_date": 1749924000,
+        "end_date": 1749931200,
+        "instructions": null,
+        "id": 5321319,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Hill Wheatley Plaza Thermal Water",
+      "address_lines": [
+        "605 Central Ave",
+        ""
+      ],
+      "locality": "Hot Springs",
+      "region": "AR",
+      "country": "US",
+      "postal_code": "71901",
+      "location": {
+        "latitude": 34.5110326,
+        "longitude": -93.0538672
+      },
+      "congressional_district": "4",
+      "state_leg_district": "84",
+      "state_senate_district": "6"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747228178,
+    "modified_date": 1747440042,
+    "browser_url": "https://www.mobilize.us/nokings/event/789680/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 789680,
+    "description": "**In America, we don’t put up with would-be kings.**\nNO KINGS is a national day of action and mass mobilization in response to increasing authoritarian excesses and corruption from Trump and his allies. We’ve watched as they’ve cracked down on free speech, detained people for their political views, threatened to deport American citizens, and defied the courts. They’ve done this all while continuing to serve and enrich their billionaire allies.\n\n\n🚨**On Saturday, June 14, we’re taking to the streets nationwide. We’re not gathering to feed his ego. We’re building a movement that leaves him behind.**🚨\n\n\nThe flag doesn’t belong to Donald Trump. It belongs to us. We’re not watching history happen. We’re making it.\n\n\n**On June 14th, we’re showing up everywhere he isn’t—to say no thrones, no crowns, no kings.**\nCheck out nokings.org for more information.\n\n*A core principle behind all No Kings events is a commitment to nonviolent action. We expect all participants to seek to de-escalate any potential confrontation with those who disagree with our values.*",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false
+  },
+  {
+    "title": "No Kings!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/polkburnettindivisible/",
+      "created_date": 1747227316,
+      "modified_date": 1747293596,
+      "org_type": "GRASSROOTS_GROUP",
+      "id": 42754,
+      "name": "Polk Burnett Indivisible",
+      "slug": "polkburnettindivisible",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": ""
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Image%201%20%283%29_20250514131722005405.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1749915000,
+        "end_date": 1749920400,
+        "instructions": null,
+        "id": 5321417,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Stoplight in Siren, WI",
+      "address_lines": [
+        "Wisconsin 35 & Wisconsin 70",
+        ""
+      ],
+      "locality": "Siren",
+      "region": "WI",
+      "country": "US",
+      "postal_code": "54872",
+      "location": {
+        "latitude": 45.7845511,
+        "longitude": -92.3809349
+      },
+      "congressional_district": "7",
+      "state_leg_district": "75",
+      "state_senate_district": "25"
+    },
+    "event_type": "RALLY",
+    "created_date": 1747229278,
+    "modified_date": 1747229282,
+    "browser_url": "https://www.mobilize.us/polkburnettindivisible/event/789684/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 789684,
+    "description": "Join us June 14th from 10:30 to noon at the corner of Hwys. 35 and 70 in Siren, WI, for peaceful rally in opposition to autocracy. Sponsored by Democracy Protectors - Burnett County Chapter, and Polk Burnett Indivisible.\n\nPlease park on village roadways and not in business parking lots. \n\nA farmers market on the same corner starts at 10 a.m. Consider buying some locally-grown produce!",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Solidarity Vigil in Wilkes-Barre",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/atnepa/",
+      "created_date": 1539981013,
+      "modified_date": 1747289341,
+      "org_type": "INDEPENDENT",
+      "id": 1152,
+      "name": "Action Together NEPA",
+      "slug": "atnepa",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "PA",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/ATNEPA%202020%20Logo%20Final_20240430215738749494.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Solidarity%20Event%20-%201200x630_20250514131937698375.png",
+    "timeslots": [
+      {
+        "start_date": 1748041200,
+        "end_date": 1748044800,
+        "instructions": null,
+        "id": 5321418,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Max Rosenn U.S. Courthouse",
+      "address_lines": [
+        "197 S Main St",
+        ""
+      ],
+      "locality": "Wilkes-Barre",
+      "region": "PA",
+      "country": "US",
+      "postal_code": "18701",
+      "location": {
+        "latitude": 41.2426033,
+        "longitude": -75.8884735
+      },
+      "congressional_district": "8",
+      "state_leg_district": "121",
+      "state_senate_district": "22"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1747229306,
+    "modified_date": 1747398795,
+    "browser_url": "https://www.mobilize.us/atnepa/event/789685/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 789685,
+    "description": "**Solidarity is not just a word—it is a force that creates change. Join us in solidarity as we come together as a community for a candlelight vigil on Friday, May 23rd in Wilkes-Barre.** \n\nThe Trump Administration recently released 3 new executive orders; escalating their attacks on immigrant communities and emboldening law enforcement agencies to collaborate with ICE. In particular, the EO targeting sanctuary cities and jurisdictions across the country is an egregious plan to threaten states, cities, and local jurisdictions with prosecution for exercising their rights. \n\nCrucially, they have laid out a 30 day timeline for a target prosecution list to be produced. That gives the immigrant rights movement and opposition to the Trump regime a clear window for a call to action with mobilizations in conditions of urgency and clarity. Join us for this action to show and build public support for immigrants who are welcome and appreciated members of our communities. As we head into Memorial Day Weekend, it is a perfect time to remember that all are welcome here, and welcoming everyone is what makes America strong.\n\nWhile some choose cruelty and chaos, we choose community. While some choose hate, we choose love. While the Trump Administration chooses to separate families, remove teachers from their classrooms, and remove workers from their communities, we choose to protect all those people who make up the places we call home. \n\n**Join Make the Road Pennsylvania, Action Together NEPA, the Pennsylvania Policy Center, and the Pennsylvanians Together coalition for a candlelight solidarity vigil to fight the cruelty, stand together, and say that immigrants are essential and integral to our community and we/they belong unconditionally!**",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Virtual Town Hall hosted by the Asbury Park Complete Streets Coalition",
+    "summary": "",
+    "sponsor": {
+      "race_type": "GOVERNOR",
+      "event_feed_url": "https://www.mobilize.us/fulopforgovernor/",
+      "created_date": 1718737482,
+      "modified_date": 1747342405,
+      "org_type": "CAMPAIGN",
+      "id": 38708,
+      "name": "Fulop for Governor",
+      "slug": "fulopforgovernor",
+      "is_coordinated": true,
+      "is_independent": false,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "NJ",
+      "district": "",
+      "candidate_name": "Steven Fulop",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Screenshot%202025-02-06%20144506_20250206194528586338.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Copy%20of%20Example%20Cover%20Photo%20%20%281200%20x%20630%20px%29%20%287%29_20250514134707519724.png",
+    "timeslots": [
+      {
+        "start_date": 1747787400,
+        "end_date": 1747790100,
+        "instructions": null,
+        "id": 5321425,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "",
+        ""
+      ],
+      "locality": "",
+      "region": "",
+      "country": "US",
+      "postal_code": "",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "congressional_district": null,
+      "state_leg_district": null,
+      "state_senate_district": null
+    },
+    "event_type": "TOWN_HALL",
+    "created_date": 1747230432,
+    "modified_date": 1747408961,
+    "browser_url": "https://www.mobilize.us/fulopforgovernor/event/789690/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 789690,
+    "description": "Please attend this virtual town hall with Steven Fulop, candidate for NJ Governor, hosted by Asbury Park Complete Streets. This event is open to the public. \n\nAsbury Park Complete Streets Coalition was born from a simple idea — people deserve to move freely and safely from place to place.\n\nBy foot, by bike, by bus and by car, all modes of transportation deserve a place on the road. We work to help them all, especially the most vulnerable, to have a voice and be heard.  If streets are safe for an 8-year-old or an 88-year-old, they are safe for everyone.",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": true
+  },
+  {
+    "title": "Hands Off Our Health Care Canvass in Pueblo",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/wfpower/",
+      "created_date": 1603300429,
+      "modified_date": 1747283095,
+      "org_type": "C4",
+      "id": 5370,
+      "name": "Working Families Power",
+      "slug": "wfpower",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/WFP-WORDMARK-POWER-HORIZONTAL%5BGP%5D_20201021171619293612.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/5_20250513194300324893.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747591200,
+        "end_date": 1747598400,
+        "instructions": null,
+        "id": 5321426,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 26653,
+        "name": "Hands Off Our Health Care"
+      }
+    ],
+    "location": {
+      "locality": "Pueblo",
+      "region": "CO",
+      "country": "US",
+      "postal_code": "81003",
+      "congressional_district": "3",
+      "state_leg_district": "46",
+      "state_senate_district": "3",
+      "address_lines": [
+        "This event’s address is private. Sign up for more details",
+        ""
+      ],
+      "venue": "This event’s address is private. Sign up for more details"
+    },
+    "event_type": "CANVASS",
+    "created_date": 1747230440,
+    "modified_date": 1747267995,
+    "browser_url": "https://www.mobilize.us/wfpower/event/789691/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PRIVATE",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 789691,
+    "description": "### Join us this weekend as we talk directly with voters and send a message to Republican representatives: Hands Off our Healthcare! \n\nAll across the country, hundreds of volunteers will be knocking on doors for a weekend of action to protect health care for millions of Americans.\nYou don’t need prior experience—we’ll provide a **full training**, **scripts**, and **materials**. Just bring your friendly energy!\n\n- 📍 RSVP to get the meet-up location\n- 📱 Bring your fully charged phone \n- 👟 Wear comfy walking shoes\n- 💥 Help shift the balance of power toward working families\n\n#### Let’s show up for our communities, our kids, and each other!\n\nThis event is hosted by Working Families Power and People's Action Institute (Center for Health Progress).",
+    "timezone": "America/Denver",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "New City, NY: Rockland County: Stop Project Maple!",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/fww/",
+      "created_date": 1619469700,
+      "modified_date": 1747287448,
+      "org_type": "C3",
+      "id": 9147,
+      "name": "Food & Water Watch",
+      "slug": "fww",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/FWA_RGB_FWW_Stacked-Logo_FC%20%282%29_20210429174126664314.jpg"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/Climate_NY_Project-Maple_Rally_1200px_1124_20250514152319615170.jpg",
+    "timeslots": [
+      {
+        "start_date": 1747781100,
+        "end_date": 1747787400,
+        "instructions": null,
+        "id": 5321427,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "",
+      "address_lines": [
+        "11 New Hempstead Rd",
+        ""
+      ],
+      "locality": "New City",
+      "region": "NY",
+      "country": "US",
+      "postal_code": "10956",
+      "location": {
+        "latitude": 41.1475951,
+        "longitude": -73.991435
+      },
+      "congressional_district": "17",
+      "state_leg_district": "96",
+      "state_senate_district": "38"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1747230668,
+    "modified_date": 1747236225,
+    "browser_url": "https://www.mobilize.us/fww/event/789692/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 789692,
+    "description": "Join us at the Rockland County Legislature meeting to call on the board to pass a resolution against Project Maple — a dangerous fracked gas pipeline expansion plan that threatens our climate, our air, and our health.\n\nFossil fuel company Enbridge's Project Maple would expand the amount of fracked gas running through the existing Algonquin Pipeline (which runs through Rockland County) by replacing existing pipe, extending the pipeline, and expanding the Stony Point compressor station.\n\nThis project would lock us into decades of fossil fuel dependence — just when we need to be transitioning to clean energy. It’s risky, unnecessary, and completely out of step with New York’s climate goals. By passing a resolution calling on Governor Hochul to deny permits for this pipeline expansion, Rockland County will be a climate leader opposing this dirty, harmful project. \n\nMeet us at the Legislative Building, where we’ll give public comments about the importance of Rockland County passing a resolution against Project Maple. If you haven't made public comments before, no worries! We will prepare you.\n\nLet’s pack the room and show our elected officials that Rockland County stands against pipeline expansions! Bring your friends, your voice, and your passion — we’ll have talking points ready to go!",
+    "timezone": "America/New_York",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": "",
+    "is_virtual": false
+  },
+  {
+    "title": "Monona Rally to Defend the Constitution",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1747282448,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%202_20231214173755488494.png",
+    "timeslots": [
+      {
+        "start_date": 1749157200,
+        "end_date": 1749162600,
+        "instructions": null,
+        "id": 5321440,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Nichols School intersection on Monona Drive",
+      "address_lines": [
+        "100 Nichols Rd, Monona WI",
+        ""
+      ],
+      "locality": "Monona",
+      "region": "WI",
+      "country": "US",
+      "postal_code": "53716",
+      "location": {
+        "latitude": 43.0616087,
+        "longitude": -89.3269545
+      },
+      "congressional_district": "2",
+      "state_leg_district": "78",
+      "state_senate_district": "26"
+    },
+    "event_type": "VISIBILITY_EVENT",
+    "created_date": 1747231225,
+    "modified_date": 1747324111,
+    "browser_url": "https://www.mobilize.us/indivisible/event/789693/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 789693,
+    "description": "This a local Indivisible event!  Join like-minded friends in Monona to send a message to our community and the Trump Administration (and Sen. Ron Johnson!) that we object to creating an authoritarian government. We will stand up to defend Democracy.  Send a positive message to passing traffic.",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false
+  },
+  {
+    "title": "PEOPLES TOWN HALL with TOM TIFFANY (show/or no show)",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/indivisible/",
+      "created_date": 1513974036,
+      "modified_date": 1747282448,
+      "org_type": "OTHER",
+      "id": 93,
+      "name": "Indivisible",
+      "slug": "indivisible",
+      "is_coordinated": false,
+      "is_independent": true,
+      "is_nonelectoral": false,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.amazonaws.com/uploads/organization/Mobilize_Indivisible_Horizontal_ForLightBackground_20250320155651214400.png"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/organization/Mobilize%20Generalized%20Indivisible%20Event%20Campaign%20Image%201_20231214173802957298.png",
+    "timeslots": [
+      {
+        "start_date": 1750287600,
+        "end_date": 1750294800,
+        "instructions": null,
+        "id": 5321449,
+        "is_full": false
+      }
+    ],
+    "tags": [],
+    "location": {
+      "venue": "Nicolet Area Technical Clg Rtc",
+      "address_lines": [
+        "5353 College Dr",
+        "Northwoods Center"
+      ],
+      "locality": "Rhinelander",
+      "region": "WI",
+      "country": "US",
+      "postal_code": "54501",
+      "location": {
+        "latitude": 45.6086903,
+        "longitude": -89.4188824
+      },
+      "congressional_district": "7",
+      "state_leg_district": "34",
+      "state_senate_district": "12"
+    },
+    "event_type": "COMMUNITY",
+    "created_date": 1747231871,
+    "modified_date": 1747231878,
+    "browser_url": "https://www.mobilize.us/indivisible/event/789695/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": true,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "ACCESSIBLE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 789695,
+    "description": "Tom Tiffany, Congressional District 7, House of Representatives has been invited to attend our Oneida Town Hall. This is your opportunity to ask him your Federal Budget Questions, his positions on Public Education, National Parks, the Qatar Magaplane, Deportation of US Citizens, and any other questions or comments you might have!!! Open to the public. This event will be held show/no show. Seating is limited, register today!",
+    "timezone": "America/Chicago",
+    "high_priority": null,
+    "virtual_action_url": null,
+    "accessibility_notes": null,
+    "is_virtual": false
+  },
+  {
+    "title": "Ft Myers, FL: Stop FPL Rate Hike Public Hearing",
+    "summary": "",
+    "sponsor": {
+      "race_type": null,
+      "event_feed_url": "https://www.mobilize.us/fww/",
+      "created_date": 1619469700,
+      "modified_date": 1747287448,
+      "org_type": "C3",
+      "id": 9147,
+      "name": "Food & Water Watch",
+      "slug": "fww",
+      "is_coordinated": false,
+      "is_independent": false,
+      "is_nonelectoral": true,
+      "is_primary_campaign": false,
+      "state": "",
+      "district": "",
+      "candidate_name": "",
+      "logo_url": "https://mobilize-uploads-prod.s3.us-east-2.amazonaws.com/uploads/organization/FWA_RGB_FWW_Stacked-Logo_FC%20%282%29_20210429174126664314.jpg"
+    },
+    "featured_image_url": "https://mobilizeamerica.imgix.net/uploads/event/fww_Mobilize_event_community_20250514160759792824.jpeg",
+    "timeslots": [
+      {
+        "start_date": 1748434500,
+        "end_date": 1748448000,
+        "instructions": null,
+        "id": 5321450,
+        "is_full": false
+      }
+    ],
+    "tags": [
+      {
+        "id": 174,
+        "name": "Florida"
+      },
+      {
+        "id": 21698,
+        "name": "Rate Hikes"
+      }
+    ],
+    "location": {
+      "venue": "Lee County Civic Center",
+      "address_lines": [
+        "11831 Bayshore Rd",
+        "Davidson House"
+      ],
+      "locality": "North Fort Myers",
+      "region": "FL",
+      "country": "US",
+      "postal_code": "33917",
+      "location": {
+        "latitude": 26.7230362,
+        "longitude": -81.7643034
+      },
+      "congressional_district": "17",
+      "state_leg_district": "76",
+      "state_senate_district": "27"
+    },
+    "event_type": "TOWN_HALL",
+    "created_date": 1747232126,
+    "modified_date": 1747238886,
+    "browser_url": "https://www.mobilize.us/fww/event/789696/",
+    "contact": null,
+    "visibility": "PUBLIC",
+    "created_by_volunteer_host": false,
+    "address_visibility": "PUBLIC",
+    "accessibility_status": "NOT_SURE",
+    "approval_status": "APPROVED",
+    "event_campaign": null,
+    "instructions": null,
+    "id": 789696,
+    "description": "Florida Power & Light (FPL) has filed for the largest utility rate hike in US history – requesting Florida families pay _nearly $10 billion more over the next three years._ \n\nDeSantis' Public Service Commission has become a rubber stamp for these rate hikes, approving large increases year after year. A court recently ruled that they must consider public comments more heavily in their decision making. \n\nJoin us to add your voice in opposition to these astronomical rate increases. We will meet prior for a small rally and press conference.",
     "timezone": "America/New_York",
     "high_priority": null,
     "virtual_action_url": null,
