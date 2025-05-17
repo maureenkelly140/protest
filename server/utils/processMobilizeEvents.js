@@ -3,7 +3,7 @@
 const { geocodeAddress } = require('./geocode');
 
 const alwaysIncludeTypes = ['RALLY', 'VISIBILITY_EVENT'];
-const conditionalIncludeTypes = ['COMMUNITY_EVENT', 'SOLIDARITY_EVENT', 'OTHER'];
+const conditionalIncludeTypes = ['COMMUNITY', 'SOLIDARITY', 'OTHER'];
 
 const protestWords = [
   'rally',
@@ -11,7 +11,9 @@ const protestWords = [
   'no kings',
   'march',
   'strike',
-  'walkout'
+  'walkout',
+  'sign waving',
+  'middle agers against fascism'
   // add more as needed
 ];
 
@@ -33,7 +35,8 @@ async function processMobilizeEvents(rawEvents, cutoffTime) {
     if (alwaysIncludeTypes.includes(type)) {
       // proceed
     } else if (conditionalIncludeTypes.includes(type)) {
-      if (!protestWordRegex.test(title)) {
+      const cleanTitle = title.replace(/[^\w\s]/g, ''); // remove punctuation
+      if (!protestWordRegex.test(cleanTitle)) {
         results.push({ ...event, action: `skipped: conditional type without protest word` });
         continue;
       }
