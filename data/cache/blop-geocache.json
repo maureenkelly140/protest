@@ -510,5 +510,81 @@
   "98208859-68eb-4894-9465-783553cad5f5": {
     "latitude": 42.325502,
     "longitude": -122.87426
+  },
+  "ca0b196f-7931-4374-bbf4-b9c6fbf4628d": {
+    "latitude": 29.950715,
+    "longitude": -90.07683
+  },
+  "410519d2-5d55-4646-8962-eb1371055823": {
+    "latitude": 40.762759,
+    "longitude": -111.889779
+  },
+  "4c71cf9f-daae-4134-bed1-e4a713c5c976": {
+    "latitude": 45.515197,
+    "longitude": -122.678367
+  },
+  "e92cbf5a-4bda-44dd-8ed8-491898eac696": {
+    "latitude": 38.512989,
+    "longitude": -89.985393
+  },
+  "386ea8c7-5605-4577-881a-2fec6c091082": {
+    "latitude": 41.345937,
+    "longitude": -88.841381
+  },
+  "a0bf135b-0ffe-4969-9fef-70b65d3e304e": {
+    "latitude": 41.1193,
+    "longitude": -87.860589
+  },
+  "5ac182a5-7015-4dde-ac80-537480eeebf3": {
+    "latitude": 42.154055,
+    "longitude": -87.959154
+  },
+  "9eace711-655e-486e-a0c4-26becf6ef621": {
+    "latitude": 42.384732,
+    "longitude": -87.964785
+  },
+  "f218a983-f6c9-4e56-a8b2-c8f00ddfcaf1": {
+    "latitude": 42.354107,
+    "longitude": -88.267343
+  },
+  "9b916ab3-d136-4c84-843e-d07b3c40d611": {
+    "latitude": 42.037255,
+    "longitude": -88.282545
+  },
+  "328cd768-8dad-4e69-93ef-06f6573d2287": {
+    "latitude": 33.596892,
+    "longitude": -117.658313
+  },
+  "d76ff200-8c40-4050-8551-49f331d4c837": {
+    "latitude": 41.140973,
+    "longitude": -81.795071
+  },
+  "b067e591-33e3-48b2-a74a-e52d6ee93c41": {
+    "latitude": 41.140973,
+    "longitude": -81.795071
+  },
+  "4ce640fe-5f70-46a3-ac06-57fcaa7e764d": {
+    "latitude": 40.762759,
+    "longitude": -111.889779
+  },
+  "8e9b6247-8808-4f37-abe8-cc336a904d7a": {
+    "latitude": 28.543807,
+    "longitude": -81.37525
+  },
+  "a2a351a0-a3a2-4c6f-98cc-09d33c90d3eb": {
+    "latitude": 44.245499,
+    "longitude": -79.476708
+  },
+  "110b722e-bb82-47a5-890a-869994325ba6": {
+    "latitude": 41.139138,
+    "longitude": -81.863993
+  },
+  "5798dd86-3661-4773-b8d0-83f9c4bc7692": {
+    "latitude": 36.617107,
+    "longitude": -121.843842
+  },
+  "ea0f2ddb-5173-42d6-956d-b3c2abb9ab14": {
+    "latitude": 39.164579,
+    "longitude": -119.766995
   }
 }
