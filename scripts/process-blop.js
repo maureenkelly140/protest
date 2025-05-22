@@ -65,26 +65,22 @@ async function processBlopEvents() {
       const rawDate = row['Date'];
       const rawTime = row['Time'];
       if (!uuid || !title || !rawDate || !rawTime) continue;
-
+    
       const date = new Date(`${rawDate} ${rawTime}`);
       if (isNaN(date.getTime()) || date.getTime() < now) continue;
-
+    
       const location = [row['Address'], row['City'], row['State']].filter(Boolean).join(', ');
       if (!location) continue;
-
+    
       if (!geocache[uuid]) {
         const geo = await geocodeAddress(location);
         if (!geo) continue;
         geocache[uuid] = geo;
       }
-
-      let url = row['Links']?.split(',')[0]?.trim() || '';
-      if (url === '' || url === '[]') {
-        url = row['Image URL']?.trim() || '';
-      }
-      const imageUrl = row['Image URL']?.trim() || '';
-      const finalUrl = url || imageUrl;
-
+    
+      // Use Image URL as the main link
+      const url = row['Image URL']?.trim() || '';
+    
       futureEvents.push({
         id: uuid.toString(),
         title,
@@ -93,12 +89,12 @@ async function processBlopEvents() {
         city: row['City'] || '',
         latitude: geocache[uuid].latitude,
         longitude: geocache[uuid].longitude,
-        url: finalUrl,
+        url,
         approved: true,
         source: 'blop'
       });
     }
-
+    
     await fs.writeFile(OUTPUT_PATH, JSON.stringify(futureEvents, null, 2));
     await fs.writeFile(GEOCACHE_PATH, JSON.stringify(geocache, null, 2));
 
