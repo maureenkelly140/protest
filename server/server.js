@@ -139,6 +139,16 @@ app.get('/events', async (req, res) => {
     }
 
     combinedEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
+    try {
+      const suppressedIds = await loadJSONFromS3(SUPPRESSION_KEY);
+      if (Array.isArray(suppressedIds)) {
+        const suppressedSet = new Set(suppressedIds);
+        combinedEvents = combinedEvents.filter(ev => !suppressedSet.has(ev.id));
+        console.log(`❌ Removed ${suppressedIds.length} suppressed events`);
+      }
+    } catch (err) {
+      console.warn('⚠️ Could not load suppressed-events.json:', err.message);
+    }
     res.json(combinedEvents);
   } catch (error) {
     console.error('Error processing events:', error);
