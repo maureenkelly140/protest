@@ -8,6 +8,7 @@ const s3 = new AWS.S3({
 });
 
 const BUCKET = process.env.S3_BUCKET;
+console.log("🚀 S3 bucket in use:", BUCKET); // mk - temp
 
 async function loadJSONFromS3(key) {
   const params = { Bucket: BUCKET, Key: key };
@@ -22,8 +23,12 @@ async function loadJSONFromS3(key) {
 
 async function saveJSONToS3(key, data) {
 
-  // TEMP
-  console.log(`📝 Saving to S3: ${key} (${data.length} events)`); // 👈 Add this
+  // mk - temp logging
+  console.log(`📝 Saving to S3 key: ${key}`);
+  console.log("📤 Using bucket:", BUCKET);
+  if (!BUCKET) {
+    console.error('❌ BUCKET is undefined — check .env or dotenv setup');
+  }
     
   const params = {
     Bucket: BUCKET,
@@ -31,6 +36,7 @@ async function saveJSONToS3(key, data) {
     Body: JSON.stringify(data, null, 2),
     ContentType: 'application/json',
   };
+
   try {
     await s3.putObject(params).promise();
     console.log(`✅ Saved ${key} to S3`);

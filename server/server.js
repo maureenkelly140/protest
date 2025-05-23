@@ -17,8 +17,8 @@ const GEOCACHE_PATH = path.join(__dirname, '../data/cache/blop-geocache.json');
 
 const { geocodeAddress } = require('./utils/geocode');
 
-const OVERRIDE_KEY = 'data/overrides/event-overrides.json';
-const SUPPRESSION_KEY = 'data/overrides/suppressed-events.json';
+const OVERRIDE_KEY = 'overrides/event-overrides.json';
+const SUPPRESSION_KEY = 'overrides/suppressed-events.json';
 
 
 // === CONFIG TOGGLE BLOCK ===
@@ -123,6 +123,19 @@ app.get('/events', async (req, res) => {
       } catch (err) {
         console.warn('⚠️ Could not load blop-events.json from S3:', err.message);
       }
+    }
+
+    try {
+      const overrides = await loadJSONFromS3('overrides/event-overrides.json');
+    
+      combinedEvents = combinedEvents.map(ev => {
+        const override = overrides[ev.id];
+        return override ? { ...ev, ...override } : ev;
+      });
+    
+      console.log(`🔁 Applied ${Object.keys(overrides).length} overrides`);
+    } catch (err) {
+      console.warn('⚠️ Could not load event overrides:', err.message);
     }
 
     combinedEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
@@ -304,16 +317,24 @@ app.post('/override-event', async (req, res) => {
   try {
     const { sourceId, updates } = req.body;
     if (!sourceId || !updates || typeof updates !== 'object') {
+      console.log('⚠️ Missing or invalid sourceId/updates:', req.body); // mk - temp
       return res.status(400).json({ error: 'Missing or invalid sourceId/updates' });
     }
 
+    console.log('🧭 Override route hit'); // mk - temp
+    console.log('🧾 Source ID:', sourceId); // mk - temp
+    console.log('📦 Updates:', updates); // mk - temp
+    console.log('📂 Using override key:', OVERRIDE_KEY); // mk - temp
+
     const overrides = await loadJSONFromS3(OVERRIDE_KEY);
+    console.log('📥 Existing overrides:', overrides); // mk - temp
     overrides[sourceId] = {
       ...(overrides[sourceId] || {}),
       ...updates
     };
 
     await saveJSONToS3(OVERRIDE_KEY, overrides);
+    console.log('✅ Successfully saved override'); // mk - temp
     res.json({ message: 'Override saved' });
   } catch (err) {
     console.error('❌ Failed to save override:', err);

@@ -37,6 +37,29 @@ function getReadableLocation(loc) {
   return 'Unknown location';
 }
 
+
+const fieldValidators = {
+  title: value => value && value.trim() !== '' ? null : 'Title is required',
+  location: value => value && value.trim() !== '' ? null : 'Location is required',
+  date: value => {
+    if (value === undefined) return null; // optional field
+    const date = new Date(value);
+    return isNaN(date.getTime()) ? 'Invalid date' : null;
+  },
+  // You can add latitude/longitude validators if needed
+};
+
+function validateFields(fields) {
+  const errors = {};
+  for (const [key, value] of Object.entries(fields)) {
+    if (fieldValidators[key]) {
+      const error = fieldValidators[key](value);
+      if (error) errors[key] = error;
+    }
+  }
+  return errors;
+}
+
 // === MAIN FUNCTIONS ===
 
 // Create admin table
@@ -104,14 +127,18 @@ function renderAdminTable({ tableId, events, options = {} }) {
 async function saveEvent(event, row) {
   const updatedTitle = row.querySelector('.title-input').value.trim();
   const updatedLocation = row.querySelector('.location-input').value.trim();
-  const updatedDateRaw = row.querySelector('.date-input')?.value.trim();
-  const updatedDate = new Date(updatedDateRaw);
-  const isAdminPage = window.location.pathname.includes('admin-events.html');
 
-  if (!isAdminPage && (!updatedTitle || !updatedLocation || isNaN(updatedDate.getTime()))) {
-    alert('Please fill out all fields correctly before saving.');
+  const fieldsToValidate = {
+    title: updatedTitle,
+    location: updatedLocation
+  };
+  
+  const errors = validateFields(fieldsToValidate);
+  if (Object.keys(errors).length > 0) {
+    const msg = Object.values(errors).join('\n');
+    alert('Please correct the following:\n' + msg);
     return;
-  }
+  }  
 
   try {
     const geoRes = await fetch('/geocode', {
@@ -124,6 +151,8 @@ async function saveEvent(event, row) {
     const { latitude, longitude } = geoResult || {};
 
     const isManual = event.source === 'manual';
+    console.log('🧩 Source:', event.source, '| isManual:', isManual); // mk - temp
+
     const wasUnapproved = !event.approved;
     const nowApproved = isManual && wasUnapproved;
 
@@ -131,13 +160,13 @@ async function saveEvent(event, row) {
       id: event.id,
       title: updatedTitle,
       location: updatedLocation,
-      date: updatedDate.toISOString(),
       latitude,
       longitude,
       approved: nowApproved ? true : event.approved
     };
 
     const endpoint = isManual ? '/save-event' : '/override-event';
+    console.log('📤 Using endpoint:', endpoint); // mk - temp
     const body = isManual
       ? payload
       : {
@@ -145,11 +174,12 @@ async function saveEvent(event, row) {
           updates: {
             title: updatedTitle,
             location: updatedLocation,
-            date: updatedDate.toISOString(),
             latitude,
             longitude
           }
         };
+
+    console.log('📦 Payload being sent:', body); // mk - temp
 
     const res = await fetch(endpoint, {
       method: 'POST',
