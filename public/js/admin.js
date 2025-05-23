@@ -106,8 +106,9 @@ async function saveEvent(event, row) {
   const updatedLocation = row.querySelector('.location-input').value.trim();
   const updatedDateRaw = row.querySelector('.date-input')?.value.trim();
   const updatedDate = new Date(updatedDateRaw);
+  const isAdminPage = window.location.pathname.includes('admin-events.html');
 
-  if (!updatedTitle || !updatedLocation || isNaN(updatedDate.getTime())) {
+  if (!isAdminPage && (!updatedTitle || !updatedLocation || isNaN(updatedDate.getTime()))) {
     alert('Please fill out all fields correctly before saving.');
     return;
   }
