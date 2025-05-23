@@ -224,7 +224,7 @@ function renderVisibleEvents(list) {
 
           markerClusterGroup.zoomToShowLayer(marker, () => {
             marker.openPopup();
-            updateVisibleEvents(true);
+            updateVisibleListOnly();
           });
         }
       }
@@ -253,6 +253,186 @@ function updateVisibleEvents(preservePopup = false) {
   clearMarkersAndList(preservePopup);
   const visible = filterVisibleEvents();
   renderVisibleEvents(visible);
+}
+
+function updateVisibleListOnly() {
+  const visible = filterVisibleEvents();
+  const eventListContainer = document.getElementById('events');
+  const counter = document.getElementById('event-counter');
+
+  if (counter) {
+    counter.innerHTML = visible.length
+      ? `${visible.length} protest${visible.length !== 1 ? 's' : ''} found`
+      : 'No protests found';
+  }
+
+  if (visible.length === 0) {
+    eventListContainer.innerHTML = `
+      <div class="null-msg">
+        <p>No protests found in this area.</p>
+        <button class="btn" id="reset-view-btn">Show All Protests</button>
+      </div>`;
+
+    document.getElementById('reset-view-btn').addEventListener('click', () => {
+      map.flyTo([39.8283, -98.5795], 4);
+      currentDateFilter = 'all';
+      document.getElementById('selected-filter').textContent = 'All Dates';
+      updateVisibleEvents();  // Full reset
+    });
+
+    return;
+  }
+
+  eventListContainer.innerHTML = ''; // clear previous
+
+  visible.forEach(ev => {
+    const { title, date, location, url } = ev;
+    const { friendlyDate, friendlyTime } = formatDateTime(date);
+
+    const el = document.createElement('a');
+    el.className = 'event';
+    el.href = formatEventUrl(url);
+    el.target = isMobile() ? '_self' : '_blank';
+
+    el.innerHTML = `
+      <div class="date-col">
+        <div class="date">${friendlyDate}</div>
+        <div class="time">${friendlyTime}</div>
+      </div>
+      <div class="detail-col">
+        <div class="event-title">${title}</div>
+        <div class="event-description">${formatLocationClient(location)}</div>
+      </div>
+      <div class="btn-col">
+        <span class="icon material-symbols-outlined open-url-btn tooltip" title="View Details">open_in_new</span>
+      </div>
+    `;
+
+    // Same marker interaction logic as before
+    el.addEventListener('click', (e) => {
+      if (!isMobile()) {
+        e.preventDefault();
+        const marker = eventMarkers.get(ev);
+        if (marker) {
+          suppressEventListRefresh = true;
+
+          markerClusterGroup.zoomToShowLayer(marker, () => {
+            marker.openPopup();
+
+            // Instead of redrawing everything:
+            setTimeout(() => {
+              updateVisibleListOnly();  // ✅ just the list
+            }, 600);
+          });
+        }
+      }
+    });
+
+    el.querySelector('.open-url-btn').addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      window.open(formatEventUrl(url), '_blank');
+    });
+
+    eventListContainer.appendChild(el);
+  });
+
+  $('.tooltip').tooltipster({ 
+    animation: 'fade',
+    theme: 'tooltipster-borderless',
+    side: 'bottom',
+    plugins: ['sideTip']
+  });
+}
+
+function updateVisibleListOnly() {
+  const visible = filterVisibleEvents();
+  const eventListContainer = document.getElementById('events');
+  const counter = document.getElementById('event-counter');
+
+  if (counter) {
+    counter.innerHTML = visible.length
+      ? `${visible.length} protest${visible.length !== 1 ? 's' : ''} found`
+      : 'No protests found';
+  }
+
+  if (visible.length === 0) {
+    eventListContainer.innerHTML = `
+      <div class="null-msg">
+        <p>No protests found in this area.</p>
+        <button class="btn" id="reset-view-btn">Show All Protests</button>
+      </div>`;
+
+    document.getElementById('reset-view-btn').addEventListener('click', () => {
+      map.flyTo([39.8283, -98.5795], 4);
+      currentDateFilter = 'all';
+      document.getElementById('selected-filter').textContent = 'All Dates';
+      updateVisibleEvents();  // Full reset
+    });
+
+    return;
+  }
+
+  eventListContainer.innerHTML = ''; // clear previous
+
+  visible.forEach(ev => {
+    const { title, date, location, url } = ev;
+    const { friendlyDate, friendlyTime } = formatDateTime(date);
+
+    const el = document.createElement('a');
+    el.className = 'event';
+    el.href = formatEventUrl(url);
+    el.target = isMobile() ? '_self' : '_blank';
+
+    el.innerHTML = `
+      <div class="date-col">
+        <div class="date">${friendlyDate}</div>
+        <div class="time">${friendlyTime}</div>
+      </div>
+      <div class="detail-col">
+        <div class="event-title">${title}</div>
+        <div class="event-description">${formatLocationClient(location)}</div>
+      </div>
+      <div class="btn-col">
+        <span class="icon material-symbols-outlined open-url-btn tooltip" title="View Details">open_in_new</span>
+      </div>
+    `;
+
+    // Same marker interaction logic as before
+    el.addEventListener('click', (e) => {
+      if (!isMobile()) {
+        e.preventDefault();
+        const marker = eventMarkers.get(ev);
+        if (marker) {
+          suppressEventListRefresh = true;
+
+          markerClusterGroup.zoomToShowLayer(marker, () => {
+            marker.openPopup();
+
+            // Instead of redrawing everything:
+            setTimeout(() => {
+              updateVisibleListOnly();  // ✅ just the list
+            }, 600);
+          });
+        }
+      }
+    });
+
+    el.querySelector('.open-url-btn').addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      window.open(formatEventUrl(url), '_blank');
+    });
+
+    eventListContainer.appendChild(el);
+  });
+
+  $('.tooltip').tooltipster({ 
+    animation: 'fade',
+    theme: 'tooltipster-borderless',
+    side: 'bottom',
+    plugins: ['sideTip']
+  });
 }
 
 // === UI HOOKS ===
