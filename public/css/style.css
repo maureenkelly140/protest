@@ -169,7 +169,7 @@ input#search-box:focus {
     justify-content: center;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     #mobile-toggle {
       display: flex;
     }
@@ -246,7 +246,7 @@ input#search-box:focus {
 }
   
   /* Mobile adjustments */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     #content-container {
       flex-direction: column;
     }
@@ -547,7 +547,7 @@ a.event {
     align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     #content-container.mobile-list .event .btn-col {
         display: none;
     }
@@ -706,7 +706,7 @@ select.form-field {
     animation: popOut .3s ease;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     #modal-content {
       width: 100%;
     }

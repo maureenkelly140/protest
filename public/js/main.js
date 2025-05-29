@@ -755,7 +755,7 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
 const layoutContainer = document.getElementById("content-container");
 
 function isMobile() {
-  return window.innerWidth <= 768;
+  return window.innerWidth <= 900;
 }
 
 // Set default view on initial load (map view on mobile)
