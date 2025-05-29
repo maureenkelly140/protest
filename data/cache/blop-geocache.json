@@ -930,5 +930,69 @@
   "84d15411-4732-4ec7-88bb-c927475c2a18": {
     "latitude": 25.043692,
     "longitude": -80.489739
+  },
+  "3ea295bf-ce4e-4619-9a94-524abd8ee5fc": {
+    "latitude": 40.712749,
+    "longitude": -74.005994
+  },
+  "0f636d47-2cf2-4044-8894-9151a179cc5f": {
+    "latitude": 37.756496,
+    "longitude": -122.42791
+  },
+  "e3ec55fe-255c-48a5-bb2f-3a16ca9f5cce": {
+    "latitude": 29.028077,
+    "longitude": -81.303432
+  },
+  "e43dea48-d4b8-47fe-a688-97b07c9b2307": {
+    "latitude": 42.502268,
+    "longitude": -90.665504
+  },
+  "43f1ba0e-e36d-41db-adb6-d96f129afb16": {
+    "latitude": 42.352207,
+    "longitude": -71.06917
+  },
+  "c20b913d-6284-40ab-a4e6-2e6c05e4e13f": {
+    "latitude": 40.73513,
+    "longitude": -89.58922
+  },
+  "34a623dc-dbec-4f76-a8e5-6e34e5b19b9f": {
+    "latitude": 30.268072,
+    "longitude": -97.742806
+  },
+  "91e6c89a-aa5e-474b-8483-fa159a2ea2f9": {
+    "latitude": 40.194696,
+    "longitude": -88.400718
+  },
+  "9743ddd2-6ea0-4162-aa7a-fc2d13cc21fc": {
+    "latitude": 41.881953,
+    "longitude": -87.632362
+  },
+  "99942c78-6b1d-417d-8d79-b853c9c15026": {
+    "latitude": 41.432291,
+    "longitude": -97.370721
+  },
+  "80491122-8251-467e-bf01-284ee28b6a6f": {
+    "latitude": 40.409799,
+    "longitude": -105.072469
+  },
+  "076e82c6-f6f1-401e-ba7c-cb0634fd31c2": {
+    "latitude": 40.777268,
+    "longitude": -111.888329
+  },
+  "78ecc23c-c8d6-4993-af9f-40ab523d613b": {
+    "latitude": 39.16194,
+    "longitude": -119.76616
+  },
+  "03eea985-f279-4c43-a0ed-f7f7d3274939": {
+    "latitude": 47.40728,
+    "longitude": -122.3243
+  },
+  "8837690a-c8ed-4db6-8e6f-03a0a3afba70": {
+    "latitude": 41.838548,
+    "longitude": -94.10657
+  },
+  "64ca2a53-6c25-442d-8c61-d0fd126f21e8": {
+    "latitude": 46.719079,
+    "longitude": -122.953129
   }
 }
