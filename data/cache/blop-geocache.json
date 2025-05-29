@@ -994,5 +994,29 @@
   "64ca2a53-6c25-442d-8c61-d0fd126f21e8": {
     "latitude": 46.719079,
     "longitude": -122.953129
+  },
+  "fad3054f-3861-42b1-a65e-40a3ef37b728": {
+    "latitude": 28.904597,
+    "longitude": -81.226136
+  },
+  "e406db25-0440-4e88-b286-da05e04be8e5": {
+    "latitude": 28.948134,
+    "longitude": -81.29885
+  },
+  "b261c1d8-974d-4341-bea2-be1cd4e3ffba": {
+    "latitude": 28.904597,
+    "longitude": -81.226136
+  },
+  "415572a2-a7f7-439f-aad4-0549037dcc3f": {
+    "latitude": 40.395441,
+    "longitude": -105.073206
+  },
+  "771add78-ca49-4298-a787-fb81ac4f5647": {
+    "latitude": 30.689134,
+    "longitude": -88.042527
+  },
+  "86a38749-f609-46d5-9dd5-5ef9de8ddb08": {
+    "latitude": 45.515479,
+    "longitude": -122.678773
   }
 }

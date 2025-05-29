@@ -1260,18 +1260,6 @@
     "source": "blop"
   },
   {
-    "id": "3ea295bf-ce4e-4619-9a94-524abd8ee5fc",
-    "title": "Hands Off Yunseo Rally",
-    "date": "2025-05-29T19:00:00.000Z",
-    "location": "New York, NY",
-    "city": "New York",
-    "latitude": 40.712749,
-    "longitude": -74.005994,
-    "url": "https://drive.google.com/uc?export=view&id=1z91PlwQGEgFYRRoNtMmyECMVtq3DggHa",
-    "approved": true,
-    "source": "blop"
-  },
-  {
     "id": "0f636d47-2cf2-4044-8894-9151a179cc5f",
     "title": "No Kings! March & Rally",
     "date": "2025-06-14T18:30:00.000Z",
@@ -1356,18 +1344,6 @@
     "source": "blop"
   },
   {
-    "id": "9743ddd2-6ea0-4162-aa7a-fc2d13cc21fc",
-    "title": "Disability Demo Rally",
-    "date": "2025-05-29T20:00:00.000Z",
-    "location": "Federal Plaza, 50 W. Adams, Chicago, IL",
-    "city": "Chicago",
-    "latitude": 41.881953,
-    "longitude": -87.632362,
-    "url": "https://drive.google.com/uc?export=view&id=1KMqDPwS8OaGMww9TL0bpcbOA1cqY9cvc",
-    "approved": true,
-    "source": "blop"
-  },
-  {
     "id": "99942c78-6b1d-417d-8d79-b853c9c15026",
     "title": "D-Day Demonstration to Support Veterans",
     "date": "2025-06-06T23:00:00.000Z",
@@ -1448,6 +1424,78 @@
     "latitude": 46.719079,
     "longitude": -122.953129,
     "url": "https://drive.google.com/uc?export=view&id=14X0NmOD-S7a-2ndrC8IDtG98ahxcu9Wh",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "fad3054f-3861-42b1-a65e-40a3ef37b728",
+    "title": "D-Day Protest",
+    "date": "2025-06-07T00:00:00.000Z",
+    "location": "Corner of Normandy & Saxon, Deltona, FL",
+    "city": "Deltona",
+    "latitude": 28.904597,
+    "longitude": -81.226136,
+    "url": "https://drive.google.com/uc?export=view&id=1feIa2CVj_PaI63iojaIVGutx8UHR0ngL",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "e406db25-0440-4e88-b286-da05e04be8e5",
+    "title": "Cultural Gathering",
+    "date": "2025-05-31T20:00:00.000Z",
+    "location": "Corner of Saxon & Enterprise, Orange City, FL",
+    "city": "Orange City",
+    "latitude": 28.948134,
+    "longitude": -81.29885,
+    "url": "https://drive.google.com/uc?export=view&id=15qbnT7UqByCb22Y4NG7aR7RaClvLInUW",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "b261c1d8-974d-4341-bea2-be1cd4e3ffba",
+    "title": "Visibility Brigade Invades Deltona",
+    "date": "2025-05-31T00:00:00.000Z",
+    "location": "I4 Overpass on Saxon Blvd, Deltona, FL",
+    "city": "Deltona",
+    "latitude": 28.904597,
+    "longitude": -81.226136,
+    "url": "https://drive.google.com/uc?export=view&id=12PcvB-pBr3oMYviXJnkmB-ekrLmgOk7V",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "415572a2-a7f7-439f-aad4-0549037dcc3f",
+    "title": "No Kings Day Loveland",
+    "date": "2025-06-14T17:00:00.000Z",
+    "location": "Dwayne Webster Park/Hwy 34, Loveland, CO",
+    "city": "Loveland",
+    "latitude": 40.395441,
+    "longitude": -105.073206,
+    "url": "https://drive.google.com/uc?export=view&id=1ZdpGy0f_qO6Bsgj2PjP0Rh7KyZCJLJIp",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "771add78-ca49-4298-a787-fb81ac4f5647",
+    "title": "NO KINGS MASS PROTEST",
+    "date": "2025-06-14T19:00:00.000Z",
+    "location": "205 Government St, Mobile, AL",
+    "city": "Mobile",
+    "latitude": 30.689134,
+    "longitude": -88.042527,
+    "url": "https://drive.google.com/uc?export=view&id=1APXxXYfYPQtHZOj0F417yHLjVPUWMMfn",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "86a38749-f609-46d5-9dd5-5ef9de8ddb08",
+    "title": "Stand Against Trump's Attacks: Say No to the “One Big Beautiful Bill”",
+    "date": "2025-06-08T19:00:00.000Z",
+    "location": "431 SW Madison St, Portland, OR",
+    "city": "Portland",
+    "latitude": 45.515479,
+    "longitude": -122.678773,
+    "url": "https://drive.google.com/uc?export=view&id=1PZaeU3pbXXjleLw6-17NrTr1tCgVBfSq",
     "approved": true,
     "source": "blop"
   }
