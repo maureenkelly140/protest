@@ -1,0 +1,232 @@
+=== Running process-all at 2025-06-02_07-52-15 ===
+🚀 Fetching Mobilize raw data...
+(node:29046) NOTE: The AWS SDK for JavaScript (v2) is in maintenance mode.
+ SDK releases are limited to address critical bug fixes and security issues only.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+🗑️ Deleted local old chunk: mobilize-page1.json
+🗑️ Deleted local old chunk: mobilize-page10.json
+🗑️ Deleted local old chunk: mobilize-page11.json
+🗑️ Deleted local old chunk: mobilize-page12.json
+🗑️ Deleted local old chunk: mobilize-page13.json
+🗑️ Deleted local old chunk: mobilize-page14.json
+🗑️ Deleted local old chunk: mobilize-page15.json
+🗑️ Deleted local old chunk: mobilize-page16.json
+🗑️ Deleted local old chunk: mobilize-page17.json
+🗑️ Deleted local old chunk: mobilize-page18.json
+🗑️ Deleted local old chunk: mobilize-page19.json
+🗑️ Deleted local old chunk: mobilize-page2.json
+🗑️ Deleted local old chunk: mobilize-page20.json
+🗑️ Deleted local old chunk: mobilize-page21.json
+🗑️ Deleted local old chunk: mobilize-page22.json
+🗑️ Deleted local old chunk: mobilize-page23.json
+🗑️ Deleted local old chunk: mobilize-page24.json
+🗑️ Deleted local old chunk: mobilize-page25.json
+🗑️ Deleted local old chunk: mobilize-page26.json
+🗑️ Deleted local old chunk: mobilize-page27.json
+🗑️ Deleted local old chunk: mobilize-page28.json
+🗑️ Deleted local old chunk: mobilize-page29.json
+🗑️ Deleted local old chunk: mobilize-page3.json
+🗑️ Deleted local old chunk: mobilize-page30.json
+🗑️ Deleted local old chunk: mobilize-page31.json
+🗑️ Deleted local old chunk: mobilize-page32.json
+🗑️ Deleted local old chunk: mobilize-page33.json
+🗑️ Deleted local old chunk: mobilize-page34.json
+🗑️ Deleted local old chunk: mobilize-page35.json
+🗑️ Deleted local old chunk: mobilize-page36.json
+🗑️ Deleted local old chunk: mobilize-page37.json
+🗑️ Deleted local old chunk: mobilize-page38.json
+🗑️ Deleted local old chunk: mobilize-page39.json
+🗑️ Deleted local old chunk: mobilize-page4.json
+🗑️ Deleted local old chunk: mobilize-page5.json
+🗑️ Deleted local old chunk: mobilize-page6.json
+🗑️ Deleted local old chunk: mobilize-page7.json
+🗑️ Deleted local old chunk: mobilize-page8.json
+🗑️ Deleted local old chunk: mobilize-page9.json
+📥 Fetching page 1: https://api.mobilize.us/v1/events?timeslot_start=gte_now&per_page=200
+💾 Saved locally: mobilize-page1.json
+☁️ Uploaded to S3: raw/mobilize-page1.json
+📥 Fetching page 2: https://api.mobilize.us/v1/events?cursor=cD01OTcyNDc%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page2.json
+☁️ Uploaded to S3: raw/mobilize-page2.json
+📥 Fetching page 3: https://api.mobilize.us/v1/events?cursor=cD03NDYyNTU%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page3.json
+☁️ Uploaded to S3: raw/mobilize-page3.json
+📥 Fetching page 4: https://api.mobilize.us/v1/events?cursor=cD03NTAwNDE%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page4.json
+☁️ Uploaded to S3: raw/mobilize-page4.json
+📥 Fetching page 5: https://api.mobilize.us/v1/events?cursor=cD03NTQ0MjA%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page5.json
+☁️ Uploaded to S3: raw/mobilize-page5.json
+📥 Fetching page 6: https://api.mobilize.us/v1/events?cursor=cD03NTg2Mzg%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page6.json
+☁️ Uploaded to S3: raw/mobilize-page6.json
+📥 Fetching page 7: https://api.mobilize.us/v1/events?cursor=cD03NjQ2NzQ%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page7.json
+☁️ Uploaded to S3: raw/mobilize-page7.json
+📥 Fetching page 8: https://api.mobilize.us/v1/events?cursor=cD03NzIxODM%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page8.json
+☁️ Uploaded to S3: raw/mobilize-page8.json
+📥 Fetching page 9: https://api.mobilize.us/v1/events?cursor=cD03NzYxOTQ%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page9.json
+☁️ Uploaded to S3: raw/mobilize-page9.json
+📥 Fetching page 10: https://api.mobilize.us/v1/events?cursor=cD03NzkyMTY%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page10.json
+☁️ Uploaded to S3: raw/mobilize-page10.json
+📥 Fetching page 11: https://api.mobilize.us/v1/events?cursor=cD03ODIxNTE%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page11.json
+☁️ Uploaded to S3: raw/mobilize-page11.json
+📥 Fetching page 12: https://api.mobilize.us/v1/events?cursor=cD03ODQ0ODI%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page12.json
+☁️ Uploaded to S3: raw/mobilize-page12.json
+📥 Fetching page 13: https://api.mobilize.us/v1/events?cursor=cD03ODU0MjU%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page13.json
+☁️ Uploaded to S3: raw/mobilize-page13.json
+📥 Fetching page 14: https://api.mobilize.us/v1/events?cursor=cD03ODYxNTQ%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page14.json
+☁️ Uploaded to S3: raw/mobilize-page14.json
+📥 Fetching page 15: https://api.mobilize.us/v1/events?cursor=cD03ODY3ODg%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page15.json
+☁️ Uploaded to S3: raw/mobilize-page15.json
+📥 Fetching page 16: https://api.mobilize.us/v1/events?cursor=cD03ODc0MzE%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page16.json
+☁️ Uploaded to S3: raw/mobilize-page16.json
+📥 Fetching page 17: https://api.mobilize.us/v1/events?cursor=cD03ODgwMDc%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page17.json
+☁️ Uploaded to S3: raw/mobilize-page17.json
+📥 Fetching page 18: https://api.mobilize.us/v1/events?cursor=cD03ODg3MTc%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page18.json
+☁️ Uploaded to S3: raw/mobilize-page18.json
+📥 Fetching page 19: https://api.mobilize.us/v1/events?cursor=cD03ODkzMjM%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page19.json
+☁️ Uploaded to S3: raw/mobilize-page19.json
+📥 Fetching page 20: https://api.mobilize.us/v1/events?cursor=cD03ODk5MjQ%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page20.json
+☁️ Uploaded to S3: raw/mobilize-page20.json
+📥 Fetching page 21: https://api.mobilize.us/v1/events?cursor=cD03OTA0NzE%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page21.json
+☁️ Uploaded to S3: raw/mobilize-page21.json
+📥 Fetching page 22: https://api.mobilize.us/v1/events?cursor=cD03OTEwMDc%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page22.json
+☁️ Uploaded to S3: raw/mobilize-page22.json
+📥 Fetching page 23: https://api.mobilize.us/v1/events?cursor=cD03OTE0MTk%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page23.json
+☁️ Uploaded to S3: raw/mobilize-page23.json
+📥 Fetching page 24: https://api.mobilize.us/v1/events?cursor=cD03OTE4OTE%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page24.json
+☁️ Uploaded to S3: raw/mobilize-page24.json
+📥 Fetching page 25: https://api.mobilize.us/v1/events?cursor=cD03OTIzMTg%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page25.json
+☁️ Uploaded to S3: raw/mobilize-page25.json
+📥 Fetching page 26: https://api.mobilize.us/v1/events?cursor=cD03OTI3Njg%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page26.json
+☁️ Uploaded to S3: raw/mobilize-page26.json
+📥 Fetching page 27: https://api.mobilize.us/v1/events?cursor=cD03OTMyNDg%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page27.json
+☁️ Uploaded to S3: raw/mobilize-page27.json
+📥 Fetching page 28: https://api.mobilize.us/v1/events?cursor=cD03OTM2NzA%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page28.json
+☁️ Uploaded to S3: raw/mobilize-page28.json
+📥 Fetching page 29: https://api.mobilize.us/v1/events?cursor=cD03OTQwOTk%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page29.json
+☁️ Uploaded to S3: raw/mobilize-page29.json
+📥 Fetching page 30: https://api.mobilize.us/v1/events?cursor=cD03OTQ0OTI%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page30.json
+☁️ Uploaded to S3: raw/mobilize-page30.json
+📥 Fetching page 31: https://api.mobilize.us/v1/events?cursor=cD03OTQ4MzE%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page31.json
+☁️ Uploaded to S3: raw/mobilize-page31.json
+📥 Fetching page 32: https://api.mobilize.us/v1/events?cursor=cD03OTUyMzQ%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page32.json
+☁️ Uploaded to S3: raw/mobilize-page32.json
+📥 Fetching page 33: https://api.mobilize.us/v1/events?cursor=cD03OTU2MDI%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page33.json
+☁️ Uploaded to S3: raw/mobilize-page33.json
+📥 Fetching page 34: https://api.mobilize.us/v1/events?cursor=cD03OTU5Mzg%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page34.json
+☁️ Uploaded to S3: raw/mobilize-page34.json
+📥 Fetching page 35: https://api.mobilize.us/v1/events?cursor=cD03OTYyOTA%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page35.json
+☁️ Uploaded to S3: raw/mobilize-page35.json
+📥 Fetching page 36: https://api.mobilize.us/v1/events?cursor=cD03OTY1OTc%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page36.json
+☁️ Uploaded to S3: raw/mobilize-page36.json
+📥 Fetching page 37: https://api.mobilize.us/v1/events?cursor=cD03OTY5NjU%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page37.json
+☁️ Uploaded to S3: raw/mobilize-page37.json
+📥 Fetching page 38: https://api.mobilize.us/v1/events?cursor=cD03OTczMzY%3D&per_page=200&timeslot_start=gte_1748875500
+💾 Saved locally: mobilize-page38.json
+☁️ Uploaded to S3: raw/mobilize-page38.json
+✅ Finished fetching 37 pages
+🚀 Processing Mobilize events...
+(node:29051) NOTE: The AWS SDK for JavaScript (v2) is in maintenance mode.
+ SDK releases are limited to address critical bug fixes and security issues only.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+📂 Reading mobilize-page1.json
+📂 Reading mobilize-page10.json
+📂 Reading mobilize-page11.json
+📂 Reading mobilize-page12.json
+📂 Reading mobilize-page13.json
+📂 Reading mobilize-page14.json
+📂 Reading mobilize-page15.json
+📂 Reading mobilize-page16.json
+📂 Reading mobilize-page17.json
+📂 Reading mobilize-page18.json
+📂 Reading mobilize-page19.json
+📂 Reading mobilize-page2.json
+📂 Reading mobilize-page20.json
+📂 Reading mobilize-page21.json
+📂 Reading mobilize-page22.json
+📂 Reading mobilize-page23.json
+📂 Reading mobilize-page24.json
+📂 Reading mobilize-page25.json
+📂 Reading mobilize-page26.json
+📂 Reading mobilize-page27.json
+📂 Reading mobilize-page28.json
+📂 Reading mobilize-page29.json
+📂 Reading mobilize-page3.json
+📂 Reading mobilize-page30.json
+📂 Reading mobilize-page31.json
+📂 Reading mobilize-page32.json
+📂 Reading mobilize-page33.json
+📂 Reading mobilize-page34.json
+📂 Reading mobilize-page35.json
+📂 Reading mobilize-page36.json
+📂 Reading mobilize-page37.json
+📂 Reading mobilize-page38.json
+📂 Reading mobilize-page4.json
+📂 Reading mobilize-page5.json
+📂 Reading mobilize-page6.json
+📂 Reading mobilize-page7.json
+📂 Reading mobilize-page8.json
+📂 Reading mobilize-page9.json
+✅ Saved 2278 processed Mobilize events locally at /Users/admin/Documents/protests/data/processed/mobilize-events.json
+✅ Uploaded processed/mobilize-events.json to S3 bucket my-protest-finder-data
+🚀 Updating Blop raw data...
+🌐 Fetching latest Blop CSV...
+🌐 Fetching latest Blop CSV...
+(node:29060) NOTE: The AWS SDK for JavaScript (v2) is in maintenance mode.
+ SDK releases are limited to address critical bug fixes and security issues only.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+💾 Saved Blop CSV locally: /Users/admin/Documents/protests/data/raw/blop-latest.csv
+✅ Uploaded raw/blop-latest.csv to S3 bucket my-protest-finder-data
+🔧 Processing Blop CSV into JSON...
+(node:29064) NOTE: The AWS SDK for JavaScript (v2) is in maintenance mode.
+ SDK releases are limited to address critical bug fixes and security issues only.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+✅ Processed BLOP events saved: 126
+✅ Uploaded processed/blop-events.json to S3 bucket my-protest-finder-data
+✅ All done!
+✅ All event sources fetched, processed, and uploaded successfully.
+=== Finished process-all at 2025-06-02_07-53-29 ===
