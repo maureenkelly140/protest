@@ -473,6 +473,7 @@ a.btn:hover, a.leaflet-control-zoom-in:hover, a.leaflet-control-zoom-out:hover {
 
 #map {
     height: calc(100vh);
+    contain: strict;
 }
 #events {
     padding: 0px;
