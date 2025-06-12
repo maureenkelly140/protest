@@ -1,17 +1,5 @@
 [
   {
-    "id": "14451517-83bd-4f79-85de-3dfb66b708ce",
-    "title": "Social Justice Empowerment Reception",
-    "date": "2025-06-12T01:00:00.000Z",
-    "location": "300 New Jersey Avenue NW, Washington, DC",
-    "city": "Washington",
-    "latitude": 38.894045,
-    "longitude": -77.010802,
-    "url": "https://drive.google.com/uc?export=view&id=1U0c2pgG0MrSOq3Yc-l690oNuaFIwVrvi",
-    "approved": true,
-    "source": "blop"
-  },
-  {
     "id": "d49c6311-81ec-491e-9fe7-ac78cf6217b6",
     "title": "Christmas Wonderland Market",
     "date": "2025-12-15T18:00:00.000Z",
@@ -1916,6 +1904,42 @@
     "latitude": 45.492589,
     "longitude": -122.672556,
     "url": "https://drive.google.com/uc?export=view&id=1MNWRCjM8e2TWKavbYAjSpsQWaqW4Ry53",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "946fd180-e974-47f7-b8eb-928515a0ba72",
+    "title": "NO KINGS! Howard County",
+    "date": "2025-06-14T17:00:00.000Z",
+    "location": "Intersection of Broken Land Parkway and Little Patuxent Parkway, Columbia, MD",
+    "city": "Columbia",
+    "latitude": 39.214717,
+    "longitude": -76.855986,
+    "url": "https://drive.google.com/uc?export=view&id=1qylcwmuUWnC5VnHaXNwOpQPAfmOEwEs8",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "f29b4b78-87ee-4b0b-bd07-4d829f842c89",
+    "title": "No Kings Nationwide Day of Defiance",
+    "date": "2025-06-14T22:00:00.000Z",
+    "location": "Harris Park 10101 Belleville Rd, Belleville, MI",
+    "city": "Belleville",
+    "latitude": 42.209243,
+    "longitude": -83.492057,
+    "url": "https://drive.google.com/uc?export=view&id=1qOQLXwGQihRX4VgP00isziJMJool4aPo",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "59a14354-1786-4966-9188-f8285cf93cee",
+    "title": "No Kings Nationwide Day of Defiance",
+    "date": "2025-06-14T22:00:00.000Z",
+    "location": "Harris Park, 10101 Belleville Rd, Belleville, MI",
+    "city": "Belleville",
+    "latitude": 42.209243,
+    "longitude": -83.492057,
+    "url": "https://drive.google.com/uc?export=view&id=1OZn_RfM1xCpW7LeQb3JMkgj4N3B_A2ac",
     "approved": true,
     "source": "blop"
   }
