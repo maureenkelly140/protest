@@ -15,11 +15,8 @@ const map = L.map('map', { zoomControl: false, maxZoom: 18 }).setView([39.8283, 
 const markerClusterGroup = L.markerClusterGroup();
 map.addLayer(markerClusterGroup);
 L.control.zoom({ position: 'bottomleft' }).addTo(map);
-L.tileLayer('https://api.maptiler.com/maps/basic-v2/{z}/{x}/{y}.png?key=MEOZ1SILbWpzsJ65uy1u', {
-  tileSize: 512,
-  zoomOffset: -1,
-  attribution: '&copy; MapTiler &copy; OpenStreetMap contributors',
-  crossOrigin: true
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
 if (navigator.geolocation) {
