@@ -541,7 +541,7 @@ a.event {
 }
 .detail-col {
     flex: 1 1 auto;
-    max-width: 20px;
+    max-width: 280px;
 }
 .btn-col {
     flex: 0 0 50px;
