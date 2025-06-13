@@ -90,6 +90,10 @@ function extractCity(location) {
 // === EVENT HANDLING ===
 const LOCATIONS_URL = 'https://my-protest-finder-data.s3.us-west-1.amazonaws.com/processed/event-locations.json';
 
+function isListVisible() {
+  return !isMobile() || document.getElementById('panel-list').offsetParent !== null;
+}
+
 // Fetch minimal event location data to populate the map
 async function fetchEvents() {
   showSkeletonLoader();
@@ -107,7 +111,9 @@ async function fetchEvents() {
     });
 
     updateVisibleMapMarkers();
-    updateVisibleListOnly();
+    if (isListVisible()) {
+      updateVisibleListOnly();
+    }
   } catch (err) {
     console.error('Error fetching event locations:', err);
     showErrorMsg();
@@ -268,6 +274,7 @@ async function updateVisibleMapMarkers() {
 let isUpdatingList = false;
 
 async function updateVisibleListOnly() {
+  if (!isListVisible()) return;
   if (isUpdatingList) {
     console.log('⏳ Skipping: updateVisibleListOnly is already running');
     return;
@@ -774,13 +781,20 @@ document.getElementById("btn-show-map").addEventListener("click", () => {
   }, 200);
 });
 
-document.getElementById("btn-show-list").addEventListener("click", () => {
+document.getElementById("btn-show-list").addEventListener("click", async () => {
   if (isMobile()) {
     layoutContainer.classList.add("mobile-list");
     layoutContainer.classList.remove("mobile-map");
   }
+
   document.getElementById("btn-show-list").classList.add("active");
   document.getElementById("btn-show-map").classList.remove("active");
+
+  // Trigger the list rendering and full data fetch if needed
+  if (!isUpdatingList) {
+    console.log('📥 List button clicked — triggering updateVisibleListOnly()');
+    await updateVisibleListOnly();
+  }
 });
 
 // === INITIAL LOAD ===
