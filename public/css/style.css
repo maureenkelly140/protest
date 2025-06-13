@@ -334,6 +334,7 @@ input {
     color: #333;
     padding: 0 10px;
     flex: 0 0 auto;
+    position: relative;
 }
 
 .filter-btn:last-of-type {
@@ -540,6 +541,7 @@ a.event {
 }
 .detail-col {
     flex: 1 1 auto;
+    max-width: 20px;
 }
 .btn-col {
     flex: 0 0 50px;
@@ -817,8 +819,8 @@ select.form-field {
 }
 
 .filter-btn .dropdown-options {
-  top: 35px;
-  left: -18px;
+  top: 46px;
+  left: -8px;
   min-width: 140px;
 }
 

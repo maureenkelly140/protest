@@ -6,9 +6,12 @@ const API_BASE_URL = window.location.hostname === 'localhost'
 // === GLOBAL STATE ===
 let fetchedEvents = [];
 let eventMarkers = new Map();
+let fullEventMap = new Map();
 let currentDateFilter = 'all';
 let searchKeyword = '';
 let suppressEventListRefresh = false;
+
+const sourceFetchCache = new Map();
 
 // === MAP SETUP ===
 const map = L.map('map', { zoomControl: false, maxZoom: 18 }).setView([39.8283, -98.5795], 4);
@@ -21,6 +24,7 @@ L.tileLayer('https://api.maptiler.com/maps/basic-v2/{z}/{x}/{y}.png?key=MEOZ1SIL
   attribution: '&copy; MapTiler &copy; OpenStreetMap contributors',
   crossOrigin: true
 }).addTo(map);
+
 
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(
@@ -84,53 +88,35 @@ function extractCity(location) {
 }
 
 // === EVENT HANDLING ===
+const LOCATIONS_URL = 'https://my-protest-finder-data.s3.us-west-1.amazonaws.com/processed/event-locations.json';
+
+// Fetch minimal event location data to populate the map
 async function fetchEvents() {
   showSkeletonLoader();
-  try {
-    const res = await fetch(`${API_BASE_URL}/events`);
-    const responseJson = await res.json();
-    const rawEvents = Array.isArray(responseJson) ? responseJson : responseJson.events || [];
-    fetchedEvents = rawEvents.filter(ev => ev.visible !== false);
 
-    // Only call updateVisibleEvents after data is ready
-    updateVisibleEvents();
+  try {
+    const res = await fetch(LOCATIONS_URL);
+    const rawEvents = await res.json();
+
+    fetchedEvents = rawEvents.filter(ev => {
+      if (currentDateFilter === 'future') {
+        const eventDate = new Date(ev.start_date * 1000);
+        return eventDate >= new Date();
+      }
+      return true;
+    });
+
+    updateVisibleMapMarkers();
+    updateVisibleListOnly();
   } catch (err) {
-    console.error('Error fetching events:', err);
+    console.error('Error fetching event locations:', err);
     showErrorMsg();
   }
 }
 
-function filterVisibleEvents() {
-  const bounds = map.getBounds();
-  const now = new Date();
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  const weekEnd = new Date(today); weekEnd.setDate(today.getDate() + 7);
-
-  return fetchedEvents.filter(ev => {
-    const time = new Date(ev.date);
-    const inBounds = bounds.contains([ev.latitude, ev.longitude]);
-    const matchesDate =
-      currentDateFilter === 'all' ||
-      (currentDateFilter === 'today' && time >= today && time < new Date(today.getTime() + 86400000)) ||
-      (currentDateFilter === 'week' && time >= today && time <= weekEnd) ||
-      (currentDateFilter === 'june14' &&
-        time.getUTCFullYear() === 2025 &&
-        time.getUTCMonth() === 5 &&
-        time.getUTCDate() === 14);
-
-    const matchesSearch =
-      ev.title.toLowerCase().includes(searchKeyword) ||
-      formatLocationClient(ev.location).toLowerCase().includes(searchKeyword);
-
-    return inBounds && matchesDate && matchesSearch;
-  });
-}
-
+// Clear all markers and list entries before re-rendering
 function clearMarkersAndList(preservePopup = false) {
-  if (!preservePopup) {
-    map.closePopup();
-  }
-
+  if (!preservePopup) map.closePopup();
   eventMarkers.forEach(marker => map.removeLayer(marker));
   eventMarkers.clear();
   markerClusterGroup.clearLayers();
@@ -152,293 +138,286 @@ function showSkeletonLoader(count = 5) {
   }
 }
 
-function createEventMarker(ev) {
-  const marker = L.marker([ev.latitude, ev.longitude], { icon: normalIcon }).bindPopup(
-    `<b>${ev.title}</b><br>${formatLocationClient(ev.location)}<br>${formatDateTime(ev.date).friendlyDate} at ${formatDateTime(ev.date).friendlyTime}<br><a href="${formatEventUrl(ev.url)}" target="_blank">View Details</a>`
-  );
-  markerClusterGroup.addLayer(marker);
-  eventMarkers.set(ev, marker);
-}
+// Load full event details from the appropriate source file
+async function getFullEventDetails(ev) {
+  const cached = fullEventMap.get(ev.id);
+  if (cached) return cached;
 
-function renderVisibleEvents(list) {
-  const eventListContainer = document.getElementById('events');
-  const layoutContainer = document.getElementById('content-container'); // renamed to avoid conflict
-  const counter = document.getElementById('event-counter');
+  if (!sourceFetchCache.has(ev.source)) {
+    let detailUrl;
+    switch (ev.source) {
+      case 'mobilize':
+        detailUrl = 'https://my-protest-finder-data.s3.us-west-1.amazonaws.com/processed/mobilize-events.json'; break;
+      case 'blop':
+        detailUrl = 'https://my-protest-finder-data.s3.us-west-1.amazonaws.com/processed/blop-events.json'; break;
+      case 'manual':
+        detailUrl = 'https://my-protest-finder-data.s3.us-west-1.amazonaws.com/processed/manual-protests.json'; break;
+      default:
+        return null;
+    }
 
-  if (counter) {
-    counter.innerHTML = list.length
-      ? `${list.length} protest${list.length !== 1 ? 's' : ''} found`
-      : 'No protests found';
+    // Start the fetch and store the Promise immediately
+    const fetchPromise = (async () => {
+      console.log(`📡 Fetching ${ev.source} events...`);
+      const res = await fetch(detailUrl);
+      const json = await res.json();
+      return json;
+    })();
+
+    sourceFetchCache.set(ev.source, fetchPromise);
   }
 
-  if (list.length === 0) {
-    eventListContainer.innerHTML = `
-      <div class="null-msg">
-        <p>No protests found in this area.</p>
-        <button class="btn" id="reset-view-btn">Show All Protests</button>
-      </div>`;
+  const all = await sourceFetchCache.get(ev.source); // Wait on the promise
+  const match = all.find(e => e.id == ev.id);
+  if (match) {
+    match.baseEvent = ev;
+    fullEventMap.set(ev.id, match);
+  }
+
+  return match || null;
+}
+
+// Filter events based on map bounds only.
+// Leave date/search filtering to updateVisibleListOnly (with full data).
+function filterVisibleEvents() {
+  const bounds = map.getBounds();
+
+  return fetchedEvents.filter(ev => {
+    const lat = ev.lat ?? ev.latitude;
+    const lng = ev.lng ?? ev.longitude;
+    if (lat === undefined || lng === undefined) return false;
+    return bounds.contains([lat, lng]);
+  });
+}
+
+// Render only the map markers, based on minimal location data
+async function updateVisibleMapMarkers() {
+  markerClusterGroup.clearLayers();
+  eventMarkers.clear();
+
+  const visible = await filterVisibleEvents();
+
+  const isFiltered = searchKeyword || currentDateFilter !== 'all';
+
+  let filteredEvents = visible;
+
+  if (isFiltered) {
+    const detailedList = await Promise.all(visible.map(getFullEventDetails));
+    filteredEvents = detailedList.filter(ev => {
+      if (!ev) return false;
+
+      // --- DATE FILTERING ---
+      const now = new Date();
+      const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const weekEnd = new Date(today);
+      weekEnd.setDate(today.getDate() + 7);
+
+      const dateObj = new Date(ev.date ?? ev.start_date * 1000);
+      if (dateObj < now) return false;
+
+      const matchesDate =
+        currentDateFilter === 'all' ||
+        (currentDateFilter === 'today' &&
+          dateObj >= today && dateObj < new Date(today.getTime() + 86400000)) ||
+        (currentDateFilter === 'week' &&
+          dateObj >= today && dateObj <= weekEnd) ||
+        (currentDateFilter === 'june14' &&
+          dateObj.getUTCFullYear() === 2025 &&
+          dateObj.getUTCMonth() === 5 &&
+          dateObj.getUTCDate() === 14);
+
+      if (!matchesDate) return false;
+
+      // --- SEARCH FILTERING ---
+      if (searchKeyword) {
+        const title = ev.title?.toLowerCase() || '';
+        const loc = formatLocationClient(ev.location)?.toLowerCase() || '';
+        return title.includes(searchKeyword) || loc.includes(searchKeyword);
+      }
+
+      return true;
+    });
+  }
+
+  filteredEvents.forEach(ev => {
+    const lat = ev.lat ?? ev.latitude;
+    const lng = ev.lng ?? ev.longitude;
+    if (lat === undefined || lng === undefined) return;
+
+    const marker = L.marker([lat, lng], { icon: normalIcon });
+
+    marker.on('click', async () => {
+      const fullEvent = await getFullEventDetails(ev);
+      if (!fullEvent) return;
+
+      const { title, location, date, url } = fullEvent;
+      marker.bindPopup(`
+        <b>${title}</b><br>
+        ${formatLocationClient(location)}<br>
+        ${formatDateTime(date).friendlyDate} at ${formatDateTime(date).friendlyTime}<br>
+        <a href="${formatEventUrl(url)}" target="_blank">View Details</a>
+      `).openPopup();
+    });
+
+    markerClusterGroup.addLayer(marker);
+    eventMarkers.set(ev.id, marker);
+  });
+}
+
+// Render the list view with full event details, lazily loaded
+let isUpdatingList = false;
+
+async function updateVisibleListOnly() {
+  if (isUpdatingList) {
+    console.log('⏳ Skipping: updateVisibleListOnly is already running');
+    return;
+  }
+
+  isUpdatingList = true;
+  console.time('💡 Fetching full event details');
+
+  try {
+    const visible = filterVisibleEvents();
+    const container = document.getElementById('events');
+    const counter = document.getElementById('event-counter');
+
+    const detailedList = await Promise.all(visible.map(getFullEventDetails));
     
-    document.getElementById('reset-view-btn').addEventListener('click', () => {
-      map.flyTo([39.8283, -98.5795], 4);
-      currentDateFilter = 'all';
-      document.getElementById('selected-filter').textContent = 'All Dates';
-      updateVisibleEvents();
+    const filtered = detailedList.filter(ev => {
+      if (!ev) return false;
+    
+      // --- DATE FILTERING ---
+      const now = new Date();
+      const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const weekEnd = new Date(today);
+      weekEnd.setDate(today.getDate() + 7);
+    
+      const dateObj = new Date(ev.date ?? ev.start_date * 1000);
+      if (dateObj < now) return false;
+    
+      const matchesDate =
+        currentDateFilter === 'all' ||
+        (currentDateFilter === 'today' &&
+          dateObj >= today && dateObj < new Date(today.getTime() + 86400000)) ||
+        (currentDateFilter === 'week' &&
+          dateObj >= today && dateObj <= weekEnd) ||
+        (currentDateFilter === 'june14' &&
+          dateObj.getUTCFullYear() === 2025 &&
+          dateObj.getUTCMonth() === 5 &&
+          dateObj.getUTCDate() === 14);
+    
+      if (!matchesDate) return false;
+    
+      // --- SEARCH FILTERING ---
+      if (searchKeyword) {
+        const title = ev.title?.toLowerCase() || '';
+        const loc = formatLocationClient(ev.location)?.toLowerCase() || '';
+        return title.includes(searchKeyword) || loc.includes(searchKeyword);
+      }
+    
+      return true;
     });
+    
+    if (counter) {
+      counter.innerHTML = filtered.length
+        ? `${filtered.length} protest${filtered.length !== 1 ? 's' : ''} found`
+        : 'No protests found';
+    }
 
-    return;
-  }
+    if (filtered.length === 0) {
+      container.innerHTML = `
+        <div class="null-msg">
+          <p>No protests found in this area.</p>
+          <button class="btn" id="reset-view-btn">Show All Protests</button>
+        </div>`;
+      document.getElementById('reset-view-btn').addEventListener('click', () => {
+        map.flyTo([39.8283, -98.5795], 4);
+        currentDateFilter = 'all';
+        document.getElementById('selected-filter').textContent = 'All Dates';
+        updateVisibleMapMarkers();
+        updateVisibleListOnly();
+      });
+      return;
+    }
 
-  eventListContainer.innerHTML = ''; // clear previous
+    container.innerHTML = '';
 
-  list.forEach(ev => {
-    const { title, date, location, url } = ev;
-    const { friendlyDate, friendlyTime } = formatDateTime(date);
-    createEventMarker(ev);
+    filtered.forEach(ev => {
+      const { title, date, location, url } = ev;
+      const { friendlyDate, friendlyTime } = formatDateTime(date);
 
-    el = document.createElement('a');
-    el.className = 'event';
-    el.href = formatEventUrl(url);
-    el.target = isMobile() ? '_self' : '_blank'; // or always '_blank' if you prefer
+      const el = document.createElement('a');
+      el.className = 'event';
+      el.href = formatEventUrl(url);
+      el.target = isMobile() ? '_self' : '_blank';
+      el.innerHTML = `
+        <div class="date-col">
+          <div class="date">${friendlyDate}</div>
+          <div class="time">${friendlyTime}</div>
+        </div>
+        <div class="detail-col">
+          <div class="event-title">${title}</div>
+          <div class="event-description">${formatLocationClient(location)}</div>
+        </div>
+        <div class="btn-col">
+          <span class="icon material-symbols-outlined open-url-btn tooltip" title="View Details">open_in_new</span>
+        </div>`;
 
-    el.innerHTML = `
-      <div class="date-col">
-        <div class="date">${friendlyDate}</div>
-        <div class="time">${friendlyTime}</div>
-      </div>
-      <div class="detail-col">
-        <div class="event-title">${title}</div>
-        <div class="event-description">${formatLocationClient(location)}</div>
-      </div>
-      <div class="btn-col">
-        <span class="icon material-symbols-outlined open-url-btn tooltip" title="View Details">open_in_new</span>
-      </div>
-    `;
+      el.addEventListener('click', async (e) => {
+        if (!isMobile()) {
+          e.preventDefault();
 
-    // Handle main row click
-    el.addEventListener('click', (e) => {
-      if (!isMobile()) {
-        e.preventDefault(); // prevent link on desktop
-        const marker = eventMarkers.get(ev);
-        if (marker) {
+          const marker = eventMarkers.get(ev.baseEvent?.id ?? ev.id);
+          if (!marker) {
+            console.warn('No marker found for event ID:', ev.id);
+            return;
+          }
+
           suppressEventListRefresh = true;
 
-          markerClusterGroup.zoomToShowLayer(marker, () => {
-            marker.openPopup();
-            updateVisibleListOnly();
+          markerClusterGroup.zoomToShowLayer(marker, async () => {
+            const fullEvent = await getFullEventDetails(ev);
+            if (!fullEvent) return;
+
+            const { title, location, date, url } = fullEvent;
+            marker.bindPopup(`
+              <b>${title}</b><br>
+              ${formatLocationClient(location)}<br>
+              ${formatDateTime(date).friendlyDate} at ${formatDateTime(date).friendlyTime}<br>
+              <a href="${formatEventUrl(url)}" target="_blank">View Details</a>
+            `).openPopup();
+
+            setTimeout(() => updateVisibleListOnly(), 600);
           });
         }
-      }
-    });
+      });
 
-    // Prevent row click from triggering when icon is clicked
-    el.querySelector('.open-url-btn').addEventListener('click', (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      window.open(formatEventUrl(url), '_blank');
-    });
-
-    eventListContainer.appendChild(el);
-  });
-
-  // Tooltip setup
-  $('.tooltip').tooltipster({ 
-    animation: 'fade',
-    theme: 'tooltipster-borderless',
-    side: 'bottom',
-    plugins: ['sideTip']
-  });
-}
-
-function updateVisibleEvents(preservePopup = false) {
-  clearMarkersAndList(preservePopup);
-  const visible = filterVisibleEvents();
-  renderVisibleEvents(visible);
-}
-
-function updateVisibleListOnly() {
-  const visible = filterVisibleEvents();
-  const eventListContainer = document.getElementById('events');
-  const counter = document.getElementById('event-counter');
-
-  if (counter) {
-    counter.innerHTML = visible.length
-      ? `${visible.length} protest${visible.length !== 1 ? 's' : ''} found`
-      : 'No protests found';
-  }
-
-  if (visible.length === 0) {
-    eventListContainer.innerHTML = `
-      <div class="null-msg">
-        <p>No protests found in this area.</p>
-        <button class="btn" id="reset-view-btn">Show All Protests</button>
-      </div>`;
-
-    document.getElementById('reset-view-btn').addEventListener('click', () => {
-      map.flyTo([39.8283, -98.5795], 4);
-      currentDateFilter = 'all';
-      document.getElementById('selected-filter').textContent = 'All Dates';
-      updateVisibleEvents();  // Full reset
-    });
-
-    return;
-  }
-
-  eventListContainer.innerHTML = ''; // clear previous
-
-  visible.forEach(ev => {
-    const { title, date, location, url } = ev;
-    const { friendlyDate, friendlyTime } = formatDateTime(date);
-
-    const el = document.createElement('a');
-    el.className = 'event';
-    el.href = formatEventUrl(url);
-    el.target = isMobile() ? '_self' : '_blank';
-
-    el.innerHTML = `
-      <div class="date-col">
-        <div class="date">${friendlyDate}</div>
-        <div class="time">${friendlyTime}</div>
-      </div>
-      <div class="detail-col">
-        <div class="event-title">${title}</div>
-        <div class="event-description">${formatLocationClient(location)}</div>
-      </div>
-      <div class="btn-col">
-        <span class="icon material-symbols-outlined open-url-btn tooltip" title="View Details">open_in_new</span>
-      </div>
-    `;
-
-    // Same marker interaction logic as before
-    el.addEventListener('click', (e) => {
-      if (!isMobile()) {
+      el.querySelector('.open-url-btn').addEventListener('click', (e) => {
         e.preventDefault();
-        const marker = eventMarkers.get(ev);
-        if (marker) {
-          suppressEventListRefresh = true;
+        e.stopPropagation();
+        window.open(formatEventUrl(url), '_blank');
+      });
 
-          markerClusterGroup.zoomToShowLayer(marker, () => {
-            marker.openPopup();
-
-            // Instead of redrawing everything:
-            setTimeout(() => {
-              updateVisibleListOnly();  // ✅ just the list
-            }, 600);
-          });
-        }
-      }
+      container.appendChild(el);
     });
 
-    el.querySelector('.open-url-btn').addEventListener('click', (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      window.open(formatEventUrl(url), '_blank');
+    $('.tooltip').tooltipster({
+      animation: 'fade',
+      theme: 'tooltipster-borderless',
+      side: 'bottom',
+      plugins: ['sideTip']
     });
-
-    eventListContainer.appendChild(el);
-  });
-
-  $('.tooltip').tooltipster({ 
-    animation: 'fade',
-    theme: 'tooltipster-borderless',
-    side: 'bottom',
-    plugins: ['sideTip']
-  });
-}
-
-function updateVisibleListOnly() {
-  const visible = filterVisibleEvents();
-  const eventListContainer = document.getElementById('events');
-  const counter = document.getElementById('event-counter');
-
-  if (counter) {
-    counter.innerHTML = visible.length
-      ? `${visible.length} protest${visible.length !== 1 ? 's' : ''} found`
-      : 'No protests found';
+  } finally {
+    console.timeEnd('💡 Fetching full event details');
+    isUpdatingList = false;
   }
-
-  if (visible.length === 0) {
-    eventListContainer.innerHTML = `
-      <div class="null-msg">
-        <p>No protests found in this area.</p>
-        <button class="btn" id="reset-view-btn">Show All Protests</button>
-      </div>`;
-
-    document.getElementById('reset-view-btn').addEventListener('click', () => {
-      map.flyTo([39.8283, -98.5795], 4);
-      currentDateFilter = 'all';
-      document.getElementById('selected-filter').textContent = 'All Dates';
-      updateVisibleEvents();  // Full reset
-    });
-
-    return;
-  }
-
-  eventListContainer.innerHTML = ''; // clear previous
-
-  visible.forEach(ev => {
-    const { title, date, location, url } = ev;
-    const { friendlyDate, friendlyTime } = formatDateTime(date);
-
-    const el = document.createElement('a');
-    el.className = 'event';
-    el.href = formatEventUrl(url);
-    el.target = isMobile() ? '_self' : '_blank';
-
-    el.innerHTML = `
-      <div class="date-col">
-        <div class="date">${friendlyDate}</div>
-        <div class="time">${friendlyTime}</div>
-      </div>
-      <div class="detail-col">
-        <div class="event-title">${title}</div>
-        <div class="event-description">${formatLocationClient(location)}</div>
-      </div>
-      <div class="btn-col">
-        <span class="icon material-symbols-outlined open-url-btn tooltip" title="View Details">open_in_new</span>
-      </div>
-    `;
-
-    // Same marker interaction logic as before
-    el.addEventListener('click', (e) => {
-      if (!isMobile()) {
-        e.preventDefault();
-        const marker = eventMarkers.get(ev);
-        if (marker) {
-          suppressEventListRefresh = true;
-
-          markerClusterGroup.zoomToShowLayer(marker, () => {
-            marker.openPopup();
-
-            // Instead of redrawing everything:
-            setTimeout(() => {
-              updateVisibleListOnly();  // ✅ just the list
-            }, 600);
-          });
-        }
-      }
-    });
-
-    el.querySelector('.open-url-btn').addEventListener('click', (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      window.open(formatEventUrl(url), '_blank');
-    });
-
-    eventListContainer.appendChild(el);
-  });
-
-  $('.tooltip').tooltipster({ 
-    animation: 'fade',
-    theme: 'tooltipster-borderless',
-    side: 'bottom',
-    plugins: ['sideTip']
-  });
 }
 
 // === UI HOOKS ===
 document.getElementById('search-box').addEventListener('input', (e) => {
   searchKeyword = e.target.value.toLowerCase();
-  updateVisibleEvents();
+  updateVisibleMapMarkers();
+  updateVisibleListOnly();
 });
 
 document.getElementById('date-filter').addEventListener('click', () => {
@@ -450,7 +429,8 @@ document.querySelectorAll('.dropdown-option').forEach(option => {
     currentDateFilter = option.dataset.filter;
     document.getElementById('selected-filter').textContent = option.textContent;
     document.getElementById('filter-options').classList.add('hidden');
-    updateVisibleEvents();
+    updateVisibleMapMarkers();
+    updateVisibleListOnly();
   });
 });
 
@@ -472,15 +452,16 @@ map.on('moveend', () => {
     if (isPopupOpen.length > 0) {
       // popup is open, do nothing
     } else {
-      updateVisibleEvents();
+      updateVisibleMapMarkers();
+      updateVisibleListOnly();
     }
   }
 });
 
 // Copy Events Button
 
-document.getElementById('btn-copy').addEventListener('click', () => {
-  const visible = filterVisibleEvents();
+document.getElementById('btn-copy').addEventListener('click', async () => {
+  const visible = await filterVisibleEvents();
   
   if (visible.length === 0) {
     $('#btn-copy').tooltipster('content', 'No events!');
@@ -527,7 +508,7 @@ document.getElementById('btn-copy').addEventListener('click', () => {
 });
 
 document.getElementById('btn-copy').addEventListener('click', async () => {
-  const visibleEvents = filterVisibleEvents();  // get currently filtered/visible events
+  const visibleEvents = await filterVisibleEvents();  // get currently filtered/visible events
   if (visibleEvents.length === 0) {
     alert('No events to copy!');
     return;
@@ -737,7 +718,8 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
 
     createEventMarker(newEvent);
 
-    updateVisibleEvents();
+    updateVisibleMapMarkers();
+    updateVisibleListOnly();
 
     document.getElementById('modal-overlay').classList.remove('active');
     setTimeout(() => {

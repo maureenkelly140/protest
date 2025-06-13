@@ -31,6 +31,9 @@ async function run() {
     console.log('🚀 Updating Blop raw data...');
     execSync('bash scripts/update-blop-all.sh', { stdio: 'inherit' });
 
+    console.log('🧭 Generating event-locations.json...');
+    execSync('node scripts/generate-event-locations.js', { stdio: 'inherit' });
+
     console.log('✅ All event sources fetched, processed, and uploaded successfully.');
   } catch (err) {
     console.error('❌ Error running process-all:', err);
