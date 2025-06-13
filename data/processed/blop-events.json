@@ -948,18 +948,6 @@
     "source": "blop"
   },
   {
-    "id": "9a283e27-e295-40f5-8a6a-f97237c78fee",
-    "title": "Corner Protest",
-    "date": "2025-06-12T23:15:00.000Z",
-    "location": "2601 S College Ave, Fort Collins, CO",
-    "city": "Fort Collins",
-    "latitude": 40.549914,
-    "longitude": -105.078755,
-    "url": "https://drive.google.com/uc?export=view&id=1jufT8Ic9pCrDno5TCGbw0cpXzPLtf948",
-    "approved": true,
-    "source": "blop"
-  },
-  {
     "id": "a80d4036-42cf-4977-ba90-47dc1e13d0f9",
     "title": "National Day of Defiance",
     "date": "2025-06-14T17:00:00.000Z",
@@ -1896,18 +1884,6 @@
     "source": "blop"
   },
   {
-    "id": "02e4c1e4-d981-44c0-aad5-58e2140174f6",
-    "title": "Down with ICE",
-    "date": "2025-06-13T01:00:00.000Z",
-    "location": "4310 S Macadam Ave, Portland, OR",
-    "city": "Portland",
-    "latitude": 45.492589,
-    "longitude": -122.672556,
-    "url": "https://drive.google.com/uc?export=view&id=1MNWRCjM8e2TWKavbYAjSpsQWaqW4Ry53",
-    "approved": true,
-    "source": "blop"
-  },
-  {
     "id": "946fd180-e974-47f7-b8eb-928515a0ba72",
     "title": "NO KINGS! Howard County",
     "date": "2025-06-14T17:00:00.000Z",
@@ -1940,6 +1916,30 @@
     "latitude": 42.209243,
     "longitude": -83.492057,
     "url": "https://drive.google.com/uc?export=view&id=1OZn_RfM1xCpW7LeQb3JMkgj4N3B_A2ac",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "a92a349d-703c-4132-ae7b-7d42b9abf0f6",
+    "title": "No Kings, Kick Out the Clowns Protest",
+    "date": "2025-06-14T21:00:00.000Z",
+    "location": "100 E Bromley Ln, Brighton, CO 80601-3027, United States, Brighton, CO",
+    "city": "Brighton",
+    "latitude": 39.972308,
+    "longitude": -104.822036,
+    "url": "https://drive.google.com/uc?export=view&id=1YNkZweZtsEyE5_LshKm4CJEynwlpu5QK",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "75a5204e-52d6-49ed-9e12-c18d107a7ba4",
+    "title": "CHINGA LA MIGRA! Rally",
+    "date": "2025-06-18T22:30:00.000Z",
+    "location": "4310 S Macadam Ave, Portland, OR",
+    "city": "Portland",
+    "latitude": 45.492589,
+    "longitude": -122.672556,
+    "url": "https://drive.google.com/uc?export=view&id=1tZU5_lFa2uzal0kPZYbKgCRyPrxC6maL",
     "approved": true,
     "source": "blop"
   }
