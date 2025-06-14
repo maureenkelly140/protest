@@ -408,18 +408,6 @@
     "source": "blop"
   },
   {
-    "id": "d7593b75-4940-4894-b192-42c7f4802461",
-    "title": "Protest Outside Gabe Evans' Office",
-    "date": "2025-06-13T18:00:00.000Z",
-    "location": "10701 Melody Dr suite 500, Northglenn, CO",
-    "city": "Northglenn",
-    "latitude": 39.891826,
-    "longitude": -104.994245,
-    "url": "https://drive.google.com/uc?export=view&id=1d9xlYQYAmD_Z9Zw0Cn61FPTM20Rg1fkc",
-    "approved": true,
-    "source": "blop"
-  },
-  {
     "id": "68ee55c6-d3e1-48f3-9f3a-ee11bdb7f515",
     "title": "NO KINGS RALLY",
     "date": "2025-06-14T16:00:00.000Z",
@@ -1028,18 +1016,6 @@
     "latitude": 29.028077,
     "longitude": -81.303432,
     "url": "https://drive.google.com/uc?export=view&id=1ApIzUUeQ_a9qWjbVwpCYoupKuvBryoND",
-    "approved": true,
-    "source": "blop"
-  },
-  {
-    "id": "9285f082-92b6-4feb-9ce2-98227a0adf3f",
-    "title": "No Kings in America",
-    "date": "2025-06-14T00:00:00.000Z",
-    "location": "Corner of Normandy & Saxon, Deltona, FL",
-    "city": "Deltona",
-    "latitude": 28.904597,
-    "longitude": -81.226136,
-    "url": "https://drive.google.com/uc?export=view&id=10l3VhkP9TDZJrO1JU4f4GJv3JHuHpXjM",
     "approved": true,
     "source": "blop"
   },
@@ -1940,6 +1916,78 @@
     "latitude": 45.492589,
     "longitude": -122.672556,
     "url": "https://drive.google.com/uc?export=view&id=1tZU5_lFa2uzal0kPZYbKgCRyPrxC6maL",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "bc39fc60-7752-4474-b99b-4289af5d9028",
+    "title": "Rally & Candlelight Vigil for Palestine",
+    "date": "2025-06-25T02:00:00.000Z",
+    "location": "Medina Square, Medina",
+    "city": "Medina",
+    "latitude": 24.471037,
+    "longitude": 39.61116,
+    "url": "https://drive.google.com/uc?export=view&id=1NGe6mIdPdiSr5eGQniJxue7NI_9C1ehz",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "c03906cb-2f69-42e1-858f-4afa07facd48",
+    "title": "Rally & Candlelight Vigil for Due Process",
+    "date": "2025-06-18T02:00:00.000Z",
+    "location": "Medina Square",
+    "city": "",
+    "latitude": 44.246114,
+    "longitude": -79.47562,
+    "url": "https://drive.google.com/uc?export=view&id=1tc-JX1L1oT3iPGUGclhUSRJdBIzlfKin",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "471aac36-bfd7-4ac6-ac07-bb3d9b027cf4",
+    "title": "Corner Protest",
+    "date": "2025-07-10T23:15:00.000Z",
+    "location": "2601 S College Ave, Fort Collins, CO",
+    "city": "Fort Collins",
+    "latitude": 40.549914,
+    "longitude": -105.078755,
+    "url": "https://drive.google.com/uc?export=view&id=1uwOmFz7mzxJ9max9YiWjdgGyQEYi8hx0",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "b8248acc-af79-4559-b847-121b40564694",
+    "title": "Corner Protest",
+    "date": "2025-07-08T23:15:00.000Z",
+    "location": "2601 S College Ave, Fort Collins, CO, Fort Collins, CO",
+    "city": "Fort Collins",
+    "latitude": 40.549914,
+    "longitude": -105.078755,
+    "url": "https://drive.google.com/uc?export=view&id=17t3vwpno9CsXE0fo-wSmJZb6cpzsEJsp",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "7c43f735-d467-420a-920e-0b667d442e68",
+    "title": "Corner Protest",
+    "date": "2025-07-03T23:15:00.000Z",
+    "location": "2601 S College Ave, Fort Collins, CO",
+    "city": "Fort Collins",
+    "latitude": 40.549914,
+    "longitude": -105.078755,
+    "url": "https://drive.google.com/uc?export=view&id=1PkfjXkfc90tK6Ni1l0mIADVHRH2xkS0u",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "3f643dfb-1730-4340-886c-97378f37a223",
+    "title": "Corner Protest",
+    "date": "2025-07-01T23:15:00.000Z",
+    "location": "2601 S College Ave, Fort Collins, CO, Fort Collins, CO",
+    "city": "Fort Collins",
+    "latitude": 40.549914,
+    "longitude": -105.078755,
+    "url": "https://drive.google.com/uc?export=view&id=1eqTCXZMu8Cn3ftqeRjJeM-ImWWijSFIX",
     "approved": true,
     "source": "blop"
   }
