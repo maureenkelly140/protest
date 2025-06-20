@@ -219,6 +219,15 @@ async function deleteEvent(event, row) {
 
     if (res.ok) {
       row.remove();
+
+      // ✅ Always regenerate locations after any event deletion
+      console.log('🛠 Regenerating event-locations.json...');
+      const regenRes = await fetch('/regenerate-locations', { method: 'POST' });
+      if (regenRes.ok) {
+        console.log('✅ event-locations.json updated.');
+      } else {
+        console.warn('⚠️ Failed to regenerate event-locations.json');
+      }
     } else {
       const result = await res.json();
       alert('Error deleting event: ' + result.message);

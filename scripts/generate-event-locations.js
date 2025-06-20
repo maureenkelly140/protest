@@ -1,5 +1,7 @@
 // scripts/generate-event-locations.js
 
+const axios = require('axios');
+
 const fs = require('fs/promises');
 const path = require('path');
 
@@ -19,12 +21,12 @@ async function run() {
   const allLocations = [];
 
   for (const source of SOURCES) {
-    const filePath = path.join('data', 'processed', source.file);
+    const url = `https://${BUCKET_NAME}.s3.us-west-1.amazonaws.com/processed/${source.file}`;
 
     try {
-      console.log(`📖 Reading ${source.name} events...`);
-      const raw = await fs.readFile(filePath, 'utf-8');
-      const events = JSON.parse(raw);
+      console.log(`📥 Fetching ${source.name} events from S3...`);
+      const res = await axios.get(url);
+      const events = res.data;
 
       for (const event of events) {
         const id = event.id;

@@ -757,6 +757,9 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
 
     createEventMarker(newEvent);
 
+    console.log('🛠 Regenerating event-locations.json after manual add...');
+    await fetch('/regenerate-locations', { method: 'POST' });
+
     updateVisibleMapMarkers();
     updateVisibleListOnly();
 

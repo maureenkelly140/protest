@@ -372,6 +372,20 @@ app.post('/suppress-event', async (req, res) => {
   }
 });
 
+const { exec } = require('child_process');
+
+app.post('/regenerate-locations', async (req, res) => {
+  console.log('⚙️ Regenerating event-locations.json...');
+  exec('node scripts/generate-event-locations.js', (err, stdout, stderr) => {
+    if (err) {
+      console.error('❌ Error generating locations:', stderr);
+      return res.status(500).json({ message: 'Error regenerating event-locations.json' });
+    }
+    console.log('✅ Regenerated locations:\n', stdout);
+    res.json({ message: 'event-locations.json regenerated' });
+  });
+});
+
 // === START SERVER ===
 app.use(express.static(path.join(__dirname, '..', 'public')));
 app.listen(PORT, () => {
