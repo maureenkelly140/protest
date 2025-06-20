@@ -87,6 +87,31 @@ function extractCity(location) {
   return parts.length > 0 ? parts[0].trim() : '';
 }
 
+function createEventMarker(ev) {
+  if (!ev.latitude || !ev.longitude) {
+    console.warn("Missing lat/lng for event:", ev);
+    return;
+  }
+
+  const marker = L.marker([ev.latitude, ev.longitude], { icon: normalIcon });
+
+  marker.on('click', async () => {
+    const fullEvent = await getFullEventDetails(ev);
+    if (!fullEvent) return;
+
+    const { title, location, date, url } = fullEvent;
+    marker.bindPopup(`
+      <b>${title}</b><br>
+      ${formatLocationClient(location)}<br>
+      ${formatDateTime(date).friendlyDate} at ${formatDateTime(date).friendlyTime}<br>
+      <a href="${formatEventUrl(url)}" target="_blank">View Details</a>
+    `).openPopup();
+  });
+
+  markerClusterGroup.addLayer(marker);
+  eventMarkers.set(ev.id, marker);
+}
+
 // === EVENT HANDLING ===
 const LOCATIONS_URL = 'https://my-protest-finder-data.s3.us-west-1.amazonaws.com/processed/event-locations.json';
 
@@ -148,6 +173,11 @@ function showSkeletonLoader(count = 5) {
 async function getFullEventDetails(ev) {
   const cached = fullEventMap.get(ev.id);
   if (cached) return cached;
+
+  if (ev && ev.title && ev.date) {
+    fullEventMap.set(ev.id, ev); // assume this is already full
+    return ev;
+  }
 
   if (!sourceFetchCache.has(ev.source)) {
     let detailUrl;
@@ -722,6 +752,8 @@ document.getElementById('event-form').addEventListener('submit', async (e) => {
     }
 
     fetchedEvents.push(newEvent);
+    newEvent.source = 'manual';  // Required so getFullEventDetails knows which source it came from
+    fullEventMap.set(newEvent.id, newEvent);
 
     createEventMarker(newEvent);
 
