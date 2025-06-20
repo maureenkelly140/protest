@@ -497,8 +497,6 @@ map.on('moveend', () => {
   }
 });
 
-// Copy Events Button
-
 document.getElementById('btn-copy').addEventListener('click', async () => {
   const visibleEvents = await getFullyFilteredEvents();
   if (visibleEvents.length === 0) {
@@ -511,46 +509,36 @@ document.getElementById('btn-copy').addEventListener('click', async () => {
   for (const ev of visibleEvents) {
     const full = await getFullEventDetails(ev);
     if (!full) continue;
-  
+
     const rawDate = full.date || full.start_date;
     if (!rawDate) {
       console.warn('Skipping event with no usable date:', full);
       continue;
     }
-  
-    const dateObj = new Date(rawDate);
-    if (isNaN(dateObj)) {
-      console.warn('Skipping event with invalid date:', full);
-      continue;
-    }
-  
-    const dateKey = dateObj.toISOString().slice(0, 10);
-    if (!groupedByDate[dateKey]) groupedByDate[dateKey] = [];
-    groupedByDate[dateKey].push(full); 
+
+    const { friendlyDate } = formatDateTime(rawDate);
+    if (!groupedByDate[friendlyDate]) groupedByDate[friendlyDate] = [];
+    groupedByDate[friendlyDate].push(full);
   }
-  
-  const sortedDateKeys = Object.keys(groupedByDate).sort(); // sorts by ISO date
+
+  const sortedDateKeys = Object.keys(groupedByDate).sort((a, b) => {
+    const aDate = new Date(groupedByDate[a][0].date || groupedByDate[a][0].start_date);
+    const bDate = new Date(groupedByDate[b][0].date || groupedByDate[b][0].start_date);
+    return aDate - bDate;
+  });
 
   let htmlContent = '';
   let plainContent = '';
 
   for (const dateKey of sortedDateKeys) {
-    const dateObj = new Date(dateKey);
-    const dateStr = dateObj.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
-    const group = groupedByDate[dateKey];
-  
-    htmlContent += `<b>${dateStr}</b><br><ul>`;
-    plainContent += `${dateStr}\n`;
-  
-    group.forEach(ev => {
-      let time = 'Unknown time';
-      const timeObj = new Date(ev.date || ev.start_date);
-      if (!isNaN(timeObj)) {
-        time = timeObj.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
-      }
-    
-      let city = ev.city || (ev.location?.locality) || 'Unknown city';
-    
+    htmlContent += `<b>${dateKey}</b><br><ul>`;
+    plainContent += `${dateKey}\n`;
+
+    for (const ev of groupedByDate[dateKey]) {
+      const time = formatDateTime(ev.date || ev.start_date).friendlyTime;
+
+      const city = ev.city || ev.location?.locality || 'Unknown city';
+
       let address = 'Unknown address';
       if (typeof ev.location === 'string') {
         address = ev.location;
@@ -564,10 +552,10 @@ document.getElementById('btn-copy').addEventListener('click', async () => {
           ev.location.country
         ].filter(Boolean).join(', ');
       }
-    
+
       htmlContent += `<li>${city} - <a href="${ev.url}">${ev.title}</a> - ${time} @ ${address}</li>`;
       plainContent += `• ${city} - ${ev.title} - ${time} @ ${address}\n`;
-    });    
+    }
 
     htmlContent += '</ul>';
     plainContent += '\n';
@@ -583,15 +571,14 @@ document.getElementById('btn-copy').addEventListener('click', async () => {
         'text/html': new Blob([htmlContent], { type: 'text/html' }),
       })
     ]);
-  
-    // ✅ SUCCESS → update button text/icon
+
     $('#btn-copy .icon').html("check");
     $('#btn-copy .text').html("Copied!");
     setTimeout(() => {
       $('#btn-copy .icon').html("content_copy");
       $('#btn-copy .text').html("Copy");
     }, 5000);
-  
+
     console.log('✅ Events copied to clipboard');
   } catch (err) {
     console.error('❌ Failed to copy:', err);
