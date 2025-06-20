@@ -226,54 +226,56 @@ function filterVisibleEvents() {
   });
 }
 
+// NEW: Fully filtered events (map bounds + date + keyword)
+async function getFullyFilteredEvents() {
+  const visible = await filterVisibleEvents();
+
+  const isFiltered = searchKeyword || currentDateFilter !== 'all';
+  if (!isFiltered) return Promise.all(visible.map(getFullEventDetails));
+
+  const detailedList = await Promise.all(visible.map(getFullEventDetails));
+  return detailedList.filter(ev => {
+    if (!ev) return false;
+
+    // --- DATE FILTERING ---
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const weekEnd = new Date(today);
+    weekEnd.setDate(today.getDate() + 7);
+
+    const dateObj = new Date(ev.date ?? ev.start_date * 1000);
+    if (dateObj < now) return false;
+
+    const matchesDate =
+      currentDateFilter === 'all' ||
+      (currentDateFilter === 'today' &&
+        dateObj >= today && dateObj < new Date(today.getTime() + 86400000)) ||
+      (currentDateFilter === 'week' &&
+        dateObj >= today && dateObj <= weekEnd) ||
+      (currentDateFilter === 'june14' &&
+        dateObj.getUTCFullYear() === 2025 &&
+        dateObj.getUTCMonth() === 5 &&
+        dateObj.getUTCDate() === 14);
+
+    if (!matchesDate) return false;
+
+    // --- SEARCH FILTERING ---
+    if (searchKeyword) {
+      const title = ev.title?.toLowerCase() || '';
+      const loc = formatLocationClient(ev.location)?.toLowerCase() || '';
+      return title.includes(searchKeyword) || loc.includes(searchKeyword);
+    }
+
+    return true;
+  });
+}
+
 // Render only the map markers, based on minimal location data
 async function updateVisibleMapMarkers() {
   markerClusterGroup.clearLayers();
   eventMarkers.clear();
 
-  const visible = await filterVisibleEvents();
-
-  const isFiltered = searchKeyword || currentDateFilter !== 'all';
-
-  let filteredEvents = visible;
-
-  if (isFiltered) {
-    const detailedList = await Promise.all(visible.map(getFullEventDetails));
-    filteredEvents = detailedList.filter(ev => {
-      if (!ev) return false;
-
-      // --- DATE FILTERING ---
-      const now = new Date();
-      const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-      const weekEnd = new Date(today);
-      weekEnd.setDate(today.getDate() + 7);
-
-      const dateObj = new Date(ev.date ?? ev.start_date * 1000);
-      if (dateObj < now) return false;
-
-      const matchesDate =
-        currentDateFilter === 'all' ||
-        (currentDateFilter === 'today' &&
-          dateObj >= today && dateObj < new Date(today.getTime() + 86400000)) ||
-        (currentDateFilter === 'week' &&
-          dateObj >= today && dateObj <= weekEnd) ||
-        (currentDateFilter === 'june14' &&
-          dateObj.getUTCFullYear() === 2025 &&
-          dateObj.getUTCMonth() === 5 &&
-          dateObj.getUTCDate() === 14);
-
-      if (!matchesDate) return false;
-
-      // --- SEARCH FILTERING ---
-      if (searchKeyword) {
-        const title = ev.title?.toLowerCase() || '';
-        const loc = formatLocationClient(ev.location)?.toLowerCase() || '';
-        return title.includes(searchKeyword) || loc.includes(searchKeyword);
-      }
-
-      return true;
-    });
-  }
+  const filteredEvents = await getFullyFilteredEvents();
 
   filteredEvents.forEach(ev => {
     const lat = ev.lat ?? ev.latitude;
@@ -498,78 +500,54 @@ map.on('moveend', () => {
 // Copy Events Button
 
 document.getElementById('btn-copy').addEventListener('click', async () => {
-  const visible = await filterVisibleEvents();
-  
-  if (visible.length === 0) {
-    $('#btn-copy').tooltipster('content', 'No events!');
-    setTimeout(() => {
-      $('#btn-copy').tooltipster('content', 'Copy');
-    }, 2000);
-    return;
-  }
-
-  // Helper function
-  function getReadableLocation(loc) {
-    if (typeof loc === 'string') return loc;
-    if (typeof loc === 'object' && loc !== null) {
-      const parts = [
-        loc.venue,
-        ...(loc.address_lines || []),
-        loc.locality,
-        loc.region
-      ];
-      return parts.filter(Boolean).join(', ');
-    }
-    return 'Unknown location';
-  }
-
-  // Group by date
-  const grouped = {};
-  visible.forEach(ev => {
-    const dateStr = new Date(ev.date).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
-    if (!grouped[dateStr]) grouped[dateStr] = [];
-    grouped[dateStr].push(ev);
-  });
-
-  let text = '';
-  Object.keys(grouped).forEach(date => {
-    text += `${date}\n\n`;
-    grouped[date].forEach(ev => {
-      const time = new Date(ev.date).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
-      const location = getReadableLocation(ev.location);
-      text += `• ${ev.title} (${time})\n  ${ev.url}\n\n`;
-    });
-  });
-  
-});
-
-document.getElementById('btn-copy').addEventListener('click', async () => {
-  const visibleEvents = await filterVisibleEvents();  // get currently filtered/visible events
+  const visibleEvents = await getFullyFilteredEvents();
   if (visibleEvents.length === 0) {
     alert('No events to copy!');
     return;
   }
 
   const groupedByDate = {};
-  visibleEvents.forEach(ev => {
-    const full = fullEventMap.get(ev.id);
-    if (!full) return;
+
+  for (const ev of visibleEvents) {
+    const full = await getFullEventDetails(ev);
+    if (!full) continue;
   
-    const date = new Date(full.date).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
-    if (!groupedByDate[date]) groupedByDate[date] = [];
-    groupedByDate[date].push(full);
-  });
+    const rawDate = full.date || full.start_date;
+    if (!rawDate) {
+      console.warn('Skipping event with no usable date:', full);
+      continue;
+    }
   
+    const dateObj = new Date(rawDate);
+    if (isNaN(dateObj)) {
+      console.warn('Skipping event with invalid date:', full);
+      continue;
+    }
+  
+    const dateKey = dateObj.toISOString().slice(0, 10);
+    if (!groupedByDate[dateKey]) groupedByDate[dateKey] = [];
+    groupedByDate[dateKey].push(full); 
+  }
+  
+  const sortedDateKeys = Object.keys(groupedByDate).sort(); // sorts by ISO date
 
   let htmlContent = '';
   let plainContent = '';
 
-  for (const date in groupedByDate) {
-    htmlContent += `<b>${date}</b><br><ul>`;
-    plainContent += `${date}\n`;
-
-    groupedByDate[date].forEach(ev => {
-      const time = new Date(ev.date).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  for (const dateKey of sortedDateKeys) {
+    const dateObj = new Date(dateKey);
+    const dateStr = dateObj.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+    const group = groupedByDate[dateKey];
+  
+    htmlContent += `<b>${dateStr}</b><br><ul>`;
+    plainContent += `${dateStr}\n`;
+  
+    group.forEach(ev => {
+      let time = 'Unknown time';
+      const timeObj = new Date(ev.date || ev.start_date);
+      if (!isNaN(timeObj)) {
+        time = timeObj.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+      }
     
       let city = ev.city || (ev.location?.locality) || 'Unknown city';
     
@@ -589,7 +567,7 @@ document.getElementById('btn-copy').addEventListener('click', async () => {
     
       htmlContent += `<li>${city} - <a href="${ev.url}">${ev.title}</a> - ${time} @ ${address}</li>`;
       plainContent += `• ${city} - ${ev.title} - ${time} @ ${address}\n`;
-    });
+    });    
 
     htmlContent += '</ul>';
     plainContent += '\n';
