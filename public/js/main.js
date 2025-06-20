@@ -540,7 +540,6 @@ document.getElementById('btn-copy').addEventListener('click', async () => {
       text += `• ${ev.title} (${time})\n  ${ev.url}\n\n`;
     });
   });
-
   
 });
 
@@ -553,10 +552,14 @@ document.getElementById('btn-copy').addEventListener('click', async () => {
 
   const groupedByDate = {};
   visibleEvents.forEach(ev => {
-    const date = new Date(ev.date).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+    const full = fullEventMap.get(ev.id);
+    if (!full) return;
+  
+    const date = new Date(full.date).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
     if (!groupedByDate[date]) groupedByDate[date] = [];
-    groupedByDate[date].push(ev);
+    groupedByDate[date].push(full);
   });
+  
 
   let htmlContent = '';
   let plainContent = '';
