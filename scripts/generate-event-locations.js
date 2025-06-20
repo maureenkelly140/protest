@@ -9,6 +9,12 @@ const SOURCES = [
   { name: 'manual', file: 'manual-protests.json' },
 ];
 
+const AWS = require('aws-sdk');
+require('dotenv').config();
+
+const s3 = new AWS.S3();
+const BUCKET_NAME = 'my-protest-finder-data';
+
 async function run() {
   const allLocations = [];
 
@@ -45,9 +51,25 @@ async function run() {
     const outPath = path.join('data', 'processed', 'event-locations.json');
     await fs.writeFile(outPath, JSON.stringify(allLocations, null, 2), 'utf-8');
     console.log(`✅ Wrote ${allLocations.length} locations to event-locations.json`);
+
+    await uploadToS3(outPath, 'processed/event-locations.json');
+    console.log('☁️ Uploaded event-locations.json to S3');
   } catch (err) {
     console.error('❌ Failed to write event-locations.json:', err);
   }
+}
+
+async function uploadToS3(filePath, s3Key) {
+  const fileContent = await fs.readFile(filePath);
+
+  const params = {
+    Bucket: BUCKET_NAME,
+    Key: s3Key,
+    Body: fileContent,
+    ContentType: 'application/json'
+  };
+
+  return s3.upload(params).promise();
 }
 
 run();
