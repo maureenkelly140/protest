@@ -28,22 +28,38 @@ async function run() {
       const res = await axios.get(url);
       const events = res.data;
 
+      // Use Hawaii time to determine "today" so we don't prematurely remove valid events
+      // from U.S. time zones further west. This gives us a conservative filter window.
+      const now = new Date();
+      now.setDate(now.getDate() - 1); // Allow events to remain through their full calendar day
+      const cutoffDate = new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Pacific/Honolulu'  // Hawaii time = most conservative U.S. timezone
+      }).format(now); // Format: 'YYYY-MM-DD'
+
       for (const event of events) {
         const id = event.id;
         const lat = event.latitude ?? event.location?.location?.latitude;
         const lng = event.longitude ?? event.location?.location?.longitude;
         const date = event.date || event.timeslots?.[0]?.start_date;
 
-        if (id && lat && lng && date) {
-          allLocations.push({
-            id,
-            lat,
-            lng,
-            start_date: date,
-            source: source.name,
-          });
-        }
+        if (!id || !lat || !lng || !date) continue;
+
+        // Normalize date for comparison
+        const dateStr = typeof date === 'number'
+          ? new Date(date * 1000).toLocaleDateString('en-CA') // UNIX seconds → local date string
+          : date;
+
+        if (dateStr < cutoffDate) continue; // Skip past events
+
+        allLocations.push({
+          id,
+          lat,
+          lng,
+          start_date: date,
+          source: source.name,
+        });
       }
+
     } catch (err) {
       console.error(`❌ Failed to process ${source.name}:`, err);
     }
