@@ -848,6 +848,18 @@ background: #f0f0f0;
     line-height: inherit;
 }
 
+.leaflet-popup-content {
+  line-height: 1.3;
+}
+
+.leaflet-popup-content div {
+  margin-bottom: 6px;
+}
+
+.leaflet-popup-content .event-title {
+  font-weight: bold;
+}
+
 /* Cluster styling */
 
 .marker-cluster-small,

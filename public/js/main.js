@@ -101,10 +101,10 @@ function createEventMarker(ev) {
 
     const { title, location, date, url } = fullEvent;
     marker.bindPopup(`
-      <b>${title}</b><br>
-      ${formatLocationClient(location)}<br>
-      ${formatDateTime(date).friendlyDate} at ${formatDateTime(date).friendlyTime}<br>
-      <a href="${formatEventUrl(url)}" target="_blank">View Details</a>
+      <div class="event-title">${title}</div>
+      <div>${formatLocationClient(location)}</div>
+      <div>${formatDateTime(date).friendlyDate} at ${formatDateTime(date).friendlyTime}</div>
+      <div><a href="${formatEventUrl(url)}" target="_blank">View Details</a></div>
     `).openPopup();
   });
 
@@ -303,10 +303,10 @@ async function updateVisibleMapMarkers() {
 
       const { title, location, date, url } = fullEvent;
       marker.bindPopup(`
-        <b>${title}</b><br>
-        ${formatLocationClient(location)}<br>
-        ${formatDateTime(date).friendlyDate} at ${formatDateTime(date).friendlyTime}<br>
-        <a href="${formatEventUrl(url)}" target="_blank">View Details</a>
+        <div class="event-title">${title}</div>
+        <div>${formatLocationClient(location)}</div>
+        <div>${formatDateTime(date).friendlyDate} at ${formatDateTime(date).friendlyTime}</div>
+        <div><a href="${formatEventUrl(url)}" target="_blank">View Details</a></div>
       `).openPopup();
     });
 
@@ -405,10 +405,10 @@ async function updateVisibleListOnly() {
 
             const { title, location, date, url } = fullEvent;
             marker.bindPopup(`
-              <b>${title}</b><br>
-              ${formatLocationClient(location)}<br>
-              ${formatDateTime(date).friendlyDate} at ${formatDateTime(date).friendlyTime}<br>
-              <a href="${formatEventUrl(url)}" target="_blank">View Details</a>
+              <div class="event-title">${title}</div>
+              <div>${formatLocationClient(location)}</div>
+              <div>${formatDateTime(date).friendlyDate} at ${formatDateTime(date).friendlyTime}</div>
+              <div><a href="${formatEventUrl(url)}" target="_blank">View Details</a></div>
             `).openPopup();
 
             setTimeout(() => updateVisibleListOnly(), 600);
