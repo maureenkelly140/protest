@@ -112,6 +112,52 @@ function createEventMarker(ev) {
   eventMarkers.set(ev.id, marker);
 }
 
+function passesFilters(ev) {
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const weekEnd = new Date(today);
+  weekEnd.setDate(today.getDate() + 7);
+
+  const dateObj = new Date(ev.date ?? ev.start_date * 1000);
+  if (dateObj < now) return false;
+
+  const matchesDate =
+    currentDateFilter === 'all' ||
+    (currentDateFilter === 'today' &&
+      dateObj >= today && dateObj < new Date(today.getTime() + 86400000)) ||
+    (currentDateFilter === 'week' &&
+      dateObj >= today && dateObj <= weekEnd) ||
+    (currentDateFilter === 'weekend' && isThisWeekend(dateObj));
+
+  if (!matchesDate) return false;
+
+  if (searchKeyword) {
+    const title = ev.title?.toLowerCase() || '';
+    const loc = formatLocationClient(ev.location)?.toLowerCase() || '';
+    return title.includes(searchKeyword) || loc.includes(searchKeyword);
+  }
+
+  return true;
+}
+
+function isThisWeekend(dateObj) {
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const currentDay = today.getDay(); // Sunday = 0, Monday = 1, ..., Saturday = 6
+
+  const daysUntilFriday = (5 - currentDay + 7) % 7;
+  const thisFriday = new Date(today);
+  thisFriday.setDate(today.getDate() + daysUntilFriday);
+
+  const start = currentDay >= 5 ? today : thisFriday;
+
+  const thisSunday = new Date(start);
+  thisSunday.setDate(start.getDate() + (7 - thisSunday.getDay()) % 7);
+  thisSunday.setHours(23, 59, 59, 999); // end of Sunday
+
+  return dateObj >= start && dateObj <= thisSunday;
+}
+
 // === EVENT HANDLING ===
 const LOCATIONS_URL = 'https://my-protest-finder-data.s3.us-west-1.amazonaws.com/processed/event-locations.json';
 
@@ -234,40 +280,7 @@ async function getFullyFilteredEvents() {
   if (!isFiltered) return Promise.all(visible.map(getFullEventDetails));
 
   const detailedList = await Promise.all(visible.map(getFullEventDetails));
-  return detailedList.filter(ev => {
-    if (!ev) return false;
-
-    // --- DATE FILTERING ---
-    const now = new Date();
-    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-    const weekEnd = new Date(today);
-    weekEnd.setDate(today.getDate() + 7);
-
-    const dateObj = new Date(ev.date ?? ev.start_date * 1000);
-    if (dateObj < now) return false;
-
-    const matchesDate =
-      currentDateFilter === 'all' ||
-      (currentDateFilter === 'today' &&
-        dateObj >= today && dateObj < new Date(today.getTime() + 86400000)) ||
-      (currentDateFilter === 'week' &&
-        dateObj >= today && dateObj <= weekEnd) ||
-      (currentDateFilter === 'june14' &&
-        dateObj.getUTCFullYear() === 2025 &&
-        dateObj.getUTCMonth() === 5 &&
-        dateObj.getUTCDate() === 14);
-
-    if (!matchesDate) return false;
-
-    // --- SEARCH FILTERING ---
-    if (searchKeyword) {
-      const title = ev.title?.toLowerCase() || '';
-      const loc = formatLocationClient(ev.location)?.toLowerCase() || '';
-      return title.includes(searchKeyword) || loc.includes(searchKeyword);
-    }
-
-    return true;
-  });
+  return detailedList.filter(ev => ev && passesFilters(ev));
 }
 
 // Render only the map markers, based on minimal location data
@@ -322,39 +335,11 @@ async function updateVisibleListOnly() {
 
     const detailedList = await Promise.all(visible.map(getFullEventDetails));
     
-    const filtered = detailedList.filter(ev => {
-      if (!ev) return false;
-    
-      // --- DATE FILTERING ---
-      const now = new Date();
-      const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-      const weekEnd = new Date(today);
-      weekEnd.setDate(today.getDate() + 7);
-    
-      const dateObj = new Date(ev.date ?? ev.start_date * 1000);
-      if (dateObj < now) return false;
-    
-      const matchesDate =
-        currentDateFilter === 'all' ||
-        (currentDateFilter === 'today' &&
-          dateObj >= today && dateObj < new Date(today.getTime() + 86400000)) ||
-        (currentDateFilter === 'week' &&
-          dateObj >= today && dateObj <= weekEnd) ||
-        (currentDateFilter === 'june14' &&
-          dateObj.getUTCFullYear() === 2025 &&
-          dateObj.getUTCMonth() === 5 &&
-          dateObj.getUTCDate() === 14);
-    
-      if (!matchesDate) return false;
-    
-      // --- SEARCH FILTERING ---
-      if (searchKeyword) {
-        const title = ev.title?.toLowerCase() || '';
-        const loc = formatLocationClient(ev.location)?.toLowerCase() || '';
-        return title.includes(searchKeyword) || loc.includes(searchKeyword);
-      }
-    
-      return true;
+    const filtered = detailedList.filter(ev => ev && passesFilters(ev));
+    filtered.sort((a, b) => {
+      const dateA = new Date(a.date ?? a.start_date * 1000);
+      const dateB = new Date(b.date ?? b.start_date * 1000);
+      return dateA - dateB;
     });
     
     if (counter) {
