@@ -250,5 +250,101 @@
     "url": "https://drive.google.com/uc?export=view&id=1Rv0BlEHQfbq5FQ6F_0IE5j1ZGeQw2pYD",
     "approved": true,
     "source": "blop"
+  },
+  {
+    "id": "dd1c639f-75e7-441c-a03b-584e48b9a874",
+    "title": "Stop Avelo Save the Everglades",
+    "date": "2025-07-27T00:00:00.000Z",
+    "location": "Intersection of Harden Blvd & Town Center Dr, Lakeland, FL",
+    "city": "Lakeland",
+    "latitude": 28.042917,
+    "longitude": -81.955155,
+    "url": "https://drive.google.com/uc?export=view&id=18h-qp-7AlhKjcNMfvX0cv4oHG-O9JXsh",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "c39f7fde-e419-4bf1-86b4-4f9293f76da3",
+    "title": "Corner Protest",
+    "date": "2025-07-31T23:15:00.000Z",
+    "location": "2601 S College Ave, Fort Collins, CO, Fort Collins, CO",
+    "city": "Fort Collins",
+    "latitude": 40.549914,
+    "longitude": -105.078755,
+    "url": "https://drive.google.com/uc?export=view&id=1cWBUPeXKgId3BY0nZElzlGj8OtXmYBIH",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "338fc1b3-33d9-4ad4-9434-8419bd8c9c80",
+    "title": "Corner Protest",
+    "date": "2025-07-29T23:15:00.000Z",
+    "location": "2601 S College Ave, Fort Collins, CO",
+    "city": "Fort Collins",
+    "latitude": 40.549914,
+    "longitude": -105.078755,
+    "url": "https://drive.google.com/uc?export=view&id=1Pw9cwGoUJO2lWeVy31UoWuw8-YzegBHT",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "b936944d-a68e-49bc-9a8d-d63dd1dccdb9",
+    "title": "Rage Against the Regime",
+    "date": "2025-08-02T19:00:00.000Z",
+    "location": "Westmoreland County Courthouse, Greensburg, PA",
+    "city": "Greensburg",
+    "latitude": 40.302449,
+    "longitude": -79.544255,
+    "url": "https://drive.google.com/uc?export=view&id=1kQT3d-1nh6rcY--aNgt_CKapmxoH_4NC",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "4411d324-9376-4bae-825f-7048ebe2b031",
+    "title": "NO CAGES",
+    "date": "2025-08-02T17:00:00.000Z",
+    "location": "Denton Square, Denton, TX",
+    "city": "Denton",
+    "latitude": 33.215552,
+    "longitude": -97.133665,
+    "url": "https://drive.google.com/uc?export=view&id=1k8qKqe0o2xxXCIj4XY6b7MGa6mQaeLHN",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "00cb6bab-dd4b-4cb0-b95f-9b4a1ab060c2",
+    "title": "Rage Against The Regime",
+    "date": "2025-08-02T19:00:00.000Z",
+    "location": "Cambridge Common, Cambridge, MA",
+    "city": "Cambridge",
+    "latitude": 42.376183,
+    "longitude": -71.12389,
+    "url": "https://drive.google.com/uc?export=view&id=1nGdq1lP-dxlKkub_s-tkhwyf9-bX-JRg",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "b5f02e3d-919d-45f2-bc19-063aa3b143e8",
+    "title": "Proud to Fight Fascism",
+    "date": "2025-08-02T18:00:00.000Z",
+    "location": "Gravelly Lake Dr SW & Main St SW, Lakewood, WA",
+    "city": "Lakewood",
+    "latitude": 47.161722,
+    "longitude": -122.520599,
+    "url": "https://drive.google.com/uc?export=view&id=1tgLjbWl3gNGgTnj7DT_vWqb7vnOL4_-O",
+    "approved": true,
+    "source": "blop"
+  },
+  {
+    "id": "7a606cb4-c2f5-4357-bc2a-840650eb896f",
+    "title": "Families First Las Vegas",
+    "date": "2025-07-26T15:00:00.000Z",
+    "location": "333 S Las Vegas Blvd, Las Vegas, NV",
+    "city": "Las Vegas",
+    "latitude": 36.163407,
+    "longitude": -115.14487,
+    "url": "https://drive.google.com/uc?export=view&id=1LsHFMTu2lP8Dwb_N4mugQulsnxUvKs5S",
+    "approved": true,
+    "source": "blop"
   }
 ]

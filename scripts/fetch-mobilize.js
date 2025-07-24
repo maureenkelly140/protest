@@ -91,4 +91,37 @@ async function fetchAllMobilizeEvents() {
   }
 }
 
-fetchAllMobilizeEvents();
+fetchAllMobilizeEvents().then(async () => {
+  // After fetching/uploading new files, clean up stale ones on S3
+  const uploadedPages = []; // We'll fill this in next...
+
+  // Fill in the uploadedPages array
+  for (let i = 1; ; i++) {
+    const filename = `mobilize-page${i}.json`;
+    const fullPath = path.join(OUTPUT_DIR, filename);
+    try {
+      await fs.access(fullPath);
+      uploadedPages.push(`raw/${filename}`);
+    } catch {
+      break; // File doesn't exist, stop
+    }
+  }
+
+  const listed = await s3.listObjectsV2({
+    Bucket: BUCKET_NAME,
+    Prefix: 'raw/mobilize-page',
+  }).promise();
+
+  for (const obj of listed.Contents) {
+    const key = obj.Key;
+    if (!uploadedPages.includes(key)) {
+      console.log(`🗑️ Deleting stale S3 file: ${key}`);
+      await s3.deleteObject({
+        Bucket: BUCKET_NAME,
+        Key: key,
+      }).promise();
+    }
+  }
+
+  console.log('🧹 S3 cleanup complete!');
+});
