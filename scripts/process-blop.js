@@ -43,6 +43,10 @@ async function uploadToS3(filePath, key) {
   console.log(`✅ Uploaded ${key} to S3 bucket ${BUCKET_NAME}`);
 }
 
+function toLocalISOString(date) {
+  return date.toISOString().split('.')[0]; // "YYYY-MM-DDTHH:MM:SS"
+}
+
 async function processBlopEvents() {
   try {
     const csvText = await fs.readFile(RAW_CSV_PATH, 'utf-8');
@@ -65,9 +69,34 @@ async function processBlopEvents() {
       const rawDate = row['Date'];
       const rawTime = row['Time'];
       if (!uuid || !title || !rawDate || !rawTime) continue;
-    
-      const date = new Date(`${rawDate} ${rawTime}`);
-      if (isNaN(date.getTime()) || date.getTime() < now) continue;
+
+      // Try to clean up the time
+      let formattedDate;
+      let rawDateTime = null;
+
+      // Normalize and try parsing start time
+      if (rawTime) {
+        const cleanedTime = rawTime
+          .replace(/–|—/g, '-') // Replace fancy dashes
+          .replace(/\bto\b/i, '-') // Normalize "to"
+          .split('-')[0] // Get start time only
+          .trim();
+
+        const tentativeDate = new Date(`${rawDate} ${cleanedTime}`);
+        if (!isNaN(tentativeDate.getTime())) {
+          rawDateTime = tentativeDate;
+          formattedDate = toLocalISOString(tentativeDate);
+        }
+      }
+
+      // If time is missing or unparseable, fall back to just the date
+      if (!formattedDate) {
+        const dateOnly = new Date(rawDate);
+        if (isNaN(dateOnly.getTime()) || dateOnly.getTime() < now) continue;
+        formattedDate = dateOnly.toISOString().split('T')[0]; // "YYYY-MM-DD"
+      } else if (rawDateTime.getTime() < now) {
+        continue; // Skip past events
+      }
     
       const location = [row['Address'], row['City'], row['State']].filter(Boolean).join(', ');
       if (!location) continue;
@@ -84,7 +113,7 @@ async function processBlopEvents() {
       futureEvents.push({
         id: uuid.toString(),
         title,
-        date: date.toISOString(),
+        date: formattedDate,
         location,
         city: row['City'] || '',
         latitude: geocache[uuid].latitude,

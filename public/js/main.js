@@ -54,9 +54,25 @@ function formatEventUrl(url) {
 
 function formatDateTime(dateStr) {
   const date = new Date(dateStr);
+  if (isNaN(date)) {
+    return { friendlyDate: 'Invalid date', friendlyTime: '' };
+  }
+
+  // Time is present if the ISO has HH:MM after a T
+  const hasTime = /T\d{2}:\d{2}/.test(dateStr);
+
+  // Hide "12:00 AM" placeholders (midnight)
+  const isMidnight = date.getHours() === 0 && date.getMinutes() === 0;
+
   return {
-    friendlyDate: date.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }),
-    friendlyTime: date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
+    friendlyDate: date.toLocaleDateString('en-US', {
+      weekday: 'short',
+      month: 'short',
+      day: 'numeric'
+    }),
+    friendlyTime: (hasTime && !isMidnight)
+      ? date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
+      : ''
   };
 }
 
@@ -100,10 +116,14 @@ function createEventMarker(ev) {
     if (!fullEvent) return;
 
     const { title, location, date, url } = fullEvent;
+    const { friendlyDate, friendlyTime } = formatDateTime(date);
+    const dateLine = friendlyTime
+      ? `${friendlyDate} at ${friendlyTime}`
+      : friendlyDate;
     marker.bindPopup(`
       <div class="event-title">${title}</div>
       <div>${formatLocationClient(location)}</div>
-      <div>${formatDateTime(date).friendlyDate} at ${formatDateTime(date).friendlyTime}</div>
+      <div>${dateLine}</div>
       <div><a href="${formatEventUrl(url)}" target="_blank">View Details</a></div>
     `).openPopup();
   });
@@ -302,10 +322,15 @@ async function updateVisibleMapMarkers() {
       if (!fullEvent) return;
 
       const { title, location, date, url } = fullEvent;
+      const { friendlyDate, friendlyTime } = formatDateTime(date);
+      const dateLine = friendlyTime
+        ? `${friendlyDate} at ${friendlyTime}`
+        : friendlyDate;
+
       marker.bindPopup(`
         <div class="event-title">${title}</div>
         <div>${formatLocationClient(location)}</div>
-        <div>${formatDateTime(date).friendlyDate} at ${formatDateTime(date).friendlyTime}</div>
+        <div>${dateLine}</div>
         <div><a href="${formatEventUrl(url)}" target="_blank">View Details</a></div>
       `).openPopup();
     });
@@ -369,15 +394,20 @@ async function updateVisibleListOnly() {
     filtered.forEach(ev => {
       const { title, date, location, url } = ev;
       const { friendlyDate, friendlyTime } = formatDateTime(date);
-
+    
       const el = document.createElement('a');
       el.className = 'event';
       el.href = formatEventUrl(url);
       el.target = isMobile() ? '_self' : '_blank';
+    
+      const timeHTML = friendlyTime
+        ? `<div class="time">${friendlyTime}</div>`
+        : '';
+    
       el.innerHTML = `
         <div class="date-col">
           <div class="date">${friendlyDate}</div>
-          <div class="time">${friendlyTime}</div>
+          ${timeHTML}
         </div>
         <div class="detail-col">
           <div class="event-title">${title}</div>
@@ -385,7 +415,7 @@ async function updateVisibleListOnly() {
         </div>
         <div class="btn-col">
           <span class="icon material-symbols-outlined open-url-btn tooltip" title="View Details">open_in_new</span>
-        </div>`;
+        </div>`;    
 
       el.addEventListener('click', async (e) => {
         if (!isMobile()) {
@@ -402,17 +432,22 @@ async function updateVisibleListOnly() {
           markerClusterGroup.zoomToShowLayer(marker, async () => {
             const fullEvent = await getFullEventDetails(ev);
             if (!fullEvent) return;
-
+          
             const { title, location, date, url } = fullEvent;
+            const { friendlyDate, friendlyTime } = formatDateTime(date);
+            const dateLine = friendlyTime
+              ? `${friendlyDate} at ${friendlyTime}`
+              : friendlyDate;
+          
             marker.bindPopup(`
               <div class="event-title">${title}</div>
               <div>${formatLocationClient(location)}</div>
-              <div>${formatDateTime(date).friendlyDate} at ${formatDateTime(date).friendlyTime}</div>
+              <div>${dateLine}</div>
               <div><a href="${formatEventUrl(url)}" target="_blank">View Details</a></div>
             `).openPopup();
-
+          
             setTimeout(() => updateVisibleListOnly(), 600);
-          });
+          });          
         }
       });
 
@@ -423,7 +458,8 @@ async function updateVisibleListOnly() {
       });
 
       container.appendChild(el);
-    });
+
+    });    
 
     $('.tooltip').tooltipster({
       animation: 'fade',
@@ -520,10 +556,10 @@ document.getElementById('btn-copy').addEventListener('click', async () => {
     plainContent += `${dateKey}\n`;
 
     for (const ev of groupedByDate[dateKey]) {
-      const time = formatDateTime(ev.date || ev.start_date).friendlyTime;
-
+      const { friendlyTime } = formatDateTime(ev.date || ev.start_date);
+    
       const city = ev.city || ev.location?.locality || 'Unknown city';
-
+    
       let address = 'Unknown address';
       if (typeof ev.location === 'string') {
         address = ev.location;
@@ -537,10 +573,11 @@ document.getElementById('btn-copy').addEventListener('click', async () => {
           ev.location.country
         ].filter(Boolean).join(', ');
       }
-
-      htmlContent += `<li>${city} - <a href="${ev.url}">${ev.title}</a> - ${time} @ ${address}</li>`;
-      plainContent += `• ${city} - ${ev.title} - ${time} @ ${address}\n`;
-    }
+    
+      const timePrefix = friendlyTime ? `${friendlyTime} @ ` : '';
+      htmlContent += `<li>${city} - <a href="${ev.url}">${ev.title}</a> - ${timePrefix}${address}</li>`;
+      plainContent += `• ${city} - ${ev.title} - ${friendlyTime ? `${friendlyTime} @ ` : ''}${address}\n`;
+    }    
 
     htmlContent += '</ul>';
     plainContent += '\n';
