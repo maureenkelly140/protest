@@ -76,6 +76,12 @@ app.get('/events', async (req, res) => {
         });
 
         console.log(`✅ Loaded ${mobilizeData.length} Mobilize events from S3`);
+
+        const testId = '816929'; // ID of the missing event
+        const foundTest = mobilizeData.find(e => e.id.toString().includes(testId));
+        console.log('🔍 Missing Colma event in raw mobilize data?', !!foundTest);
+        console.log('🔍 Suppressed Colma event?', suppressedIds.includes('816929'));
+
         combinedEvents.push(...mobilizeData);
       } catch (err) {
         console.warn('⚠️ Could not load Mobilize events from S3:', err.message);
